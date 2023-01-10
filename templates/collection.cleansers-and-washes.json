@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "template-collection": {
+      "type": "template-collection",
+      "settings": {
+        "show_collection_img": false,
+        "show_collection_description": false,
+        "limit": 40,
+        "text_align": "text-center",
+        "row_xs": 2,
+        "row_sm": 2,
+        "row_lg": 3,
+        "mt": 10,
+        "mb": 10
+      }
+    },
+    "1663804795eacaf71c": {
+      "type": "richtext",
+      "settings": {
+        "max_width": "",
+        "text_align": "text-center",
+        "title": "Cleansers and Washes",
+        "title_size": "h2",
+        "description": "<p>[All-Natural Facial Cleansers and Washes]<strong><br\/><\/strong><br\/>Check out our facial cleansers that use only <em>the best natural and organic ingredients<\/em> to gently cleanse away dirt and grime without harsh chemicals.<\/p><p>Antioxidant-rich, vitamin-based, mineral-infused botanical extracts enrich your skin. As a result, all of our natural bar soaps, facial cleansers, organic cleansers, and face washes are paraben-free and sulfate-free!<br\/><\/p><p>You probably had one do-it-all cleanser when you were a little kid – and maybe even into your teen years. Then you got your first pimple, or your skin felt dry or oily, so your mother took pity on you and introduced you to a more appropriate facial cleanser.<\/p><p>This bar soap or shower gel was safe enough to wash your body, hands, and face, all without a second thought.<br\/><br\/>Does that sound familiar? It's not an uncommon story, and, in fact, many people still use regular bar soap or shower gel to wash their faces.<\/p><p>So why shouldn't you do this? But, first, let's take a walk through the different types of cleansers and washes you can use to wash your face.<\/p><p><\/p><p>Different Types of Face Wash and Cleansers<\/p><p><strong>[Traditional-Bar Soaps and Shower Gel]<\/strong><br\/><br\/>Contain detergent and harsh chemicals that can dry out your face, leaving it flaky, cracked, and open to toxins and free radicals in the air.<\/p><p>Even using a moisturizer or serum after cleansing with these won't counteract the harm and damage they can do to your face.<br\/><br\/><strong>[Facial Cleansing Bars]<\/strong><br\/><br\/>On the other hand, it may look like ordinary bar soap, but they're made to be used on the delicate skin of your face.<\/p><p>So, if you prefer lathering up a soft washcloth with bar soap to using a creamy cleanser or gel, a facial cleansing bar is an excellent option for you.<br\/><br\/><strong>[Creamy Cleansers]<\/strong><br\/><br\/>Have a texture, much like some moisturizers. They usually come in small tubs, and you can scoop some out to apply directly to your face or to a washcloth, whichever you prefer.<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "btn_size": "",
+        "pt": 10,
+        "pb": 10,
+        "mt": 11,
+        "mb": 11
+      }
+    }
+  },
+  "order": [
+    "template-collection",
+    "1663804795eacaf71c"
+  ]
+}

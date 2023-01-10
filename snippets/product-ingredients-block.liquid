@@ -1,0 +1,87 @@
+<div class="product-block-ingredients mb-5" data-json-file="{{ 'ingredients.json' | asset_url }}">
+    <h4 class="mb-3">
+        {{ 'product.ingredients_block.title' | t }}
+    </h4>
+    <div class="rte small mb-6">
+        {{ 'product.ingredients_block.description_html' | t }}
+    </div>
+    <div class="d-flex align-items-center mb-7">
+        <div class="ewg-score-badge px-4 w-100" style="background-color: #E4F3E6;">
+            <div class="ewg-score-badge-circle" style="background-color: green"></div>
+            <div class="ewg-score-badge-text">
+                <span>1-2</span>
+                {{ 'product.ingredients_block.low_hazard' | t }}
+            </div>
+        </div>
+        <div class="ewg-score-badge px-4 w-100" style="background-color: #FFF6E5;">
+            <div class="ewg-score-badge-circle" style="background-color: orange"></div>
+            <div class="ewg-score-badge-text">
+                <span>3-6</span>
+                {{ 'product.ingredients_block.moderate_hazard' | t }}
+            </div>
+        </div>
+        <div class="ewg-score-badge px-4 w-100" style="background-color: #FFE5E7;">
+            <div class="ewg-score-badge-circle" style="background-color: red"></div>
+            <div class="ewg-score-badge-text">
+                <span>7-10</span>
+                {{ 'product.ingredients_block.high_hazard' | t }}
+            </div>
+        </div>
+    </div>
+    {% liquid 
+        assign products_with_ingredients = product.metafields.custom.eg_ingredients | split: '--' 
+    %}
+    <div id="ingredients-accordion" class="accordion mb-6">
+        {% for ingredient_list_raw in products_with_ingredients %}
+            {% liquid 
+                assign ingredient_list  = ingredient_list_raw | split: '|' | last 
+                assign ingredient_list = ingredient_list | split: ','
+            %}
+            <div class="accordion-item">
+                <h3 
+                    id="ingredients-accordion-heading-{{ forloop.index }}" 
+                    class="accordion-header mb-0">
+                    <button 
+                        class="accordion-button {% if products_with_ingredients.size > 1 %}collapsed{% endif %}" 
+                        type="button"
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#ingredients-accordion-collapse-{{ forloop.index }}" 
+                        aria-expanded="{% if products_with_ingredients.size > 1 %}false{% else %}true{% endif %}" 
+                        aria-controls="ingredients-accordion-collapse-{{ forloop.index }}">
+                        <div class="d-flex align-items-center justify-content-between w-100 me-5">
+                            {{ ingredient_list_raw | split: '|' | first }}
+                        </div>
+                    </button>
+                </h3>
+                <div 
+                    id="ingredients-accordion-collapse-{{ forloop.index }}" 
+                    class="accordion-collapse collapse {% if products_with_ingredients.size == 1 %}show{% endif %}"
+                    aria-labelledby="ingredients-accordion-heading-{{ forloop.index }}">
+                    <div class="accordion-body">
+                        <ul class="ingredients-list list-unstyled mb-7" aria-label="Ingredient list">
+                            {% for ingredient in ingredient_list %}
+                                <li 
+                                    class="ingredients-list-item" 
+                                    data-ingredient="{{ ingredient | strip }}" 
+                                    style="display: {% if forloop.index < 6 %}flex{% else %}none{% endif %}">
+                                    <div class="ingrdients-list-score">
+                                    </div>
+                                    <div class="">
+                                        <b>{{ ingredient }}</b> <span class="fst-italic small opacity-90">Origin: <span data-ingredient-origin></span></span><br>
+                                        <div data-ingredient-description></div>
+                                    </div>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                        <button 
+                            type="button" 
+                            class="btn-ingredients-show-all btn btn-link w-100 mt-n5 mb-2" 
+                            style="font-weight: normal">
+                            {{ 'product.ingredients_block.btn_show_more' | t }}
+                        </button>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,211 @@
+{
+  "sections": {
+    "16362755981cd0f0ec": {
+      "type": "faq",
+      "blocks": {
+        "16362755981cd0f0ec-0": {
+          "type": "text",
+          "settings": {
+            "title": "How do I place an online order?",
+            "description": "<p>You can order 24\/7 on our website with our PCI compliant, secure online ordering system. If you prefer not to use our online processing system, you can order by mail.<br\/>For fastest service, please email the following information to help@naturalorganicskincare.com:<\/p><p>Item nameDescriptionQuantityPriceYour nameShipping addressTelephoneEmail address<\/p><p>When paying by check or money order, please mail payment to:<br\/>Skin Perfection<br\/>2208 E Summersweet Drive #170811<br\/>Boise, ID 83717<\/p>"
+          }
+        },
+        "16362755981cd0f0ec-1": {
+          "type": "text",
+          "settings": {
+            "title": "Did my order go through?",
+            "description": "<p>As soon as an order is placed, you will be redirected to a confirmation page with your order number. You will also receive an email with a copy of your order number. If you did not receive an order number or email, your order did not go through.<br\/>Most of the time, a typo or incorrect information was supplied. If this occurs, please see instructions under \"What happens if the credit card is rejected?\"<\/p>"
+          }
+        },
+        "16362755981cd0f0ec-2": {
+          "type": "text",
+          "settings": {
+            "title": "What is my tracking number?",
+            "description": "<p>As soon as every order is shipped, you will receive a confirmation email. If you can not find this email, please check your spam or junk mail folder. You can also log into your account and locate the tracking number on your order.<\/p>"
+          }
+        },
+        "16362755981cd0f0ec-3": {
+          "type": "text",
+          "settings": {
+            "title": "What payment methods are accepted?",
+            "description": "<p>We offer a variety of payment options. Your order can be paid for with a credit card, PayPal, check, or money order. We accept all major credit cards, including American Express, Visa, Mastercard, and Discover. Credit Card transactions are limited to $2500. For orders over, $2500, please contact our customer service. We reserve the right to refuse any payment.<\/p>"
+          }
+        },
+        "16362755981cd0f0ec-4": {
+          "type": "text",
+          "settings": {
+            "title": "What happens if the credit card transaction is rejected?",
+            "description": "<p>Credit card transactions may be declined for a variety of reasons. The AVS or Address Verification Service and the CCV or Card Verification must match the information from the card-issuing bank. If a transaction is rejected, do not retry to process the transaction. Doing so may cause a temporary hold to be placed on your credit card.<\/p><p>The temporary hold on funds will automatically disappear but can take anywhere from a few hours to a few days depending on the card issuers bank.<\/p><p>Instead, please email our customer service with your name and contact information to put your order through.<\/p>"
+          }
+        },
+        "16362755981cd0f0ec-5": {
+          "type": "text",
+          "settings": {
+            "title": "Shipping",
+            "description": "<p>For more information on shipping, please visit our <a href=\"https:\/\/www.naturalorganicskincare.com\/pages\/worldwide-same-day-shipping\" title=\"Same Day Shipping Order Before 10am MST\">Shipping faq<\/a>.<\/p>"
+          }
+        },
+        "4ffe9516-7698-4907-b3ec-395f83b4a120": {
+          "type": "text",
+          "settings": {
+            "title": "My airless pump doesn’t work. What should I do?",
+            "description": "<p>Due to shifting during shipping, some airless pumps may not work on arrival. Do not open the bottle, as this will cause the pump to permanently not work. To make a pump work, place a towel over a hard counter or table.<\/p><p>Ensure that the product’s lid is tightly closed. Tap the bottle onto the towel, at least ten times. Test the pump.<\/p>"
+          }
+        },
+        "b2253eab-09c5-4a73-a272-d00349b11308": {
+          "type": "text",
+          "settings": {
+            "title": "Will there be a sales tax applied to my order?",
+            "description": "<p>There is a 6% sales tax for Idaho residents.<\/p>"
+          }
+        },
+        "8cd98d04-541b-4a93-95c7-6949a0b4d0d3": {
+          "type": "text",
+          "settings": {
+            "title": "Why are your products packaged in airless bottles?",
+            "description": "<p>Some products, like moisturizers, hydrators, and serums, keep bacteria from the environment and fingers out of the bottle.<\/p><p>To start your pump, it may take a minute or two of pumping before any product comes out.<\/p>"
+          }
+        },
+        "f497f3ff-e666-4a68-93ac-94b14bf16040": {
+          "type": "text",
+          "settings": {
+            "title": "Can I try a sample before purchasing a full-size bottle?",
+            "description": "<p>2022 Update - Due to COVID-19, samples have been discontinued at this time, we hope to offer them again soon!<\/p><p>Yes! We recommend purchasing a sample (travel size) before buying a full-size bottle to check the product works with your skin. All samples can be found on the individual product page. To learn more about how to order samples visit our <a href=\"https:\/\/www.naturalorganicskincare.com\/pages\/skincare-samples\" title=\"Samples of Skincare Products\">skincare samples page<\/a>.<\/p><p>At this time, we do not offer samples of lotion making supplies, including serum boosters and single peptides.<\/p>"
+          }
+        },
+        "3d62c145-aa44-432e-9791-cb7731541492": {
+          "type": "text",
+          "settings": {
+            "title": "How long will my products last?",
+            "description": "<p>We recommend storing our products in a cool dark place as heat and light can harm them. When properly stored, most products have a shelf life of over eight months. If you do not immediately open and use the product, store it in the refrigerator to ensure it remains fresh.<\/p><p>If the bottle is left in a hot environment, place it in the fridge overnight, and then shake it before using it again.<\/p>"
+          }
+        },
+        "304e8a91-d9ec-4458-9233-ad9a9c9f7a8c": {
+          "type": "text",
+          "settings": {
+            "title": "How long do Serum Boosters, Antimicrobials, and Lotion Making Supplies last?",
+            "description": "<p>Each label has a specific expiration period. Make sure to check each product label for the specific time-frame. For example, you will see an open jar with a number in it. Most serum boosters have a 12 month expiration date.<\/p><p>Store in the fridge (unless the label says differently) to keep your skincare ingredients fresh for the next use.<\/p>"
+          }
+        },
+        "374ff9f3-fe63-493b-b231-1503d593e185": {
+          "type": "text",
+          "settings": {
+            "title": "Are there any usage instructions for your products?",
+            "description": "<p>Yes, each product has directions listed on the label. We also send out a product guide with every order.<br\/><\/p>"
+          }
+        },
+        "10bcb733-710d-4ecf-b521-6eae953efa79": {
+          "type": "text",
+          "settings": {
+            "title": "Are there instructions for your DIY products?",
+            "description": "<p>DIY Ingredients and serum boosters can be added to other skin products or used to make your products at home. You will find <a href=\"https:\/\/www.naturalorganicskincare.com\/pages\/product-instructions-for-serum-boosters\" title=\"Serum Booster Instructions\">instructions included with your order<\/a>.<\/p><p><em>We are not responsible for any results from the use or misuse of our anti-aging ingredients, serum boosters, preservatives, or any other DIY ingredient.<\/em><\/p><p>We always recommend working in small batches first.<\/p>"
+          }
+        },
+        "1d30d8ae-1048-4001-bad3-6f69f7258303": {
+          "type": "text",
+          "settings": {
+            "title": "How do I store Serum Boosters?",
+            "description": "<p>After you have opened your booster, place it in the fridge. We recommend writing the date you opened the product on the label. That way, you will always know how long the product will last.<\/p>"
+          }
+        },
+        "e7a27fa3-c281-4ed5-bf80-a7b340aedab3": {
+          "type": "text",
+          "settings": {
+            "title": "If I add a Serum Booster to an existing product, do I need to refrigerate that product?",
+            "description": "<p>No, you only need to store the Serum Boosters in the refrigerator for long-term storage. That way it is fresh for the next time you formulate with it.<\/p>"
+          }
+        },
+        "0d944129-206d-43ca-87fa-9b2c5852c873": {
+          "type": "text",
+          "settings": {
+            "title": "I didn't receive instructions for the Serum Boosters, where can I find them?",
+            "description": "<p>If you can't find the folded chart, you can access instructions here: <a href=\"https:\/\/www.naturalorganicskincare.com\/pages\/product-instructions-for-serum-boosters\" title=\"Product Instructions Chart\">product instructions<\/a>.<\/p>"
+          }
+        },
+        "51a792f6-685f-45ae-be21-144a0baf6693": {
+          "type": "text",
+          "settings": {
+            "title": "I have questions about using the anti-aging peptides and lotion making supplies, where can I get more information?",
+            "description": "<p>Please read out FAQ about <a href=\"https:\/\/www.naturalorganicskincare.com\/pages\/how-to-add-a-serum-booster\" title=\"How to Add a Serum Booster\">Serum Boosters here<\/a>.<\/p>"
+          }
+        },
+        "86acbd6b-ae91-446b-a789-93ed854755c1": {
+          "type": "text",
+          "settings": {
+            "title": "Do you use preservatives in your products?",
+            "description": "<p>Preservatives are essential to ensure the product stays safe. However, we do not use any harsh parabens in our preservation process. We use non-synthetic preservatives as much as possible. Here are a few: <\/p><p>Leucidal LiquidLeucidal CompleteLeucidal Liquid SF MaxWillow barkVitamin ERosemaryNeemCitric AcidSilver CitrateGeogardGluconateSodium Benzoate<\/p><p>We prefer small packages to make sure your products are always fresh!<\/p>"
+          }
+        },
+        "9cab5c40-5804-4933-9786-f04f5794b736": {
+          "type": "text",
+          "settings": {
+            "title": "Where can I find a list of the ingredients of your products?",
+            "description": "<p>The list of ingredients for every product is available on the individual product page itself. You can also locate the ingredients on the product label.<\/p>"
+          }
+        },
+        "0dc17e3f-82e1-4627-ae29-f9eed5cb48e2": {
+          "type": "text",
+          "settings": {
+            "title": "Do you add additional ingredients, fillers, or preservatives to your Anti-Aging Peptides?",
+            "description": "<p>Our Serum Boosters are pure anti-aging ingredients from the manufacturer. We do not add any ingredients or modify the peptides in any way. We do not add additional preservatives.<\/p>"
+          }
+        },
+        "0b27b9db-8623-4719-923c-0028ec0f9acc": {
+          "type": "text",
+          "settings": {
+            "title": "What is your Rewards Program?",
+            "description": "<p>You can view more information about our <a href=\"https:\/\/www.naturalorganicskincare.com\/pages\/vip-rewards-program\" title=\"Rewards Program for VIP's\">VIP Rewards Program<\/a>.<\/p>"
+          }
+        },
+        "3b66427f-dcf1-40ad-bb7d-7f81c3f1850e": {
+          "type": "text",
+          "settings": {
+            "title": "Do you sell wholesale?",
+            "description": "<p>Yes, please visit our <a href=\"https:\/\/www.naturalorganicskincare.com\/pages\/wholesale\" title=\"Natual Skincare Wholesale and Private Label\">Wholesale FAQ<\/a>.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16362755981cd0f0ec-0",
+        "16362755981cd0f0ec-1",
+        "16362755981cd0f0ec-2",
+        "16362755981cd0f0ec-3",
+        "16362755981cd0f0ec-4",
+        "16362755981cd0f0ec-5",
+        "4ffe9516-7698-4907-b3ec-395f83b4a120",
+        "b2253eab-09c5-4a73-a272-d00349b11308",
+        "8cd98d04-541b-4a93-95c7-6949a0b4d0d3",
+        "f497f3ff-e666-4a68-93ac-94b14bf16040",
+        "3d62c145-aa44-432e-9791-cb7731541492",
+        "304e8a91-d9ec-4458-9233-ad9a9c9f7a8c",
+        "374ff9f3-fe63-493b-b231-1503d593e185",
+        "10bcb733-710d-4ecf-b521-6eae953efa79",
+        "1d30d8ae-1048-4001-bad3-6f69f7258303",
+        "e7a27fa3-c281-4ed5-bf80-a7b340aedab3",
+        "0d944129-206d-43ca-87fa-9b2c5852c873",
+        "51a792f6-685f-45ae-be21-144a0baf6693",
+        "86acbd6b-ae91-446b-a789-93ed854755c1",
+        "9cab5c40-5804-4933-9786-f04f5794b736",
+        "0dc17e3f-82e1-4627-ae29-f9eed5cb48e2",
+        "0b27b9db-8623-4719-923c-0028ec0f9acc",
+        "3b66427f-dcf1-40ad-bb7d-7f81c3f1850e"
+      ],
+      "settings": {
+        "bg_color": "bg-white text-body",
+        "max_width": "1200",
+        "text_align": "text-center",
+        "title": "Frequently Asked Questions",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 11,
+        "pb": 15,
+        "mt": 0,
+        "mb": 10
+      }
+    }
+  },
+  "order": [
+    "16362755981cd0f0ec"
+  ]
+}

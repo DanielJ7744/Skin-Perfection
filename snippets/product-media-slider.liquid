@@ -1,0 +1,64 @@
+{% liquid
+    assign current_variant = product.selected_or_first_available_variant
+    assign current_media_pos = current_variant.featured_media.position | default: 1   
+
+    assign img_width  = 600
+    assign img_height = 600
+    assign thumb_width  = 140
+    assign thumb_height = 140
+%}
+
+<div id="product-media-slider-wrapper" class="d-flex mx-n4 mx-sm-0 mt-n3 mt-sm-0">
+    <div 
+        id="product-media-slider-thumbs" 
+        class="splide me-3 d-none d-sm-block"
+        data-focus="{% if product.media.size > 5 %}center{% else %}{% endif %}"
+        data-current-media-position="{{ current_media_pos }}">
+        <div class="splide__track">
+            <ul class="splide__list">
+                {% for media in product.media %}
+                    <li class="splide__slide {% if media.media_type == 'video' %}is-video{% endif %}">
+                        <img
+                            class="img-fluid"
+                            src="{{ media.preview_image.src | image_url: width: thumb_width, height: thumb_height, crop: 'center' }}"
+                            alt="{{ media.preview_image.alt | escape }}"
+                            width="{{ thumb_width }}"
+                            height="{{ thumb_height }}"
+                            loading="lazy">
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div 
+        id="product-media-slider-main" 
+        class="splide"
+        data-current-media-position="{{ current_media_pos }}">
+        <div class="splide__track">
+            <ul class="splide__list">
+                {% for media in product.media %}
+                    <li class="splide__slide {% if media.media_type == 'video' %}{% else %}bg-light{% endif %}">
+                        {% case media.media_type %}
+                            {% when 'image' %}
+                                <img
+                                    class="img-fluid"
+                                    src="{{ media.src | image_url: width: img_width, height: img_height, crop: 'center' }}"
+                                    alt="{{ media.alt | escape }}"
+                                    width="{{ img_width }}"
+                                    height="{{ img_height }}"
+                                    loading="lazy">
+                            {% when 'external_video' %}
+                                <div class="ratio ratio-16x9">
+                                    {{ media | external_video_tag }}
+                                </div>
+                            {% when 'video' %}
+                                <div class="ratio h-100">
+                                    {{ media | video_tag: controls: false, loop: '1' }}
+                                </div>
+                        {% endcase %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

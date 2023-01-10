@@ -1,0 +1,215 @@
+{% liquid 
+    assign pt = section.settings.pt | prepend: 'pt-'
+    assign pb = section.settings.pb | prepend: 'pb-'
+    assign mt = section.settings.mt | prepend: 'mt-'
+    assign mb = section.settings.mb | prepend: 'mb-'
+
+    assign row_xs =  section.settings.row_xs | prepend: 'row-cols-'
+    assign row_sm =  section.settings.row_sm | prepend: 'row-cols-sm-'
+    assign row_lg =  section.settings.row_lg | prepend: 'row-cols-lg-'
+%}
+
+<style>
+    #icon-list-{{ section.id }} {
+        background-image: url({{ section.settings.bg_image | image_url: width: '1600' }});
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+<section
+    id="icon-list-{{ section.id }}" 
+    class="icon-list enter-view {{ pt }} {{ pb }} {{ mt }} {{ mb }}">
+    <div class="container">
+        <ul 
+            class="list-unstyled row mx-4 mb-0 text-center text-center pb-7">
+         <h2 class="title text-center mb-3 {{ section.settings.title_size }}">
+                {{ section.settings.title }}
+            </h2>
+            {% for block in section.blocks %}
+                <li class="p-4">
+                    <div 
+                        class="animate__animated animate__faster opacity-0"
+                        data-animate-class="animate__fadeIn"
+                        style="animation-delay: {{ forloop.index | times: 150 }}ms">
+                        <div class="img-wrapper d-inline-flex align-items-center mb-4">
+                           
+                          <img
+                        class=""
+                        src="{{ block.settings.svg_handle | file_url }}"
+                        alt="{{ block.settings.title }}"
+                        width=""
+                        height="{{ section.settings.img_height }}"
+                        loading="lazy">
+                        </div>
+                        {% unless block.settings.description == blank %}
+                            <div class="description rte mb-0 fw-bold {{ block.settings.description_size }}">
+                                {{ block.settings.description }}
+                            </div>
+                        {% endunless %}
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+
+{% schema %}
+{
+    "name": "Icon List",
+    "settings": [
+        {
+            "type": "header",
+            "content": "General"
+        },
+      {
+            "type": "image_picker",
+            "id": "bg_image",
+            "label": "Background image"
+        },
+      
+        {
+            "type": "color",
+            "id": "bg_color",
+            "label": "Background color",
+            "default": "#FAF4FC"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "General Benefits",
+            "info": "Will not show. Used for accessibility purposes."
+        },
+      {
+            "type": "select",
+            "id": "title_size",
+            "label": "Title size",
+            "default": "h2",
+            "options": [
+                { "group": "Heading", "value": "h1", "label": "H1" },
+                { "group": "Heading", "value": "h2", "label": "H2" },
+                { "group": "Heading", "value": "h3", "label": "H3" },
+                { "group": "Heading", "value": "h4", "label": "H4" },
+                { "group": "Heading", "value": "h5", "label": "H5" },
+                { "group": "Heading", "value": "h6", "label": "H6" }
+            ]
+        },
+        {
+            "type": "header",
+            "content": "Items per Row",
+            "info": "Based on screen resolution."
+        },
+        {
+            "type": "range",
+            "id": "row_xs",
+            "label": "Mobile",
+            "info": "up to 575px",
+            "min": 1,
+            "max": 3,
+            "step": 1,
+            "default": 1
+        },
+        {
+            "type": "range",
+            "id": "row_sm",
+            "label": "Tablet",
+            "info": "576px - 991px",
+            "min": 1,
+            "max": 4,
+            "step": 1,
+            "default": 2
+        },
+        {
+            "type": "range",
+            "id": "row_lg",
+            "label": "Desktop",
+            "info": "992px and up",
+            "min": 1,
+            "max": 6,
+            "step": 1,
+            "default": 4
+        },
+        {
+            "type": "header",
+            "content": "Spacing"
+        },
+        {
+            "type": "range",
+            "id": "pt",
+            "label": "Padding top",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 0
+        },
+        {
+            "type": "range",
+            "id": "pb",
+            "label": "Padding bottom",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 0
+        },
+        {
+            "type": "range",
+            "id": "mt",
+            "label": "Margin top",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 0
+        },
+        {
+            "type": "range",
+            "id": "mb",
+            "label": "Margin bottom",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 0
+        }
+    ],
+    "blocks": [
+        {
+            "type": "item",
+            "name": "Item",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "icon_name",
+                    "label": "Icon name",
+                    "info": "The icon must be uplaoded as SVG into the [Files](https://shopify.com/admin/settings/files) section"
+                },
+                {
+                    "type": "richtext",
+                    "id": "description",
+                    "label": "Description",
+                    "default": "<p>Icon Descripion Goes Here</p>"
+                },
+                {
+                    "type": "select",
+                    "id": "description_size",
+                    "label": "Description size",
+                    "default": "fs-6",
+                    "options": [
+                        { "value": "fs-1", "label": "fs-1" },
+                        { "value": "fs-2", "label": "fs-2" },
+                        { "value": "fs-3", "label": "fs-3" },
+                        { "value": "fs-4", "label": "fs-4" },
+                        { "value": "fs-5", "label": "fs-5" },
+                        { "value": "fs-6", "label": "fs-6" }
+                    ]
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Icon List",
+            "category": "General"
+        }
+    ]
+}
+{% endschema %}

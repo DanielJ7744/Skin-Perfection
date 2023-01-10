@@ -1,0 +1,242 @@
+{% liquid 
+    assign pt = section.settings.pt | prepend: 'pt-12 pt-lg-'
+    assign pb = section.settings.pb | prepend: 'pb-10 pb-lg-'
+    assign mt = section.settings.mt | prepend: 'mt-'
+    assign mb = section.settings.mb | prepend: 'mb-'
+%}
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        const init = async () => {
+            await new Promise(r => setTimeout(r, 1000));
+
+            const list = document.querySelector('#instagram-gallery-{{ section.id }} ul.instagram-gallery-list')
+            const listLength = list.querySelectorAll('li').length
+            
+            list.insertAdjacentHTML('beforeEnd', list.innerHTML)
+            list.insertAdjacentHTML('beforeEnd', list.innerHTML)
+    
+            list.querySelectorAll('li').forEach((item, index) => {
+                if (index >= listLength)
+                    item.setAttribute('aria-hidden', 'true')
+            })
+    
+            const style = document.createElement('style')
+            style.type = 'text/css'
+    
+            const keyFrames = `
+                <style>
+                    @keyframes instagramGallerySectionAnimation {
+                        to { transform: translateX(-${list.clientWidth}px); }    
+                    }
+                </style>
+            `
+    
+            list.insertAdjacentHTML('beforeBegin', keyFrames);
+        }
+    
+        init()
+    
+        document.addEventListener('shopify:section:load', (e) => {
+            if (event.detail.sectionId === '{{ section.id }}') {
+                init()
+            }
+        })
+    })
+</script>
+
+<section 
+    id="instagram-gallery-{{ section.id }}" 
+    class="instagram-gallery overflow-hidden {{ pt }} {{ pb }} {{ mt }} {{ mb }}">
+    <div class="container">
+        <div class="text-center mb-7">
+            <h2 
+                class="title mb-1 text-primary {{ section.settings.title_size }}"
+                style="font-family: var(--cursive-font-family)">
+                {{ section.settings.title }}
+            </h2>
+            {% unless section.settings.description == blank %}
+                <div class="description text-primary rte mb-7 {{ section.settings.description_size }}">
+                    {{ section.settings.description }}
+                </div>
+            {% endunless %}
+        </div>
+    </div>
+    <ul 
+        class="instagram-gallery-list" 
+        style="animation-duration: {{ section.settings.animation_duration }}s"
+        aria-label="Instagram related posts">
+        {% for block in section.blocks %}
+            <li class="instagram-gallery-list-item  p-{{ section.settings.gap_mobile }} p-sm-{{ section.settings.gap_desktop }}">
+                <a href="{{ block.settings.url }}">
+                    <img
+                        class="img-fluid"
+                        src="{{ block.settings.img.src | image_url: height: section.settings.img_width, height: section.settings.img_height, crop: 'center' }}"
+                        alt="{{ block.settings.title }}"
+                        width="{{ section.settings.img_width }}"
+                        height="{{ section.settings.img_height }}"
+                        loading="lazy">
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</section>
+
+{% schema %}
+{
+    "name": "Instagram gallery",
+    "settings": [
+        {
+            "type": "header",
+            "content": "General"
+        },
+        {
+            "type": "html",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "select",
+            "id": "title_size",
+            "label": "Title size",
+            "default": "h2",
+            "options": [
+                { "group": "Heading", "value": "h1", "label": "H1" },
+                { "group": "Heading", "value": "h2", "label": "H2" },
+                { "group": "Heading", "value": "h3", "label": "H3" },
+                { "group": "Heading", "value": "h4", "label": "H4" },
+                { "group": "Heading", "value": "h5", "label": "H5" },
+                { "group": "Heading", "value": "h6", "label": "H6" }
+            ]
+        },
+        {
+            "type": "richtext",
+            "id": "description",
+            "label": "Description",
+            "default": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+        },
+        {
+            "type": "select",
+            "id": "description_size",
+            "label": "Description size",
+            "default": "fs-6",
+            "options": [
+                { "value": "fs-1", "label": "fs-1" },
+                { "value": "fs-2", "label": "fs-2" },
+                { "value": "fs-3", "label": "fs-3" },
+                { "value": "fs-4", "label": "fs-4" },
+                { "value": "fs-5", "label": "fs-5" },
+                { "value": "fs-6", "label": "fs-6" }
+            ]
+        },
+        {
+            "type": "header",
+            "content": "Marquee"
+        },
+        {
+            "type": "range",
+            "id": "animation_duration",
+            "label": "Animation duration",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 10,
+            "unit": "sec"
+        },
+        {
+            "type": "text",
+            "id": "img_width",
+            "label": "Image width",
+            "default": "360"
+        },
+        {
+            "type": "text",
+            "id": "img_height",
+            "label": "Image height",
+            "default": "360"
+        },
+        {
+            "type": "range",
+            "id": "gap_mobile",
+            "label": "Spacing between items (mobile)",
+            "min": 0,
+            "max": 10,
+            "step": 1,
+            "default": 2
+        },
+        {
+            "type": "range",
+            "id": "gap_desktop",
+            "label": "Spacing between items (desktop)",
+            "min": 0,
+            "max": 10,
+            "step": 1,
+            "default": 3
+        },
+        {
+            "type": "header",
+            "content": "Spacing"
+        },
+        {
+            "type": "range",
+            "id": "pt",
+            "label": "Padding top",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 0
+        },
+        {
+            "type": "range",
+            "id": "pb",
+            "label": "Padding bottom",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 0
+        },
+        {
+            "type": "range",
+            "id": "mt",
+            "label": "Margin top",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 0
+        },
+        {
+            "type": "range",
+            "id": "mb",
+            "label": "Margin bottom",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 0
+        }
+    ],
+    "blocks": [
+        {
+            "type": "item",
+            "name": "Item",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "img",
+                    "label": "Image"
+                },
+                {
+                    "type": "url",
+                    "id": "url",
+                    "label": "Post URL"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Instagram Gallery",
+            "category": "General"
+        }
+    ]
+}
+{% endschema %}

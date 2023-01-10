@@ -1,0 +1,195 @@
+{% liquid
+    assign mt = section.settings.mt | prepend: 'mt-'
+    assign mb = section.settings.mb | prepend: 'mb-'
+
+    assign row_xs =  section.settings.row_xs | prepend: 'row-cols-'
+    assign row_sm =  section.settings.row_sm | prepend: 'row-cols-sm-'
+    assign row_lg =  section.settings.row_lg | prepend: 'row-cols-lg-'
+%}
+
+<section 
+    id="featured-posts-{{ section.id }}" 
+    class="featured-posts  {{ mt }} {{ mb }}">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="title mb-6 {{ section.settings.title_size }}">
+                {{ section.settings.title }}
+            </h2>
+        </div>
+        <ul class="blog-list list-unstyled row {{ row_xs }} {{ row_sm }} {{ row_lg }}">
+            {% for article in section.settings.blog.articles limit: section.settings.limit %}
+                <li class="col text-center">
+                    <a class="" href="{{ article.url }}">
+                        <img
+                            class="img-fluid rounded-circle mb-6"
+                            src="{{ article.image.src | image_url: width: section.settings.img_width, height: section.settings.img_height }}"
+                            alt="{{ article.image.alt | escape }}"
+                            width="{{ section.settings.img_width }}"
+                            height="{{ section.settings.img_height }}"
+                            loading="lazy">
+                    </a>
+                    <h3 class="title {{ section.settings.article_title_size }} mb-0">
+                        <a href="{{ article.url }}" class="">
+                            {{ article.title }}
+                        </a>
+                    </h3>
+                    {% if section.settings.show_article_meta %}
+                        <p class="article-meta text-muted mt-3 mb-0 small">
+                            {{ article.author }} @ {{ article.created_at | time_tag: '%b %d, %Y' }}
+                        </p>
+                    {% endif %}
+                    {% if section.settings.show_article_excerpt %}
+                        <div class="article-excerpt rte mt-3">
+                            {{ article.excerpt }}
+                        </div>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Featured Posts",
+    "settings": [
+        {
+            "type": "header",
+            "content": "General"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Featured Products"
+        },
+        {
+            "type": "select",
+            "id": "title_size",
+            "label": "Title size",
+            "default": "h2",
+            "options": [
+                { "group": "Heading", "value": "h1", "label": "H1" },
+                { "group": "Heading", "value": "h2", "label": "H2" },
+                { "group": "Heading", "value": "h3", "label": "H3" },
+                { "group": "Heading", "value": "h4", "label": "H4" },
+                { "group": "Heading", "value": "h5", "label": "H5" },
+                { "group": "Heading", "value": "h6", "label": "H6" }
+            ]
+        },
+        {
+            "type": "blog",
+            "id": "blog",
+            "label": "Blog"
+        },
+        {
+            "type": "range",
+            "id": "limit",
+            "label": "Posts per page",
+            "min": 0,
+            "max": 20,
+            "default": 3
+        },
+        {
+            "type": "select",
+            "id": "article_title_size",
+            "label": "Article title size",
+            "default": "h5",
+            "options": [
+                { "value": "h1", "label": "H1" },
+                { "value": "h2", "label": "H2" },
+                { "value": "h3", "label": "H3" },
+                { "value": "h4", "label": "H4" },
+                { "value": "h5", "label": "H5" },
+                { "value": "h6", "label": "H6" }
+            ]
+        },
+        {
+            "type": "text",
+            "id": "img_width",
+            "label": "Image width (px)",
+            "default": "400"
+        },
+        {
+            "type": "text",
+            "id": "img_height",
+            "label": "Image height (px)",
+            "default": "400"
+        },
+        {
+            "type": "checkbox",
+            "id": "show_article_meta",
+            "label": "Show article meta",
+            "default": true
+        },
+        {
+            "type": "checkbox",
+            "id": "show_article_excerpt",
+            "label": "Show article excerpt",
+            "default": true
+        },
+        {
+            "type": "header",
+            "content": "Items per row"
+        },
+        {
+            "type": "range",
+            "id": "row_xs",
+            "label": "Mobile",
+            "info": "up to 575px",
+            "min": 1,
+            "max": 3,
+            "step": 1,
+            "default": 1
+        },
+        {
+            "type": "range",
+            "id": "row_sm",
+            "label": "Tablet",
+            "info": "576px - 991px",
+            "min": 1,
+            "max": 4,
+            "step": 1,
+            "default": 2
+        },
+        {
+            "type": "range",
+            "id": "row_lg",
+            "label": "Desktop",
+            "info": "992px and up",
+            "min": 1,
+            "max": 6,
+            "step": 1,
+            "default": 3
+        },
+        {
+            "type": "header",
+            "content": "Spacing"
+        },
+        {
+            "type": "range",
+            "id": "mt",
+            "label": "Margin top",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 10
+        },
+        {
+            "type": "range",
+            "id": "mb",
+            "label": "Margin bottom",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 10
+        }
+    ],
+    "presets": [
+        {
+            "name": "Featured Posts",
+            "category": "Blog"
+        }
+    ]
+}
+{% endschema %}

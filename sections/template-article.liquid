@@ -1,0 +1,252 @@
+{% liquid
+  assign mt = section.settings.mt | prepend: 'mt-'
+  assign mb = section.settings.mb | prepend: 'mb-'
+
+  assign img_width = 900
+  assign img_height = 900
+%}
+
+<article class="article {{ mt }} {{ mb }}">
+  <div class="container">
+    <div class="row flex-lg-row-reverse">
+      <div class="col-lg-4">
+        {% if section.settings.show_latest_articles %}
+          <div class="card">
+            <h3 class="card-header h5 text-uppercase">
+              {{ section.settings.latest_articles_title }}
+            </h3>
+            <div class="card-body">
+              {% paginate blog.articles by section.settings.latest_articles_limit %}
+                <ul class="list-unstyled mb-0">
+                  {% for article in blog.articles %}
+                    <li class="">
+                      <div class="row align-items-center mx-n3">
+                        <div class="col-4 px-3">
+                          <a class="" href="{{ article.url }}">
+                            <img
+                              class="img-fluid"
+                              src="{{ article.image.src | image_url: width: 200, height: 200 }}"
+                              alt="{{ article.image.alt | escape }}"
+                              width="200"
+                              height="200"
+                              loading="lazy"
+                            >
+                          </a>
+                        </div>
+                        <div class="col-8 px-3">
+                          <h4 class="title h6 mb-1">
+                            <a href="{{ article.url }}" class="">
+                              {{ article.title }}
+                            </a>
+                          </h4>
+                          <p class="article-meta text-muted mb-0 small">
+                            {{ article.author }} @ {{ article.created_at | time_tag: '%b %d, %Y' }}
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endpaginate %}
+            </div>
+          </div>
+          {% for block in section.blocks %}
+            {% case block.type %}
+              {% when 'html_block' %}
+                {{ block.settings.custom_html_block }}
+              {% else %}
+
+            {% endcase %}
+          {% endfor %}
+        {% endif %}
+      </div>
+      <div class="col-lg-8">
+        <img
+          class="article-img img-fluid w-100 mb-6"
+          src="{{ article.image.src | image_url: width: img_width, height: img_height, crop: 'center' }}"
+          alt="{{ article.image.alt | escape }}"
+          width="{{ img_width }}"
+          height="{{ img_height }}"
+          loading="lazy"
+        >
+        <div class="mx-auto">
+          <h1 class="article-title title mb-4 {{ section.settings.title_size }}">
+            {{ article.title }}
+          </h1>
+          <p class="article-meta text-muted mb-5">
+            {{ article.author }} @ {{ article.created_at | time_tag: '%b %d, %Y' }}
+          </p>
+          <div class="article-content rte mb-6">
+            {{ article.content }}
+          </div>
+          {% if section.settings.show_tags and article.tags.size > 0 %}
+            <div class="article-tags small text-muted my-1">
+              {{ 'blogs.posted_in' | t }}:
+              {% for tag in article.tags %}
+                <a href="{{ blog.url }}/tagged/{{ tag | handle }}"> {{ tag }}</a>
+                {%- unless forloop.last %}, {% endunless %}
+                {% comment %}Do not use in new line{% endcomment %}
+              {% endfor %}
+            </div>
+          {% endif %}
+          {% if section.settings.show_share_btn %}
+            <hr>
+            <div class="text-end">
+              {% render 'share-button', title: article.title, url: article.url %}
+            </div>
+          {% endif %}
+          {% if blog.next_article or blog.previous_article %}
+            <hr>
+            <div class="d-flex justify-content-between">
+              {% if blog.previous_article %}
+                <a class="btn btn-outline-primary" href="{{ blog.previous_article }}"> &larr; Previous </a>
+              {% endif %}
+              {% if blog.next_article %}
+                <a class="btn btn-outline-primary" href="{{ blog.next_article }}"> Next &rarr; </a>
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+<script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "articleBody": {{ article.content | strip_html | json }},
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": {{ request.origin | append: page.url | json }}
+      },
+      "headline": {{ article.title | json }},
+      {% if article.excerpt != blank %}
+          "description": {{ article.excerpt | strip_html | json }},
+      {% endif %}
+      {% if article.image %}
+          "image": [
+              {{ article | image_url: width: article.image.width | prepend: "https:" | json }}
+          ],
+      {% endif %}
+      "datePublished": {{ article.published_at | date: '%Y-%m-%dT%H:%M:%SZ' | json }},
+      "dateCreated": {{ article.created_at | date: '%Y-%m-%dT%H:%M:%SZ' | json }},
+      "author": {
+          "@type": "Person",
+          "name": {{ article.author | json }}
+      },
+      "publisher": {
+      "@type": "Organization",
+      {% if settings.share_image %}
+          "logo": {
+              "@type": "ImageObject",
+              "height": {{ settings.share_image.height | json }},
+              "url": {{ settings.share_image | image_url: width: settings.share_image.width | prepend: "https:" | json }},
+              "width": {{ settings.share_image.width | json }}
+          },
+      {% endif %}
+          "name": {{ shop.name | json }}
+      }
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Article template",
+  "settings": [
+    {
+      "type": "select",
+      "id": "title_size",
+      "label": "Title size",
+      "default": "h1",
+      "options": [
+        { "value": "h1", "label": "H1" },
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" },
+        { "value": "h4", "label": "H4" },
+        { "value": "h5", "label": "H5" },
+        { "value": "h6", "label": "H6" }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "show_tags",
+      "label": "Show tags",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_share_btn",
+      "label": "Show \"Share\" button",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Latest Posts"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_latest_articles",
+      "label": "Show block",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "latest_articles_title",
+      "label": "Title",
+      "default": "Latest Articles"
+    },
+    {
+      "type": "range",
+      "id": "latest_articles_limit",
+      "label": "Limit articles",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 5
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "mt",
+      "label": "Margin top",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "mb",
+      "label": "Margin bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 10
+    }
+  ],
+  "blocks": [
+    {
+      "type": "html_block",
+      "name": "Custom HTML block",
+      "settings": [
+        {
+          "type": "html",
+          "id": "custom_html_block",
+          "label": "Custom HTML Block",
+          "default": "<div></div>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Article template",
+      "category": "Article page"
+    }
+  ]
+}
+{% endschema %}

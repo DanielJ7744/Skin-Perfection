@@ -1,0 +1,327 @@
+{% liquid 
+    assign pt = section.settings.pt | prepend: 'pt-'
+    assign pb = section.settings.pb | prepend: 'pb-'
+%}
+
+<nav id="navbar" class="navbar navbar-expand-lg shadow-sm {{ section.settings.bg_color }} {{ pt }} {{ pb }}">
+    <div class="container position-relative">
+        <a 
+            class="nav-link px-3 me-4 d-lg-none" 
+            href="#navbar-offcanvas" 
+            data-bs-toggle="offcanvas"
+            aria-controls="navbar-offcanvas" 
+            role="button"
+            aria-label="{{ 'general.accessibility.toggle_nav' | t }}">
+            <svg width="24" height="" viewBox="0 0 12.0 10.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs><clipPath id="i0"><path d="M4.77272727,8 C4.89824653,8 5,8.22385763 5,8.5 C5,8.77614237 4.89824653,9 4.77272727,9 L0.227272727,9 C0.101753466,9 0,8.77614237 0,8.5 C0,8.22385763 0.101753466,8 0.227272727,8 L4.77272727,8 Z M7.63636364,4 C7.83719445,4 8,4.22385763 8,4.5 C8,4.77614237 7.83719445,5 7.63636364,5 L0.363636364,5 C0.162805546,5 0,4.77614237 0,4.5 C0,4.22385763 0.162805546,4 0.363636364,4 L7.63636364,4 Z M10.5,0 C10.7761424,0 11,0.223857625 11,0.5 C11,0.776142375 10.7761424,1 10.5,1 L0.5,1 C0.223857625,1 0,0.776142375 0,0.5 C0,0.223857625 0.223857625,0 0.5,0 L10.5,0 Z"></path></clipPath></defs><g transform="translate(0.5 0.5)"><g clip-path="url(#i0)"><polygon points="0,0 11,0 11,9 0,9 0,0" stroke="none" fill="#000000"></polygon></g></g>
+            </svg>
+        </a>
+        <a class="navbar-brand me-auto py-0" href="{{ routes.root_url }}">
+            <img
+                class="img-fluid"
+                src="{{ section.settings.logo | image_url }}" 
+                alt="{{ shop.name }}"
+                width="{{ section.settings.logo.width }}" 
+                height="{{ section.settings.logo.height }}"
+                loading="lazy">
+        </a>
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+            <ul class="navbar-nav mx-auto">
+                {% for link in linklists[section.settings.menu_desktop].links %}
+                    {% if link.links == blank %}
+                        <li class="nav-item">
+                            <a 
+                                id="navbar-item-{{ forloop.index }}"
+                                class="nav-link {% if link.active %}active{% endif %}" 
+                                aria-current="{% if link.active %}page{% endif %}" 
+                                href="{{ link.url }}">
+                                {{ link.title }}
+                            </a>
+                        </li>
+                    {% else %}
+                        <li class="nav-item dropdown {% if link.levels > 1 %}position-static{% endif %}">
+                            <a 
+                                id="navbar-item-{{ forloop.index }}" 
+                                class="nav-link dropdown-toggle {% if link.child_active %}active{% endif %}" 
+                                href="#"
+                                role="button" 
+                                data-bs-toggle="dropdown" 
+                                aria-expanded="false">
+                                <span>{{ link.title }}</span>
+                            </a>
+                            {% if link.levels > 1 %}
+                                <ul class="dropdown-megamenu dropdown-menu row w-100 py-5" aria-labelledby="navbar-item-{{ forloop.index }}">
+                                    {% for child_link in link.links %}
+                                        {% if child_link.title contains '.jpg' or child_link.title contains '.png' %}
+                                            <li class="col">
+                                                <a href="{{ child_link.url }}" class="megamenu-block d-block px-4 text-center text-dark">
+                                                    {% liquid 
+                                                        assign image = child_link.title | split: '|' | last | strip
+                                                    %}
+                                                    {% comment %}theme-check-disable{% endcomment %}
+                                                    <img
+                                                        src="{{ image }}"
+                                                        class="img-fluid mb-2 img-thumbnail w-100"
+                                                        alt=""
+                                                        width="360"
+                                                        height="360"
+                                                        loading="lazy">
+                                                    {% comment %}theme-check-enable{% endcomment %}
+                                                    <span class="">
+                                                        {{ child_link.title | split: '|' | first }}
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        {% else %}
+                                            <li class="col">
+                                                <h6 id="navbar-childitem-{{ forloop.index }}" class="px-5">
+                                                    {{ child_link.title }}
+                                                </h6>
+                                                <ul class="list-unstyled">
+                                                    {% for grandchild_link in child_link.links %}
+                                                        <li>
+                                                            <a 
+                                                                id="navbar-grandchilditem-{{ forloop.index }}" 
+                                                                class="dropdown-item small rounded {% if grandchild_link.active %}active{% endif %}" 
+                                                                href="{{ grandchild_link.url }}"
+                                                                aria-current="{% if grandchild_link.active %}page{% endif %}">
+                                                                • {{ grandchild_link.title }}
+                                                            </a>
+                                                        </li>
+                                                    {% endfor %}
+                                                </ul>
+                                            </li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            {% else %}
+                                <ul class="dropdown-menu" aria-labelledby="navbar-nav-item-{{ forloop.index }}">
+                                    {% for child_link in link.links %}
+                                        <li>
+                                            <a 
+                                                id="navbar-childitem-{{ forloop.index }}" 
+                                                class="dropdown-item {% if child_link.active %}active{% endif %}" 
+                                                href="{{ child_link.url }}"
+                                                aria-current="{% if child_link.active %}page{% endif %}">
+                                                {{ child_link.title }}
+                                            </a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="navbar-expand">
+            <ul id="navbar-icons" class="navbar-nav">
+                <li class="nav-item">
+                    <a 
+                        class="nav-link" 
+                        href="#offcanvas-search" 
+                        data-bs-toggle="offcanvas"
+                        aria-controls="offcanvas-search" 
+                        role="button"
+                        aria-label="{{ 'general.accessibility.search' | t }}">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                    </a>
+                </li>
+                {% if shop.customer_accounts_enabled %}
+                    <li class="nav-item">
+                        <a 
+                            class="nav-link {% if template.name == 'login' or template.name == 'account' %}active{% endif %}" 
+                            aria-current="{% if template.name == 'login' or template.name == 'account' %}page{% endif %}" 
+                            href="{{ routes.account_url }}"
+                            aria-label="{{ 'general.accessibility.account' | t }}">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                            </svg>
+                        </a>
+                    </li>
+                {% endif %}
+                <li class="nav-item">
+                    {% if request.page_type == 'cart' %}
+                        <a class="nav-link position-relative active" aria-current="page" href="{{ routes.cart_url }}" aria-label="{{ 'general.accessibility.cart' | t }}">
+                    {% else %}
+                        <a class="nav-link position-relative" href="#offcanvas-cart" data-bs-toggle="offcanvas" aria-controls="offcanvas-cart" aria-label="{{ 'general.accessibility.cart' | t }}" role="button">
+                    {% endif %}
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-handbag" viewBox="0 0 16 16">
+                            <path d="M8 1a2 2 0 0 1 2 2v2H6V3a2 2 0 0 1 2-2zm3 4V3a3 3 0 1 0-6 0v2H3.36a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.355a2.5 2.5 0 0 0 2.473-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5H11zm-1 1v1.5a.5.5 0 0 0 1 0V6h1.639a.5.5 0 0 1 .494.426l1.028 6.851A1.5 1.5 0 0 1 12.678 15H3.322a1.5 1.5 0 0 1-1.483-1.723l1.028-6.851A.5.5 0 0 1 3.36 6H5v1.5a.5.5 0 1 0 1 0V6h4z"/>
+                        </svg>
+                        <span class="cart-badge badge bg-primary d-flex justify-content-center align-items-center position-absolute top-0 end-0 rounded-circle p-0 {% if cart.item_count > 0 %}d-flex{% else %}d-none{% endif %}">
+                            {{ cart.item_count }}
+                        </span>
+                    </a>                
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="navbar-offcanvas" class="offcanvas offcanvas-start" tabindex="-1" aria-labelledby="navbar-offcanvas" style="width: 300px;">
+    <div class="offcanvas-header bg-light">
+        <h2 id="offcanvas-nav-label" class="offcanvas-title h5">
+            {{ 'general.general.menu' | t }}
+        </h2>
+        <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="{{ 'general.accessibility.close' | t }}">
+        </button>
+    </div>
+    <div class="offcanvas-body px-0 py-4">
+        <ul id="navbar-offcanvas-menu" class="nav nav-level-0 flex-column mb-4">
+            {% for link in linklists[section.settings.menu_mobile].links %}
+                {% if link.links == blank %}
+                    <li class="nav-item">
+                        <a 
+                            class="nav-link py-5 px-5 {% if link.active %}active{% endif %}" 
+                            href="{{ link.url }}" 
+                            aria-current="{% if link.active %}page{% endif %}">
+                            {{ link.title }}
+                        </a>
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a 
+                            class="nav-link accordion-button collapsed py-5 px-5 {% if link.child_active %}active{% endif %}" 
+                            href="#collapse-level-0-{{ forloop.index }}" 
+                            aria-controls="collapse-level-0-{{ forloop.index }}"
+                            aria-expanded="false" 
+                            data-bs-toggle="collapse"
+                            role="button">
+                            {{ link.title }}
+                        </a>
+                        <div id="collapse-level-0-{{ forloop.index }}" class="collapse">
+                            <ul class="nav flex-column">
+                                {% for child_link in link.links %}
+                                    {% if child_link.title contains '.jpg' or child_link.title contains '.png' %}
+                                        <li class="nav-item">
+                                            <a href="{{ child_link.url }}" class="megamenu-block d-block py-5 px-5 text-center text-dark">
+                                                {% liquid 
+                                                    assign image = child_link.title | split: '|' | last | strip
+                                                %}
+                                                {% comment %}theme-check-disable{% endcomment %}
+                                                <img
+                                                    src="{{ image }}"
+                                                    class="img-fluid mb-2 img-thumbnail w-100"
+                                                    alt=""
+                                                    width="360"
+                                                    height="360"
+                                                    loading="lazy">
+                                                {% comment %}theme-check-enable{% endcomment %}
+                                                <span class="">
+                                                    {{ child_link.title | split: '|' | first }}
+                                                </span>
+                                            </a>
+                                        </li>
+                                   {% elsif child_link.links == blank %}
+                                        <li class="nav-item">
+                                            <a 
+                                                class="nav-link py-4 px-5 {% if child_link.active %}active{% endif %}" 
+                                                href="{{ child_link.url }}"
+                                                aria-current="{% if child_link.active %}page{% endif %}">
+                                                {{ child_link.title }}
+                                            </a>
+                                        </li>
+                                    {% else %}
+                                        <li class="nav-item">
+                                            <a 
+                                                class="nav-link py-4 px-5 accordion-button collapsed {% if child_link.child_active %}active{% endif %}" 
+                                                href="#collapse-level-1-{{ forloop.index }}" 
+                                                aria-controls="collapse-level-1-{{ forloop.index }}"
+                                                aria-expanded="false" 
+                                                data-bs-toggle="collapse" 
+                                                role="button">
+                                                {{ child_link.title }}
+                                            </a>
+                                            <div id="collapse-level-1-{{ forloop.index }}" class="collapse">
+                                                <ul class="nav flex-column">
+                                                    {% for grandchild_link in child_link.links %}
+                                                        <li class="nav-item">
+                                                            <a 
+                                                                class="nav-link py-4 {% if grandchild_link.active %}active{% endif %}" 
+                                                                href="{{ grandchild_link.url }}"
+                                                                aria-current="{% if grandchild_link.active %}page{% endif %}">
+                                                                • {{ grandchild_link.title }}
+                                                            </a>
+                                                        </li>
+                                                    {% endfor %}
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Navbar",
+    "class": "sticky-top",
+    "settings": [
+        {
+            "type": "header",
+            "content": "General"
+        },
+        {
+            "type": "select",
+            "id": "bg_color",
+            "label": "Background color",
+            "options": [
+                { "group": "Light", "value": "bg-white navbar-light", "label": "White" },
+                { "group": "Light", "value": "bg-light navbar-light", "label": "Light" },
+                { "group": "Dark", "value": "bg-primary navbar-dark", "label": "Primary" },
+                { "group": "Dark", "value": "bg-secondary navbar-dark", "label": "Secondary" },
+                { "group": "Dark", "value": "bg-dark navbar-dark", "label": "Dark" }
+            ],
+            "default": "bg-white navbar-light"
+        },
+        {
+            "type": "image_picker",
+            "id": "logo",
+            "label": "Logo"
+        },
+        {
+            "type": "link_list",
+            "id": "menu_mobile",
+            "label": "Mobile menu",
+            "default": "main-menu"
+        },
+        {
+            "type": "link_list",
+            "id": "menu_desktop",
+            "label": "Desktop menu",
+            "default": "main-menu"
+        },
+        {
+            "type": "header",
+            "content": "Spacing"
+        },
+        {
+            "type": "range",
+            "id": "pt",
+            "label": "Padding top",
+            "min": 0,
+            "max": 6,
+            "step": 1,
+            "default": 3
+        },
+        {
+            "type": "range",
+            "id": "pb",
+            "label": "Padding bottom",
+            "min": 0,
+            "max": 6,
+            "step": 1,
+            "default": 3
+        }
+    ]
+}
+{% endschema %}

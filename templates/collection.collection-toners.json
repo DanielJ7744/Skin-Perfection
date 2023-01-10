@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "template-collection": {
+      "type": "template-collection",
+      "settings": {
+        "show_collection_img": false,
+        "show_collection_description": false,
+        "limit": 40,
+        "text_align": "text-center",
+        "row_xs": 2,
+        "row_sm": 2,
+        "row_lg": 3,
+        "mt": 10,
+        "mb": 10
+      }
+    },
+    "1663804795eacaf71c": {
+      "type": "richtext",
+      "settings": {
+        "max_width": "",
+        "text_align": "text-center",
+        "title": "Toners",
+        "title_size": "h2",
+        "description": "<p>[Natural and Organic Toners and Astringents]<\/p><p>Toners and astringents help remove the dirt and debris in pores. Astringents will keep your skin looking and feeling clean and bright with nourishing botanical extracts.<\/p><p>Our toners use natural and organic ingredients to help balance the skin's moisture content. Toners also double as a prep for concentrated face serums.<br\/><br\/>Toners promote smaller-looking pores and a healthy, natural glow!<\/p><p>[Amazing Benefits of Toners:]<\/p><p>Cleans Pores.Minimizes the Look of Pores.Help Serums Go on Evenly.Instant Results.<\/p><p>[Do I Need a Toner?]<\/p><p>This is the most asked question we get about cleansing. First, of course, toners are beneficial, but only if they are not harsh. Irritating toners can strip your skin's surface and natural barrier. Sadly, you've probably seen them at the health food store, straight Witch Hazel, alcohol-based, or those with glycolic acid.<br\/><br\/>Harsh toners can cause your skin not to function correctly. The wrong ingredients could cause more oil and increased redness. Ugh! So what's the answer? Yes, you should use a toner, but only if it is water-based with nurturing botanicals.<br\/><br\/>Necessary ingredients like <a href=\"https:\/\/www.naturalorganicskincare.com\/collections\/antioxidant\" title=\"antioxidants in skincare\">antioxidants<\/a>, ceramides, and essential fatty acids are crucial in the proper toner. These ingredients feed the skin and promote healthy skin functioning along with increased collagen production.<\/p><p>Now, who doesn't love that thought? Just remember to stay away from toners that are to be used \"neat,\" such as pure witch hazel or contain harsh alcohols.<br\/><br\/>Make sure you <a href=\"https:\/\/www.naturalorganicskincare.com\/blogs\/category\/how-to-read-a-skincare-label-inci\" title=\"how to read a skincare label\">read the label on your toner<\/a> and find water-based formulas. Then, results can be felt and seen instantly. It's the perfect addition to your skincare plan.<br\/><br\/>Directions: After washing your face, spray a cotton ball with toner. Gently wipe all over your face and neck, concentrating on the t-zone area. Repeat until there is no discoloration on the cotton ball. Follow with your favorite serum. It is best to apply your concentrated serum to toner damp skin.<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "btn_size": "",
+        "pt": 10,
+        "pb": 10,
+        "mt": 11,
+        "mb": 11
+      }
+    }
+  },
+  "order": [
+    "template-collection",
+    "1663804795eacaf71c"
+  ]
+}

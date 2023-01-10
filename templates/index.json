@@ -1,0 +1,908 @@
+{
+  "sections": {
+    "16632664175140d0f0": {
+      "type": "carousel",
+      "blocks": {
+        "1663266417fcc0dda6-0": {
+          "type": "slide",
+          "settings": {
+            "img_mobile": "shopify:\/\/shop_images\/anti-aging-solutions-youth-boosting-peptides1.jpg",
+            "img_desktop": "shopify:\/\/shop_images\/anti-aging-solutions-youth-boosting-peptides2.jpg",
+            "img_opacity": 1,
+            "title": "",
+            "title_size": "h2",
+            "description": "",
+            "description_size": "fs-5",
+            "btn_text": "",
+            "btn_url": "shopify:\/\/collections\/all",
+            "btn_color": "btn-primary",
+            "btn_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663266417fcc0dda6-0"
+      ],
+      "settings": {
+        "controls": true,
+        "indicators": true,
+        "autoplay": false,
+        "animation": "slide",
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "16634483905ed42b69": {
+      "type": "richtext",
+      "settings": {
+        "max_width": "1600",
+        "text_align": "text-center",
+        "title": "Skin Perfection Natural and Organic Skin Care",
+        "title_size": "h1",
+        "description": "<p>Our highly effective anti-aging skin care products infuse plant-derived naturals, organic botanicals, innovative stem cells, retinol, powerful antioxidants, and clinically proven peptides in dermatologist strengths for amazing results. Your skin will look smoother with less visible fine lines and wrinkles plus firmer, brighter, and more youthful looking.<\/p><p>[Take years off your appearance today and love your skin again.]<\/p>",
+        "description_size": "fs-2",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "btn_size": "",
+        "pt": 10,
+        "pb": 9,
+        "mt": 11,
+        "mb": 11
+      }
+    },
+    "16634512221e1c3fd9": {
+      "type": "image-overlay",
+      "settings": {
+        "img_mobile": "shopify:\/\/shop_images\/pea-protein-high-performance-actives.jpg",
+        "img_mobile_width": "2000",
+        "img_mobile_height": "400",
+        "img_mobile_crop": "center",
+        "img_desktop": "shopify:\/\/shop_images\/pea-protein-high-performance-actives.jpg",
+        "img_desktop_width": "2200",
+        "img_desktop_height": "260",
+        "img_desktop_crop": "center",
+        "container_max_width": "",
+        "container_align": "mx-auto",
+        "title": "YOUR SKIN DESERVES HIGH PERFORMANCE ACTIVES",
+        "title_size": "h1",
+        "description": "",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "f30764ba-66b4-47e8-8a3b-5a227096522b": {
+      "type": "hexagon",
+      "blocks": {
+        "37426342-02e4-4d48-aa43-81254977da4e": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/for-anti-aging.jpg",
+            "title": "Anti Aging",
+            "description": "<p>Face Serums & Moisturizers<\/p>",
+            "url": "shopify:\/\/collections\/anti-aging-moisturizers-creams"
+          }
+        },
+        "2777779c-baf4-415c-a42a-f16bb8f8aeeb": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/for-body-care.jpg",
+            "title": "Body Care",
+            "description": "<p>Shop our luxurious spa-inspired  bath & body care with pure botanical ingredients.<\/p>",
+            "url": "shopify:\/\/collections\/body-care"
+          }
+        },
+        "0a61621c-0fae-4946-826f-769c0ef04459": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/for-ewg-verified.jpg",
+            "title": "EWG Verified™",
+            "description": "<p>Carefully crafted products. <\/p><p>Go beyond the Skin Deep <\/p><p>green score. <\/p>",
+            "url": "shopify:\/\/collections\/facial-care"
+          }
+        },
+        "3cb016da-a679-4cfa-8e66-d292c9f7a671": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/for-power-peptides.jpg",
+            "title": "Powerful Peptides",
+            "description": "<p>POTENT. SAFE. Clinical Science.<\/p>",
+            "url": "shopify:\/\/collections\/anti-aging-peptides"
+          }
+        },
+        "e2562ac3-f123-4da2-9786-10dc30e1e528": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/for-natural-goodness.jpg",
+            "title": "Natural Goodness",
+            "description": "<p>Organic Botanicals + Clean Beauty + EWG VERIFIED<\/p>",
+            "url": ""
+          }
+        },
+        "f19e155d-6d5f-4773-a8c5-fceb4cf4ccc4": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/for-serum-boosters.jpg",
+            "title": "Serum Boosters",
+            "description": "<p>Customize your skincare with anti-aging peptides.<\/p>",
+            "url": "shopify:\/\/collections\/serum-boosters"
+          }
+        },
+        "0e031f86-2338-43cc-affa-a025f9c3ada0": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/for-diy-solutions.jpg",
+            "title": "DIY Solutions",
+            "description": "<p>Create your own natural products with our lotion making supplies.<\/p>",
+            "url": "shopify:\/\/collections\/diy"
+          }
+        },
+        "76bb0606-b0dc-417c-bb08-3ff787a0185d": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/for-facial-care.jpg",
+            "title": "Facial Care",
+            "description": "<p>Shop our anti-aging facial products packed with clinically proven peptides that deliver amazing results.<\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "37426342-02e4-4d48-aa43-81254977da4e",
+        "2777779c-baf4-415c-a42a-f16bb8f8aeeb",
+        "0a61621c-0fae-4946-826f-769c0ef04459",
+        "3cb016da-a679-4cfa-8e66-d292c9f7a671",
+        "e2562ac3-f123-4da2-9786-10dc30e1e528",
+        "f19e155d-6d5f-4773-a8c5-fceb4cf4ccc4",
+        "0e031f86-2338-43cc-affa-a025f9c3ada0",
+        "76bb0606-b0dc-417c-bb08-3ff787a0185d"
+      ],
+      "settings": {
+        "title": "",
+        "title_size": "h6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "30c28f01-cdae-4e17-a37a-14dbf9aa05b9": {
+      "type": "image-columns",
+      "disabled": true,
+      "blocks": {
+        "9171141b-b2bd-4194-b952-31e920f1cef0": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/hexx.png",
+            "img_hover": "shopify:\/\/shop_images\/aniti.png",
+            "img_width": "600",
+            "img_height": "600",
+            "img_crop": "center",
+            "title": "",
+            "title_size": "h4",
+            "description": "",
+            "description_size": "fs-6",
+            "url": "shopify:\/\/collections\/wholesale-and-private-label-facts"
+          }
+        },
+        "d28f44bc-c420-4cb6-b7a8-b6019121df9a": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/hexx.png",
+            "img_hover": "shopify:\/\/shop_images\/aniti.png",
+            "img_width": "600",
+            "img_height": "300",
+            "img_crop": "center",
+            "title": "",
+            "title_size": "h4",
+            "description": "",
+            "description_size": "fs-6",
+            "url": ""
+          }
+        },
+        "91456d2b-cf96-4e4c-9ed1-0d8b336b1688": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/hexx.png",
+            "img_hover": "shopify:\/\/shop_images\/aniti.png",
+            "img_width": "600",
+            "img_height": "300",
+            "img_crop": "center",
+            "title": "",
+            "title_size": "h4",
+            "description": "",
+            "description_size": "fs-6",
+            "url": ""
+          }
+        },
+        "d5501fde-180e-4628-a60f-68700389ae5b": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/hexx.png",
+            "img_hover": "shopify:\/\/shop_images\/aniti.png",
+            "img_width": "600",
+            "img_height": "300",
+            "img_crop": "center",
+            "title": "",
+            "title_size": "h4",
+            "description": "",
+            "description_size": "fs-6",
+            "url": ""
+          }
+        },
+        "c5702f99-2e7e-49ac-be89-f34b12c018dc": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/hexx.png",
+            "img_hover": "shopify:\/\/shop_images\/aniti.png",
+            "img_width": "600",
+            "img_height": "300",
+            "img_crop": "center",
+            "title": "",
+            "title_size": "h4",
+            "description": "",
+            "description_size": "fs-6",
+            "url": ""
+          }
+        },
+        "1d79450b-d94b-49d6-9c9e-494d800bba87": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/hexx.png",
+            "img_hover": "shopify:\/\/shop_images\/aniti.png",
+            "img_width": "600",
+            "img_height": "300",
+            "img_crop": "center",
+            "title": "",
+            "title_size": "h4",
+            "description": "",
+            "description_size": "fs-6",
+            "url": ""
+          }
+        },
+        "a410aa63-1522-4cca-aee3-4e09a455478a": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/hexx.png",
+            "img_hover": "shopify:\/\/shop_images\/aniti.png",
+            "img_width": "600",
+            "img_height": "300",
+            "img_crop": "center",
+            "title": "",
+            "title_size": "h4",
+            "description": "",
+            "description_size": "fs-6",
+            "url": ""
+          }
+        },
+        "d95f9a1a-3165-4afc-b26e-75a437248027": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/hexx.png",
+            "img_hover": "shopify:\/\/shop_images\/aniti.png",
+            "img_width": "600",
+            "img_height": "300",
+            "img_crop": "center",
+            "title": "",
+            "title_size": "h4",
+            "description": "",
+            "description_size": "fs-6",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "9171141b-b2bd-4194-b952-31e920f1cef0",
+        "d28f44bc-c420-4cb6-b7a8-b6019121df9a",
+        "91456d2b-cf96-4e4c-9ed1-0d8b336b1688",
+        "d5501fde-180e-4628-a60f-68700389ae5b",
+        "c5702f99-2e7e-49ac-be89-f34b12c018dc",
+        "1d79450b-d94b-49d6-9c9e-494d800bba87",
+        "a410aa63-1522-4cca-aee3-4e09a455478a",
+        "d95f9a1a-3165-4afc-b26e-75a437248027"
+      ],
+      "settings": {
+        "bg_color": "bg-white text-dark",
+        "row_xs": 2,
+        "row_sm": 2,
+        "row_lg": 4,
+        "pt": 10,
+        "pb": 10,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "166326645880e2e02c": {
+      "type": "image-with-text",
+      "settings": {
+        "bg_color": "bg-white text-dark",
+        "image": "shopify:\/\/shop_images\/anti-aging-serum-booster-collection.jpg",
+        "img_width": "1200",
+        "img_height": "1200",
+        "img_crop": "center",
+        "img_border": "",
+        "img_align": "flex-row-reverse",
+        "title": "INGREDIENTS MATTER",
+        "title_size": "h1",
+        "description": "<p>The right ingredients make all the difference. Nourishing botanicals, <br\/>skin firming, and youth-boosting peptides are the stars of our powerhouse serums.<br\/><br\/>Energize your skin with potent, anti aging ingredients that <br\/>reduce the signs of aging with effective, visible results.<\/p>",
+        "description_size": "fs-2",
+        "btn_text": "GET PREMIUM PEPTIDES",
+        "btn_url": "shopify:\/\/collections",
+        "btn_color": "btn-primary",
+        "btn_size": "btn-lg",
+        "pt": 11,
+        "pb": 11,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "166326675361c2679d": {
+      "type": "image-with-text",
+      "settings": {
+        "bg_color": "bg-white text-dark",
+        "image": "shopify:\/\/shop_images\/supercharged-anti-aging-skincare.jpg",
+        "img_width": "1200",
+        "img_height": "1200",
+        "img_crop": "center",
+        "img_border": "",
+        "img_align": "flex-row",
+        "title": "SUPERCHARGE YOUR SKINCARE",
+        "title_size": "h1",
+        "description": "<p>Create a custom-tailored ultra-effective that targets your skin's unique needs in less than 5 minutes with our easy-to-follow guides and video tutorials. Don't have the time? Try our ready-made formulas!<br\/><br\/><strong>BONUS<\/strong>: Have a favorite product you want to dupe? Learn how to reverse engineer popular formulas. Level up your beauty routine today<\/p>",
+        "description_size": "fs-3",
+        "btn_text": "LEARN MORE!",
+        "btn_url": "",
+        "btn_color": "btn-primary",
+        "btn_size": "btn-lg",
+        "pt": 12,
+        "pb": 13,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "165168956137e2ed29": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "bg_color": "bg-light text-dark",
+        "title": "Newsletter Subscribe",
+        "title_size": "h2",
+        "description": "<p>Subscribe to get updates about our latest offers and other important stuff.<\/p>",
+        "description_size": "fs-6",
+        "input_group_size": "",
+        "btn_color": "btn-outline-secondary",
+        "support_title": "Support Info",
+        "support_title_size": "h3",
+        "support_description": "<p>Subscribe to get updates about our latest offers and other important stuff.<\/p>",
+        "support_description_size": "fs-6",
+        "pt": 11,
+        "pb": 11,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "16635788096df0a75b": {
+      "type": "image-overlay",
+      "settings": {
+        "img_mobile": "shopify:\/\/shop_images\/effective-age-defying-skincare-products.jpg",
+        "img_mobile_width": "1400",
+        "img_mobile_height": "400",
+        "img_mobile_crop": "center",
+        "img_desktop": "shopify:\/\/shop_images\/effective-age-defying-skincare-products2.jpg",
+        "img_desktop_width": "2000",
+        "img_desktop_height": "400",
+        "img_desktop_crop": "center",
+        "container_max_width": "600",
+        "container_align": "me-auto",
+        "title": "The Secret Is Out",
+        "title_size": "h1",
+        "description": "<p>High-performance actives are the deep-rooted secret of effective age-defying skincare products.<br\/><br\/>Whether you are a DIY enthusiast, small business entrepreneur, esthetician, or aesthetician, you and your clients will benefit from affordable personalized<br\/>custom formulations.<br\/><\/p>",
+        "description_size": "fs-4",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "pt": 6,
+        "pb": 6,
+        "mt": 0,
+        "mb": 9
+      }
+    },
+    "166357974357fbeeea": {
+      "type": "image-compare",
+      "blocks": {
+        "9c1b3805-3901-4325-a19f-082b7cb7bf6b": {
+          "type": "icon",
+          "settings": {
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"90\" height=\"90\" viewbox=\"0 0 209 202\" version=\"1.1\">\n<g id=\"#ffffffff\">\n<path fill=\"#ffffff\" opacity=\"1.00\" d=\" M 85.50 35.52 C 98.98 35.51 112.46 35.49 125.95 35.53 C 125.95 36.43 125.95 38.25 125.95 39.16 C 112.46 38.99 98.97 39.04 85.48 39.13 C 85.48 38.23 85.50 36.43 85.50 35.52 Z\"><\/path>\n<path fill=\"#ffffff\" opacity=\"1.00\" d=\" M 91.23 44.76 C 100.87 44.75 110.51 44.75 120.16 44.76 C 120.16 69.70 120.16 94.63 120.16 119.57 C 111.97 119.59 103.79 119.56 95.60 119.58 C 95.59 132.72 95.59 145.85 95.59 158.98 C 95.49 165.05 98.78 170.95 103.94 174.11 C 97.30 172.59 91.43 167.09 91.27 159.98 C 91.16 121.58 91.25 83.17 91.23 44.76 Z\"><\/path>\n<\/g>\n<g id=\"#080a0aff\">\n<path fill=\"#080a0a\" opacity=\"1.00\" d=\" M 86.07 44.67 C 78.16 44.56 78.04 30.23 85.97 30.26 C 99.29 30.25 112.61 30.20 125.93 30.28 C 133.40 30.94 132.96 44.54 125.31 44.72 C 125.35 82.81 125.33 120.90 125.33 158.99 C 125.64 169.08 117.21 178.59 107.04 179.03 C 98.43 179.77 89.91 173.99 87.22 165.82 C 85.78 162.05 86.08 157.96 86.08 154.01 C 86.08 117.56 86.09 81.12 86.07 44.67 M 85.50 35.52 C 85.50 36.43 85.48 38.23 85.48 39.13 C 98.97 39.04 112.46 38.99 125.95 39.16 C 125.95 38.25 125.95 36.43 125.95 35.53 C 112.46 35.49 98.98 35.51 85.50 35.52 M 91.23 44.76 C 91.25 83.17 91.16 121.58 91.27 159.98 C 91.43 167.09 97.30 172.59 103.94 174.11 C 98.78 170.95 95.49 165.05 95.59 158.98 C 95.59 145.85 95.59 132.72 95.60 119.58 C 103.79 119.56 111.97 119.59 120.16 119.57 C 120.16 94.63 120.16 69.70 120.16 44.76 C 110.51 44.75 100.87 44.75 91.23 44.76 Z\"><\/path>\n<\/g>\n<\/svg>",
+            "text": "Clinically-Proven Ingredients*"
+          }
+        },
+        "5c3e0e3c-e826-44cd-a727-b61c41afa143": {
+          "type": "icon",
+          "settings": {
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"90\" height=\"90\" viewbox=\"0 0 209 202\" version=\"1.1\">\n<g id=\"#ffffffff\">\n<\/g>\n<g id=\"#353535ff\">\n<path fill=\"#353535\" opacity=\"1.00\" d=\" M 174.08 45.49 C 168.94 63.52 174.59 82.81 168.75 100.71 C 163.64 115.83 152.88 128.84 139.45 137.36 C 144.39 123.81 142.84 108.78 148.49 95.44 C 152.09 86.59 158.11 79.08 164.16 71.79 C 156.85 79.06 149.84 86.92 145.49 96.39 C 139.23 109.53 139.91 124.88 132.92 137.75 C 131.12 124.46 125.40 111.49 127.37 97.87 C 128.63 88.27 135.18 80.40 142.42 74.43 C 153.31 65.22 167.02 58.47 174.08 45.49 Z\"><\/path>\n<\/g>\n<g id=\"#080a0aff\">\n<path fill=\"#080a0a\" opacity=\"1.00\" d=\" M 38.72 57.01 C 53.27 68.68 71.27 74.64 88.91 79.90 C 98.12 82.64 107.92 85.21 115.23 91.82 C 121.48 97.35 124.03 105.94 124.14 114.07 C 124.11 121.88 124.98 129.69 126.91 137.26 C 118.94 126.26 108.74 117.13 97.96 108.96 C 83.51 98.15 67.85 89.06 51.77 80.91 C 70.26 92.35 88.23 104.94 103.69 120.32 C 111.31 128.25 118.65 136.76 123.28 146.84 C 113.46 146.25 103.62 145.73 93.84 144.58 C 86.79 143.82 80.06 141.31 73.72 138.22 C 63.14 132.85 53.28 125.30 47.13 114.98 C 36.95 97.51 37.44 76.52 38.72 57.01 Z\"><\/path>\n<\/g>\n<\/svg>",
+            "text": "Clean Beauty"
+          }
+        },
+        "ca308bb8-8503-4b02-9252-5fc73b8850ad": {
+          "type": "icon",
+          "settings": {
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"90\" height=\"90\" viewbox=\"0 0 209 202\" version=\"1.1\">\n<g id=\"#ffffffff\">\n<path fill=\"#ffffff\" opacity=\"1.00\" d=\" M 76.01 60.55 C 93.00 60.55 110.00 60.55 126.99 60.55 C 127.00 67.55 127.84 75.38 123.22 81.27 C 118.62 86.93 112.94 91.61 108.18 97.13 C 103.63 102.66 103.63 111.35 108.19 116.89 C 112.94 122.40 118.63 127.08 123.22 132.73 C 127.84 138.63 127.00 146.45 126.99 153.45 C 110.00 153.45 93.00 153.45 76.01 153.45 C 76.00 146.46 75.16 138.65 79.76 132.75 C 84.09 127.46 89.30 122.97 93.92 117.94 C 99.26 112.47 99.70 103.06 94.84 97.16 C 90.08 91.61 84.37 86.93 79.76 81.25 C 75.16 75.36 76.00 67.55 76.01 60.55 M 81.32 76.20 C 86.84 85.42 97.59 90.67 101.51 100.97 C 105.40 90.66 116.16 85.42 121.68 76.20 C 108.23 76.10 94.77 76.11 81.32 76.20 M 100.19 121.13 C 97.71 121.91 96.85 125.45 98.71 127.27 C 100.49 129.47 104.36 128.57 105.10 125.88 C 106.23 123.05 103.00 119.89 100.19 121.13 M 85.58 146.50 C 83.44 147.22 81.15 147.69 79.36 149.14 C 94.10 149.55 108.90 149.55 123.64 149.14 C 121.84 147.68 119.54 147.22 117.40 146.49 C 111.61 144.68 106.07 141.88 101.49 137.85 C 96.91 141.88 91.37 144.68 85.58 146.50 Z\"><\/path>\n<\/g>\n<g id=\"#201d1dff\">\n<path fill=\"#201d1d\" opacity=\"1.00\" d=\" M 66.34 50.13 C 89.78 50.08 113.22 50.08 136.66 50.14 C 136.55 51.72 136.58 53.33 136.18 54.87 C 135.52 56.97 133.32 57.73 131.54 58.61 C 131.46 66.50 132.61 75.11 128.14 82.14 C 123.59 89.11 116.61 94.02 111.41 100.46 C 108.62 104.23 108.63 109.81 111.43 113.57 C 116.64 119.98 123.59 124.90 128.13 131.85 C 132.60 138.88 131.46 147.48 131.55 155.38 C 135.54 156.29 137.07 160.13 136.66 163.87 C 113.22 163.92 89.78 163.92 66.34 163.87 C 66.54 162.02 66.26 159.99 67.21 158.31 C 68.10 156.72 69.95 156.19 71.46 155.39 C 71.55 147.52 70.39 138.94 74.83 131.92 C 79.36 124.93 86.35 119.99 91.58 113.57 C 94.23 109.97 94.37 104.75 91.96 101.00 C 86.68 94.05 79.04 89.04 74.49 81.50 C 70.41 74.56 71.58 66.29 71.46 58.62 C 67.46 57.72 65.92 53.88 66.34 50.13 M 76.01 60.55 C 76.00 67.55 75.16 75.36 79.76 81.25 C 84.37 86.93 90.08 91.61 94.84 97.16 C 99.70 103.06 99.26 112.47 93.92 117.94 C 89.30 122.97 84.09 127.46 79.76 132.75 C 75.16 138.65 76.00 146.46 76.01 153.45 C 93.00 153.45 110.00 153.45 126.99 153.45 C 127.00 146.45 127.84 138.63 123.22 132.73 C 118.63 127.08 112.94 122.40 108.19 116.89 C 103.63 111.35 103.63 102.66 108.18 97.13 C 112.94 91.61 118.62 86.93 123.22 81.27 C 127.84 75.38 127.00 67.55 126.99 60.55 C 110.00 60.55 93.00 60.55 76.01 60.55 Z\"><\/path>\n<path fill=\"#201d1d\" opacity=\"1.00\" d=\" M 81.32 76.20 C 94.77 76.11 108.23 76.10 121.68 76.20 C 116.16 85.42 105.40 90.66 101.51 100.97 C 97.59 90.67 86.84 85.42 81.32 76.20 Z\"><\/path>\n<path fill=\"#201d1d\" opacity=\"1.00\" d=\" M 100.19 121.13 C 103.00 119.89 106.23 123.05 105.10 125.88 C 104.36 128.57 100.49 129.47 98.71 127.27 C 96.85 125.45 97.71 121.91 100.19 121.13 Z\"><\/path>\n<path fill=\"#201d1d\" opacity=\"1.00\" d=\" M 85.58 146.50 C 91.37 144.68 96.91 141.88 101.49 137.85 C 106.07 141.88 111.61 144.68 117.40 146.49 C 119.54 147.22 121.84 147.68 123.64 149.14 C 108.90 149.55 94.10 149.55 79.36 149.14 C 81.15 147.69 83.44 147.22 85.58 146.50 Z\"><\/path>\n<\/g>\n<\/svg>",
+            "text": "Age-Defying Peptides"
+          }
+        },
+        "391b579b-9487-4877-aca9-2c7cbd415e1d": {
+          "type": "icon",
+          "settings": {
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"90\" height=\"90\" viewbox=\"0 0 209 202\" version=\"1.1\">\n<g id=\"#ffffffff\">\n<path fill=\"#ffffff\" opacity=\"1.00\" d=\" M 92.15 32.77 C 101.20 32.78 110.26 32.78 119.32 32.77 C 119.31 37.32 119.31 41.86 119.32 46.41 C 115.66 46.48 111.99 46.20 108.34 46.53 C 105.01 47.17 104.84 52.40 108.19 53.18 C 111.88 53.55 115.61 53.26 119.32 53.34 C 119.31 57.90 119.31 62.46 119.31 67.02 C 115.56 67.11 111.80 66.82 108.06 67.17 C 104.93 68.01 105.02 72.98 108.16 73.74 C 111.85 74.09 115.58 73.80 119.29 73.87 C 118.49 81.18 121.74 88.98 128.41 92.48 C 138.41 97.39 147.20 104.99 152.72 114.75 C 148.18 109.82 141.32 106.51 134.60 108.76 C 129.97 109.56 127.65 114.80 122.84 114.94 C 120.20 115.19 117.56 114.18 115.74 112.26 C 111.50 108.03 104.70 107.07 99.22 109.23 C 95.16 110.57 92.80 115.38 88.08 114.97 C 83.29 115.38 80.89 110.30 76.52 109.44 C 70.29 107.41 63.47 109.59 59.01 114.22 C 64.46 105.09 72.65 97.71 82.15 92.99 C 88.13 90.11 92.28 83.74 92.14 77.05 C 92.16 62.29 92.13 47.53 92.15 32.77 Z\"><\/path>\n<path fill=\"#ffffff\" opacity=\"1.00\" d=\" M 98.69 117.76 C 101.96 114.21 108.18 114.06 111.45 117.68 C 117.07 123.25 127.07 123.26 132.73 117.75 C 135.95 114.25 142.09 114.03 145.37 117.56 C 148.23 120.47 152.27 121.74 156.27 121.91 C 163.25 139.37 160.69 160.30 149.26 175.30 C 146.48 179.01 143.19 183.40 138.07 183.44 C 116.68 183.53 95.29 183.49 73.91 183.46 C 67.90 183.62 64.31 178.13 61.17 173.85 C 50.59 159.00 48.54 138.92 55.12 122.01 C 58.73 121.68 62.40 120.70 65.11 118.16 C 67.82 115.46 72.17 114.94 75.62 116.44 C 77.44 117.54 78.91 119.16 80.81 120.16 C 86.50 123.09 94.04 122.26 98.69 117.76 M 118.48 136.48 C 111.47 139.38 110.47 150.08 116.83 154.22 C 122.78 158.92 132.56 154.42 132.92 146.87 C 134.07 139.35 125.27 132.90 118.48 136.48 M 85.48 149.77 C 78.23 151.88 76.05 162.34 81.85 167.17 C 87.19 172.54 97.36 169.25 98.70 161.85 C 100.76 154.44 92.68 146.94 85.48 149.77 Z\"><\/path>\n<path fill=\"#ffffff\" opacity=\"1.00\" d=\" M 120.52 143.34 C 123.49 140.28 128.30 145.37 125.18 148.20 C 122.20 151.66 116.96 146.11 120.52 143.34 Z\"><\/path>\n<path fill=\"#ffffff\" opacity=\"1.00\" d=\" M 87.46 156.42 C 90.03 155.09 93.25 158.39 91.79 160.91 C 91.09 162.52 88.99 163.54 87.38 162.63 C 84.68 161.68 84.74 157.29 87.46 156.42 Z\"><\/path>\n<\/g>\n<g id=\"#000000ff\">\n<path fill=\"#000000\" opacity=\"1.00\" d=\" M 78.85 30.86 C 77.57 28.73 79.48 25.76 81.91 25.91 C 97.65 25.82 113.40 25.86 129.14 25.90 C 131.97 25.47 134.02 28.84 132.47 31.19 C 131.09 33.34 128.32 32.64 126.18 32.83 C 126.19 47.56 126.17 62.28 126.19 77.01 C 126.03 81.38 128.95 85.34 132.87 87.05 C 147.95 94.61 159.93 108.48 164.46 124.81 C 170.34 144.21 165.90 166.36 152.84 181.90 C 149.39 186.59 144.15 190.30 138.14 190.39 C 116.79 190.48 95.43 190.42 74.07 190.42 C 68.72 190.48 63.60 187.84 60.21 183.76 C 47.97 170.16 42.20 150.95 45.23 132.87 C 47.88 113.45 60.79 96.01 78.25 87.24 C 82.28 85.52 85.49 81.56 85.27 77.02 C 85.29 62.29 85.26 47.56 85.28 32.83 C 83.09 32.68 80.00 33.34 78.85 30.86 M 92.15 32.77 C 92.13 47.53 92.16 62.29 92.14 77.05 C 92.28 83.74 88.13 90.11 82.15 92.99 C 72.65 97.71 64.46 105.09 59.01 114.22 C 63.47 109.59 70.29 107.41 76.52 109.44 C 80.89 110.30 83.29 115.38 88.08 114.97 C 92.80 115.38 95.16 110.57 99.22 109.23 C 104.70 107.07 111.50 108.03 115.74 112.26 C 117.56 114.18 120.20 115.19 122.84 114.94 C 127.65 114.80 129.97 109.56 134.60 108.76 C 141.32 106.51 148.18 109.82 152.72 114.75 C 147.20 104.99 138.41 97.39 128.41 92.48 C 121.74 88.98 118.49 81.18 119.29 73.87 C 115.58 73.80 111.85 74.09 108.16 73.74 C 105.02 72.98 104.93 68.01 108.06 67.17 C 111.80 66.82 115.56 67.11 119.31 67.02 C 119.31 62.46 119.31 57.90 119.32 53.34 C 115.61 53.26 111.88 53.55 108.19 53.18 C 104.84 52.40 105.01 47.17 108.34 46.53 C 111.99 46.20 115.66 46.48 119.32 46.41 C 119.31 41.86 119.31 37.32 119.32 32.77 C 110.26 32.78 101.20 32.78 92.15 32.77 M 98.69 117.76 C 94.04 122.26 86.50 123.09 80.81 120.16 C 78.91 119.16 77.44 117.54 75.62 116.44 C 72.17 114.94 67.82 115.46 65.11 118.16 C 62.40 120.70 58.73 121.68 55.12 122.01 C 48.54 138.92 50.59 159.00 61.17 173.85 C 64.31 178.13 67.90 183.62 73.91 183.46 C 95.29 183.49 116.68 183.53 138.07 183.44 C 143.19 183.40 146.48 179.01 149.26 175.30 C 160.69 160.30 163.25 139.37 156.27 121.91 C 152.27 121.74 148.23 120.47 145.37 117.56 C 142.09 114.03 135.95 114.25 132.73 117.75 C 127.07 123.26 117.07 123.25 111.45 117.68 C 108.18 114.06 101.96 114.21 98.69 117.76 Z\"><\/path>\n<path fill=\"#000000\" opacity=\"1.00\" d=\" M 118.48 136.48 C 125.27 132.90 134.07 139.35 132.92 146.87 C 132.56 154.42 122.78 158.92 116.83 154.22 C 110.47 150.08 111.47 139.38 118.48 136.48 M 120.52 143.34 C 116.96 146.11 122.20 151.66 125.18 148.20 C 128.30 145.37 123.49 140.28 120.52 143.34 Z\"><\/path>\n<path fill=\"#000000\" opacity=\"1.00\" d=\" M 85.48 149.77 C 92.68 146.94 100.76 154.44 98.70 161.85 C 97.36 169.25 87.19 172.54 81.85 167.17 C 76.05 162.34 78.23 151.88 85.48 149.77 M 87.46 156.42 C 84.74 157.29 84.68 161.68 87.38 162.63 C 88.99 163.54 91.09 162.52 91.79 160.91 C 93.25 158.39 90.03 155.09 87.46 156.42 Z\"><\/path>\n<\/g>\n<\/svg>",
+            "text": "DIY Custom Formulas"
+          }
+        }
+      },
+      "block_order": [
+        "9c1b3805-3901-4325-a19f-082b7cb7bf6b",
+        "5c3e0e3c-e826-44cd-a727-b61c41afa143",
+        "ca308bb8-8503-4b02-9252-5fc73b8850ad",
+        "391b579b-9487-4877-aca9-2c7cbd415e1d"
+      ],
+      "settings": {
+        "bg_color": "bg-white text-body",
+        "image": "shopify:\/\/shop_images\/anti-aging-woman-before-and-after_before.jpg",
+        "image_after": "shopify:\/\/shop_images\/anti-aging-treatments-before-and-after_after.jpg",
+        "img_width": "800",
+        "img_height": "800",
+        "img_crop": "center",
+        "img_align": "flex-row-reverse",
+        "title": "Take Control of your Skincare",
+        "title_size": "h1",
+        "description": "<p>Transform your skin with and supercharge your serums with the most advanced, premium anti-aging peptides tailored to your skin's needs.<\/p><p>[Your going to love what peptides can do for your skin!]<\/p>",
+        "description_size": "fs-3",
+        "btn_text": "SHOP NOW",
+        "btn_url": "shopify:\/\/collections\/all",
+        "btn_color": "btn-primary",
+        "btn_size": "btn-lg",
+        "pt": 11,
+        "pb": 11,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "16635870888ada529c": {
+      "type": "featured-brands",
+      "blocks": {
+        "11047e8f-5e1b-4bea-b0dc-706c80711397": {
+          "type": "item",
+          "settings": {
+            "svg_handle": "crosa.svg",
+            "title": "Croda"
+          }
+        },
+        "bbf26c98-d42c-42fc-a5a5-86c995726d6f": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/44.jpg",
+            "svg_handle": "sederma.svg",
+            "title": "Sedema"
+          }
+        },
+        "87f391ae-37a0-4fe1-a897-ec43545fdeba": {
+          "type": "item",
+          "settings": {
+            "svg_handle": "penta.svg",
+            "title": "Pentapharm"
+          }
+        },
+        "1fe55832-51b2-4522-a700-202934c87e20": {
+          "type": "item",
+          "settings": {
+            "svg_handle": "lipo.svg",
+            "title": "Lipotec, A Lubrizol Company"
+          }
+        },
+        "35abf685-4184-42e3-a594-82180ecc1688": {
+          "type": "item",
+          "settings": {
+            "svg_handle": "biochem.svg",
+            "title": "Mibelle Biochem Group"
+          }
+        },
+        "e4a926f5-dc1c-4ac2-ad20-caf30ff20009": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/54_5db4bf79-f3a0-4438-8437-f9506de8b272.jpg",
+            "svg_handle": "dsm.svg",
+            "title": "Dsm"
+          }
+        },
+        "11e7ed01-6820-408d-97c3-d916a2e4466d": {
+          "type": "item",
+          "settings": {
+            "svg_handle": "lucas.svg",
+            "title": "Lucas Meyer"
+          }
+        }
+      },
+      "block_order": [
+        "11047e8f-5e1b-4bea-b0dc-706c80711397",
+        "bbf26c98-d42c-42fc-a5a5-86c995726d6f",
+        "87f391ae-37a0-4fe1-a897-ec43545fdeba",
+        "1fe55832-51b2-4522-a700-202934c87e20",
+        "35abf685-4184-42e3-a594-82180ecc1688",
+        "e4a926f5-dc1c-4ac2-ad20-caf30ff20009",
+        "11e7ed01-6820-408d-97c3-d916a2e4466d"
+      ],
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/marble.jpg",
+        "title": "THE MOST TRUSTED BRANDS",
+        "title_size": "h1",
+        "description": "",
+        "description_size": "fs-6",
+        "animation_duration": 12,
+        "img_height": "160",
+        "gap_mobile": 4,
+        "gap_desktop": 7,
+        "pt": 11,
+        "pb": 6,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "1663588075c3abae2a": {
+      "type": "featured-products",
+      "settings": {
+        "recommended_mode": false,
+        "collection": "2-diy-body-sugaring-recipes-natural-hair-removal",
+        "limit": 3,
+        "bg_color": "bg-white",
+        "text_align": "text-center",
+        "title": "SHOP OUR BEST SELLERS",
+        "title_size": "h1",
+        "btn_text": "",
+        "btn_color": "btn-primary",
+        "row_sm": 2,
+        "row_lg": 3,
+        "pt": 10,
+        "pb": 10,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "166376037196899a01": {
+      "type": "featured-reviews",
+      "blocks": {
+        "eb5e8125-e8e1-45fb-87a8-b6baf0d0de47": {
+          "type": "item",
+          "settings": {
+            "img_width": "600",
+            "img_height": "600",
+            "title": "Customer Review",
+            "title_size": "h2",
+            "description": "<p>I love Skin Perfection products, and also the staff are very sweet. <br\/><br\/>I have to say I was blown away by the newest product I ordered which is the Expression Line Deep Wrinkle Serum. I thought I can't be seeing what I'm seeing. I've spent hundreds of dollars, probably thousands of anti-aging products and even on some from Skin Perfection that did nothing but this Expression Line Deep Wrinkle Serum literally reduced my smile lines and Nasolabial folds in one day!!! It was like magic, really crazy!!! - Callie<\/p>",
+            "description_size": "fs-6",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
+        },
+        "4369e786-4405-4020-8a63-b7cc1d2fc8b4": {
+          "type": "item",
+          "settings": {
+            "img_width": "600",
+            "img_height": "600",
+            "title": "Customer Review",
+            "title_size": "h2",
+            "description": "<p>Hi, my name is Anne and I am so grateful I found your website! I have been making my own skin oils and scrubs for many years... As a DIY girl and self-proclaimed info-junkie, I fell in love with all the information on your site! Thank you for all your hard work to make these amazing tools available to the world! I decided that I did not want to start the DIY endeavor with peptides. - Anne<br\/><\/p>",
+            "description_size": "fs-6",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
+        },
+        "a5519140-8e78-4714-8b3e-f451ec53c43c": {
+          "type": "item",
+          "settings": {
+            "img_width": "600",
+            "img_height": "600",
+            "title": "Customer Review",
+            "title_size": "h2",
+            "description": "<p>I use a few of the products sold by Skin Perfection. And I love them all. I first ordered samples (so nice to try out the products) and my skin changed in the first week. It was hydrated, plump and bright. I have tried many natural organic skin care lines and had little or no results after months of use. I was drawn to site because of the Phyto CellTec products and found other fantastic products as well. I also love the prices. I spent $100 on a 2oz hyaluronic acid serum and I can get 2 oz here for roughly $50 depending if it had anti-aging ingredients in it. My personal favorite is the hydrator with Phyto CellTec added. Finally products that work and don't cost a fortune. My skincare search has come to an end.<br\/><\/p>",
+            "description_size": "fs-6",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
+        },
+        "de8e30ba-8440-4063-920d-90f31eadc259": {
+          "type": "item",
+          "settings": {
+            "img_width": "600",
+            "img_height": "600",
+            "title": "Customer Review",
+            "title_size": "h2",
+            "description": "<p>I just started using the peptides Matrixyl 3000, Snap 8, Argireline, Syn-Ake, and HA product in conjunction with the Liquid Face Lift and am already seeing a difference. My husband is also already seeing the change in smoothness, tone, and clarity of my skin. I turned to this product as an alternative to Hydroxatone and am extremely please thus far. You have a customer for life. Thank you! -Linda P.<br\/><\/p>",
+            "description_size": "fs-6",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
+        },
+        "8f2e958c-32f4-483b-8ebd-973969f5a747": {
+          "type": "item",
+          "settings": {
+            "img_width": "600",
+            "img_height": "600",
+            "title": "Customer Review",
+            "title_size": "h2",
+            "description": "<p>It's so nice to find an organic skin care line that actually works. I have been using Skin Perfection for a few months now and my skin feels very moisturized with a bit of a glow! I start with Clarifying Cleanser which does not leave my face feeling dry (like a lot of cleanser do) and I literally see a glow afterwards. I then use the Moisturizing Toner which leaves my skin feeling so fresh. I apply Syn-ful Serum after that and my skin seems to absorb it nicely. I follow up with Ageless Moisturizer where my skin looks & feel smooth, moisturized and fresh!! Thanks Skin Perfection!! - Diane<br\/><\/p>",
+            "description_size": "fs-6",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "eb5e8125-e8e1-45fb-87a8-b6baf0d0de47",
+        "4369e786-4405-4020-8a63-b7cc1d2fc8b4",
+        "a5519140-8e78-4714-8b3e-f451ec53c43c",
+        "de8e30ba-8440-4063-920d-90f31eadc259",
+        "8f2e958c-32f4-483b-8ebd-973969f5a747"
+      ],
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/customer-reviews-and-testimonials.jpg",
+        "title": "WHAT OUR FANS ARE SAYING",
+        "title_size": "h1",
+        "btn_text": "",
+        "btn_url": "",
+        "pt": 12,
+        "pb": 12,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "16637624876d074076": {
+      "type": "instagram-gallery",
+      "blocks": {
+        "1541de61-02bd-4e13-bbee-4f2cc92e51e4": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/261219588_588569575554459_4245180462015546276_n.jpg",
+            "url": "https:\/\/www.instagram.com\/skinperfection\/"
+          }
+        },
+        "075a487b-15dd-4832-baf3-4016adb9bf77": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/BOO.png",
+            "url": ""
+          }
+        },
+        "5e07e049-c2a4-44ce-8a89-ef07076cd4e7": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/BOOOT.png",
+            "url": ""
+          }
+        },
+        "fb3dbf5c-7514-4366-b35a-841cf4e13140": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/HALLOW.png",
+            "url": ""
+          }
+        },
+        "ad61f00e-95a3-453b-9af8-c718fee2458b": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/LABOR.png",
+            "url": ""
+          }
+        },
+        "e239cf5b-6ea1-42b6-9a2a-3d5c49d6e62a": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/mobile--skin.png",
+            "url": ""
+          }
+        },
+        "b4a0b2dc-c486-4974-98be-d09d1fe7a349": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/mobile--skin.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1541de61-02bd-4e13-bbee-4f2cc92e51e4",
+        "075a487b-15dd-4832-baf3-4016adb9bf77",
+        "5e07e049-c2a4-44ce-8a89-ef07076cd4e7",
+        "fb3dbf5c-7514-4366-b35a-841cf4e13140",
+        "ad61f00e-95a3-453b-9af8-c718fee2458b",
+        "e239cf5b-6ea1-42b6-9a2a-3d5c49d6e62a",
+        "b4a0b2dc-c486-4974-98be-d09d1fe7a349"
+      ],
+      "settings": {
+        "title": "Tag us on Instagram <a href=\"https:\/\/www.instagram.com\/explore\/tags\/skinperfection\">#skinperfection<\/a>",
+        "title_size": "h1",
+        "description": "",
+        "description_size": "fs-6",
+        "animation_duration": 20,
+        "img_width": "360",
+        "img_height": "360",
+        "gap_mobile": 3,
+        "gap_desktop": 2,
+        "pt": 11,
+        "pb": 11,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "1663767822be2eeae8": {
+      "type": "columns-with-icon",
+      "blocks": {
+        "939e2a4a-9855-41f4-893d-e1f4d7deff91": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/paraben-free.jpg",
+            "img_width": "60",
+            "img_height": "60",
+            "img_crop": "center",
+            "title": "Paraben-Free",
+            "title_size": "h6",
+            "description": "",
+            "description_size": "fs-6",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_color": "btn-outline-primary",
+            "btn_size": ""
+          }
+        },
+        "a0438c36-9811-4d2e-8a47-7310fe5980f5": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/natural-and-organic-botanicals.jpg",
+            "img_width": "60",
+            "img_height": "60",
+            "img_crop": "center",
+            "title": "Natural & Organic Botanicals",
+            "title_size": "h6",
+            "description": "",
+            "description_size": "fs-6",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_color": "btn-outline-primary",
+            "btn_size": ""
+          }
+        },
+        "450ee43e-95cc-4675-9c5a-d1675fa02c95": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/phthalate-free.jpg",
+            "img_width": "60",
+            "img_height": "60",
+            "img_crop": "center",
+            "title": "Phthalate-Free",
+            "title_size": "h6",
+            "description": "",
+            "description_size": "fs-6",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_color": "btn-outline-primary",
+            "btn_size": ""
+          }
+        },
+        "81f21320-1d31-491b-b8ef-86af0ed49d58": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/sulfate-free.jpg",
+            "img_width": "60",
+            "img_height": "60",
+            "img_crop": "center",
+            "title": "Sulfate-Free",
+            "title_size": "h6",
+            "description": "",
+            "description_size": "fs-6",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_color": "btn-outline-primary",
+            "btn_size": ""
+          }
+        },
+        "3c4891df-f46e-45f9-83bd-ad17b9b3a11c": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/cruelty-free.jpg",
+            "img_width": "60",
+            "img_height": "60",
+            "img_crop": "center",
+            "title": "Cruelty-Free",
+            "title_size": "h6",
+            "description": "",
+            "description_size": "fs-6",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_color": "btn-outline-primary",
+            "btn_size": ""
+          }
+        },
+        "8730a7f8-a621-43d3-8707-1a03631fbc09": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/dimethicone.jpg",
+            "img_width": "60",
+            "img_height": "60",
+            "img_crop": "center",
+            "title": "No Dimethicone",
+            "title_size": "h6",
+            "description": "",
+            "description_size": "fs-6",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_color": "btn-outline-primary",
+            "btn_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "939e2a4a-9855-41f4-893d-e1f4d7deff91",
+        "a0438c36-9811-4d2e-8a47-7310fe5980f5",
+        "450ee43e-95cc-4675-9c5a-d1675fa02c95",
+        "81f21320-1d31-491b-b8ef-86af0ed49d58",
+        "3c4891df-f46e-45f9-83bd-ad17b9b3a11c",
+        "8730a7f8-a621-43d3-8707-1a03631fbc09"
+      ],
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/marble.jpg",
+        "title": "CLEAN BEAUTY",
+        "title_size": "h2",
+        "row_xs": 2,
+        "row_sm": 3,
+        "row_lg": 6,
+        "pt": 11,
+        "pb": 11,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "166376871050139711": {
+      "type": "newsletter",
+      "settings": {
+        "bg_color": "bg-primary text-white",
+        "title": "BECOME A VIP!",
+        "title_size": "h2",
+        "description": "<p>VIP Promotions, Discounts and lots more!<\/p>",
+        "description_size": "fs-5",
+        "input_group_size": "",
+        "btn_color": "btn-secondary",
+        "support_title": "Support Info",
+        "support_title_size": "h3",
+        "support_description": "<p>MONDAY -FRIDAY <br\/>9:00AM -5:00 MST <\/p>",
+        "support_description_size": "fs-6",
+        "pt": 11,
+        "pb": 11,
+        "mt": 0,
+        "mb": 0
+      }
+    }
+  },
+  "order": [
+    "16632664175140d0f0",
+    "16634483905ed42b69",
+    "16634512221e1c3fd9",
+    "f30764ba-66b4-47e8-8a3b-5a227096522b",
+    "30c28f01-cdae-4e17-a37a-14dbf9aa05b9",
+    "166326645880e2e02c",
+    "166326675361c2679d",
+    "165168956137e2ed29",
+    "16635788096df0a75b",
+    "166357974357fbeeea",
+    "16635870888ada529c",
+    "1663588075c3abae2a",
+    "166376037196899a01",
+    "16637624876d074076",
+    "1663767822be2eeae8",
+    "166376871050139711"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "template-collection": {
+      "type": "template-collection",
+      "settings": {
+        "show_collection_img": false,
+        "show_collection_description": false,
+        "limit": 40,
+        "text_align": "text-center",
+        "row_xs": 2,
+        "row_sm": 2,
+        "row_lg": 3,
+        "mt": 10,
+        "mb": 10
+      }
+    },
+    "1663804795eacaf71c": {
+      "type": "richtext",
+      "settings": {
+        "max_width": "",
+        "text_align": "text-center",
+        "title": "Kits",
+        "title_size": "h2",
+        "description": "<p>Are you interested in making your own natural and organic skincare? Sometimes doing so can be complicated and time-consuming. There are so many ingredients out there that all have many different benefits.<\/p><p>[How do you know what to include?]<\/p><p>We want to simplify the process for you with our do-it-yourself skincare kits. In these kits, you will find everything you need to create your very own natural skincare beauty products.<\/p><p>You have never heard of no more shopping for confusing ingredients; we create the recipes and provide the ingredients for you. All you need to provide is the bowl to mix it all in!<\/p><p>We believe in using natural and organic ingredients in skincare. Just like the products in our store, in our kits, you will find natural ingredients. We don’t add parabens or toxins into our skincare, and we don’t want you to have to do so either!<\/p><p>Our formulas are straightforward, with incredible ingredients you can find in many of our anti-aging skincare products.<\/p><p>We provide you with the base ingredient for your serum, moisturizer, or cream. Then we offer you serum boosters to help enhance your product's power with ingredients like anti-aging peptides.<\/p><p>If you don’t see a kit that includes all the ingredients you are looking for, you can always purchase another <a href=\"https:\/\/www.naturalorganicskincare.com\/serum-boosters\/\" title=\"Give new life to your cosmetics with additional peptides.\">serum booster<\/a> from our store.<br\/><br\/>Then add it and increase the benefits of your homemade skincare even further! Pour your mixture into one of our <a href=\"https:\/\/www.naturalorganicskincare.com\/airless-bottles\/\" title=\"Protect your lotions and potions with containers.\">airless bottles<\/a>, and you’ll have an incredible serum or moisturizer to last for weeks.<\/p><p>Follow the instructions of each kit and learn how to create and customize your very own skincare.<\/p><p>Don’t forget to start by watching our <a href=\"https:\/\/www.naturalorganicskincare.com\/beauty-blending-101\/\" title=\"Watch our demonstration with our video tutorials on making cosmetics.\">Beauty Blending 101<\/a> video for tips on how to get started creating skincare products from the comfort of your home.<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "btn_size": "",
+        "pt": 10,
+        "pb": 10,
+        "mt": 11,
+        "mb": 11
+      }
+    }
+  },
+  "order": [
+    "template-collection",
+    "1663804795eacaf71c"
+  ]
+}

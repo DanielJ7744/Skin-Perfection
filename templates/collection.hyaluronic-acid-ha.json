@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "template-collection": {
+      "type": "template-collection",
+      "settings": {
+        "show_collection_img": false,
+        "show_collection_description": false,
+        "limit": 40,
+        "text_align": "text-center",
+        "row_xs": 2,
+        "row_sm": 2,
+        "row_lg": 3,
+        "mt": 10,
+        "mb": 10
+      }
+    },
+    "1663804795eacaf71c": {
+      "type": "richtext",
+      "settings": {
+        "max_width": "",
+        "text_align": "text-center",
+        "title": "Hyaluronic Acid {HA}",
+        "title_size": "h2",
+        "description": "<p><strong>Hyaluronic Acid<\/strong>, Hyaluronate, or HA is one of the best ways to boost your skin's suppleness and dramatically get smooth skin. HA can hold 1,000 times its weight in water and expands. (This is what fillers do; they add volume.)<br\/><br\/>It also contains Glucosamine, polysaccharides that are found naturally in our body. Using an organic, hydrating, anti-aging serum with HA acts as a support and helps collagen fibers retain moisture. It boosts the skin's volume and improves its elasticity naturally for a smooth and supple appearance.<br\/><br\/>HA instantly plumps up the epidermis by providing the face with hydration.<br\/><br\/>As we age, our skin loses the youthful, resilient complexion we once had. As a result, our Hyaluronic Acid supply diminishes. Using a topical <a href=\"https:\/\/www.naturalorganicskincare.com\/collections\/hyaluronic-acid\" title=\"Hydrating Skin Serum\">Hyaluronic Acid hydrating skin serum<\/a> combats aging by replenishing lost moisture while smoothing out wrinkles' appearance.<\/p><p>Our <a href=\"https:\/\/www.naturalorganicskincare.com\/products\/hyaluronic-acid-serum\" title=\"Volume Plumping Hyaluronic Acid Face Serums\">Hyaluronic Acid Face Serums<\/a> contain low molecular weight (SLMW) and high molecular weight (HMW) for dual action plumping and firming. Combination SLMW and HMW hydrators are the best organic hydrating anti-aging serums available.<\/p><p>[Low Molecular Weight Hyaluronic Acid:]<\/p><p>Replenishes lost hydrationImproves skin's elasticityHydration levels last longer than HMW.<\/p><p>[High Molecular Weight Hyaluronic Acid:]<\/p><p>Provides instant volume and plumpsMoisturize surgeReplenishes supplenessSmooths fine lines and wrinkles<\/p><p>A potent concentration of Hyaluronic Acid can counteract dryness and plumps up the skin naturally by hydrating and leaving your face supple-looking. Our pure 100% Hyaluronic Acid provides highly effective hydration and is paraben-free. You will love the way your skin looks and acts younger!<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "btn_size": "",
+        "pt": 10,
+        "pb": 10,
+        "mt": 11,
+        "mb": 11
+      }
+    }
+  },
+  "order": [
+    "template-collection",
+    "1663804795eacaf71c"
+  ]
+}

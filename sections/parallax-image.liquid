@@ -1,0 +1,607 @@
+{% comment %} 
+    Parallax Image Overlay With Text
+    © 2021 EcomGraduates
+    https://wwww.ecomgraduates.com 
+{% endcomment %}
+
+{% liquid 
+    if section.settings.mp4_video != blank 
+        assign video_url = 'mp4:' | append: section.settings.mp4_video
+    elsif section.settings.video != blank 
+        if section.settings.video.type == 'youtube'
+            assign video_url = 'https://www.youtube.com/watch?v=' | append: section.settings.video.id
+        else 
+            assign video_url = 'https://vimeo.com/' | append: section.settings.video.id
+        endif
+    endif
+%}
+
+{% unless section.settings.fixed_image %}
+    {% comment %}theme-check-disable{% endcomment %}
+        <script src="https://unpkg.com/jarallax@2/dist/jarallax.min.js" defer></script>
+        {% unless video_url == blank %}
+            <script src="https://unpkg.com/jarallax@2/dist/jarallax-video.min.js" defer></script>
+        {% endunless %}
+    {% comment %}theme-check-enable{% endcomment %}
+{% endunless %}
+
+<style>
+    /* General styling */
+    .button--inverted {
+        filter: invert(1);
+    }
+
+    /* jarallax default styling */
+    .jarallax {
+        position: relative;
+        z-index: 0;
+    }
+    .jarallax > .jarallax-img {
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    /* section styling */
+    @media (max-width: {{ section.settings.breakpoint | minus: 1 }}px) {
+        .eg-parallax-image-mobile {
+            display: block;
+        }
+        .eg-parallax-image-desktop {
+            display: none;
+        }
+    }
+    @media (min-width: {{ section.settings.breakpoint }}px) {
+        .eg-parallax-image-mobile {
+            display: none
+        }
+        .eg-parallax-image-desktop {
+            display: block;
+        }
+    }
+
+    .eg-parallax-image-{{ section.id }} {
+        margin-top: {{ section.settings.mt }}rem;
+        margin-bottom: {{ section.settings.mb }}rem;
+        background-color: {{ section.settings.media_overlay_color }}
+    }
+    .eg-parallax-image-{{ section.id }} .jarallax-img,
+    .eg-parallax-image-{{ section.id }} iframe {
+        opacity: {{ section.settings.media_opacity }}
+    }
+    .eg-parallax-image-{{ section.id }} .eg-parallax-image-backdrop {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    .eg-parallax-image-{{ section.id }} .eg-parallax-image-content {
+        overflow: hidden;
+        padding-top: {{ section.settings.pt }}rem;
+        padding-bottom: {{ section.settings.pb }}rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: {{ section.settings.img_min_height }}px;
+        text-align: center;
+        {% unless section.settings.max_width == blank %}
+            max-width: {{ section.settings.max_width }}px;
+            margin-left: auto;
+            margin-right: auto;
+        {% endunless %}
+    }
+    .eg-parallax-image-{{ section.id }} .title {
+        margin-top: 0;
+        margin-bottom: 1rem;   
+        color: {{ section.settings.title_color }}
+    }
+    .eg-parallax-image-{{ section.id }} .description {
+        font-size: {{ section.settings.description_size }};
+        line-height: 1.5;
+        color: {{ section.settings.description_color }};
+    }
+    .eg-parallax-image-{{ section.id }} .btn {
+        margin-top: 3rem;
+        margin-bottom: .5rem;
+    }
+
+    {% if section.settings.fixed_image %}
+        .eg-parallax-image-{{ section.id }} img {
+            display: none;
+        }
+        #eg-parallax-image-mobile-{{ section.id }} .jarallax {
+            background-image: url({{ section.settings.img_mobile.src | image_url: width: 800, crop: section.settings.img_crop }});
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+        }
+        #eg-parallax-image-desktop-{{ section.id }} .jarallax {
+            background-image: url({{ section.settings.img.src | image_url: width: 1600, crop: section.settings.img_crop }});
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+        }
+    {% endif %}
+</style>
+
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        
+        // Init Jarallax mobile
+        const initJarallaxMobile = () => {
+            const el = document.querySelector('#eg-parallax-image-mobile-{{ section.id }} .jarallax')
+            jarallax(el, {
+                type: el.dataset.parallaxType,
+                speed: Number(el.dataset.parallaxSpeed),
+                disableParallax: el.dataset.parallaxDisableMobile === 'true' ? /iPad|iPhone|Android/ : false,
+                videoSrc: el.dataset.videoSrc,
+                videoStartTime: Number(el.dataset.videoStartTime || 0),
+                videoEndTime: Number(el.dataset.videoEndTime || 0),
+                videoLoop: el.dataset.videoEndTime === 'true',
+                videoPlayOnlyVisible: el.dataset.videoPlayOnlyVisible === 'true',
+                videoLazyLoading: el.dataset.videoLazyLoading === 'true',      
+            });  
+        }
+        initJarallaxMobile()
+
+        // Init Jarallax desktop
+        const initJarallaxDesktop = () => {
+            const el = document.querySelector('#eg-parallax-image-desktop-{{ section.id }} .jarallax')
+            jarallax(el, {
+                type: el.dataset.parallaxType,
+                speed: Number(el.dataset.parallaxSpeed),
+                disableParallax: el.dataset.parallaxDisableMobile === 'true' ? /iPad|iPhone|Android/ : false,
+                videoSrc: el.dataset.videoSrc,
+                videoStartTime: Number(el.dataset.videoStartTime || 0),
+                videoEndTime: Number(el.dataset.videoEndTime || 0),
+                videoLoop: el.dataset.videoEndTime === 'true',
+                videoPlayOnlyVisible: el.dataset.videoPlayOnlyVisible === 'true',
+                videoLazyLoading: el.dataset.videoLazyLoading === 'true',      
+            });  
+        }
+        initJarallaxDesktop()
+
+        // Listen for changes in Shopify Theme editor
+        document.addEventListener('shopify:section:load', (e) => {
+            if (e.target.querySelector('#eg-parallax-image-{{ section.id }} .jarallax')) {
+                initJarallaxMobile()
+                initJarallaxDesktop()
+            }
+        })
+    })
+</script>
+
+{% capture parallax_content %}
+    <div class="eg-parallax-image-content">
+        <div class="page-width container">
+            {% unless section.settings.title == blank %}
+                <h2 class="title {{ section.settings.title_size }}">
+                    {{ section.settings.title }}
+                </h2>
+            {% endunless %}
+            {% unless section.settings.description == blank %}
+                <div class="description rte">
+                    {{ section.settings.description }}
+                </div>
+            {% endunless %}
+            {% unless section.settings.btn_text == blank %}
+                <a 
+                    class="btn button {{ section.settings.btn_color }}" 
+                    href="{{ section.settings.btn_url }}">
+                    {{ section.settings.btn_text }}
+                </a>
+            {% endunless %}
+        </div>
+    </div>
+{% endcapture %}
+
+{% comment %} 
+    Mobile  
+{% endcomment %}
+<section 
+    id="eg-parallax-image-mobile-{{ section.id }}" 
+    class="eg-parallax-image-mobile eg-parallax-image-{{ section.id }}">
+    <div 
+        class="jarallax"
+        data-parallax-type="{{ section.settings.parallax_type }}"
+        data-parallax-speed="{{ section.settings.parallax_speed }}"
+        data-parallax-disable-mobile="{{ section.settings.parallax_disable_mobile }}"
+        data-video-src="{{ video_url }}"
+        data-video-start-time="{{ section.settings.video_start_time }}"
+        data-video-end-time="{{ section.settings.video_end_time }}"
+        data-video-loop="{{ section.settings.video_loop }}"
+        data-video-play-only-visible="{{ section.settings.video_play_only_visible }}"
+        data-video-lazy-loading="{{ section.settings.video_lazy_loading }}">
+        {% if video_url == blank %}
+            {% if section.settings.img == blank %}
+                {% comment %}theme-check-disable{% endcomment %}
+                <img
+                    class="jarallax-img"
+                    src="https://via.placeholder.com/800x800.png?text=Sample+Image"
+                    alt=""
+                    width="800"
+                    height="800"
+                    loading="lazy">
+                {% comment %}theme-check-enable{% endcomment %}
+            {% else %}
+                <img
+                    class="jarallax-img"
+                    src="{{ section.settings.img_mobile.src | image_url: width: 800, crop: section.settings.img_crop }}"
+                    alt="{{ section.settings.img_mobile.alt | escape }}"
+                    width="800"
+                    height="{{ 800 | divided_by: section.settings.img_mobile.aspect_ratio | round }}"
+                    loading="lazy">
+            {% endif %}
+        {% endif %}
+        {% if section.settings.media_blur > 0 %}
+            <div 
+                class="eg-parallax-image-backdrop"
+                style="backdrop-filter: blur({{ section.settings.media_blur }}px);">
+            </div>
+        {% endif %}
+        {{ parallax_content }}
+    </div>
+</section>
+
+{% comment %} 
+    Desktop  
+{% endcomment %}
+<section 
+    id="eg-parallax-image-desktop-{{ section.id }}" 
+    class="eg-parallax-image-desktop eg-parallax-image-{{ section.id }}">
+    <div 
+        class="jarallax"
+        data-parallax-type="{{ section.settings.parallax_type }}"
+        data-parallax-speed="{{ section.settings.parallax_speed }}"
+        data-parallax-disable-mobile="{{ section.settings.parallax_disable_mobile }}"
+        data-video-src="{{ video_url }}"
+        data-video-start-time="{{ section.settings.video_start_time }}"
+        data-video-end-time="{{ section.settings.video_end_time }}"
+        data-video-loop="{{ section.settings.video_loop }}"
+        data-video-play-only-visible="{{ section.settings.video_play_only_visible }}"
+        data-video-lazy-loading="{{ section.settings.video_lazy_loading }}">
+        {% if video_url == blank %}
+            {% if section.settings.img == blank %}
+                {% comment %}theme-check-disable{% endcomment %}
+                <img
+                    class="jarallax-img"
+                    src="https://via.placeholder.com/1600x900.png?text=Sample+Image"
+                    alt=""
+                    width="1600"
+                    height="900"
+                    loading="lazy">
+                {% comment %}theme-check-enable{% endcomment %}
+            {% else %}
+                <img
+                    class="jarallax-img"
+                    src="{{ section.settings.img.src | image_url: width: 1600, crop: section.settings.img_crop }}"
+                    alt="{{ section.settings.img.alt | escape }}"
+                    width="1600"
+                    height="{{ 1600 | divided_by: section.settings.img.aspect_ratio | round }}"
+                    loading="lazy">
+            {% endif %}
+        {% endif %}
+        {% if section.settings.media_blur > 0 %}
+            <div 
+                class="eg-parallax-image-backdrop"
+                style="backdrop-filter: blur({{ section.settings.media_blur }}px);">
+            </div>
+        {% endif %}
+        {{ parallax_content }}
+    </div>
+</section>
+
+{% schema %}
+{
+    "name": "EG - Parallax Image",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "img_mobile",
+            "label": "Image - mobile"
+        },
+        {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Image - desktop"
+        },
+        {
+            "type": "select",
+            "id": "img_crop",
+            "label": "Image crop",
+            "default": "center",
+            "options": [
+                { "value": "top", "label": "Top" },
+                { "value": "center", "label": "Center" },
+                { "value": "bottom", "label": "Bottom" },
+                { "value": "left", "label": "Left" },
+                { "value": "right", "label": "Right" }
+            ]
+        },
+        {
+            "type": "text",
+            "id": "img_min_height",
+            "label": "Image min-height (px)",
+            "info": "Prevent image from shrinking to much in mobile",
+            "default": "320"
+        },
+        {
+            "type": "header",
+            "content": "Video (YouTube or Vimeo)",
+            "info": "NOTICE: Either image or video can be used."
+        },
+        {
+            "type": "video_url",
+            "id": "video",
+            "label": "Video",
+            "accept": [
+                "youtube", "vimeo"
+            ]
+        },
+        {
+            "type": "text",
+            "id": "video_start_time",
+            "label": "Start time (sec)"
+        },
+        {
+            "type": "text",
+            "id": "video_end_time",
+            "label": "End time (sec)"
+        },
+        {
+            "type": "checkbox",
+            "id": "video_loop",
+            "label": "Loop video",
+            "info": "Loop video to play infinitely",
+            "default": true
+        },
+        {
+            "type": "checkbox",
+            "id": "video_play_only_visible",
+            "label": "Play only on visible",
+            "info": "Play video only when it is visible on the screen",
+            "default": true
+        },
+        {
+            "type": "checkbox",
+            "id": "video_lazy_loading",
+            "label": "Lazy-load video",
+            "info": "Preload videos only when it is visible on the screen",
+            "default": true
+        },
+        {
+            "type": "header",
+            "content": "Video (MP4)",
+            "info": "NOTICE: Either image or video can be used."
+        },
+        {
+            "type": "text",
+            "id": "mp4_video",
+            "label": "MP4 Video"
+        },
+        {
+            "type": "header",
+            "content": "Content"
+        },
+        {
+            "type": "text",
+            "id": "max_width",
+            "label": "Max width (px)",
+            "info": "Adjust container width (in pixels). Leave empty to use your theme's container width.",
+            "default": "720"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Parallax image overlay with text"
+        },
+        {
+            "type": "select",
+            "id": "title_size",
+            "label": "Title size",
+            "default": "h1",
+            "options": [
+                {  "value": "h1", "label": "H1" },
+                {  "value": "h2", "label": "H2" },
+                {  "value": "h3", "label": "H3" },
+                {  "value": "h4", "label": "H4" },
+                {  "value": "h5", "label": "H5" },
+                {  "value": "h6", "label": "H6" }
+            ]
+        },
+        {
+            "type": "color",
+            "id": "title_color",
+            "label": "Title color",
+            "default": "#ffffff"
+        },
+        {
+            "type": "richtext",
+            "id": "description",
+            "label": "Description",
+            "default": "<p>A beautiful section to enhance your Shopify store. Make sure your image is high quality. Content is optional. P.S. You can use videos as well.</p>"
+        },
+        {
+            "type": "select",
+            "id": "description_size",
+            "label": "Description size",
+            "default": "125%",
+            "options": [
+                {  "value": "100%", "label": "100%" },
+                {  "value": "105%", "label": "105%" },
+                {  "value": "110%", "label": "110%" },
+                {  "value": "125%", "label": "125%" },
+                {  "value": "150%", "label": "150%" },
+                {  "value": "200%", "label": "200%" }
+            ]
+        },
+        {
+            "type": "color",
+            "id": "description_color",
+            "label": "Description color",
+            "default": "#ffffff"
+        },
+        {
+            "type": "text",
+            "id": "btn_text",
+            "label": "Button text",
+            "info": "Leave empty to disable button"
+        },
+        {
+            "type": "url",
+            "id": "btn_url",
+            "label": "Button URL"
+        },
+        {
+            "type": "select",
+            "id": "btn_color",
+            "label": "Button color",
+            "default": "btn-primary button--primary",
+            "options": [
+                { "value": "btn-primary button--primary", "label": "Primary" },
+                { "value": "btn-secondary button--secondary", "label": "Secondary" },
+                { "value": "btn-primary button--primary button--inverted", "label": "Primary inverted" },
+                { "value": "btn-secondary button--secondaryy button--inverted", "label": "Secondary inverted" }
+            ]
+        },
+        {
+            "type": "header",
+            "content": "Overlay settings"
+        },
+        {
+            "type": "range",
+            "id": "media_opacity",
+            "label": "Opacity",
+            "min": 0,
+            "max": 1,
+            "step": 0.1,
+            "default": 0.7,
+            "info": "Decrease to enhance text legibility"
+        },
+        {
+            "type": "color",
+            "id": "media_overlay_color",
+            "label": "Overlay color",
+            "info": "Works only if the opacity setting above is below 1",
+            "default": "#000000"
+        },
+        {
+            "type": "range",
+            "id": "media_blur",
+            "label": "Blur",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 0,
+            "info": "Increase to further enhance legibility"
+        },
+        {
+            "type": "header",
+            "content": "Parallax settings"
+        },
+        {
+            "type": "select",
+            "id": "parallax_type",
+            "label": "Parallax Type",
+            "info": "Through that 'scroll' is recommended you may experiment with the other options.",
+            "default": "scroll",
+            "options": [
+                { "value": "scroll", "label": "Scroll" },
+                { "value": "scale", "label": "Scale" },
+                { "value": "opacity", "label": "Opacity" },
+                { "value": "scroll-opacity", "label": "Scroll opacity" },
+                { "value": "scale-opacity", "label": "Scale opacity" }
+            ]
+        },
+        {
+            "type": "range",
+            "id": "parallax_speed",
+            "label": "Parallax speed",
+            "info": "Selecting '0' will disable parallax effect",
+            "default": 0.5,
+            "min": 0,
+            "max": 2,
+            "step": 0.1
+        },
+        {
+            "type": "checkbox",
+            "id": "parallax_disable_mobile",
+            "label": "Disable parallax on mobile devices",
+            "info": "In case you are having issues with it",
+            "default": false
+        },
+        {
+            "type": "text",
+            "id": "breakpoint",
+            "label": "Breakpoint (px)",
+            "info": "At what screen width the mobile/desktop images will apply",
+            "default": "767"
+        },
+        {
+            "type": "checkbox",
+            "id": "fixed_image",
+            "label": "Fixed image",
+            "info": "Enable if you prefer to disable the parallax effect and have the image as fixed. Use this setting in case you are not satisfied with the parallax behaviour.",
+            "default": false
+        },
+        {
+            "type": "header",
+            "content": "Spacing",
+            "info": "Based on 'rem' values [Learn more](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)"
+        },
+        {
+            "type": "range",
+            "id": "pt",
+            "label": "Padding top",
+            "min": 0,
+            "max": 12,
+            "step": 1,
+            "default": 0
+        },
+        {
+            "type": "range",
+            "id": "pb",
+            "label": "Padding bottom",
+            "min": 0,
+            "max": 12,
+            "step": 1,
+            "default": 0
+        },
+        {
+            "type": "range",
+            "id": "mt",
+            "label": "Margin top",
+            "min": 0,
+            "max": 12,
+            "step": 1,
+            "default": 0
+        },
+        {
+            "type": "range",
+            "id": "mb",
+            "label": "Margin bottom",
+            "min": 0,
+            "max": 12,
+            "step": 1,
+            "default": 0
+        }
+    ],
+    "presets": [
+        {
+            "name": "EG - Parallax Image",
+            "category": "Image"
+        }
+    ]
+}
+{% endschema %}

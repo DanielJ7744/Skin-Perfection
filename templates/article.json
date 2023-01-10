@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "template-article": {
+      "type": "template-article",
+      "blocks": {
+        "8e5b0d75-fa68-43bc-a7c0-0b92b1acfde4": {
+          "type": "html_block",
+          "settings": {
+            "custom_html_block": "<p class=\"bg-primary text-center rounded text-white p-4\"><strong>About Skin Perfection<\/strong>\n\n<\/p>\n<p>We’re here to <strong>help you create clean beauty products and get you looking younger<\/strong>. We’ve put together our best tips for making your own skincare products and finding the best anti-aging ingredients, plus in-depth videos and guides.<\/p>\n\n<p>Learn more about <a href=\"\/pages\/about\" title=\"The Skin Perfection Team\">our team<span> here<\/span><\/a>.<\/p>\n\n<strong>Getting Started and Guides<\/strong>\n\n<p>Make sure to start with the right setup. Learn how to create your <a href=\"\/collections\/diy\" title=\"DIY skincare\">DIY skincare<\/a> the right way. It'll make your life so much easier. Here's how:<\/p>\n\n<ul>\n\n<li><a href=\"\/collections\/beauty-blending-101\" title=\"How to Sanitize your Work Area\">How to Sanitize your Work Area<\/a><\/li>\n\n<li><a href=\"\/collections%20\/how-to-add-a-serum-booster\" title=\"How to Add a Serum Booster\">How to Add a Serum Booster<\/a><\/li>\n\n<li><a href=\"\/collections%20\/preservatives\" title=\"How to Add a Preservative\">How to Add a Preservative<\/a><\/li>\n\n<li><a href=\"\/pages\/product-instructions-for-diy-serum-boosters\" title=\"Serum Booster Instructions and Chart\">Serum Booster Instructions and Chart<\/a><\/li>\n\n<\/ul>\n\n<strong>The Best Peptides<\/strong>\n\n<p>We've used all of the best peptides out there. Some of them we love. Others we didn't. Learn from our experience on which <a href=\"\/\/collections%20\/anti-aging-peptides\" title=\"anti-aging peptides\">anti-aging peptides<\/a> work.<\/p>\n\n<ul>\n\n<li><a href=\"\/products\/argireline-acteyl-hexapeptide-8\" title=\"Argireline Serum Booster for Fine Lines\">Argireline<\/a><\/li>\n\n<li><a href=\"\/products\/matrixyl-3000\" title=\"Youth-boosting Matrixyl 3000\">Matrixyl 3000<\/a><\/li>\n\n<li><a href=\"\/products\/pepha-tight-serum-booster%20\" title=\"Instant Skin-Tightening Pepha Tight\">Pepha Tight<\/a><\/li>\n\n<li><a href=\"\/products\/snap-8-anti-wrinkle-peptide\" title=\"Snap 8 for Forehead Lines\">Snap 8<\/a><\/li>\n\n<li><a href=\"\/%20products%20\/syn-ake\" title=\"Wrinkle-smoothing Syn-Ake Booster\">Syn-Ake<\/a><\/li>\n\n<li><a href=\"\/products\/syn-coll%20\" title=\"Syn-Coll and Collagen\">Syn-Coll<\/a><\/li>\n\n<li><a href=\"\/products\/phytocelltec-malus-domestica-apple-stem-cells\" title=\"Phytocell Malus Domestica\">Phytocell Malus Domestica<\/a><\/li>\n\n<\/ul>\n\n<strong>Best-Selling Skincare<\/strong>\n\n<p>Need a ready-made solution? Check out our best-selling <a href=\"\/collections\/facial-care\" title=\"Best-selling Anti-Aging Serums and Moisturizers\">anti-aging products<\/a>, including serums and moisturizers. We've got you.<\/p>\n\n<ul>\n\n<li><a href=\"\/products\/peptide-cocktail-anti-aging-serum\" title=\"Best-selling Peptide Cocktail\">Peptide Cocktail<\/a><\/li>\n\n<li><a href=\"\/products\/100-hyaluronic-acid-serum\" title=\"Pure Hyaluronic Acid\">Hyaluronic Acid<\/a><\/li>\n\n<li><a href=\"\/products\/ultimate-night-moisturizer\" title=\"The Ultimate Night Moisturizer with Argireline\">Ultimate Moisturizer<\/a><\/li>\n\n<li><a href=\"\/products\/ageless-advanced-age-defying-serum\" title=\"Ageless Advanced Age-Defying Serum\">Ageless Advanced Age-Defying Serum<\/a><\/li>\n\n<li><a href=\"\/products\/foaming-peptide-cleanser\" title=\"EWG Verified Foaming Peptide Cleanser\">Foaming Peptide Cleanser<\/a><\/li>\n\n<\/ul><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8e5b0d75-fa68-43bc-a7c0-0b92b1acfde4"
+      ],
+      "settings": {
+        "title_size": "h1",
+        "show_tags": true,
+        "show_share_btn": true,
+        "show_latest_articles": true,
+        "latest_articles_title": "Latest Articles",
+        "latest_articles_limit": 5,
+        "mt": 10,
+        "mb": 10
+      }
+    },
+    "504540f9-ee7b-485a-b9de-b8d99bb3ad5a": {
+      "type": "html",
+      "settings": {
+        "html": "<p class=\"bg-primary text-center rounded text-white p-4\"><strong>About Skin Perfection<\/strong>\n\n<\/p><p>We’re here to <strong>help you create clean beauty products and get you looking younger<\/strong>. We’ve put together our best tips for making your own skincare products and finding the best anti-aging ingredients, plus in-depth videos and guides.<\/p>\n\n<p>Learn more about <a href=\"\/pages\/about\" title=\"The Skin Perfection Team\">our team<span> here<\/span><\/a>.<\/p>\n\n<strong>Getting Started and Guides<\/strong>\n\n<p>Make sure to start with the right setup. Learn how to create your <a href=\"\/collections\/diy\" title=\"DIY skincare\">DIY skincare<\/a> the right way. It'll make your life so much easier. Here's how:<\/p>\n\n<ul>\n\n<li><a href=\"\/collections\/beauty-blending-101\" title=\"How to Sanitize your Work Area\">How to Sanitize your Work Area<\/a><\/li>\n\n<li><a href=\"\/collections%20\/how-to-add-a-serum-booster\" title=\"How to Add a Serum Booster\">How to Add a Serum Booster<\/a><\/li>\n\n<li><a href=\"\/collections%20\/preservatives\" title=\"How to Add a Preservative\">How to Add a Preservative<\/a><\/li>\n\n<li><a href=\"\/pages\/product-instructions-for-diy-serum-boosters\" title=\"Serum Booster Instructions and Chart\">Serum Booster Instructions and Chart<\/a><\/li>\n\n<\/ul>\n\n<strong>The Best Peptides<\/strong>\n\n<p>We've used all of the best peptides out there. Some of them we love. Others we didn't. Learn from our experience on which <a href=\"\/\/collections%20\/anti-aging-peptides\" title=\"anti-aging peptides\">anti-aging peptides<\/a> work.<\/p>\n\n<ul>\n\n<li><a href=\"\/products\/argireline-acteyl-hexapeptide-8\" title=\"Argireline Serum Booster for Fine Lines\">Argireline<\/a><\/li>\n\n<li><a href=\"\/products\/matrixyl-3000\" title=\"Youth-boosting Matrixyl 3000\">Matrixyl 3000<\/a><\/li>\n\n<li><a href=\"\/products\/pepha-tight-serum-booster%20\" title=\"Instant Skin-Tightening Pepha Tight\">Pepha Tight<\/a><\/li>\n\n<li><a href=\"\/products\/snap-8-anti-wrinkle-peptide\" title=\"Snap 8 for Forehead Lines\">Snap 8<\/a><\/li>\n\n<li><a href=\"\/%20products%20\/syn-ake\" title=\"Wrinkle-smoothing Syn-Ake Booster\">Syn-Ake<\/a><\/li>\n\n<li><a href=\"\/products\/syn-coll%20\" title=\"Syn-Coll and Collagen\">Syn-Coll<\/a><\/li>\n\n<li><a href=\"\/products\/phytocelltec-malus-domestica-apple-stem-cells\" title=\"Phytocell Malus Domestica\">Phytocell Malus Domestica<\/a><\/li>\n\n<\/ul>\n\n<strong>Best-Selling Skincare<\/strong>\n\n<p>Need a ready-made solution? Check out our best-selling <a href=\"\/collections\/facial-care\" title=\"Best-selling Anti-Aging Serums and Moisturizers\">anti-aging products<\/a>, including serums and moisturizers. We've got you.<\/p>\n\n<ul>\n\n<li><a href=\"\/products\/peptide-cocktail-anti-aging-serum\" title=\"Best-selling Peptide Cocktail\">Peptide Cocktail<\/a><\/li>\n\n<li><a href=\"\/products\/100-hyaluronic-acid-serum\" title=\"Pure Hyaluronic Acid\">Hyaluronic Acid<\/a><\/li>\n\n<li><a href=\"\/products\/ultimate-night-moisturizer\" title=\"The Ultimate Night Moisturizer with Argireline\">Ultimate Moisturizer<\/a><\/li>\n\n<li><a href=\"\/products\/ageless-advanced-age-defying-serum\" title=\"Ageless Advanced Age-Defying Serum\">Ageless Advanced Age-Defying Serum<\/a><\/li>\n\n<li><a href=\"\/products\/foaming-peptide-cleanser\" title=\"EWG Verified Foaming Peptide Cleanser\">Foaming Peptide Cleanser<\/a><\/li>\n\n<\/ul><p><\/p>",
+        "bg_color": "bg-white text-dark",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "HTML code",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "94e2a007-c5c0-4253-89ff-e069f5ee51ee": {
+      "type": "richtext",
+      "settings": {
+        "max_width": "768",
+        "text_align": "text-center",
+        "title": "About Skin Perfection",
+        "title_size": "h2",
+        "description": "<p>We’re here to <strong>help you create clean beauty products and get you looking younger<\/strong>. <\/p><p>We’ve put together our best tips for making your own skincare products and finding the best anti-aging ingredients, plus in-depth videos and guides.<\/p><p>Learn more about &lt;a href=\"\/pages\/about\" title=\"The Skin Perfection Team\"&gt;<a href=\"\/pages\/about\" title=\"\/pages\/about\">our team<\/a>&lt;span&gt; here&lt;\/span&gt;&lt;\/a&gt;.&lt;\/p&gt;<\/p><p><strong>Getting Started and Guides<\/strong><\/p><p>Make sure to start with the right setup. Learn how to create your &lt;a href=\"\/collections\/diy\" title=\"DIY skincare\"&gt;DIY skincare&lt;\/a&gt; the right way. It'll make your life so much easier. Here's how:<\/p><p>&lt;ul&gt;<\/p><p>&lt;li&gt;&lt;a href=\"\/collections\/beauty-blending-101\" title=\"How to Sanitize your Work Area\"&gt;How to Sanitize your Work Area&lt;\/a&gt;&lt;\/li&gt;<\/p><p>&lt;li&gt;&lt;a href=\"\/collections \/how-to-add-a-serum-booster\" title=\"How to Add a Serum Booster\"&gt;How to Add a Serum Booster&lt;\/a&gt;&lt;\/li&gt;<\/p><p>&lt;li&gt;&lt;a href=\"\/collections \/preservatives\" title=\"How to Add a Preservative\"&gt;How to Add a Preservative&lt;\/a&gt;&lt;\/li&gt;<\/p><p>&lt;li&gt;&lt;a href=\"\/pages\/product-instructions-for-diy-serum-boosters\" title=\"Serum Booster Instructions and Chart\"&gt;Serum Booster Instructions and Chart&lt;\/a&gt;&lt;\/li&gt;<\/p><p>&lt;\/ul&gt;<\/p><p>&lt;strong&gt;The Best Peptides&lt;\/strong&gt;<\/p><p>&lt;p&gt;We've used all of the best peptides out there. Some of them we love. Others we didn't. Learn from our experience on which &lt;a href=\"\/collections \/anti-aging-peptides\" title=\"anti-aging peptides\"&gt;<a href=\"\/collections\/anti-aging-peptides\" target=\"_blank\" title=\"Anti Aging Peptides\">anti-aging peptides<\/a>&lt;\/a&gt; work.&lt;\/p&gt;<\/p><p>&lt;ul&gt;<\/p><p>&lt;li&gt;&lt;a href=\"\/products\/argireline-acteyl-hexapeptide-8\" title=\"Argireline Serum Booster for Fine Lines\"&gt;Argireline&lt;\/a&gt;&lt;\/li&gt;<\/p><p>&lt;li&gt;&lt;a href=\"\/products\/matrixyl-3000\" title=\"Youth-boosting Matrixyl 3000\"&gt;Matrixyl 3000&lt;\/a&gt;&lt;\/li&gt;<\/p><p>&lt;li&gt;&lt;a href=\"\/products\/pepha-tight-serum-booster \" title=\"Instant Skin-Tightening Pepha Tight\"&gt;Pepha Tight&lt;\/a&gt;&lt;\/li&gt;<\/p><p>&lt;li&gt;&lt;a href=\"\/products\/snap-8-anti-wrinkle-peptide\" title=\"Snap 8 for Forehead Lines\"&gt;Snap 8&lt;\/a&gt;&lt;\/li&gt;<\/p><p>&lt;li&gt;&lt;a href=\"\/ products \/syn-ake\" title=\"Wrinkle-smoothing Syn-Ake Booster\"&gt;Syn-Ake&lt;\/a&gt;&lt;\/li&gt;<\/p><p>&lt;li&gt;&lt;a href=\"\/products\/syn-coll \" title=\"Syn-Coll and Collagen\"&gt;Syn-Coll&lt;\/a&gt;&lt;\/li&gt;<\/p><p>&lt;li&gt;&lt;a href=\"\/products\/phytocelltec-malus-domestica-apple-stem-cells\" title=\"Phytocell Malus Domestica\"&gt;Phytocell Malus Domestica&lt;\/a&gt;&lt;\/li&gt;<\/p><p>&lt;\/ul&gt;<\/p><p>&lt;strong&gt;Best-Selling Skincare&lt;\/strong&gt;<\/p><p>&lt;p&gt;Need a ready-made solution? Check out our best-selling &lt;a href=\"\/collections\/facial-care\" title=\"Best-selling Anti-Aging Serums and Moisturizers\"&gt;anti-aging products&lt;\/a&gt;, including serums and moisturizers. We've got you.&lt;\/p&gt;<\/p><p>&lt;ul&gt;<\/p><p>&lt;li&gt;&lt;a href=\"\/products\/peptide-cocktail-anti-aging-serum\" title=\"Best-selling Peptide Cocktail\"&gt;Peptide Cocktail&lt;\/a&gt;&lt;\/li&gt;<\/p><p>&lt;li&gt;&lt;a href=\"\/products\/100-hyaluronic-acid-serum\" title=\"Pure Hyaluronic Acid\"&gt;Hyaluronic Acid&lt;\/a&gt;&lt;\/li&gt;<\/p><p>&lt;li&gt;&lt;a href=\"\/products\/ultimate-night-moisturizer\" title=\"The Ultimate Night Moisturizer with Argireline\"&gt;Ultimate Moisturizer&lt;\/a&gt;&lt;\/li&gt;<\/p><p>&lt;li&gt;&lt;a href=\"\/products\/ageless-advanced-age-defying-serum\" title=\"Ageless Advanced Age-Defying Serum\"&gt;Ageless Advanced Age-Defying Serum&lt;\/a&gt;&lt;\/li&gt;<\/p><p>&lt;li&gt;&lt;a href=\"\/products\/foaming-peptide-cleanser\" title=\"EWG Verified Foaming Peptide Cleanser\"&gt;Foaming Peptide Cleanser<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "btn_size": "",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    }
+  },
+  "order": [
+    "template-article",
+    "504540f9-ee7b-485a-b9de-b8d99bb3ad5a",
+    "94e2a007-c5c0-4253-89ff-e069f5ee51ee"
+  ]
+}

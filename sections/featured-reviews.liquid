@@ -1,0 +1,299 @@
+{% liquid 
+    assign pt = section.settings.pt | prepend: 'pt-'
+    assign pb = section.settings.pb | prepend: 'pb-'
+    assign mt = section.settings.mt | prepend: 'mt-'
+    assign mb = section.settings.mb | prepend: 'mb-'
+%}
+
+<style>
+#featured-reviews-{{ section.id }} {
+    background-image: url({{ section.settings.bg_image | image_url: width: '1600' }});
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        const initSplide = () => {
+            const mySplide = new Splide('#featured-reviews-{{ section.id }} .splide', {
+                type: 'loop',
+                arrows: true,
+                pagination: false,
+                perPage: 1,
+                perMove: 1,
+                mediaQuery: 'min',
+                padding: '10%',
+                // rewind: true,
+                breakpoints: {
+                    576: { perPage: 2, padding: 0 },
+                    768: { perPage: 2, padding: 0 },
+                    992: { perPage: 3, padding: 0 },
+                    1200: { perPage: 3, padding: 0 },
+                    1400: { perPage: 3, padding: 0 }
+                }
+            })
+
+            {% comment %} mySplide.on('arrows:updated', () => {
+                const imgHeight = mySplide.root.querySelector('.splide__slide img').clientHeight
+                mySplide.root.querySelectorAll('.splide__arrow').forEach((arrow) => {
+                    arrow.style.top = (imgHeight / 2) + (arrow.clientHeight / 3) + 'px'
+                })
+            }) {% endcomment %}
+    
+            mySplide.mount()
+        }
+        initSplide()
+    
+        document.addEventListener('shopify:section:load', (e) => {
+            if (event.detail.sectionId === '{{ section.id }}') {
+                initSplide()
+            }
+        })
+    })
+    </script>
+
+<section 
+    id="featured-reviews-{{ section.id }}" 
+    class="featured-reviews overflow-hidden {{ pt }} {{ pb }} {{ mt }} {{ mb }}"
+    style="background-color: {{ section.settings.bg_color }};">
+    <div class="container">
+        <div class="text-center pb-7">
+            <h2 class="title text-center mb-3 {{ section.settings.title_size }}">
+                {{ section.settings.title }}
+            </h2>
+            {% unless settings.btn_text == blank %}
+                <a class="btn btn-link text-decoration-underline" href="{{ section.settings.btn_link }}">
+                    {{ section.settings.btn_text }}
+                </a>
+            {% endunless %}
+        </div>
+        <div class="splide">
+            <div class="splide__track">
+                <ul class="splide__list product-list">
+                    {% for block in section.blocks %}
+                        <li class="splide__slide p-3 p-lg-4 text-center">
+                            <div class="card rounded-0 shadow-sm border-0">
+                                {% unless block.settings.img == blank %}
+                                    <img
+                                        class="img-fluid card-img-top rounded"
+                                        src="{{ block.settings.img.src | image_url: width: block.settings.img_width, height: block.settings.img_height, crop: 'center' }}"
+                                        alt="{{ block.settings.img.alt | escape }}"
+                                        width="{{ block.settings.img_width }}"
+                                        height="{{ block.settings.img_height }}"
+                                        loading="lazy">
+                                {% endunless %}
+                                <div class="card-body">
+                                    <img
+                                        class="mt-2 mb-4"
+                                        src="{{ 'icon-5-stars.svg' | asset_url }}"
+                                        alt="Rated with 5 stars"
+                                        width="117"
+                                        height="18"
+                                        loading="lazy">
+                                    {% unless block.settings.title == blank %}
+                                        <h3 class="title mb-4 {{ block.settings.title_size }}">
+                                            {{ block.settings.title }}
+                                        </h3>
+                                    {% endunless %}
+                                    {% unless block.settings.description == blank %}
+                                        <div class="description rte mb-2 {{ block.settings.description_size }}">
+                                            {{ block.settings.description }}
+                                        </div>
+                                    {% endunless %}
+                                    {% unless block.settings.btn_text == blank %}
+                                        <a 
+                                            class="btn btn-link text-decoration-underline" 
+                                            href="{{ block.settings.btn_url }}">
+                                            <span class="small">
+                                                {{ block.settings.btn_text }}
+                                            </span>
+                                        </a>
+                                    {% endunless %}
+                                </div>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </ul>
+    </div>
+</section>
+
+{% schema %}
+{
+    "name": "Featured Reviews",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "bg_image",
+            "label": "Background image"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Featured Reviews"
+        },
+        {
+            "type": "select",
+            "id": "title_size",
+            "label": "Title size",
+            "default": "h2",
+            "options": [
+                { "group": "Heading", "value": "h1", "label": "H1" },
+                { "group": "Heading", "value": "h2", "label": "H2" },
+                { "group": "Heading", "value": "h3", "label": "H3" },
+                { "group": "Heading", "value": "h4", "label": "H4" },
+                { "group": "Heading", "value": "h5", "label": "H5" },
+                { "group": "Heading", "value": "h6", "label": "H6" }
+            ]
+        },
+        {
+            "type": "text",
+            "id": "btn_text",
+            "label": "Button text",
+            "default": "Read All Reviews"
+        },
+        {
+            "type": "url",
+            "id": "btn_url",
+            "label": "Button URL"
+        },
+        {
+            "type": "header",
+            "content": "Spacing"
+        },
+        {
+            "type": "range",
+            "id": "pt",
+            "label": "Padding top",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 0
+        },
+        {
+            "type": "range",
+            "id": "pb",
+            "label": "Padding bottom",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 0
+        },
+        {
+            "type": "range",
+            "id": "mt",
+            "label": "Margin top",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 0
+        },
+        {
+            "type": "range",
+            "id": "mb",
+            "label": "Margin bottom",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 0
+        }
+    ],
+    "blocks": [
+        {
+            "type": "item",
+            "name": "Item",
+            "settings": [
+                {
+                    "type": "header",
+                    "content": "Image"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "img",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "img_width",
+                    "label": "Image width (px)",
+                    "default": "600"
+                },
+                {
+                    "type": "text",
+                    "id": "img_height",
+                    "label": "Image height (px)",
+                    "default": "600"
+                },
+                {
+                    "type": "header",
+                    "content": "Text"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title"
+                },
+                {
+                    "type": "select",
+                    "id": "title_size",
+                    "label": "Title size",
+                    "default": "h4",
+                    "options": [
+                        { "group": "Heading", "value": "h1", "label": "H1" },
+                        { "group": "Heading", "value": "h2", "label": "H2" },
+                        { "group": "Heading", "value": "h3", "label": "H3" },
+                        { "group": "Heading", "value": "h4", "label": "H4" },
+                        { "group": "Heading", "value": "h5", "label": "H5" },
+                        { "group": "Heading", "value": "h6", "label": "H6" }
+                    ]
+                },
+                {
+                    "type": "richtext",
+                    "id": "description",
+                    "label": "Description",
+                    "default": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+                },
+                {
+                    "type": "select",
+                    "id": "description_size",
+                    "label": "Description size",
+                    "default": "fs-5",
+                    "options": [
+                        { "value": "fs-1", "label": "fs-1" },
+                        { "value": "fs-2", "label": "fs-2" },
+                        { "value": "fs-3", "label": "fs-3" },
+                        { "value": "fs-4", "label": "fs-4" },
+                        { "value": "fs-5", "label": "fs-5" },
+                        { "value": "fs-6", "label": "fs-6" }
+                    ]
+                },
+                {
+                    "type": "header",
+                    "content": "Button"
+                },
+                {
+                    "type": "text",
+                    "id": "btn_text",
+                    "label": "Button text",
+                    "default": "Learn more",
+                    "info": "Leave empty to disable"
+                },
+                {
+                    "type": "url",
+                    "id": "btn_url",
+                    "label": "Button URL"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Featured Reviews",
+            "category": "General"
+        }
+    ]
+}
+{% endschema %}

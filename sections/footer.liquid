@@ -1,0 +1,313 @@
+{% liquid 
+    assign pt = section.settings.pt | prepend: 'pt-'
+    assign pb = section.settings.pb | prepend: 'pb-'
+
+    assign row_sm =  section.settings.row_sm | prepend: 'row-cols-sm-'
+    assign row_lg =  section.settings.row_lg | prepend: 'row-cols-lg-'
+%}
+
+<style>
+#footer {
+    background-image: url({{ 'footer-bg.png' | asset_img_url: 'master' }});
+    background-repeat: no-repeat;
+    background-position: 90% 90%;
+}
+</style>
+
+<footer 
+    id="footer" 
+    class="{{ section.settings.bg_color }} {{ pt }} {{ pb }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 text-center text-lg-start pb-4 pb-lg-0">
+                <a class="navbar-brand me-auto py-0" href="{{ routes.root_url }}">
+                    <img
+                        class="img-fluid mb-6"
+                        src="{{ section.settings.logo | image_url }}" 
+                        alt="{{ shop.name }}"
+                        width="{{ section.settings.logo.width }}" 
+                        height="{{ section.settings.logo.height }}"
+                        loading="lazy">
+                </a>
+                {% if section.settings.show_social_icons %}
+                    <div class="mb-6">
+                        {% render 'social-icons' %}
+                    </div>
+                {% endif %}
+            </div>
+            <div class="col-lg-8">
+                {% if section.blocks.size > 0 %}
+                <ul id="footer-blocks" class="list-unstyled mb-7 mb-sm-0 row row-cols-1 {{ row_sm }} {{ row_lg }}">
+                    {% for block in section.blocks %}
+                        <li class="footer-block col">
+                            <button 
+                                class="position-relative accordion-button collapsed d-sm-none py-4 mb-2" 
+                                data-bs-toggle="collapse" 
+                                data-bs-target="#footer-block-collapse-{{ block.id }}"
+                                aria-expanded="false" 
+                                aria-controls="footer-block-collapse-{{ block.id }}">
+                                {{ block.settings.title }}
+                            </button>
+                            <h3 class="title d-none d-sm-inline-block {{ block.settings.title_size }}">
+                                <span>
+                                    {{ block.settings.title }}
+                                </span>
+                            </h3>
+                            <div id="footer-block-collapse-{{ block.id }}" class="collapse d-sm-block">
+                                {% case block.type %}
+                                    {% when 'richtext' %}
+                                        {% unless block.settings.description == blank %}
+                                            <div class="rte pt-2 mb-6 small">
+                                                {{ block.settings.description }}
+                                            </div>
+                                        {% endunless %}
+                                        {% unless block.settings.btn_text == blank %}
+                                            <a class="btn mb-6 {{ block.settings.btn_color }} {{ block.settings.btn_size }}" href="{{ block.settings.btn_url }}">
+                                                {{ block.settings.btn_text }}
+                                            </a>
+                                        {% endunless %}
+                                    {% when 'menu' %}
+                                        <ul class="flex-column pt-2 ps-5 pt-lg-0 mb-6" style="list-style: disc;">
+                                            {% for link in linklists[block.settings.menu].links %}
+                                                <li class="nav-item">
+                                                    <a class="nav-link px-0 py-2 small" href="{{ link.url }}">
+                                                        {{ link.title }}
+                                                    </a>
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+                                {% endcase %}
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+        
+        <hr class="d-none d-sm-block mt-4 mb-7">
+
+        <div id="footer-copyright" class="">
+            <div class="row align-items-center">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <a href="https://www.bbb.org/us/id/boise/profile/skin-care/skin-perfection-natural-and-organic-skin-care-1296-1000032464#sealclick" target="_blank">
+                        <img
+                            class="img-fluid"
+                            src="{{ 'bbb-logo.png' | asset_img_url: 'master' }}" 
+                            alt="BBB - Accredited Business"
+                            width="293" 
+                            height="61"
+                            loading="lazy">
+                    </a>
+                </div>
+                <div class="col-lg-4 text-center small mb-5 mb-lg-0">
+                    <p id="copyright-copy" class="mb-0">
+                        &copy; {{ 'now' | date: "%Y" }} {{ shop.name }}.
+                    </p>
+                    <p id="copyright-powered" class="mb-0">
+<!--                         Powered by <a href="https://www.shopify.com" target="_blank" rel="sponsored">Shopify</a>.  -->
+<!--                         Theme by <a href="https://www.ecomgraduates.com" target="_blank" rel="sponsored">EcomGraduates</a> -->
+                    </p>
+                </div>
+                <div class="col-lg-4 text-center small">
+                    {% if section.settings.show_payment_icons %}
+                        {% render 'payment-icons' %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+{% schema %}
+{
+    "name": "Footer",
+    "settings": [
+        {
+            "type": "select",
+            "id": "bg_color",
+            "label": "Background color",
+            "default": "bg-dark text-white",
+            "options": [
+                { "group": "Light", "value": "bg-white text-dark", "label": "White" },
+                { "group": "Light", "value": "bg-light text-dark", "label": "Light" },
+                { "group": "Dark", "value": "bg-primary text-white", "label": "Primary" },
+                { "group": "Dark", "value": "bg-secondary text-white", "label": "Secondary" },
+                { "group": "Dark", "value": "bg-dark text-white", "label": "Dark" }
+            ]
+        },
+        {
+            "type": "image_picker",
+            "id": "logo",
+            "label": "Logo"
+        },
+        {
+            "type": "checkbox",
+            "id": "show_payment_icons",
+            "label": "Show payment icons",
+            "default": true
+        },
+        {
+            "type": "checkbox",
+            "id": "show_social_icons",
+            "label": "Show social icons",
+            "default": true
+        },
+        {
+            "type": "header",
+            "content": "Items per Row",
+            "info": "Based on screen resolution."
+        },
+        {
+            "type": "range",
+            "id": "row_sm",
+            "label": "Tablet",
+            "info": "576px - 991px",
+            "min": 2,
+            "max": 4,
+            "step": 1,
+            "default": 2
+        },
+        {
+            "type": "range",
+            "id": "row_lg",
+            "label": "Desktop",
+            "info": "992px and up",
+            "min": 2,
+            "max": 6,
+            "step": 1,
+            "default": 4
+        },
+        {
+            "type": "header",
+            "content": "Spacing"
+        },
+        {
+            "type": "range",
+            "id": "pt",
+            "label": "Padding top",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 11
+        },
+        {
+            "type": "range",
+            "id": "pb",
+            "label": "Padding bottom",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 6
+        }
+    ],
+    "blocks": [
+        {
+            "type": "richtext",
+            "name": "Richtext",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title"
+                },
+                {
+                    "type": "select",
+                    "id": "title_size",
+                    "label": "Title size",
+                    "default": "h6",
+                    "options": [
+                        { "group": "Heading", "value": "h1", "label": "H1" },
+                        { "group": "Heading", "value": "h2", "label": "H2" },
+                        { "group": "Heading", "value": "h3", "label": "H3" },
+                        { "group": "Heading", "value": "h4", "label": "H4" },
+                        { "group": "Heading", "value": "h5", "label": "H5" },
+                        { "group": "Heading", "value": "h6", "label": "H6" }
+                    ]
+                },
+                {
+                    "type": "richtext",
+                    "id": "description",
+                    "label": "Description"
+                },
+                {
+                    "type": "text",
+                    "id": "btn_text",
+                    "label": "Button text",
+                    "info": "Leave empty to disable"
+                },
+                {
+                    "type": "url",
+                    "id": "btn_url",
+                    "label": "Button URL"
+                },
+                {
+                    "type": "select",
+                    "id": "btn_color",
+                    "label": "Button color",
+                    "default": "btn-primary",
+                    "options": [
+                        { "group": "Normal", "value": "btn-link", "label": "Link" },
+                        { "group": "Normal", "value": "btn-light", "label": "Light" },
+                        { "group": "Normal", "value": "btn-dark", "label": "Dark" },
+                        { "group": "Normal", "value": "btn-primary", "label": "Primary" },
+                        { "group": "Normal", "value": "btn-secondary", "label": "Secondary" },
+                        { "group": "Normal", "value": "btn-success", "label": "Success" },
+                        { "group": "Normal", "value": "btn-danger", "label": "Danger" },
+                        { "group": "Normal", "value": "btn-warning", "label": "Warning" },
+                        { "group": "Normal", "value": "btn-info", "label": "Info" },
+                        { "group": "Outline", "value": "btn-outline-light", "label": "Light Outline" },
+                        { "group": "Outline", "value": "btn-outline-dark", "label": "Dark Outline" },
+                        { "group": "Outline", "value": "btn-outline-primary", "label": "Primary Outline" },
+                        { "group": "Outline", "value": "btn-outline-secondary", "label": "Secondary Outline" },
+                        { "group": "Outline", "value": "btn-outline-success", "label": "Success Outline" },
+                        { "group": "Outline", "value": "btn-outline-danger", "label": "Danger Outline" },
+                        { "group": "Outline", "value": "btn-outline-warning", "label": "Warning Outline" },
+                        { "group": "Outline", "value": "btn-outline-info", "label": "Info Outline" }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "id": "btn_size",
+                    "label": "Button size",
+                    "default": "btn-sm",
+                    "options": [
+                        { "value": "btn-sm", "label": "Small" },
+                        { "value": "", "label": "Normal" },
+                        { "value": "btn-lg", "label": "Large" }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "menu",
+            "name": "Menu",
+            "settings": [
+                {
+                    "type": "link_list",
+                    "id": "menu",
+                    "label": "Menu"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title"
+                },
+                {
+                    "type": "select",
+                    "id": "title_size",
+                    "label": "Title size",
+                    "default": "h6",
+                    "options": [
+                        { "group": "Heading", "value": "h1", "label": "H1" },
+                        { "group": "Heading", "value": "h2", "label": "H2" },
+                        { "group": "Heading", "value": "h3", "label": "H3" },
+                        { "group": "Heading", "value": "h4", "label": "H4" },
+                        { "group": "Heading", "value": "h5", "label": "H5" },
+                        { "group": "Heading", "value": "h6", "label": "H6" }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

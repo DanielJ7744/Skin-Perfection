@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "template-collection": {
+      "type": "template-collection",
+      "settings": {
+        "show_collection_img": false,
+        "show_collection_description": false,
+        "limit": 40,
+        "text_align": "text-center",
+        "row_xs": 2,
+        "row_sm": 2,
+        "row_lg": 3,
+        "mt": 10,
+        "mb": 10
+      }
+    },
+    "1663804795eacaf71c": {
+      "type": "richtext",
+      "settings": {
+        "max_width": "",
+        "text_align": "text-center",
+        "title": "Masks",
+        "title_size": "h2",
+        "description": "<p><strong>[Facial Masks for Instantly Brighter Skin]<br\/><\/strong><br\/>Want to transform your complexion instantly? Use an at-home <a href=\"https:\/\/www.naturalorganicskincare.com\/products\/super-youth-anti-aging-mask\" title=\"Anti-aging Mask for At Home Use\">anti-aging mask<\/a>. The benefits include instantly brighter skin, improved tone and texture, and a firmer, tighter-looking jawline. In addition, you can improve skin tone and firmness with the proper use of clay-based masks regularly.<br\/><br\/>To clarify, look for a <a href=\"https:\/\/www.naturalorganicskincare.com\/collections\/masks\" title=\"Facial Mask with Glycolic Acids\">mask with glycolic acids<\/a>, such as our Professional Strength Pumpkin Mask, which uses 5% Glycolic Acid to refine your skin's texture and tone. Use it at least once a week for a healthier appearance and to maintain results.<br\/><br\/>At Skin Perfection, we offer masks for anti-aging, firming, nourishing, clarifying, and even sensitive skin. Find your perfect facial mask today!<br\/><br\/><strong>[Types of Face Masks]<br\/><\/strong><br\/><strong>Clay<\/strong>- Best for firming and tightening the jawline. They are also great for drawing out impurities from blemish-prone skin. Your skin type will determine the type of clay, kaolin for normal to oily, and bentonite for mature, dry skin.<strong>Honey<\/strong>- is extraordinarily moisturizing and beneficial for skin balancing.<strong>Gels<\/strong>- Hydrating gels offer nourishing and essential vitamins for a healthy complexion.<strong>Enzyme<\/strong>- The gentlest, perfect for those with sensitive skin.<\/p><p><strong>Directions:<\/strong> Scoop a dollop of the product and apply it to the face and neck. Leave on for up to 15 minutes, then rinse and pat dry. Repeat one to three times a week or as needed.<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "btn_size": "",
+        "pt": 10,
+        "pb": 10,
+        "mt": 11,
+        "mb": 11
+      }
+    }
+  },
+  "order": [
+    "template-collection",
+    "1663804795eacaf71c"
+  ]
+}

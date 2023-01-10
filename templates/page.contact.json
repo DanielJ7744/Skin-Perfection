@@ -1,0 +1,102 @@
+{
+  "sections": {
+    "1663806109e5445a25": {
+      "type": "richtext",
+      "settings": {
+        "max_width": "",
+        "text_align": "text-center",
+        "title": "Contact Us",
+        "title_size": "h1",
+        "description": "<p>[How to Contact Skin Perfection]<\/p><p><\/p><p>Our online store is open 24\/7.<\/p><p>Live Chat. We are working on getting live chat available to answer your questions quickly. <\/p><p>Product Questions? Please use our Q&A and ask questions directly on the individual product page.<\/p><p><\/p><p>[Account Help]<\/p><p>To help us better serve all of our customers, please use our guides to answer <a href=\"\/pages\/frequently-asked-questions\" title=\"Frequently Asked Questions\">frequently asked questions. <\/a><\/p><p>Due to high call volume and questions it may take up to 24 hours for a response from our team.<\/p><p>Thank you for your support!<\/p><p>The Skin Perfection Team<\/p>",
+        "description_size": "fs-3",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "btn_size": "",
+        "pt": 11,
+        "pb": 11,
+        "mt": 10,
+        "mb": 10
+      }
+    },
+    "1663806252b3dc8863": {
+      "type": "richtext",
+      "settings": {
+        "max_width": "",
+        "text_align": "text-center",
+        "title": "For Phone Orders:",
+        "title_size": "h2",
+        "description": "<p>If you would like assistance in located the perfect product for you, please visit our FAQ pages or take our quiz to find products that will work for your skin type. Or if you would like to talk to a skincare specialist, please email us at <a href=\"mailto:help@naturalorganicskincare.com\" title=\"Email us with any questions.\">help@naturalorganicskincare.com<\/a>.<\/p><p>Include your name, skin type, any specific skincare concerns you may have, and what your skincare goals are. A specialist will respond within 24 hours.<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "btn_size": "",
+        "pt": 8,
+        "pb": 8,
+        "mt": 9,
+        "mb": 9
+      }
+    },
+    "16638062891d681e87": {
+      "type": "richtext",
+      "settings": {
+        "max_width": "",
+        "text_align": "text-center",
+        "title": "For Mail Orders:",
+        "title_size": "h2",
+        "description": "<p>For expedited service, place your order online and pay by phone! Just put your order in the cart, go through the simple one-page checkout, and then click the phone order. No payment is necessary at the time your order is placed.<\/p><p>One of our customer service representatives will call you within 24 hours to finish the order over the phone. An email confirmation will be sent to you as soon as your order is shipped along with your tracking number.<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "btn_size": "",
+        "pt": 7,
+        "pb": 7,
+        "mt": 7,
+        "mb": 7
+      }
+    },
+    "1663806320219910ac": {
+      "type": "richtext",
+      "settings": {
+        "max_width": "",
+        "text_align": "text-center",
+        "title": "For Customer Service:",
+        "title_size": "h2",
+        "description": "<p>[To speak to a live person, you can call 208-995-4130.]<br\/><br\/>Because of the personalized support that we offer our customers and high call volumes, wait times can reach 45-60 minutes. If you receive a recording, please leave a message and a representative will call you in the order received.<\/p><p>Just place your order online, send in your payment, and we will mail out your order within 24 hours of receipt. Start by placing your order in the cart, go through the simple one-page checkout, and then click mail order. Follow the instructions by mailing the payment to us.<\/p><p>As soon as your payment is received, you will receive an email confirmation plus tracking information.<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "btn_size": "",
+        "pt": 7,
+        "pb": 7,
+        "mt": 7,
+        "mb": 7
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "settings": {
+        "bg_color": "bg-white text-dark",
+        "max_width": "",
+        "title": "",
+        "title_size": "h1",
+        "description": "<p>Skin Perfection Natural and Organic Skin Care <br\/>1043 E Park Blvd #100 Boise, ID 83712<br\/>208-995-4130<\/p><p>Shipping Center<br\/>224 Carnation St<\/p><p>Nampa, ID 83651<\/p>",
+        "description_size": "fs-6",
+        "pt": 10,
+        "pb": 10,
+        "mt": 0,
+        "mb": 0
+      }
+    }
+  },
+  "order": [
+    "1663806109e5445a25",
+    "1663806252b3dc8863",
+    "16638062891d681e87",
+    "1663806320219910ac",
+    "contact-form"
+  ]
+}

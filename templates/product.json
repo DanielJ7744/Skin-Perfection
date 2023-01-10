@@ -1,0 +1,140 @@
+{
+  "sections": {
+    "template-product": {
+      "type": "template-product",
+      "blocks": {
+        "bb82fc4d-4761-4e9e-ae10-30ee0166323a": {
+          "type": "description",
+          "settings": {
+            "title": "PRODUCT DESCRIPTION"
+          }
+        },
+        "9bcd0fdf-578a-47f6-bc90-d14ef3dbeaa5": {
+          "type": "richtext",
+          "settings": {
+            "title": "OVERVIEW",
+            "description": "<p>Feel free to create additional blocks like this for <strong>Shipping, Payments, etc <\/strong>through the Shopify Theme editor. Also, you may easily adjust their order by dragging and dropping.<\/p>"
+          }
+        },
+        "d4225891-a84c-4933-b8bf-8ebb4663bf2f": {
+          "type": "ingredients",
+          "settings": {
+            "title": "INGREDIENTS"
+          }
+        },
+        "b58af972-ce51-4ec5-a550-77a5d4a21bd3": {
+          "type": "richtext",
+          "settings": {
+            "title": "FAQ",
+            "description": "<p>{{ product.metafields.custom.eg_faq | metafield_tag }}<\/p>"
+          }
+        },
+        "f257a588-1919-44a1-83bb-afe05ee8e758": {
+          "type": "richtext",
+          "settings": {
+            "title": "HOW TO USE",
+            "description": "<p>{{ product.metafields.custom.eg_how_to_use_ | metafield_tag }}<\/p>"
+          }
+        },
+        "57eb2ea2-db12-4628-a214-c4b53747c011": {
+          "type": "richtext",
+          "settings": {
+            "title": "DISCLAIMER",
+            "description": "<p>{{ product.metafields.custom.eg_disclaimer | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "bb82fc4d-4761-4e9e-ae10-30ee0166323a",
+        "9bcd0fdf-578a-47f6-bc90-d14ef3dbeaa5",
+        "d4225891-a84c-4933-b8bf-8ebb4663bf2f",
+        "b58af972-ce51-4ec5-a550-77a5d4a21bd3",
+        "f257a588-1919-44a1-83bb-afe05ee8e758",
+        "57eb2ea2-db12-4628-a214-c4b53747c011"
+      ],
+      "settings": {
+        "title_size": "h2",
+        "show_share_btn": false,
+        "trust_badge_icon_1": "shopify:\/\/shop_images\/pdp-icon-1.jpg",
+        "trust_badge_icon_2": "shopify:\/\/shop_images\/pdp-icon-2.jpg",
+        "trust_badge_icon_3": "shopify:\/\/shop_images\/pdp-icon-4.jpg",
+        "trust_badge_icon_4": "shopify:\/\/shop_images\/pdp-icon-3.jpg",
+        "trust_badge_icon_5": "shopify:\/\/shop_images\/pdp-icon-5.jpg",
+        "pt": 10,
+        "pb": 10,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "67998022-23c0-49a4-adf7-5a297a81c230": {
+      "type": "yotpo-reviews",
+      "settings": {
+        "bg_color": "bg-white text-dark",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "1669063227c4fcb9c3": {
+      "type": "apps",
+      "blocks": {
+        "b10ed458-adb5-4552-a742-c8c011746108": {
+          "type": "shopify:\/\/apps\/product-questions-and-answers\/blocks\/SQA\/84c5ea51-4ec6-4681-8c2f-c95d8846ed7e",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "b10ed458-adb5-4552-a742-c8c011746108"
+      ],
+      "settings": {}
+    },
+    "166871242949617455": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "beaa8f0b-0591-4065-afd5-6df88cd7d9c6": {
+          "type": "shopify:\/\/apps\/yotpo-subscriptions\/blocks\/app-block\/ef25e582-ada5-4bb0-b4e7-f94e97ab1bb4",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "beaa8f0b-0591-4065-afd5-6df88cd7d9c6"
+      ],
+      "settings": {}
+    },
+    "16524271948cd6a03a": {
+      "type": "featured-products",
+      "settings": {
+        "recommended_mode": true,
+        "collection": "",
+        "limit": 4,
+        "bg_color": "bg-white",
+        "text_align": "text-center",
+        "title": "Recommended Products",
+        "title_size": "h2",
+        "btn_text": "",
+        "btn_color": "btn-primary",
+        "row_sm": 2,
+        "row_lg": 4,
+        "pt": 13,
+        "pb": 0,
+        "mt": 0,
+        "mb": 8
+      }
+    }
+  },
+  "order": [
+    "template-product",
+    "67998022-23c0-49a4-adf7-5a297a81c230",
+    "1669063227c4fcb9c3",
+    "166871242949617455",
+    "16524271948cd6a03a"
+  ]
+}

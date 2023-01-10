@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "template-collection": {
+      "type": "template-collection",
+      "disabled": true,
+      "settings": {
+        "show_collection_img": false,
+        "show_collection_description": false,
+        "limit": 40,
+        "text_align": "text-center",
+        "row_xs": 2,
+        "row_sm": 2,
+        "row_lg": 3,
+        "mt": 10,
+        "mb": 10
+      }
+    },
+    "16643040311de6ae10": {
+      "type": "featured-collections",
+      "blocks": {
+        "388d44f7-e949-4cad-94bc-c768022771cd": {
+          "type": "collection",
+          "settings": {
+            "collection": "callus-removal"
+          }
+        },
+        "8face695-7a62-4a19-a11a-f381a614bce6": {
+          "type": "collection",
+          "settings": {
+            "collection": "how-to-fade-the-look-of-dark-circles"
+          }
+        },
+        "22722634-de30-4595-86de-660bae03d52e": {
+          "type": "collection",
+          "settings": {
+            "collection": "getting-rid-of-crows-feet-naturally"
+          }
+        },
+        "a0870c56-3b63-4a6c-8007-3ef74015b0cc": {
+          "type": "collection",
+          "settings": {
+            "collection": "dull-complexions"
+          }
+        },
+        "57dbb61c-e9c5-4c4f-9d2f-f17ceb263235": {
+          "type": "collection",
+          "settings": {
+            "collection": "lip-lines"
+          }
+        },
+        "77eed8f8-bdfd-428b-9666-8862ed11bdf8": {
+          "type": "collection",
+          "settings": {
+            "collection": "expression-lines"
+          }
+        },
+        "66657aad-c1be-4f67-acfd-87e6959c1f9f": {
+          "type": "collection",
+          "settings": {
+            "collection": "hyperpigmentation"
+          }
+        },
+        "3ce9373c-c9a1-459e-9296-1071dc983bfd": {
+          "type": "collection",
+          "settings": {
+            "collection": "large-pores"
+          }
+        },
+        "03a0596c-1569-4ded-8de4-257dbc2f5d24": {
+          "type": "collection",
+          "settings": {
+            "collection": "laugh-lines"
+          }
+        },
+        "68c45f2f-b17f-499b-a7a9-0ef8de00f2bf": {
+          "type": "collection",
+          "settings": {
+            "collection": "nail-care"
+          }
+        },
+        "35439069-a174-4d19-9238-8ec3e7f37d60": {
+          "type": "collection",
+          "settings": {
+            "collection": "sagging-neck-and-jowls"
+          }
+        },
+        "10a1b2b0-e0cb-43fe-8992-1298fb091658": {
+          "type": "collection",
+          "settings": {
+            "collection": "under-eye-bags"
+          }
+        },
+        "c1132fb6-befe-4fcc-880a-2bc2682545f5": {
+          "type": "collection",
+          "settings": {
+            "collection": "wrinkles"
+          }
+        }
+      },
+      "block_order": [
+        "388d44f7-e949-4cad-94bc-c768022771cd",
+        "8face695-7a62-4a19-a11a-f381a614bce6",
+        "22722634-de30-4595-86de-660bae03d52e",
+        "a0870c56-3b63-4a6c-8007-3ef74015b0cc",
+        "57dbb61c-e9c5-4c4f-9d2f-f17ceb263235",
+        "77eed8f8-bdfd-428b-9666-8862ed11bdf8",
+        "66657aad-c1be-4f67-acfd-87e6959c1f9f",
+        "3ce9373c-c9a1-459e-9296-1071dc983bfd",
+        "03a0596c-1569-4ded-8de4-257dbc2f5d24",
+        "68c45f2f-b17f-499b-a7a9-0ef8de00f2bf",
+        "35439069-a174-4d19-9238-8ec3e7f37d60",
+        "10a1b2b0-e0cb-43fe-8992-1298fb091658",
+        "c1132fb6-befe-4fcc-880a-2bc2682545f5"
+      ],
+      "settings": {
+        "bg_color": "bg-white text-dark",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "btn_text": "View all collections",
+        "btn_color": "btn-primary",
+        "row_xs": 2,
+        "row_sm": 2,
+        "row_lg": 4,
+        "pt": 13,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "1663804795eacaf71c": {
+      "type": "richtext",
+      "settings": {
+        "max_width": "1650",
+        "text_align": "text-center",
+        "title": "Skin Concerns",
+        "title_size": "h2",
+        "description": "<p>[Anti-aging Solutions]<\/p><p>As we age, specific skin concerns begin to arise. Wrinkles, age spots, crow’s feet, etc., are all a part of aging, but we don’t have to let aging keep us from looking great. If you want to keep your skin looking young and beautiful, it is essential to learn about effective ingredients and natural remedies to keep aging skin at bay.<br\/><br\/>There are so many anti-aging skincare products on the market that it can be a bit overwhelming. It is hard to know which products are going to do precisely what you need them to do. And which products contain ingredients that your skin needs.<\/p><p>We have broken it down into categories based on a specific concern to help you find your skin type's ideal products. Our highly concentrated serums are loaded with peptides for real results.<\/p><p>With so many different issues and skin types, it can be hard to determine what products you should be using in your skincare routine. Here you can learn about the latest facial treatments for the most common conditions.<br\/><br\/>Just select a specific condition you are concerned about and find recommendations for ingredients to look for, products to try, and tips on reducing the look of these unwanted issues. We want to help you have the best skin possible. It is important to make educated decisions on your skincare products.<br\/><br\/>The more you know what ingredients and products will work best for your concerns, the better those decisions will be.<\/p><p><em>If you want your skincare to be effective, you have to make sure you are using the right products; we want to help you get there.<\/em><\/p><p>If you need more help locating products that will work for you, take our skin care<a href=\"https:\/\/www.naturalorganicskincare.com\/skin-care-quiz\/\" title=\"find out your facial type will help you find the right cosmetics.\"> quiz<\/a>. You can also browse our <a href=\"https:\/\/www.naturalorganicskincare.com\/skin-type\" title=\"normal, dry, oily, combination or sensitive.\">skin types<\/a> section to determine what products are right for your specific skin type. You can also email us at <a href=\"mailto:help@naturalorganicskincare.com.\">help@naturalorganicskincare.com.<\/a><br\/><br\/>Please include your skin type, any skincare concerns you may have, and what your goals are. A skincare specialist will email you a customized routine to locate the right products for your complexion.<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "btn_size": "",
+        "pt": 10,
+        "pb": 10,
+        "mt": 11,
+        "mb": 11
+      }
+    }
+  },
+  "order": [
+    "template-collection",
+    "16643040311de6ae10",
+    "1663804795eacaf71c"
+  ]
+}

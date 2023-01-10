@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "template-collection": {
+      "type": "template-collection",
+      "settings": {
+        "show_collection_img": false,
+        "show_collection_description": false,
+        "limit": 40,
+        "text_align": "text-center",
+        "row_xs": 2,
+        "row_sm": 2,
+        "row_lg": 3,
+        "mt": 10,
+        "mb": 10
+      }
+    },
+    "1663804795eacaf71c": {
+      "type": "richtext",
+      "settings": {
+        "max_width": "",
+        "text_align": "text-center",
+        "title": "Serum Boosters",
+        "title_size": "h2",
+        "description": "<p>[Serum Boosters]<\/p><p>Customize your skincare. Create a powerhouse nutrient-rich treatment to enhance your serum or moisturizer with a concentrated blend of anti-aging peptides and powerful bioactives.<\/p><p>[Anti-Aging Serum Boosters]<\/p><p>Have you ever found the almost perfect serum, but it just missed the mark? Then, of course, it would be perfect if you could only add 1 or 2 more of your favorite ingredients!<br\/><br\/>Well, now you can add those unique natural or anti-aging ingredients to your organic skincare products and make them the perfect custom product!<\/p><p>Our Serum Boosters contain clinically validated peptides, stem cells, antioxidants, seaweed, and other naturals to get your complexion looking its best.<\/p><p><strong>Our serum boosters help your products work more efficiently by blending a small amount into your favorite natural and organic skincare products.<\/strong><\/p><p>We have many <a href=\"https:\/\/www.naturalorganicskincare.com\/collections\/anti-aging-peptides\" title=\"anti-aging peptides chart\">anti-aging peptides<\/a> to help reduce the look of wrinkles while firming skin and improving your complexion to appear healthier and more youthful!<\/p><p>Find lotion-making supplies plus all the latest peptides in our shop. New! Watch our DIY Divas, Karen and Tonia, add <a href=\"https:\/\/www.naturalorganicskincare.com\/collections\/how-to-add-a-serum-booster\" title=\"watch how to boost your serums\">a serum booster to a cream base<\/a>.<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "btn_size": "",
+        "pt": 10,
+        "pb": 10,
+        "mt": 11,
+        "mb": 11
+      }
+    }
+  },
+  "order": [
+    "template-collection",
+    "1663804795eacaf71c"
+  ]
+}

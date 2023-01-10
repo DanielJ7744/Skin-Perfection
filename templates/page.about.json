@@ -1,0 +1,140 @@
+{
+  "sections": {
+    "1636275108720b76b1": {
+      "type": "separator",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "opacity": 0.1,
+        "mt": 9,
+        "mb": 9
+      }
+    },
+    "165268949817e427ae": {
+      "type": "carousel",
+      "blocks": {
+        "1652689498756fb688-0": {
+          "type": "slide",
+          "settings": {
+            "img_opacity": 0.7,
+            "title": "",
+            "title_size": "h2",
+            "description": "",
+            "description_size": "fs-5",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_color": "btn-primary",
+            "btn_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652689498756fb688-0"
+      ],
+      "settings": {
+        "controls": true,
+        "indicators": true,
+        "autoplay": false,
+        "animation": "slide",
+        "mt": 0,
+        "mb": 10
+      }
+    },
+    "1652689700430c7f0b": {
+      "type": "richtext",
+      "settings": {
+        "max_width": "",
+        "text_align": "text-start",
+        "title": "About us",
+        "title_size": "h2",
+        "description": "<p>As a result, Skin Perfection is committed to bringing you effective anti-aging products. Designed to give your complexion the nurturing, it needs to stay healthy and let your natural beauty shine through. Our products use plant botanicals derived from nature. With powerful superfruit antioxidants, organic extracts, stem cells, and <a href=\"https:\/\/www.naturalorganicskincare.com\/collections\/anti-aging-peptides\" title=\"anti-aging peptides for visible results\">anti-aging peptides<\/a> in maximum concentrations that take years off your appearance.<\/p><p>Your skin’s elasticity will improve for a firmer, and the jawline lifted. Replenish your lost volume and fullness of the cheeks and lines around the mouth. But best of all, fine lines and wrinkles will begin to fade fast. As a result, you can achieve a radiant complexion and realize the benefits of younger, healthier skin–without the additives.<\/p><p>[Take your skincare to the next level and find your skin perfection today!]<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "btn_size": "",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 10
+      }
+    },
+    "1663806862cd2e2f61": {
+      "type": "columns-with-icon",
+      "blocks": {
+        "fb1fdb2c-6902-49ab-8ff4-de11f9a604bc": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/artisan-crafter_35b353b1-8a42-454f-8d77-f06eafe796c5.png",
+            "img_width": "400",
+            "img_height": "400",
+            "img_crop": "center",
+            "title": "",
+            "title_size": "h4",
+            "description": "",
+            "description_size": "fs-6",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_color": "btn-outline-primary",
+            "btn_size": ""
+          }
+        },
+        "61158c7b-62e9-4d75-9df6-8c5fdca5a14d": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/artisan-crafter_35b353b1-8a42-454f-8d77-f06eafe796c5.png",
+            "img_width": "600",
+            "img_height": "300",
+            "img_crop": "center",
+            "title": "",
+            "title_size": "h4",
+            "description": "",
+            "description_size": "fs-6",
+            "btn_text": "Learn more",
+            "btn_url": "",
+            "btn_color": "btn-outline-primary",
+            "btn_size": ""
+          }
+        },
+        "166d7fbf-ad1e-41e3-bdbf-3e688a570deb": {
+          "type": "item",
+          "settings": {
+            "img_width": "600",
+            "img_height": "300",
+            "img_crop": "center",
+            "title": "",
+            "title_size": "h4",
+            "description": "",
+            "description_size": "fs-6",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_color": "btn-outline-primary",
+            "btn_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "fb1fdb2c-6902-49ab-8ff4-de11f9a604bc",
+        "61158c7b-62e9-4d75-9df6-8c5fdca5a14d",
+        "166d7fbf-ad1e-41e3-bdbf-3e688a570deb"
+      ],
+      "settings": {
+        "title": "Columns with icon",
+        "title_size": "h2",
+        "row_xs": 1,
+        "row_sm": 2,
+        "row_lg": 5,
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    }
+  },
+  "order": [
+    "1636275108720b76b1",
+    "165268949817e427ae",
+    "1652689700430c7f0b",
+    "1663806862cd2e2f61"
+  ]
+}

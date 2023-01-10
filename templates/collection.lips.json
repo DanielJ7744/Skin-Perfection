@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "template-collection": {
+      "type": "template-collection",
+      "settings": {
+        "show_collection_img": false,
+        "show_collection_description": false,
+        "limit": 40,
+        "text_align": "text-center",
+        "row_xs": 2,
+        "row_sm": 2,
+        "row_lg": 3,
+        "mt": 10,
+        "mb": 10
+      }
+    },
+    "1663804795eacaf71c": {
+      "type": "richtext",
+      "settings": {
+        "max_width": "",
+        "text_align": "text-center",
+        "title": "Lips",
+        "title_size": "h2",
+        "description": "<p>[Those Lovely Lips]<\/p><p>Moisturize dry lips with the highest quality natural and organic ingredients from our hydrating organic lip balms, lip glosses, and creams. Lip Balms help your lips stay hydrated and not to get chapped.<\/p><p>For an extra moisture surge, try our gel lip masks for instant volume and lasting fullness. Try our lovely lip products today; you'll be hooked!<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "btn_size": "",
+        "pt": 10,
+        "pb": 10,
+        "mt": 11,
+        "mb": 11
+      }
+    }
+  },
+  "order": [
+    "template-collection",
+    "1663804795eacaf71c"
+  ]
+}
