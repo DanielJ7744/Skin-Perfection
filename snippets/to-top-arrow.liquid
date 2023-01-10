@@ -1,0 +1,51 @@
+<div class="to-top-page">
+    <img src="{{ 'up-arrow.svg' | asset_url }}" alt="To the top">
+</div>
+
+<style>
+.to-top-page {
+    background: white;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    z-index: 10;
+    right: 30px;
+    bottom: 120px;
+    position: fixed;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    cursor: pointer;
+    opacity: 0;
+}
+.to-top-page.active {
+    opacity: 1;
+}
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+        const toTopButton = document.querySelector('.to-top-page')
+        if (window.pageYOffset > 100){
+            toTopButton.classList.add('active')
+        }
+        document.addEventListener("scroll", function(){
+            var scrollToTop = window.pageYOffset || document.documentElement.scrollTop;
+            if (scrollToTop > 100){
+                toTopButton.classList.add('active')
+            } else {
+                toTopButton.classList.remove('active')
+            }
+        }, false);
+
+        toTopButton.addEventListener('click', function handleClick() {
+            window.scroll({
+                top: 0, 
+                left: 0, 
+                behavior: 'smooth' 
+            });
+        });
+    });
+</script>
