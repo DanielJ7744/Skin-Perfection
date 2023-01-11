@@ -6,7 +6,7 @@
     {% assign toFreeShipping = freeShipping | minus: currentCartVlaue %}
     
     <div class="to-free-shipping__success {% if currentCartVlaue >= freeShipping %} active {% endif %}">
-        <p class="to-free-shipping__msg to-free-shipping__msg--success">Congrats! You unlocked free shipping</p>
+        <p class="to-free-shipping__msg to-free-shipping__msg--success">{{ settings.free_shipping_completion }}</p>
     </div>
     <div class="to-free-shipping__progress {% unless currentCartVlaue >= freeShipping %} active {% endunless %}">
         <div class="to-free-shipping__bar">

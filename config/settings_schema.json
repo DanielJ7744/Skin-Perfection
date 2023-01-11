@@ -26,6 +26,12 @@
         "id": "free_shipping_value",
         "label": "Amount for free shipping",
         "default": "100"
+      },
+      {
+        "type": "text",
+        "id": "free_shipping_completion",
+        "label": "Text for free shipping completion",
+        "default": "Congrats! You unlocked free shipping"
       }
     ]
   },
