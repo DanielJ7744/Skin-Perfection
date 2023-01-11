@@ -30,3 +30,25 @@
 .to-free-shipping__success.active, .to-free-shipping__progress.active {
     display: block;
 }
+
+
+/* Product badge */
+#product-media-slider-main, .product-item__wrapper {
+    position: relative;
+}
+.product-badges {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 14px;
+    left: 10px;
+    top: 10px;
+}
+.product-badge {
+    padding: 3px 7px;
+    color: #fff;
+    border-radius: 4px;
+    margin: 0;
+}

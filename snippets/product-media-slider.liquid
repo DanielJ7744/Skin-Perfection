@@ -34,6 +34,7 @@
         id="product-media-slider-main" 
         class="splide"
         data-current-media-position="{{ current_media_pos }}">
+        {% render 'product-badges' %}
         <div class="splide__track">
             <ul class="splide__list">
                 {% for media in product.media %}

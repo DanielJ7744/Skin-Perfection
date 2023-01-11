@@ -4,7 +4,8 @@
     assign img_thumbnail = ''
 %}
 
-<li class="product-item p-3 p-lg-4 mb-4">
+<li class="product-item p-3 p-lg-4 mb-4 product-item__wrapper">
+    {% render 'product-badges', product: product %}
     <a class="position-relative d-block" href="{{ product.url | within: collection }}">
         {% unless product.available %}
             <span class="badge-sold-out badge bg-secondary position-absolute top-0 end-0 me-3 mt-3">

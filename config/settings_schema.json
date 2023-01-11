@@ -30,6 +30,29 @@
     ]
   },
   {
+    "name": "Product Badges",
+    "settings": [
+      {
+        "type": "color",
+        "id": "sale_badge_color",
+        "label": "Sale badge color",
+        "default": "#C92228"
+      },
+      {
+        "type": "color",
+        "id": "best_seller_badge_color",
+        "label": "Best Seller badge color",
+        "default": "#99CC00"
+      },
+      {
+        "type": "color",
+        "id": "staff_pick_badge_color",
+        "label": "Staff Pick color",
+        "default": "#000000"
+      }
+    ]
+  },
+  {
     "name": "Typography",
     "settings": [
       {
