@@ -1,0 +1,149 @@
+{% assign metafieldExist = false %}
+{% for block in section.blocks %}
+    {% if block.settings.main_image != blank %}
+        {% assign metafieldExist = true %}
+    {% endif %}
+{% endfor %}
+{% if section.settings.subtitle != blank %}
+    {% assign metafieldExist = true %}
+{% endif %}
+
+{% if  metafieldExist %}
+<div class="grid-section">
+    <div class="container">
+        {% if section.settings.title != blank %}
+            <h2 class="grid-section__title">{{ section.settings.title }}</h2>
+       {% endif %}
+       {% if section.settings.subtitle != blank %}
+            <div class="grid-section__subtitle">
+                    {{ section.settings.subtitle }}
+            </div>
+       {% endif %}
+       <div class="grid-section__images">
+        {% for block in section.blocks %}
+                {% if block.settings.main_image != blank %}
+                    <img src="{{ block.settings.main_image | img_url: '600x' }}" class="lazyload" />
+                {% endif %}
+            {% endfor %}
+       </div>
+    </div>
+</div>
+{% endif %}
+
+{% style %}
+    #shopify-section-{{ section.id }} .grid-section {
+        padding-top: {{section.settings.padding_top}}px;
+        padding-bottom: {{section.settings.padding_bottom}}px;
+    }
+    #shopify-section-{{ section.id }} .container {
+        text-align: center;
+    }
+    #shopify-section-{{ section.id }} .grid-section__title {
+        font-size: {{section.settings.title_font_size}}px;
+        margin-bottom: 20px;
+    }
+    #shopify-section-{{ section.id }} .grid-section__subtitle {
+        font-size: {{section.settings.subtitle_font_size}}px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 520px;
+    }
+    #shopify-section-{{ section.id }} .grid-section__images {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    @media only screen and (max-width:768px) {
+        #shopify-section-{{ section.id }} .grid-section__images {
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        #shopify-section-{{ section.id }} .grid-section__images {
+            grid-template-columns: 1fr;
+        }
+    }
+    #shopify-section-{{ section.id }} .grid-section__images img {
+        width: 100%;
+        border-radius: 20px;
+    }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Grid Section",
+  "class": "shopify-section--grid-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+        "type": "range",
+        "id": "title_font_size",
+        "label": "Heading size",
+        "min": 10,
+        "max": 50,
+        "default": 27,
+        "unit": "px"
+    },
+    {
+        "type": "richtext",
+        "id": "subtitle",
+        "label": "Subtitle"
+    },
+    {
+        "type": "range",
+        "id": "subtitle_font_size",
+        "label": "Subtitle size",
+        "min": 10,
+        "max": 50,
+        "default": 15,
+        "unit": "px"
+    },
+    {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Top Spacing",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "default": 40,
+        "unit": "px"
+    },
+    {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Bottom Spacing",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "default": 40,
+        "unit": "px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Block",
+      "name": "Block",
+      "settings": [
+        {
+            "type": "image_picker",
+            "id": "main_image",
+            "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Grid Section",
+      "category": "General"
+    }
+  ]
+}
+
+{% endschema %}
