@@ -1,0 +1,24 @@
+<div class="product-icons">
+    {% assign iconList = block.settings.icon_list %}
+    {% for tag in product.tags %}
+        {%- assign tagIndicator = tag | append: "," -%}
+        {% if iconList contains tagIndicator %}
+            {%- assign iconName = tag | append: ".jpg" -%}
+            <img src="{{ iconName | asset_url }}" title="{{tag}}" alt="{{tag}}" loading="lazy">
+        {% endif %}
+    {% endfor %}
+</div>
+
+{% style %}
+    #shopify-section-{{ section.id }} .product-icons img{
+        width: {{block.settings.icon_width}}px
+    }
+    #shopify-section-{{ section.id }} .product-icons {
+        display: flex;
+        gap: 15px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+{% endstyle %}

@@ -47,6 +47,12 @@
                         </span>
                     </div>
 
+                    {% for block in section.blocks %}
+                        {%- if block.type == 'character_icons' -%}
+                            {% include 'product-character-icons' %}
+                        {% endif %}
+                    {% endfor %}
+
                     <div class="form-wrapper bg-light rounded p-6 mb-6">
                         {% form 'product', product, onsubmit: 'onSubmitAtcForm(this, event)' %}
                             <input type="hidden" name="id" value="{{ current_variant.id }}">
@@ -345,6 +351,29 @@
                     "id": "title",
                     "label": "Title",
                     "default": "Details"
+                }
+            ]
+        },
+        {
+            "type": "character_icons",
+            "name": "Character Icons",
+            "limit": 1,
+            "settings": [
+                {
+                "type": "text",
+                "id": "icon_list",
+                "label": "Icon List",
+                "info": "Add icon Tag names - separate by coma"
+                },
+                {
+                    "type": "range",
+                    "id": "icon_width",
+                    "label": "Icon Wdith",
+                    "min": 10,
+                    "max": 200,
+                    "step": 5,
+                    "default": 60,
+                    "unit": "px"
                 }
             ]
         },
