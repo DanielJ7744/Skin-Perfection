@@ -19,6 +19,17 @@
     ]
   },
   {
+    "name": "Free Shipping",
+    "settings": [
+      {
+        "type": "text",
+        "id": "free_shipping_value",
+        "label": "Amount for free shipping",
+        "default": "100"
+      }
+    ]
+  },
+  {
     "name": "Typography",
     "settings": [
       {

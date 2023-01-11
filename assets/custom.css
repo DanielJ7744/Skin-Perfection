@@ -1,3 +1,26 @@
 /* 
     Add here your own custom css styles
 */
+
+/* Style for Cart Free-shipping progress bar */
+.to-free-shipping {
+    background-color: #03b5ad;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.to-free-shipping__bar {
+    background-color: white;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.to-free-shipping__bar-progress {
+    height: 7px;
+    background-color: black;
+}
+.to-free-shipping__msg {
+    margin: 0;
+}

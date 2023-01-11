@@ -12,6 +12,9 @@
         <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="{{ 'general.accessibility.close' | t }}">
         </button>
     </div>
+    
+    {% render 'free-shipping-progress-bar' %}
+
     <div class="offcanvas-body">
         {% if cart.item_count == 0 %}
             <div id="offcanvas-cart-empty" class="d-flex justify-content-center flex-column align-items-center h-100 text-muted">

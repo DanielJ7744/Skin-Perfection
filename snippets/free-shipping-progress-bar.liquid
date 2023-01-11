@@ -1,0 +1,15 @@
+<div class="to-free-shipping">
+    {% assign storeCurrency = cart.currency.symbol %}
+    {% assign freeShipping = settings.free_shipping_value | plus: 0 %}
+    {% assign currentCartVlaue = cart.total_price | money | remove_first: storeCurrency | plus: 0 %}
+    {% assign currentPercent = currentCartVlaue | divided_by:freeShipping | times: 100 %}
+    {% assign toFreeShipping = freeShipping | minus: currentCartVlaue %}
+    {% if currentCartVlaue >= freeShipping %}
+        <p class="to-free-shipping__msg">Congrats! You unlocked free shipping</p>
+    {% else %}
+        <div class="to-free-shipping__bar">
+            <div class="to-free-shipping__bar-progress" style="width: {{currentPercent}}%"></div>
+        </div>
+        <p class="to-free-shipping__msg">You are {{storeCurrency}}{{toFreeShipping}} away from FREE SHIPPING</p>
+    {% endif %}
+</div>
