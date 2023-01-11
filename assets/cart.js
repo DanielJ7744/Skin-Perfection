@@ -29,6 +29,39 @@ window.refreshCartContents = async () => {
     })
 
     offcanvasCart?.classList.remove('loading')
+
+    // Updating cart progress bar
+        const subTotalElement = document.getElementById('offcanvas-cart-subtotal')
+        const cartTotal = parseFloat(subTotalElement.getAttribute('cart-total').substring(1))
+        const freeShipping = parseFloat(subTotalElement.getAttribute('free-shipping'))
+        const successDivs =  document.querySelectorAll('.to-free-shipping__success')
+        const progressDivs =  document.querySelectorAll('.to-free-shipping__progress')
+        const progressBars =  document.querySelectorAll('.to-free-shipping__bar-progress')
+        const freeShippingAways =  document.querySelectorAll('.to-free-shipping__away')
+        if (cartTotal >= freeShipping) {
+            for (const successDiv of successDivs) {
+                successDiv.classList.add('active')
+            }
+            for (const progressDiv of progressDivs) {
+                progressDiv.classList.remove('active')
+            }
+        } else {
+            for (const successDiv of successDivs) {
+                successDiv.classList.remove('active')
+            }
+            for (const progressDiv of progressDivs) {
+                progressDiv.classList.add('active')
+            }
+            const percentOfProgress =  cartTotal / freeShipping * 100
+            for (const progressBar of progressBars) {
+                progressBar.style.width = percentOfProgress + "%"
+            }
+            for (const freeShippingAway of freeShippingAways) {
+                freeShippingAway.innerHTML = +parseFloat(freeShipping - cartTotal).toFixed( 2 )
+            }
+        }
+    // Updating cart progress bar end
+    
 }
 
 // Quantity Inputs

@@ -121,7 +121,7 @@
                 {{ 'cart.continue_shopping' | t }}
             </button>
         {% else %}
-            <p id="offcanvas-cart-subtotal" class="lead text-center mb-3">
+            <p id="offcanvas-cart-subtotal" class="lead text-center mb-3" cart-total="{{cart.total_price | money}}" free-shipping="{{settings.free_shipping_value}}">
                 <span class="text-muted">
                     {{ 'cart.subtotal' | t }}: 
                 </span>

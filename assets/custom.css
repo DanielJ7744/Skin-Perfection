@@ -24,3 +24,9 @@
 .to-free-shipping__msg {
     margin: 0;
 }
+.to-free-shipping__success, .to-free-shipping__progress {
+    display: none;
+}
+.to-free-shipping__success.active, .to-free-shipping__progress.active {
+    display: block;
+}
