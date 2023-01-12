@@ -30,9 +30,9 @@
         {{ product.title }}
     </h3>
     
-    {% unless product.metafields.custom.overview == blank %}
+    {% unless product.metafields.custom.subtitle == blank %}
         <p class="product-item-overview small mt-n3 opacity-75 mb-5">
-            {{ product.metafields.custom.overview }}
+            {{ product.metafields.custom.subtitle }}
         </p>
     {% endunless %}
     
