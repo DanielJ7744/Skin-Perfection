@@ -10,6 +10,10 @@
     text-align: center;
     color: #fff;
     margin-bottom: 10px;
+    display: none;
+}
+.to-free-shipping.active {
+    display: block;
 }
 .to-free-shipping__bar {
     background-color: white;

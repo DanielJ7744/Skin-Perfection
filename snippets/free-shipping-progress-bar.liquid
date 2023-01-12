@@ -1,14 +1,14 @@
-<div class="to-free-shipping">
+<div class="to-free-shipping {% if cart.item_count > 0 %} active {% endif %}">
     {% assign storeCurrency = cart.currency.symbol %}
     {% assign freeShipping = settings.free_shipping_value | plus: 0 %}
-    {% assign currentCartVlaue = cart.total_price | money | remove_first: storeCurrency | plus: 0 %}
-    {% assign currentPercent = currentCartVlaue | divided_by:freeShipping | times: 100 %}
-    {% assign toFreeShipping = freeShipping | minus: currentCartVlaue %}
+    {% assign currentCartValue = cart.total_price | money | remove_first: storeCurrency | plus: 0 %}
+    {% assign currentPercent = currentCartValue | divided_by:freeShipping | times: 100 %}
+    {% assign toFreeShipping = freeShipping | minus: currentCartValue %}
     
-    <div class="to-free-shipping__success {% if currentCartVlaue >= freeShipping %} active {% endif %}">
+    <div class="to-free-shipping__success {% if currentCartValue >= freeShipping %} active {% endif %}">
         <p class="to-free-shipping__msg to-free-shipping__msg--success">{{ settings.free_shipping_completion }}</p>
     </div>
-    <div class="to-free-shipping__progress {% unless currentCartVlaue >= freeShipping %} active {% endunless %}">
+    <div class="to-free-shipping__progress {% unless currentCartValue >= freeShipping %} active {% endunless %}">
         <div class="to-free-shipping__bar">
             <div class="to-free-shipping__bar-progress" style="width: {{currentPercent}}%"></div>
         </div>
