@@ -1,10 +1,12 @@
-<div class="product-icons">
+<ul class="product-icons">
     {% assign iconList = block.settings.icon_list %}
     {% for tag in product.tags %}
         {%- assign tagIndicator = tag | append: "," -%}
         {% if iconList contains tagIndicator %}
             {%- assign iconName = tag | append: ".jpg" -%}
-            <img src="{{ iconName | asset_url }}" title="{{tag}}" alt="{{tag}}" loading="lazy">
+            <li>
+                <img src="{{ iconName | asset_img_url : '60x' }}" title="{{tag}}" alt="{{tag}}" loading="lazy">
+            </li>
         {% endif %}
     {% endfor %}
 </div>
@@ -19,6 +21,12 @@
         margin-top: 20px;
         flex-wrap: wrap;
         margin-bottom: 20px;
+        justify-content: center;
+        list-style: none;
+    }
+    #shopify-section-{{ section.id }} .product-icons li {
+        display: flex;
+        align-items: center;
         justify-content: center;
     }
 {% endstyle %}

@@ -47,12 +47,6 @@
                         </span>
                     </div>
 
-                    {% for block in section.blocks %}
-                        {%- if block.type == 'character_icons' -%}
-                            {% include 'product-character-icons' %}
-                        {% endif %}
-                    {% endfor %}
-
                     <div class="form-wrapper bg-light rounded p-6 mb-6">
                         {% form 'product', product, onsubmit: 'onSubmitAtcForm(this, event)' %}
                             <input type="hidden" name="id" value="{{ current_variant.id }}">
@@ -121,7 +115,11 @@
                     </div>
 
                     <div class="pb-6">
-                        {% render 'product-trust-badges' %}
+                        {% for block in section.blocks %}
+                            {%- if block.type == 'character_icons' -%}
+                                {% include 'product-character-icons' %}
+                            {% endif %}
+                        {% endfor %}
                     </div>
 
                 </div>
