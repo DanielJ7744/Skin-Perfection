@@ -37,6 +37,7 @@ window.refreshCartContents = async () => {
         const progressBars =  document.querySelectorAll('.to-free-shipping__bar-progress')
         const freeShippingAways =  document.querySelectorAll('.to-free-shipping__away')
         const freeShippingWidgets = document.querySelectorAll('.to-free-shipping')
+        const offCanvasProgressBar = document.querySelector('.offcanvas .to-free-shipping__bar-progress')
 
         if (subTotalElement) {
             for (const freeShippingWidget of freeShippingWidgets) {
@@ -45,12 +46,22 @@ window.refreshCartContents = async () => {
             const cartTotal = parseFloat(subTotalElement.getAttribute('cart-total').substring(1))
             const freeShipping = parseFloat(subTotalElement.getAttribute('free-shipping'))
             if (cartTotal >= freeShipping) {
-                for (const successDiv of successDivs) {
-                    successDiv.classList.add('active')
+                for (const progressBar of progressBars) {
+                    progressBar.style.width = offCanvasProgressBar.style.width
                 }
-                for (const progressDiv of progressDivs) {
-                    progressDiv.classList.remove('active')
-                }
+                setTimeout(() => {
+                    for (const progressBar of progressBars) {
+                        progressBar.style.width = "100%"
+                    }
+                }, 300)
+                setTimeout(() => {
+                    for (const successDiv of successDivs) {
+                        successDiv.classList.add('active')
+                    }
+                    for (const progressDiv of progressDivs) {
+                        progressDiv.classList.remove('active')
+                    }
+                }, 800)
             } else {
                 for (const successDiv of successDivs) {
                     successDiv.classList.remove('active')
@@ -59,9 +70,16 @@ window.refreshCartContents = async () => {
                     progressDiv.classList.add('active')
                 }
                 const percentOfProgress =  cartTotal / freeShipping * 100
+                
                 for (const progressBar of progressBars) {
-                    progressBar.style.width = percentOfProgress + "%"
+                    progressBar.style.width = offCanvasProgressBar.style.width
                 }
+                setTimeout(() => {
+                    for (const progressBar of progressBars) {
+                        progressBar.style.width = percentOfProgress + "%"
+                    }
+                }, 300)
+
                 for (const freeShippingAway of freeShippingAways) {
                     freeShippingAway.innerHTML = +parseFloat(freeShipping - cartTotal).toFixed( 2 )
                 }
