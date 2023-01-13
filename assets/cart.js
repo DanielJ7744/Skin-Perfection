@@ -30,8 +30,8 @@ window.refreshCartContents = async () => {
 
     const mainCartList = document.querySelector('#main-cart-list')
     mainCartList?.replaceWith(newDocument.querySelector('#main-cart-list'))
-    const recomProducts = document.querySelector('#cart-recommend-list')
-    recomProducts?.replaceWith(newDocument.querySelector('#cart-recommend-list'))
+    const recomProducts = document.querySelector('#template-cart #cart-recommend-list')
+    recomProducts?.replaceWith(newDocument.querySelector('#template-cart #cart-recommend-list'))
 
     offcanvasCart?.classList.remove('loading')
 
