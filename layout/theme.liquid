@@ -97,15 +97,16 @@
       })();
     </script>
     {% if template contains 'blog' %}
-      <script
-        src="https://code.jquery.com/jquery-3.6.3.min.js"
-        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
-        crossorigin="anonymous"
-      ></script>
       <script src="{{ 'load-more.js' | asset_url }}" defer="defer"></script>
     {% endif %}
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
 
-
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     
   </head>
 
@@ -131,6 +132,7 @@
 
     {% liquid
       render 'to-top-arrow'
+      render 'slider-script'
     %}
     <script src="{{ 'predictive-search.js' | asset_url }}" defer></script>
 

@@ -1,0 +1,103 @@
+{% liquid 
+    assign cart_collection = collections[settings.cart_recommend_collection]
+    assign cartItemsProductId = "--"
+%}
+
+{% for item in items %}
+  {% assign productID = item.product_id %}
+  {% assign cartItemsProductId = cartItemsProductId | append: productID | append: '--' %}
+{% endfor %}
+
+{%- if cart_collection != blank -%}
+    <div id="cart-recommend" class="">
+        <h3 id="cart-recommend-title" class="h6 mb-4">
+            {{ settings.cart_recommend_title }}
+        </h3>
+        <ul id="cart-recommend-list" class="cart-recom-carousel product-list list-unstyled">
+            {% for product in cart_collection.products %}
+            {% unless cartItemsProductId contains product.id %}
+                <li class="product-item text-center px-3">
+                    <a class="link-dark cart-recom-carousel_img" href="{{ product.url }}">
+                        <img 
+                            class="product-item-img img-fluid mb-3"
+                            src="{{ product.featured_image | image_url: width: img_width, height: img_height, crop: 'center' }}" 
+                            alt="{{ product.featured_image.alt | escape }}"
+                            width="{{ img_width }}"
+                            height="{{ img_height }}" 
+                            loading="lazy">
+                    </a>
+                    <div>
+                        <a class="link-dark" href="{{ product.url }}">
+                            <h3 class="product-item-title h6 mb-2">
+                                {{ product.title }}
+                            </h3>
+                        </a>
+                        <p class="product-item-price small mb-4">
+                            {% if product.first_available_variant.compare_at_price > product.price %}
+                                <span class="product-item-price-compare text-muted me-1">
+                                    <span class="visually-hidden">
+                                        {{ 'product.price_regular' | t }} &nbsp;
+                                    </span>
+                                    <s>
+                                        {{ product.first_available_variant.compare_at_price | money }}
+                                    </s>
+                                </span>
+                                <span class="product-item-price-final">
+                                    <span class="visually-hidden">
+                                        {{ 'product.price_sale' | t }} &nbsp;
+                                    </span>
+                                    {{ product.first_available_variant.price | money }}
+                                </span>
+                            {% else %}
+                                <span class="product-item-price-final">
+                                    {{ product.first_available_variant.price | money }}
+                                </span>
+                            {% endif %}
+                        </p>
+                        <div class="form-wrapper">
+                            {% form 'product', product, onsubmit: 'onSubmitAtcForm(this, event)' %}
+                                {% if product.has_only_default_variant %}
+                                    <input type="hidden" name="id" value="{{ product.first_available_variant.id }}">
+                                {% else %}
+                                    <select 
+                                        class="form-select form-select-sm w-100 mb-3" 
+                                        name="id" 
+                                        aria-label="{{ 'product.select_variant' | t }}"
+                                        onchange="onChangeProductItemVariant(this, event)">
+                                        {% for variant in product.variants %}
+                                            <option 
+                                                value="{{ variant.id }}"
+                                                data-compare-at-price="{{ variant.compare_at_price }}"
+                                                data-price="{{ variant.price }}"
+                                                {% if variant.image %}
+                                                    data-variant-image="{{ variant.image | image_url: width: img_width, height: img_height, crop: 'center' }}"
+                                                {% endif %}
+                                                >
+                                                {{ variant.title }}
+                                            </option>
+                                        {% endfor %}
+                                    </select>
+                                {% endif %}
+                                <button
+                                    class="btn-atc btn btn-sm btn-primary w-100" 
+                                    type="submit"
+                                    name="add"
+                                    data-text-add-to-cart="{{ 'product.add' | t }}"
+                                    {% unless product.available %}
+                                        disabled
+                                    {% endunless %}>
+                                    {% if product.available %}
+                                        {{ 'product.add' | t }}
+                                    {% else %}
+                                        {{ 'product.sold_out' | t }}
+                                    {% endif %}
+                                </button>
+                            {% endform %}
+                        </div>
+                    </div>
+                </li>
+                {% endunless %}
+            {% endfor %}
+        </ul>
+    </div>
+{%- endif -%}

@@ -89,7 +89,7 @@
                 {% endfor %}
             </ul>
             
-            {% render 'cart-upsell' %}
+            {% render 'cart-recommendation', items: cart.items %}
 
             {% if settings.offcanvas_cart_show_note %}
                 <hr>

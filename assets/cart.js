@@ -28,6 +28,11 @@ window.refreshCartContents = async () => {
         badge.textContent = newDocument.querySelector('.cart-badge').textContent
     })
 
+    const mainCartList = document.querySelector('#main-cart-list')
+    mainCartList?.replaceWith(newDocument.querySelector('#main-cart-list'))
+    const recomProducts = document.querySelector('#cart-recommend-list')
+    recomProducts?.replaceWith(newDocument.querySelector('#cart-recommend-list'))
+
     offcanvasCart?.classList.remove('loading')
 
     // Updating cart progress bar
@@ -84,6 +89,13 @@ window.refreshCartContents = async () => {
                     freeShippingAway.innerHTML = +parseFloat(freeShipping - cartTotal).toFixed( 2 )
                 }
             }
+            
+            // Render recom carousel
+            $('.cart-recom-carousel').flickity({
+                cellAlign: 'left',
+                contain: true
+            });
+            // Render recom carousel end
         } else {
             for (const freeShippingWidget of freeShippingWidgets) {
                 freeShippingWidget.classList.remove('active')

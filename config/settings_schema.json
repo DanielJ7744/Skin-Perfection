@@ -36,6 +36,22 @@
     ]
   },
   {
+    "name": "Cart",
+    "settings": [
+      {
+        "type": "collection",
+        "id": "cart_recommend_collection",
+        "label": "Collection for cart recommendation"
+      },
+      {
+        "type": "text",
+        "id": "cart_recommend_title",
+        "label": "Title",
+        "default": "Recommended products"
+      }
+    ]
+  },
+  {
     "name": "Product Badges",
     "settings": [
       {

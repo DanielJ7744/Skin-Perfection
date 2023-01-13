@@ -33,7 +33,7 @@
             <form action="{{ routes.cart_url }}" class="" method="post" novalidate>
                 <div class="row">
                     <div class="col-lg-8">
-                        <ul class="product-list list-unstyled mb-6">
+                        <ul id="main-cart-list" class="product-list list-unstyled mb-6">
                             {% for line_item in cart.items %}
                                 <li class="product-item pb-5 mb-5 {% unless forloop.last %}border-bottom{% endunless %}">
                                     <div class="row align-items-lg-center mx-n3">
@@ -101,6 +101,7 @@
                                 </li>
                             {% endfor %}
                         </ul>
+                        {% render 'cart-recommendation', items: cart.items %}
                     </div>
                     <div class="col-lg-4">
                         <div id="template-cart-summary" class="card">
