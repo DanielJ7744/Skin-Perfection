@@ -1,5 +1,65 @@
 [
   {
+    "title": "0-Cymen-5-0L",
+    "description": "Protects product and gives a boost to the absorption of ingredients",
+    "origin": "Preservative",
+    "score": 1
+  },
+  {
+    "title": "1% Salicylic Acid",
+    "description": "Assists the skin in shedding dead cells and decreases redness and inflammation",
+    "origin": "Willow Tree Bark",
+    "score": 3
+  },
+  {
+    "title": "10% Glycolic Acid",
+    "description": "Exfoliates the skin while increasing cell turnover and collagen production",
+    "origin": "Sugar Cane",
+    "score": 4
+  },
+  {
+    "title": "2% Lactic Acid (L)",
+    "description": "Softens and smooths skin by eliminating buildup of dead skin cells",
+    "origin": "Alpha Hydroxy Acid",
+    "score": 4
+  },
+  {
+    "title": "2% Salicylic acid",
+    "description": "Assists the skin in shedding dead cells and decreases redness and inflammation",
+    "origin": "Willow Tree Bark",
+    "score": 3
+  },
+  {
+    "title": "3-Glyceryl Ascorbate (Vitamin C)",
+    "description": "An antioxidant to block UV damage while brightening and improving skin regeneration",
+    "origin": "Vitamin",
+    "score": 1
+  },
+  {
+    "title": "3% Kojic Acid",
+    "description": "Lighten visible hyperpigmentation, age spots, and marks due to premature aging",
+    "origin": "Plant-based",
+    "score": 6
+  },
+  {
+    "title": "7% Alpha-Arbutin",
+    "description": "Reduces appearance of age spots, freckles, melasma, and post-inflammatory pigmentation",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Acetyl Carnitine HCl (L)",
+    "description": "Enhances the skin's ability to hold onto moisture produced within the skin",
+    "origin": "Amino Acid Lysine",
+    "score": 1
+  },
+  {
+    "title": "Acetyl Glucosamine (D)",
+    "description": "Accelerates regeneration, hydration, and decreases the look of wrinkles",
+    "origin": "Amino Acids",
+    "score": 1
+  },
+  {
     "title": "Acetyl hexapeptide-1",
     "description": "Contains the amino acids alanine, arginine, histidine, leucine, phenylalanine, and tryptophan",
     "origin": "Amino Acids",
@@ -8,6 +68,12 @@
   {
     "title": "Acetyl Hexapeptide-2",
     "description": "For skin firmness",
+    "origin": "Amino Acids",
+    "score": 1
+  },
+  {
+    "title": "Acetyl Hexapeptide-3",
+    "description": "Old form of Argireline",
     "origin": "Amino Acids",
     "score": 1
   },
@@ -30,19 +96,7 @@
     "score": 1
   },
   {
-    "title": "Acetyl Tetrapeptide-51 Amide.",
-    "description": "Helps delay senescence, and visibly helps your skin look younger",
-    "origin": "Amino Acids",
-    "score": 1
-  },
-  {
     "title": "Acetyl Hexapeptide-8",
-    "description": "Relaxing effect on facial muscles, slowing down wrinkle formation.",
-    "origin": "Amino Acids",
-    "score": 1
-  },
-  {
-    "title": "Water (and) Acetyl Hexapeptide-8. Acetyl Hexapeptide-8 is a peptide that targets the formation of wrinkles by reducing contractions. It also helps reduce the appearance and depth of expression lines.",
     "description": "Relaxing effect on facial muscles, slowing down wrinkle formation.",
     "origin": "Amino Acids",
     "score": 1
@@ -60,9 +114,21 @@
     "score": 1
   },
   {
+    "title": "Acetyl Tetrapeptide-2",
+    "description": "Redefine jawline with increased firmness and tightening",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
     "title": "Acetyl tetrapeptide-5",
     "description": "Provides calming, smoothing, hydrating, and firmness-enhancing benefits",
     "origin": "Amino Acids",
+    "score": 1
+  },
+  {
+    "title": "Acetyl Tetrapeptide-51 Amide",
+    "description": "Age-defying effect for aging complexions, keeps your skin looking and acting younger",
+    "origin": "Peptide",
     "score": 1
   },
   {
@@ -78,9 +144,27 @@
     "score": 1
   },
   {
+    "title": "Acetyl Tyrosine",
+    "description": "Amino acid strand L-tyrosine",
+    "origin": "Amino Acids",
+    "score": 1
+  },
+  {
     "title": "Acetylarginyltryptophyl Diphenylglycine",
     "description": "Enzme that inhibits the breakdown of collagen",
     "origin": "Peptides",
+    "score": 1
+  },
+  {
+    "title": "Achillea Millefolium Extract (Yarrow)",
+    "description": "Natural astringent to help minimize pores",
+    "origin": "Plant",
+    "score": 2
+  },
+  {
+    "title": "Acrylates\/C10-30 Alkyl Acrylate Crosspolymer",
+    "description": "Improves texture and feel of skin",
+    "origin": "Carboxylic Acids",
     "score": 1
   },
   {
@@ -90,15 +174,57 @@
     "score": 1
   },
   {
-    "title": "Albumen",
-    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
-    "origin": "Soybean Seed",
+    "title": "Adenine",
+    "description": "Amino acid chain that enhances penetration",
+    "origin": "Peptide",
     "score": 1
   },
   {
-    "title": "Alcohol Denat.",
+    "title": "Adipofill-in",
+    "description": "Fill in the look of hollowness for a refreshed appearance",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Adipofill'in™",
+    "description": "Fill in the look of hollowness for a refreshed appearance",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Aesculus Hippocastanum (Horse Chestnut) Seed Extract",
+    "description": "Contains flavonoids and saponins that are powerful antioxidants",
+    "origin": "Nuts",
+    "score": 1
+  },
+  {
+    "title": "Alanine",
+    "description": "Source of energy",
+    "origin": "Amino Acid",
+    "score": 1
+  },
+  {
+    "title": "Albumen",
     "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
-    "origin": "Soybean Seed",
+    "origin": "Eggs",
+    "score": 1
+  },
+  {
+    "title": "Alcohol",
+    "description": "Non-drying alcohol from certified organic grain, enhances delivery and penetration of ingredients",
+    "origin": "Organic Grain",
+    "score": 1
+  },
+  {
+    "title": "Alcohol Denat",
+    "description": "Non-drying alcohol from certified organic grain, enhances delivery and penetration of ingredients",
+    "origin": "Grain - ethanol",
+    "score": 1
+  },
+  {
+    "title": "Alcohol Denatured",
+    "description": "Non-drying alcohol from certified organic grain, enhances delivery and penetration of ingredients",
+    "origin": "Grain - ethanol",
     "score": 1
   },
   {
@@ -108,10 +234,22 @@
     "score": 0
   },
   {
-    "title": "Organic Blue-Green Algae",
+    "title": "Algae (Laminaria) Extract",
     "description": "Firming seaweed",
     "origin": "Seaweed",
     "score": 0
+  },
+  {
+    "title": "Algae Extract",
+    "description": "Firming seaweed",
+    "origin": "Seaweed",
+    "score": 0
+  },
+  {
+    "title": "Algin",
+    "description": "Improves texture of moisturizing skincare formulas",
+    "origin": "Algae",
+    "score": 1
   },
   {
     "title": "Allantoin",
@@ -120,21 +258,87 @@
     "score": 0
   },
   {
-    "title": "Aloe Barbadensis Leaf Juice Powder",
+    "title": "Allspice Powder",
+    "description": "Helps to prevent bacterial infection",
+    "origin": "Berry Tree",
+    "score": 1
+  },
+  {
+    "title": "Aloe",
     "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
-    "origin": "Soybean Seed",
+    "origin": "Aloe Plant",
+    "score": 1
+  },
+  {
+    "title": "Aloe Barbadenosis (Organic Aloe Vera) Juice",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Plant",
+    "score": 1
+  },
+  {
+    "title": "Aloe Barbadenosis (Organic Aloe) Juice",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Plant",
     "score": 1
   },
   {
     "title": "Aloe barbadensis",
     "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
-    "origin": "Soybean Seed",
+    "origin": "Aloe Plant",
     "score": 1
   },
   {
-    "title": "Organic Aloe Leaf Juice (Aloe Barbadensis)",
+    "title": "Aloe Barbadensis (Aloe Vera) Leaf Juice Powder*",
     "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
-    "origin": "Soybean Seed",
+    "origin": "Aloe Plant",
+    "score": 1
+  },
+  {
+    "title": "Aloe Barbadensis (Organic Aloe Vera) Juice",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Plant",
+    "score": 1
+  },
+  {
+    "title": "Aloe Barbadensis Leaf Juice",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Plant",
+    "score": 1
+  },
+  {
+    "title": "Aloe Barbadensis Leaf Juice (Organic Aloe)",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Plant",
+    "score": 1
+  },
+  {
+    "title": "Aloe Barbadensis Leaf Juice Powder",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Plant",
+    "score": 1
+  },
+  {
+    "title": "Aloe Extract",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Plant",
+    "score": 1
+  },
+  {
+    "title": "Aloe Vera Juice",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Plant",
+    "score": 1
+  },
+  {
+    "title": "Alpha Arbutin",
+    "description": "Bearberry helps reduce hyperpigmentation and brighten skin for improved radiance",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Alpha Lipoic Acid",
+    "description": "Enzymes that digest cross-linked collagen, delays aging",
+    "origin": "Vegetables",
     "score": 1
   },
   {
@@ -144,9 +348,105 @@
     "score": 1
   },
   {
+    "title": "Alumina Dermabrasion Crystals",
+    "description": "Micro beads remove the outer layer of skin revealing a more vibrant complexion",
+    "origin": "Beads",
+    "score": 2
+  },
+  {
+    "title": "Amazon Acai Fruit",
+    "description": "Phytochemicals, vitamins B1, B2, B3, E, and C, calcium, potassium, proteins, and minerals",
+    "origin": "Fruit",
+    "score": 0
+  },
+  {
+    "title": "Amino Acids",
+    "description": "Strands of proteins",
+    "origin": "Amino Acids",
+    "score": 1
+  },
+  {
+    "title": "Amla Fruit Extract",
+    "description": "Natural source of vitamin c to fight free radicals",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
     "title": "Antarcticine",
     "description": "Cryo-protective Marine Glycoprotein and Anti-Aging Antioxidant",
     "origin": "Glycoprotein",
+    "score": 1
+  },
+  {
+    "title": "Anti Blemish Essential Oil Blend",
+    "description": "Essential oils designed to combat breakouts",
+    "origin": "Essential OIls",
+    "score": 2
+  },
+  {
+    "title": "Anti-Blemish Essential Oil Blend with 10% Glycolic Acid",
+    "description": "Essential oils designed to combat breakouts",
+    "origin": "Essential Oils",
+    "score": 2
+  },
+  {
+    "title": "Apple",
+    "description": "Supports healthy aging while brightening complexions through exfoliation",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Apple Cider Vinegar",
+    "description": "Toning, deep cleans pores, removes product build-up and promotes healthy hair",
+    "origin": "Fruit",
+    "score": 0
+  },
+  {
+    "title": "Apricot Kernel Oil",
+    "description": "Reduce the appearance of fine lines and promotes radiance",
+    "origin": "Nut",
+    "score": 1
+  },
+  {
+    "title": "Aqua",
+    "description": "Hydration and viscosity agent",
+    "origin": "Earth",
+    "score": 1
+  },
+  {
+    "title": "Aqua (Deionized Water)",
+    "description": "Hydration and viscosity agent",
+    "origin": "Earth",
+    "score": 1
+  },
+  {
+    "title": "Aqua (Water)",
+    "description": "Hydration and viscosity agent",
+    "origin": "Earth",
+    "score": 1
+  },
+  {
+    "title": "Arbutin",
+    "description": "Bearberry helps reduce hyperpigmentation and brighten skin for improved radiance",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Arctostaphylos Uva Usi (Bearberry) Leaf Extract",
+    "description": "Bearberry helps reduce hyperpigmentation and brighten skin for improved radiance",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Argania Spinosa (Argan) Oil",
+    "description": "Naturally-derived from the argan tree, moisturizing skin and hair care",
+    "origin": "Argan Oil",
+    "score": 1
+  },
+  {
+    "title": "Arginine",
+    "description": "Reduces the appearance of fine lines and wrinkles",
+    "origin": "Amino Acid",
     "score": 1
   },
   {
@@ -162,10 +462,64 @@
     "score": 1
   },
   {
+    "title": "Argireline Acetate",
+    "description": "Neurotransmitter that uses the SNARE complex to relax facial contractions and minimize the look of wrinkles",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Argireline® Peptide",
+    "description": "Neurotransmitter that uses the SNARE complex to relax facial contractions and minimize the look of wrinkles",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Ascophyllum Nodosum Extract",
+    "description": "Marine plant extract",
+    "origin": "Seaweed",
+    "score": 1
+  },
+  {
     "title": "Ascorbic Acid",
     "description": "Brightens and evens the complexion and skin tone",
     "origin": "Vitamin C",
     "score": 1
+  },
+  {
+    "title": "Ascorbic Acid (L)",
+    "description": "Brightens and evens the complexion and skin tone",
+    "origin": "Vitamin C",
+    "score": 1
+  },
+  {
+    "title": "Aspalathus linearis (Organic Rooibos) Extract",
+    "description": "Calms skin and helps reduce redness, natural source of alpha hydroxy acids for exfoliation, rich in zinc",
+    "origin": "Tea Leaves",
+    "score": 1
+  },
+  {
+    "title": "Asparagus Officinalis Stem Extract",
+    "description": "Regu-Scence is rich in glutathione, helps prevent breakdown of collagen and crosslinking",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Aspartic Acid",
+    "description": "Stregnthens the skin's natural defense system, hydrates and soothes",
+    "origin": "Amino Acid",
+    "score": 1
+  },
+  {
+    "title": "Astragalus Membranaceus Root Extract (Organic Astragalus)",
+    "description": "Energizes and revives tired skin",
+    "origin": "Herb",
+    "score": 0
+  },
+  {
+    "title": "Astralagus",
+    "description": "Energizes and revives tired skin",
+    "origin": "Herb",
+    "score": 0
   },
   {
     "title": "Avena Sativa (Oat) Bran Extract",
@@ -174,9 +528,27 @@
     "score": 1
   },
   {
-    "title": "Organic Avena Sativa (Oat) Kernel Flour*",
-    "description": "Antioxidant with skin-soothing properties",
-    "origin": "Bran Oats",
+    "title": "Avocado",
+    "description": "Moisturizing, locks in hydration and improves skin barrier",
+    "origin": "Fruit",
+    "score": 0
+  },
+  {
+    "title": "Avocado Fruit Oil (Persea Gratissima)",
+    "description": "Moisturizing, locks in hydration and improves skin barrier",
+    "origin": "Fruit",
+    "score": 0
+  },
+  {
+    "title": "Avocado Oil",
+    "description": "Moisturizing, locks in hydration and improves skin barrier",
+    "origin": "Fruit",
+    "score": 0
+  },
+  {
+    "title": "Azadirachta indica (Neem) Oil",
+    "description": "Azadirachta indica (Neem) Oil",
+    "origin": "Tree",
     "score": 1
   },
   {
@@ -186,9 +558,165 @@
     "score": 0
   },
   {
+    "title": "Bakuchiol Extract",
+    "description": "Retinol alternative for sensitive skin, helps brighten with natural botanical",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Bamboo",
+    "description": "Sustainable, beads gently exfoliate skin and promote brightening",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Bambusa Arundinacea (Bamboo) Stem Powder",
+    "description": "Sustainable, beads gently exfoliate skin and promote brightening",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Beeswax (Cera Alba)",
+    "description": "Emulsifier, helps product not separate",
+    "origin": "Beehives",
+    "score": 1
+  },
+  {
+    "title": "Behenyl Alcohol (plant-derived thickening agent)",
+    "description": "Thickening Agent",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Bellis Perennis (Daisy) Flower Extract",
+    "description": "Helps brighten skin tone",
+    "origin": "Flowers",
+    "score": 1
+  },
+  {
+    "title": "Bentonite (Bentonite Clay)",
+    "description": "Draws out impurities, tightens and revitalizes",
+    "origin": "Earth Sediment",
+    "score": 2
+  },
+  {
+    "title": "Bentonite Clay",
+    "description": "Draws out impurities, tightens and revitalizes",
+    "origin": "Earth Sediement",
+    "score": 2
+  },
+  {
+    "title": "Benzalkonium Chloride",
+    "description": "Preservative",
+    "origin": "Synthetic",
+    "score": 5
+  },
+  {
+    "title": "Benzyl Alcohol",
+    "description": "Thickening Agent",
+    "origin": "Plant-based",
+    "score": 6
+  },
+  {
+    "title": "Beta Carotene",
+    "description": "An antioxidant, keeps skin looking beautiful, and it protects against free radicals",
+    "origin": "Vegetables",
+    "score": 2
+  },
+  {
+    "title": "Beta Glucan, Oat Straw",
+    "description": "Skin calming, brightening, promotes healthy skin",
+    "origin": "Vegetables",
+    "score": 0
+  },
+  {
     "title": "Beta Vulgaris (Beet) Root Extract",
     "description": "Enhances the upper layer of the skin capability to moisturize",
     "origin": "Beet Root",
+    "score": 1
+  },
+  {
+    "title": "Beta-Glucan (D)",
+    "description": "Skin calming, brightening, promotes healthy skin",
+    "origin": "Vegetables",
+    "score": 1
+  },
+  {
+    "title": "Betula Alba Bark Extract",
+    "description": "Betula Alba Bark Extract",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Bilberry Fruit Extract",
+    "description": "Bilberry Fruit Extract",
+    "origin": "Fruits",
+    "score": 1
+  },
+  {
+    "title": "Biotin",
+    "description": "Biotin",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Birch Bark Extract",
+    "description": "Birch Bark Extract",
+    "origin": "Tree",
+    "score": 2
+  },
+  {
+    "title": "Black Willowbark",
+    "description": "Contains salicin, salicylic acid is derived from, tannins",
+    "origin": "Tree",
+    "score": 1
+  },
+  {
+    "title": "Black Willowbark Extract",
+    "description": "Contains salicin, salicylic acid is derived from, tannins",
+    "origin": "Tree",
+    "score": 1
+  },
+  {
+    "title": "Bladderwrack Vesiculosus",
+    "description": "Firming seaweed",
+    "origin": "Seaweed",
+    "score": 1
+  },
+  {
+    "title": "Blueberry",
+    "description": "Blueberry",
+    "origin": "Blueberry",
+    "score": 1
+  },
+  {
+    "title": "Borage Oil",
+    "description": "high in gamma-linolenic acid, extremely moisturizing",
+    "origin": "Plant-based",
+    "score": 0
+  },
+  {
+    "title": "Borago Officinalis Seed Oil",
+    "description": "high in gamma-linolenic acid, extremely moisturizing",
+    "origin": "Plant-based",
+    "score": 0
+  },
+  {
+    "title": "Boswellia Serrata Oil (Frankincense Essential Oil)",
+    "description": "Boswellia Serrata Oil (Frankincense Essential Oil)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Botanical Hyaluronic Acid",
+    "description": "Botanical Hyaluronic Acid",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Butylene Glycol",
+    "description": "Butylene Glycol",
+    "origin": "",
     "score": 1
   },
   {
@@ -216,22 +744,76 @@
     "score": 1
   },
   {
+    "title": "Cactus",
+    "description": "Contains phytochemicals to nourish the face with essential nutrients for proper function",
+    "origin": "Plant-based",
+    "score": 0
+  },
+  {
+    "title": "Caesalpinia Spinosa Gum",
+    "description": "Natural skin tightener",
+    "origin": "Botanical",
+    "score": 1
+  },
+  {
+    "title": "Caesalpinia Spinosa Gum (Tara)",
+    "description": "Natural skin tightener",
+    "origin": "Botanical",
+    "score": 1
+  },
+  {
+    "title": "Calcium Gluconate",
+    "description": "Calcium Gluconate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Calcium Sulfate",
+    "description": "Calcium Sulfate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Calendula",
+    "description": "Rev's up skin’s natural renewal process",
+    "origin": "Plant-based",
+    "score": 0
+  },
+  {
+    "title": "Calendula Flower Extract (Calendula Officinalis)",
+    "description": "Calendula Flower Extract (Calendula Officinalis)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Calophyllum Inophyllum Seed Oil (Laurelwood)",
+    "description": "Calophyllum Inophyllum Seed Oil (Laurelwood)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Camellia Sinensis Leaf Extract (Organic Green Tea)",
+    "description": "High in catechins, polyphenols, and EGCG with anti-aging effects that fight free radicals for healthy skin",
+    "origin": "Tea Leaves",
+    "score": 2
+  },
+  {
     "title": "Camellia Sinesis (Green Tea)",
-    "description": "ECGC potent antioxidant",
-    "origin": "Plant Leaves",
+    "description": "High in catechins, polyphenols, and EGCG with anti-aging effects that fight free radicals for healthy skin",
+    "origin": "Tea Leaves",
     "score": 0
   },
   {
-    "title": "Organic White Tea Leaf Extract (Camellia Sinensis)",
-    "description": "ECGC potent antioxidant",
-    "origin": "Plant Leaves",
-    "score": 0
+    "title": "Canola Oil",
+    "description": "Canola Oil",
+    "origin": "",
+    "score": 1
   },
   {
-    "title": "Organic White Tea",
-    "description": "ECGC potent antioxidant",
-    "origin": "Plant Leaves",
-    "score": 0
+    "title": "Capric\/Caprylic Triglycerides",
+    "description": "Capric\/Caprylic Triglycerides",
+    "origin": "",
+    "score": 1
   },
   {
     "title": "Caprooyl tetrapeptide-3",
@@ -246,15 +828,15 @@
     "score": 1
   },
   {
-    "title": "Caprylic\/Capric Triglyceride (Organic Fractionated Coconut Oil).",
+    "title": "Caprylic Capric Triglyceride",
     "description": "An emoilent, natural coconut oil and glycerin for added moisture and hydration",
     "origin": "Coconut Oil",
     "score": 1
   },
   {
-    "title": "Caprylic\/Capric Triglyceride",
+    "title": "Caprylic\/Capric Triglyceride (Organic Fractionated Coconut Oil)",
     "description": "An emoilent, natural coconut oil and glycerin for added moisture and hydration",
-    "origin": "Soybean Seed",
+    "origin": "Coconut Oil",
     "score": 1
   },
   {
@@ -264,27 +846,75 @@
     "score": 1
   },
   {
+    "title": "Caprylyl Glycol",
+    "description": "Caprylyl Glycol",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Carbomer",
+    "description": "Carbomer",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Carnitine (L)",
+    "description": "Carnitine (L)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Carrageenan",
+    "description": "Thickener from seaweed",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Carrageenan Gum",
+    "description": "Thickener from seaweed",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Carrot Oil",
+    "description": "Beta Carotene from Vitamin A",
+    "origin": "Carrots",
+    "score": 1
+  },
+  {
+    "title": "Carrot Seed Oil",
+    "description": "Carrot Seed Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Carrot Seed Oil (Daucus Carota)",
+    "description": "Carrot Seed Oil (Daucus Carota)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Cassia Alata Leaf Extract",
+    "description": "Cassia Alata Leaf Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
     "title": "Cassia Angustifolia Seed Polysaccharide (Botanical Hyaluronic Acid)",
     "description": "Hydrating and conditioning, natural form that mimics hyaluronic acid",
     "origin": "Senna",
     "score": 1
   },
   {
-    "title": "Hyaluronic Acid",
-    "description": "Hydrating and conditioning, natural form that mimics hyaluronic acid",
-    "origin": "Senna",
+    "title": "Cassis Natural Aroma",
+    "description": "Cassis Natural Aroma",
+    "origin": "",
     "score": 1
   },
   {
-    "title": "1 - Ultra Hyaluronic Acid 1 oz 1 - Airless Bottle 1 oz - empty 1 - Leucidal® Radish Root Liquid .5 oz",
-    "description": "Hydrating and conditioning, natural form that mimics hyaluronic acid",
-    "origin": "Senna",
-    "score": 1
-  },
-  {
-    "title": "The Expression Line Deep Wrinkle Serum: Hyaluronic Acid",
-    "description": "Hydrating and conditioning, natural form that mimics hyaluronic acid",
-    "origin": "Senna",
+    "title": "Cellulose Gum",
+    "description": "natural thickener",
+    "origin": "",
     "score": 1
   },
   {
@@ -294,21 +924,33 @@
     "score": 0
   },
   {
-    "title": "Organic Gotu Kola (Centella Asiatica) Extract",
+    "title": "Centella Asiatica Extract (Organic Gotu Kola)",
     "description": "Referred to as the \"herb of longevity",
     "origin": "Naturally-Derived Botanical from Penny Wort Leaves",
     "score": 0
   },
   {
-    "title": "Gotu Kola",
-    "description": "Referred to as the \"herb of longevity",
-    "origin": "Naturally-Derived Botanical from Penny Wort Leaves",
+    "title": "Ceramide 3",
+    "description": "Skin barrier conditioning agent",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Certified Organic Aloe",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Plant",
+    "score": 1
+  },
+  {
+    "title": "Certified Organic Herbal Infusion",
+    "description": "Blend of botanical extracts to beautify the skin and target the signs of aging",
+    "origin": "Botanicals",
     "score": 0
   },
   {
-    "title": "Citrus Medica Limonum (Lemon) Peel Oil",
-    "description": "Moisturizer for skin with emollient and humectant properties",
-    "origin": "Shea Nuts",
+    "title": "Certified Organic Jojoba Oil",
+    "description": "Certified Organic Jojoba Oil",
+    "origin": "",
     "score": 1
   },
   {
@@ -331,26 +973,218 @@
   },
   {
     "title": "Cetearyl Alcohol",
+    "description": "Cetearyl Alcohol",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Cetearyl Glucoside",
+    "description": "Cetearyl Glucoside",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Cetearyl Olivate",
+    "description": "Cetearyl Olivate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Cetyl Alcohol",
     "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
     "origin": "Soybean Seed",
     "score": 1
   },
   {
-    "title": "Citric Acid.",
+    "title": "Cetyl Alcohol (from plant origin)",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Soybean Seed",
+    "score": 1
+  },
+  {
+    "title": "Cetyl Palmitate",
+    "description": "Cetyl Palmitate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Champagne Aroma",
+    "description": "Fragrance, DHP free, Phthalate free",
+    "origin": "Fragrance",
+    "score": 2
+  },
+  {
+    "title": "Chaste Tree Vitex",
+    "description": "Chaste Tree Vitex",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Chicory Root",
+    "description": "Helps your skin stay hydrated and protected against free radicals",
+    "origin": "Plant-based",
+    "score": 0
+  },
+  {
+    "title": "Chlorella",
+    "description": "Skin-friendly component with a slew of antioxidants, which protect the skin from premature aging",
+    "origin": "Seaweed",
+    "score": 0
+  },
+  {
+    "title": "Chondrus Crispus Extract",
+    "description": "Chondrus Crispus Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Chondrus Crispus Organic Olea Europaea (Olive) Fruit Oil",
+    "description": "Chondrus Crispus Organic Olea Europaea (Olive) Fruit Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Chromium Oxide Green",
+    "description": "Chromium Oxide Green",
+    "origin": "",
+    "score": 5
+  },
+  {
+    "title": "Chromium Oxide Greens",
+    "description": "Chromium Oxide Greens",
+    "origin": "",
+    "score": 5
+  },
+  {
+    "title": "chrysin",
+    "description": "chrysin",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Cichorium Intybus (Chicory) Root Oligosaccharides",
+    "description": "Cichorium Intybus (Chicory) Root Oligosaccharides",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Cinnamomum Camphora Wood Oil (Camphor)",
+    "description": "Cinnamomum Camphora Wood Oil (Camphor)",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Cinnamon Bark",
+    "description": "Cinnamon Bark",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Citrate",
+    "description": "Citrate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Citric Acid",
     "description": "PH modifier",
     "origin": "Vitamin C",
     "score": 1
   },
   {
+    "title": "Citrus Aurantifola (Lime) Oil*",
+    "description": "Essential oil",
+    "origin": "Lime",
+    "score": 4
+  },
+  {
+    "title": "Citrus Aurantium Amara Leaf\/Twig Oil (Petit Grain Essential Oil)",
+    "description": "Bitter Orange",
+    "origin": "Bitter Orange",
+    "score": 6
+  },
+  {
     "title": "Citrus Aurantium Dulcis (Orange) Peel Extract",
-    "description": "Enhances skin absorption and brightens skin",
+    "description": "Citrus Aurantium Dulcis (Orange) Peel Extract",
     "origin": "Oranges",
+    "score": 2
+  },
+  {
+    "title": "Citrus Aurantium Dulcis (Orange) Peel Oil",
+    "description": "Citrus Aurantium Dulcis (Orange) Peel Oil",
+    "origin": "Fruit",
+    "score": 2
+  },
+  {
+    "title": "Citrus Aurantium Dulcis (Orange) Peel Oil*",
+    "description": "Citrus Aurantium Dulcis (Orange) Peel Oil*",
+    "origin": "Fruit",
+    "score": 2
+  },
+  {
+    "title": "Citrus Aurantium Dulcis Fruit Extract (Sweet Orange)",
+    "description": "Citrus Aurantium Dulcis Fruit Extract (Sweet Orange)",
+    "origin": "Fruit",
+    "score": 2
+  },
+  {
+    "title": "Citrus Grandis (Grapefruit) Peel Oil*",
+    "description": "Citrus Grandis (Grapefruit) Peel Oil*",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Citrus Grandis (White Grapefruit) Peel Oil",
+    "description": "Citrus Grandis (White Grapefruit) Peel Oil",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Citrus Limon Peel Extract (Lemon)",
+    "description": "Mild astringent, exfoliate skin, energetic scent",
+    "origin": "Citrus Fruits",
     "score": 1
   },
   {
     "title": "Citrus Medica Limonum (Lemon) Peel Oil",
-    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
-    "origin": "Soybean Seed",
+    "description": "Energetic and uplifting scent",
+    "origin": "Lemon",
+    "score": 1
+  },
+  {
+    "title": "Citrus Paradisi Peel Oil (Pink Grapefruit)",
+    "description": "Citrus Paradisi Peel Oil (Pink Grapefruit)",
+    "origin": "Pink Grapefruit",
+    "score": 1
+  },
+  {
+    "title": "Citrus Sinensis var Sanguina (Blood Orange) Oil",
+    "description": "Citrus Sinensis var Sanguina (Blood Orange) Oil",
+    "origin": "Blood Orange",
+    "score": 1
+  },
+  {
+    "title": "Citrus Tangerine Essential Oil",
+    "description": "Citrus Tangerine Essential Oil",
+    "origin": "Fruit",
+    "score": 2
+  },
+  {
+    "title": "Co Q10",
+    "description": "Co Q10",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Cocamidopropyl Hydroxysultaine",
+    "description": "Cocamidopropyl Hydroxysultaine",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Coco-Caprylate\/Caprate",
+    "description": "Coco-Caprylate\/Caprate",
+    "origin": "",
     "score": 1
   },
   {
@@ -360,16 +1194,202 @@
     "score": 1
   },
   {
+    "title": "Coconut",
+    "description": "Coconut",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Coconut Milk",
+    "description": "Coconut Milk",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Cocos Nucifera (Coconut) Fruit Extract",
+    "description": "Cocos Nucifera (Coconut) Fruit Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Cocos nucifera (Organic Coconut) Oil",
+    "description": "Cocos nucifera (Organic Coconut) Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Coenzyme Q10",
+    "description": "Coenzyme Q10",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Collodial Minerals",
+    "description": "Collodial Minerals",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Coltsfoot",
+    "description": "Moisturizing, toning, improves health of skin",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Coltsfoot Botanical",
+    "description": "Moisturizing, toning, improves health of skin",
+    "origin": "Plant-based",
+    "score": 0
+  },
+  {
+    "title": "Comfrey Root - Allantoin",
+    "description": "Non-irritating astringent with calming properties",
+    "origin": "Plant-based",
+    "score": 0
+  },
+  {
+    "title": "Commiphora Myrrha Oil",
+    "description": "Commiphora Myrrha Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Copaiba Oleoresin",
+    "description": "Copaiba Oleoresin",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Copolymer",
+    "description": "Copolymer",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Copper Gluconate",
+    "description": "Regenerates mature skin. Supports healthy scalp for hair care",
+    "origin": "Peptide",
+    "score": 2
+  },
+  {
+    "title": "Copper Peptide",
+    "description": "Regenerates mature skin. Supports healthy scalp for hair care",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
     "title": "Copper Peptide (GHK) Tripeptide-1",
     "description": "Regenerates mature skin. Supports healthy scalp for hair care",
     "origin": "Peptide",
     "score": 1
   },
   {
-    "title": "INCI: Copper Tripeptide-1.",
+    "title": "Copper Peptides",
     "description": "Regenerates mature skin. Supports healthy scalp for hair care",
     "origin": "Peptide",
     "score": 1
+  },
+  {
+    "title": "Copper Tripeptide-1",
+    "description": "Regenerates mature skin. Supports healthy scalp for hair care",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Cranberry",
+    "description": "Antioxidant the fights free radicals",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Cranberry Champagne Natural Aroma",
+    "description": "Antioxidant the fights free radicals",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Cranberry Fruit",
+    "description": "Antioxidant the fights free radicals",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Cranberry Seed",
+    "description": "Antioxidant the fights free radicals",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Crithmum Maritimum Extract (Sea Fennel)",
+    "description": "Crithmum Maritimum Extract (Sea Fennel)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Cucumber",
+    "description": "Nutrient-dense with folate, potassium, magnesium, and calcium helps reduce puffy eye bags and dark circles",
+    "origin": "Fruit",
+    "score": 0
+  },
+  {
+    "title": "Cucumber Fruit Extract",
+    "description": "Nutrient-dense with folate, potassium, magnesium, and calcium helps reduce puffy eye bags and dark circles",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Cucumber Oil",
+    "description": "Nutrient-dense with folate, potassium, magnesium, and calcium helps reduce puffy eye bags and dark circles",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Cyclodextrin",
+    "description": "Cyclodextrin",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Cymbopogon Schoenanthus Oil (Lemongrass Essential Oil)",
+    "description": "Mild astringent, exfoliate skin, energetic scent",
+    "origin": "Citrus Fruits",
+    "score": 3
+  },
+  {
+    "title": "Dandelion",
+    "description": "Toning, detoxifying, allowing the skin to look clearer and more even",
+    "origin": "Plant-based",
+    "score": 0
+  },
+  {
+    "title": "Decyl Glucoside",
+    "description": "Decyl Glucoside",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Deionized Water",
+    "description": "Hydration and viscosity agent",
+    "origin": "Earth",
+    "score": 1
+  },
+  {
+    "title": "Deuterium Oxide (Heavy Water)",
+    "description": "Reverse Osmosis Water D20",
+    "origin": "Water",
+    "score": 1
+  },
+  {
+    "title": "Dextran",
+    "description": "Dextran",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Diatomaceous Earth",
+    "description": "Draws out impurities, tightens and revitalizes",
+    "origin": "Earth",
+    "score": 2
   },
   {
     "title": "Diheptyl Succinate",
@@ -384,13 +1404,25 @@
     "score": 2
   },
   {
+    "title": "Dimethyl Isosorbide",
+    "description": "Dimethyl Isosorbide",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Dimethyl Sulfone MSM",
+    "description": "Dimethyl Sulfone MSM",
+    "origin": "",
+    "score": 1
+  },
+  {
     "title": "Dipeptide Diaminobutyroyl Benzylamide Diacetate",
     "description": "Smooths vertical lines in between the brows",
     "origin": "Peptide",
     "score": 1
   },
   {
-    "title": "Syn®-Ake (Dipeptide Diaminobutyroyl Benzylamide Diacetate)",
+    "title": "Dipeptide Diaminobutyroyl Benzylamide Diacetate (peptides)",
     "description": "Smooths vertical lines in between the brows",
     "origin": "Peptide",
     "score": 1
@@ -414,10 +1446,130 @@
     "score": 1
   },
   {
-    "title": "Epidermal Growth Factor (Phospholipids",
+    "title": "Distilled Water",
+    "description": "Hydration and viscosity agent",
+    "origin": "Earth",
+    "score": 1
+  },
+  {
+    "title": "DMAE",
+    "description": "works by signaling the skin's acetylcholine response, firming facial muscles",
+    "origin": "Synthesized from fruit",
+    "score": 4
+  },
+  {
+    "title": "DMAE (Dimethylaminoethanol)",
+    "description": "works by signaling the skin's acetylcholine response, firming facial muscles",
+    "origin": "Synthesized from fruit",
+    "score": 4
+  },
+  {
+    "title": "DMAE Bitartrate (Dimethylaminoethanol Bitartrate)",
+    "description": "works by signaling the skin's acetylcholine response, firming facial muscles",
+    "origin": "Synthesized from fruit",
+    "score": 4
+  },
+  {
+    "title": "DMAE Powder (Dimethylaminoethanol) Bitartrate",
+    "description": "works by signaling the skin's acetylcholine response, firming facial muscles",
+    "origin": "Synthesized from fruit",
+    "score": 4
+  },
+  {
+    "title": "Eclipta Prostrata Extract",
+    "description": "Eclipta Prostrata Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Edelweiss (Leontopodium Alpinum) Extract",
+    "description": "Potent antioxidant derived from the Swiss Alps",
+    "origin": "Flower",
+    "score": 1
+  },
+  {
+    "title": "Edelweiss (Leontopodium Apinum)",
+    "description": "Potent antioxidant derived from the Swiss Alps",
+    "origin": "Flower",
+    "score": 1
+  },
+  {
+    "title": "Edelweiss Extract",
+    "description": "Potent antioxidant derived from the Swiss Alps",
+    "origin": "Flower",
+    "score": 1
+  },
+  {
+    "title": "Elaeis Guineensis (Palm) Oil",
+    "description": "Elaeis Guineensis (Palm) Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Ellagic Acid",
+    "description": "Ellagic Acid",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Emulsifying Wax",
+    "description": "Emulsifying Wax",
+    "origin": "",
+    "score": 4
+  },
+  {
+    "title": "Emulsifying Wax NF",
+    "description": "Emulsifying Wax NF",
+    "origin": "",
+    "score": 4
+  },
+  {
+    "title": "Enteromorpha Compressa Extract",
+    "description": "Enteromorpha Compressa Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Epidermal Growth Factor",
     "description": "Strand of 53 amino acids that promotes regeneration and youthfulness",
     "origin": "Amino Acids",
     "score": 1
+  },
+  {
+    "title": "Epidermal Growth Factor (EGF)",
+    "description": "Strand of 53 amino acids that promotes regeneration and youthfulness",
+    "origin": "Amino Acids",
+    "score": 1
+  },
+  {
+    "title": "Epidermal Growth Factor (Phospholipids RH-Oligopeptide-1)",
+    "description": "Strand of 53 amino acids that promotes regeneration and youthfulness",
+    "origin": "Amino Acids",
+    "score": 1
+  },
+  {
+    "title": "Epilobium Angustifolium Flower\/Leaf\/Stem Extract",
+    "description": "Potent antioxidant derived from the Swiss Alps",
+    "origin": "Flower",
+    "score": 1
+  },
+  {
+    "title": "Equisetum Arvense Extract (Horsetail)",
+    "description": "Equisetum Arvense Extract (Horsetail)",
+    "origin": "Botanical",
+    "score": 1
+  },
+  {
+    "title": "Ethyl Hexyl Glycerin",
+    "description": "Preservative that acts as a skin-softening agent and humectant.",
+    "origin": "Coconut",
+    "score": 2
+  },
+  {
+    "title": "Ethylhexyl Glycerin",
+    "description": "Preservative that acts as a skin-softening agent and humectant.",
+    "origin": "Coconut",
+    "score": 2
   },
   {
     "title": "Ethylhexyl Olivate",
@@ -426,22 +1578,28 @@
     "score": 1
   },
   {
-    "title": "Ethylhexylglycerin.",
-    "description": "Helps with skin-conditioning and sealing moisture into the skin",
-    "origin": "Olive Oil",
-    "score": 1
-  },
-  {
     "title": "Ethylhexylglycerin",
-    "description": "Helps with skin-conditioning and sealing moisture into the skin",
-    "origin": "Olive Oil",
-    "score": 1
-  },
-  {
-    "title": "Ethyl Hexyl Glycerin.",
     "description": "Preservation agent",
     "origin": "Glutamic Acid",
     "score": 1
+  },
+  {
+    "title": "Euterpe Oleracea Fruit Extract (Acai Fruit)",
+    "description": "Potent antioxidant, improves fine lines and wrinkles",
+    "origin": "Amazon Super Fruit",
+    "score": 1
+  },
+  {
+    "title": "Evening Primrose Oil",
+    "description": "Moisturizing, soothing, calming",
+    "origin": "Plant-based",
+    "score": 0
+  },
+  {
+    "title": "Evening Primrose Oil (Oenothera Biennis)",
+    "description": "Moisturizing, soothing, calming",
+    "origin": "Plant-based",
+    "score": 0
   },
   {
     "title": "Eyelash Peptide Myristoyl Pentapeptide-17",
@@ -453,6 +1611,48 @@
     "title": "Eyeseryl",
     "description": "Reduces under-eye puffiness and improves microcirculation",
     "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Fennel",
+    "description": "regulate the skin's ability to hold and produce moisture, it also is a diuretic and great for cellulite creams",
+    "origin": "Plant-based",
+    "score": 0
+  },
+  {
+    "title": "Ferulic Acid",
+    "description": "Ferulic Acid",
+    "origin": "Plant Cell Walls",
+    "score": 2
+  },
+  {
+    "title": "Flavor\/Aroma",
+    "description": "Flavor\/Aroma",
+    "origin": "",
+    "score": 4
+  },
+  {
+    "title": "Fragrance",
+    "description": "Fragrance",
+    "origin": "",
+    "score": 8
+  },
+  {
+    "title": "Fragrance\/Parfum (Natural)",
+    "description": "Fragrance\/Parfum (Natural)",
+    "origin": "",
+    "score": 8
+  },
+  {
+    "title": "Frankincense Carteri",
+    "description": "Frankincense Carteri",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Frankincense Serrata",
+    "description": "Frankincense Serrata",
+    "origin": "",
     "score": 1
   },
   {
@@ -468,6 +1668,78 @@
     "score": 1
   },
   {
+    "title": "GABA",
+    "description": "Gamma aminobutyric acid relaxes the look of fine lines and wrinkles",
+    "origin": "Amino Acids",
+    "score": 0
+  },
+  {
+    "title": "Ganoderma Lucidum Extract (Organic Reishi)",
+    "description": "Ganoderma Lucidum Extract (Organic Reishi)",
+    "origin": "Mushroom",
+    "score": 1
+  },
+  {
+    "title": "Geo Gard",
+    "description": "Sodium Benzoate and Gluconate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Geranium Essential Oil",
+    "description": "Geranium Essential Oil",
+    "origin": "",
+    "score": 4
+  },
+  {
+    "title": "Geranium Flower Oil",
+    "description": "Geranium Flower Oil",
+    "origin": "",
+    "score": 4
+  },
+  {
+    "title": "Geranium Maculatum Extract (Wild Geranium)",
+    "description": "Geranium Maculatum Extract (Wild Geranium)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Ginger Root Powder",
+    "description": "Ginger Root Powder",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Ginkgo Biloba",
+    "description": "Energizes the skin, antioxidant",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Ginkgo Biloba Leaf Extract",
+    "description": "Energizes the skin, antioxidant",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Ginseng",
+    "description": "Ginseng",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Globularia Cordifolia Callus Culture Extract (Plant Stem Cells)",
+    "description": "Globularia Cordifolia Callus Culture Extract (Plant Stem Cells)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Gluconic Acid (D)",
+    "description": "Gluconic Acid (D)",
+    "origin": "",
+    "score": 1
+  },
+  {
     "title": "Gluconolactone",
     "description": "UV protection and hydration agent",
     "origin": "Plant Cells",
@@ -480,19 +1752,49 @@
     "score": 1
   },
   {
-    "title": "Glycerin",
-    "description": "Improve skin's smoothness and moisture content",
-    "origin": "Vegetable Fats",
+    "title": "Glucose",
+    "description": "Glucose",
+    "origin": "",
     "score": 1
   },
   {
-    "title": "glycerin",
+    "title": "Glutathione (L)",
+    "description": "Glutathione (L)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Glycerin",
     "description": "Improve skin's smoothness and moisture content",
-    "origin": "Vegetable Fats",
+    "origin": "Plants",
+    "score": 1
+  },
+  {
+    "title": "Glycerin (Kosher Vegetable)",
+    "description": "Improve skin's smoothness and moisture content",
+    "origin": "Plants",
     "score": 1
   },
   {
     "title": "Glycerin (Vegetable)",
+    "description": "Improve skin's smoothness and moisture content",
+    "origin": "Plants",
+    "score": 1
+  },
+  {
+    "title": "Glycerin Acetylarginyltryptophyl Diphenylglycine",
+    "description": "Improve skin's smoothness and moisture content",
+    "origin": "Plants",
+    "score": 1
+  },
+  {
+    "title": "Glycerin Stearic Acid",
+    "description": "Improve skin's smoothness and moisture content",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Glycerine",
     "description": "Improve skin's smoothness and moisture content",
     "origin": "Vegetable Fats",
     "score": 1
@@ -504,9 +1806,15 @@
     "score": 1
   },
   {
-    "title": "Glyceryl Stearate",
-    "description": "Glyceryl Stearate is used as an emollient and emulsifier",
-    "origin": "Vegetable Oil",
+    "title": "Glycine",
+    "description": "Glycine",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Glycine Soja (Soybean) Protein",
+    "description": "Glycine Soja (Soybean) Protein",
+    "origin": "",
     "score": 1
   },
   {
@@ -516,10 +1824,112 @@
     "score": 1
   },
   {
+    "title": "Glycol Distearate",
+    "description": "Glycol Distearate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Glycolic Acid",
+    "description": "Exfoliates the out layer of skin, softening the rough patches of the face by breaking down hardened skin",
+    "origin": "Alpha Hydroxy Acid",
+    "score": 4
+  },
+  {
+    "title": "Glycolipids",
+    "description": "Glycolipids",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Glycyrrhetinic Acid",
+    "description": "Glycyrrhetinic Acid",
+    "origin": "Root",
+    "score": 1
+  },
+  {
+    "title": "Glycyrrhiza Glabra Root Extract (Organic Licorice)",
+    "description": "Glycyrrhiza Glabra Root Extract (Organic Licorice)",
+    "origin": "Root",
+    "score": 5
+  },
+  {
+    "title": "Goat Milk",
+    "description": "Contains Lactic Acid, exfoliates, moisturizes",
+    "origin": "Dairy",
+    "score": 0
+  },
+  {
+    "title": "Goji",
+    "description": "Bright red berry with super antioxidant powers",
+    "origin": "Wolfberry",
+    "score": 1
+  },
+  {
     "title": "Goji Berry",
     "description": "Bright red berry with super antioxidant powers",
     "origin": "Wolfberry",
+    "score": 1
+  },
+  {
+    "title": "Gold Powder Elements",
+    "description": "Enhances skin's ability to absorb product",
+    "origin": "Mineral",
+    "score": 3
+  },
+  {
+    "title": "Gotu Kola",
+    "description": "Gotu Kola",
+    "origin": "Herb",
+    "score": 1
+  },
+  {
+    "title": "Grapefruit",
+    "description": "High in antioxidants, regenerates skin and fights premature aging, energizing scent",
+    "origin": "Citrus Fruits",
     "score": 0
+  },
+  {
+    "title": "Grapefruit Peel Oil",
+    "description": "High in antioxidants, regenerates skin and fights premature aging, energizing scent",
+    "origin": "Citrus Fruits",
+    "score": 1
+  },
+  {
+    "title": "Green Papaya Extract",
+    "description": "High in antioxidants, regenerates skin and fights premature aging, energizing scent",
+    "origin": "Citrus Fruits",
+    "score": 1
+  },
+  {
+    "title": "Green Tea",
+    "description": "High in catechins, polyphenols, and EGCG with anti-aging effects that fight free radicals for healthy skin",
+    "origin": "Tea Leaves",
+    "score": 1
+  },
+  {
+    "title": "Green Tea (Wildcrafted)",
+    "description": "High in catechins, polyphenols, and EGCG with anti-aging effects that fight free radicals for healthy skin",
+    "origin": "Tea Leaves",
+    "score": 1
+  },
+  {
+    "title": "Haloxyl",
+    "description": "Peptide that helps reduce under-eye discoloration",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Haloxyl®",
+    "description": "Peptide that helps reduce under-eye discoloration",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Hamamelis virginiana (Witch Hazel)",
+    "description": "Natural astringent that doesn't contain alcohol. It gently deep cleans pores.",
+    "origin": "Naturally-Derived Herb",
+    "score": 1
   },
   {
     "title": "Hamamelis Virginiana (Witch Hazel)",
@@ -528,8 +1938,26 @@
     "score": 1
   },
   {
+    "title": "Hamamelis Virginiana (Witch Hazel) Water",
+    "description": "Natural astringent that doesn't contain alcohol. It gently deep cleans pores.",
+    "origin": "Naturally-Derived Herb",
+    "score": 1
+  },
+  {
+    "title": "Helianthus Annuus (Safflower) Oil",
+    "description": "Helianthus Annuus (Safflower) Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
     "title": "Hexanoyl dipeptide-3 norleucine acetate",
     "description": "Speeds up skin surface renewal for glowing skin",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Hexapeptide",
+    "description": "strand of six amino acids",
     "origin": "Peptide",
     "score": 1
   },
@@ -540,9 +1968,135 @@
     "score": 1
   },
   {
+    "title": "Hexylene Glycol",
+    "description": "Hexylene Glycol",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Hibiscus Flower",
+    "description": "Hibiscus Flower",
+    "origin": "Flower",
+    "score": 1
+  },
+  {
+    "title": "Histidine",
+    "description": "Histidine",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Homeostatine",
+    "description": "Prevent and reduce wrinkles through homeostatis",
+    "origin": "Seaweed",
+    "score": 0
+  },
+  {
+    "title": "Honey",
+    "description": "nourishes the skin, allowing cell structures to become more elastic and pliable",
+    "origin": "Honey",
+    "score": 0
+  },
+  {
+    "title": "Honeysuckle",
+    "description": "soothe irritated skin and nourishes dry, mature complexions",
+    "origin": "Plant-based",
+    "score": 0
+  },
+  {
+    "title": "Hops",
+    "description": "Skin calming, grapefruity aroma",
+    "origin": "Plant-based",
+    "score": 0
+  },
+  {
+    "title": "Horsetail",
+    "description": "Helps replenish collagen",
+    "origin": "Plant-based",
+    "score": 0
+  },
+  {
+    "title": "Horsetail (Equisetum Arvense) Extract",
+    "description": "Helps replenish collagen",
+    "origin": "Plant-based",
+    "score": 0
+  },
+  {
+    "title": "Hyaluronic Acid",
+    "description": "Hyaluronic Acid",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Hyaluronic Acid (from Botanical sources)",
+    "description": "Hyaluronic Acid (from Botanical sources)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Hydrogenated Castor Oil",
+    "description": "Hydrogenated Castor Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
     "title": "Hydrolyzed Collagen",
-    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
-    "origin": "Soybean Seed",
+    "description": "Smooths, tightens, and regenerates skin",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Hydrolyzed Corn Starch",
+    "description": "Hydrolyzed Corn Starch",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Hydrolyzed Corn Starch Octenylsuccinate",
+    "description": "Hydrolyzed Corn Starch Octenylsuccinate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Hydrolyzed Glycolsaminoglycans",
+    "description": "Hydrolyzed Glycolsaminoglycans",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Hydrolyzed Rice (Peptide) Protein",
+    "description": "Hydrolyzed Rice (Peptide) Protein",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Hydrolyzed Rice Bran Protein",
+    "description": "Hydrolyzed Rice Bran Protein",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Hydrolyzed Soy Protein",
+    "description": "Hydrolyzed Soy Protein",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Hydrolyzed Wheat Protein",
+    "description": "Hydrolyzed Wheat Protein",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Hydroxyethyl Cellulose",
+    "description": "Hydroxyethyl Cellulose",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Hydroxyethyl Cellulose (plant-derived amino acid)",
+    "description": "Hydroxyethyl Cellulose (plant-derived amino acid)",
+    "origin": "",
     "score": 1
   },
   {
@@ -550,6 +2104,24 @@
     "description": "Strengthens the barrier on skin while keeping out damaging free radicals",
     "origin": "Polymer of Silicon",
     "score": 2
+  },
+  {
+    "title": "Hydroxyethyl Ethylcellulose",
+    "description": "Hydroxyethyl Ethylcellulose",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Hydroxypropyl cyclodextrin",
+    "description": "Hydroxypropyl cyclodextrin",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Idebenone",
+    "description": "Idebenone",
+    "origin": "",
+    "score": 1
   },
   {
     "title": "Inulin",
@@ -564,7 +2136,73 @@
     "score": 1
   },
   {
+    "title": "Inyline™",
+    "description": "Reduces the appearance of fine lines and wrinkles",
+    "origin": "Signal Peptide",
+    "score": 1
+  },
+  {
+    "title": "Irish Moss",
+    "description": "Irish Moss",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Iron Oxide",
+    "description": "Iron Oxide",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Iron Oxides",
+    "description": "Iron Oxides",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Isoleucine",
+    "description": "Isoleucine",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Isopropyl Palmitate",
+    "description": "Isopropyl Palmitate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Isopropyl Palmitate (Palm Oil)",
+    "description": "Isopropyl Palmitate (Palm Oil)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Jasmine Oil",
+    "description": "Jasmine Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Jojoba Beads",
+    "description": "Skin conditioning and soothing",
+    "origin": "Jojoba",
+    "score": 1
+  },
+  {
     "title": "Jojoba Esters",
+    "description": "Skin conditioning and soothing",
+    "origin": "Jojoba",
+    "score": 1
+  },
+  {
+    "title": "Jojoba Oil (Simmondsia Chinensis)",
+    "description": "Skin conditioning and soothing",
+    "origin": "Jojoba",
+    "score": 1
+  },
+  {
+    "title": "Jojoba Wax Beads",
     "description": "Skin conditioning and soothing",
     "origin": "Jojoba",
     "score": 1
@@ -576,21 +2214,99 @@
     "score": 0
   },
   {
+    "title": "Juveleven Progeline",
+    "description": "Age-defying effect for aging complexions, keeps your skin looking and acting younger",
+    "origin": "Peptide",
+    "score": 0
+  },
+  {
+    "title": "Juveleven™",
+    "description": "Age-defying effect for aging complexions, keeps your skin looking and acting younger",
+    "origin": "Peptide",
+    "score": 0
+  },
+  {
+    "title": "Juveleven™ Peptide",
+    "description": "Age-defying effect for aging complexions, keeps your skin looking and acting younger",
+    "origin": "Peptide",
+    "score": 0
+  },
+  {
+    "title": "Kaolin (Kaolin Clay)",
+    "description": "Draws out impurities, tightens and revitalizes",
+    "origin": "Earth Sediment",
+    "score": 1
+  },
+  {
+    "title": "Kaolin Clay",
+    "description": "Draws out impurities, tightens and revitalizes",
+    "origin": "Earth Sediment",
+    "score": 1
+  },
+  {
+    "title": "Kelp",
+    "description": "Keep your skin taut and firm with essential skin actives",
+    "origin": "Seaweed",
+    "score": 0
+  },
+  {
+    "title": "Kojic Acid",
+    "description": "It is one of the most popular skin-lightening treatments on the market, reduces hyperpigmentation",
+    "origin": "Mushrooms",
+    "score": 2
+  },
+  {
+    "title": "Konjac Glucomannan",
+    "description": "Helps with hydration and keeps your skin's microbiome balanced",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
     "title": "Kosher Vegetable Glycerin",
     "description": "Humectant, draws hydration in from air",
     "origin": "Sugar alcohol from plants",
     "score": 1
   },
   {
-    "title": "Vegetable Glycerin",
-    "description": "Humectant, draws hydration in from air",
-    "origin": "Sugar alcohol from plants",
-    "score": 1
+    "title": "L-Carnitine",
+    "description": "Energy production boosts the longevity of living cells",
+    "origin": "Plant-based",
+    "score": 0
   },
   {
     "title": "Lactic Acid",
     "description": "Thickening and stabilizing agent",
     "origin": "Coconuts",
+    "score": 1
+  },
+  {
+    "title": "Lactic Acid",
+    "description": "Provides natural enzymes that remove dead skin cell build-up",
+    "origin": "Dairy",
+    "score": 4
+  },
+  {
+    "title": "Lactic Acid (Sodium Lactate)",
+    "description": "Provides natural enzymes that remove dead skin cell build-up",
+    "origin": "Dairy",
+    "score": 4
+  },
+  {
+    "title": "Lactobacillus",
+    "description": "Lactobacillus",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Lactobacillus Ferment",
+    "description": "Lactobacillus Ferment",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Lactobacillus\/Punica Granatum Fruit Ferment Extract",
+    "description": "Lactobacillus\/Punica Granatum Fruit Ferment Extract",
+    "origin": "",
     "score": 1
   },
   {
@@ -600,16 +2316,100 @@
     "score": 1
   },
   {
+    "title": "Lactose (Milk)",
+    "description": "Lactose (Milk)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Lauryl Glucoside",
+    "description": "Lauryl Glucoside",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Lavandula angustifolia",
+    "description": "Lavandula angustifolia",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Lavender",
+    "description": "Lavender",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Lavender Essential Oil",
+    "description": "Lavender Essential Oil",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Lavender Extract",
+    "description": "Lavender Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Lavender Oil",
+    "description": "Lavender Oil",
+    "origin": "",
+    "score": 2
+  },
+  {
     "title": "Lecithin",
     "description": "Water binding and emulsifying agent",
     "origin": "Soybean Oil",
     "score": 1
   },
   {
-    "title": "Leucidal Liquid",
-    "description": "Natural antimicrobial for preservation of cosmetics",
-    "origin": "Radish Root Rerment",
+    "title": "Lemon",
+    "description": "Mild astringent, exfoliate skin, energetic scent",
+    "origin": "Citrus Fruits",
+    "score": 1
+  },
+  {
+    "title": "Lemon Extract",
+    "description": "Mild astringent, exfoliate skin, energetic scent",
+    "origin": "Citrus Fruits",
+    "score": 2
+  },
+  {
+    "title": "Lemon Peel Oil",
+    "description": "Mild astringent, exfoliate skin, energetic scent",
+    "origin": "Citrus Fruits",
+    "score": 6
+  },
+  {
+    "title": "Lemon, Lemongrass",
+    "description": "Mild astringent, exfoliate skin, energetic scent",
+    "origin": "Fruit",
     "score": 0
+  },
+  {
+    "title": "Lemongrass",
+    "description": "Mild astringent, exfoliate skin, energetic scent",
+    "origin": "Citrus Fruits",
+    "score": 1
+  },
+  {
+    "title": "Lemongrass Essential Oil",
+    "description": "Mild astringent, exfoliate skin, energetic scent",
+    "origin": "Citrus Fruits",
+    "score": 1
+  },
+  {
+    "title": "Leontopodium Alpinum Meristem Cell Culture",
+    "description": "Potent antioxidant derived from the Swiss Alps",
+    "origin": "Flower",
+    "score": 1
+  },
+  {
+    "title": "Leontopodium Apinum Extract",
+    "description": "Potent antioxidant derived from the Swiss Alps",
+    "origin": "Flower",
+    "score": 1
   },
   {
     "title": "Leucidal Complete",
@@ -618,33 +2418,9 @@
     "score": 0
   },
   {
-    "title": "Leuconostoc\/Radish Root Ferment Filtrate.",
-    "description": "Ferment",
-    "origin": "Leucidal",
-    "score": 0
-  },
-  {
-    "title": "Leuconostoc\/Radish Root Ferment Filtrate & Lactobacillus & Cocos Nucifera (Coconut) Fruit Extract.",
-    "description": "Ferment",
-    "origin": "Leucidal",
-    "score": 0
-  },
-  {
-    "title": "Organic Cocos Nucifera (Coconut) Oil",
-    "description": "Ferment",
-    "origin": "Leucidal",
-    "score": 0
-  },
-  {
-    "title": "Leuconostoc\/Radish Root Ferment Filtrate. The Youth Serum: Hyaluronic Acid",
-    "description": "Ferment",
-    "origin": "Leucidal",
-    "score": 0
-  },
-  {
-    "title": "Leuconostoc\/Radish Root.",
-    "description": "Ferment",
-    "origin": "Leucidal",
+    "title": "Leucidal Liquid",
+    "description": "Natural antimicrobial for preservation of cosmetics",
+    "origin": "Radish Root Rerment",
     "score": 0
   },
   {
@@ -654,10 +2430,64 @@
     "score": 0
   },
   {
+    "title": "Leuconostoc\/Radish Root",
+    "description": "Radish root ferment with mild antimicrobial properties",
+    "origin": "Radish Ferment",
+    "score": 1
+  },
+  {
+    "title": "Leuconostoc\/Radish Root Ferment",
+    "description": "Radish root ferment with mild antimicrobial properties",
+    "origin": "Radish",
+    "score": 1
+  },
+  {
+    "title": "Leuconostoc\/Radish Root Ferment Filtrate",
+    "description": "Radish root ferment with mild antimicrobial properties",
+    "origin": "Radish",
+    "score": 1
+  },
+  {
+    "title": "Leuconostoc\/Radish Root Ferment Filtrate & Lactobacillus & Cocos Nucifera (Coconut) Fruit Extract",
+    "description": "Broad-spectrum protection for cosmetic formulations",
+    "origin": "Radish, Coconut",
+    "score": 1
+  },
+  {
+    "title": "Leuconstoc",
+    "description": "Ferment",
+    "origin": "Leucidal",
+    "score": 0
+  },
+  {
     "title": "Leuphasyl Pentapeptide-18",
     "description": "Derived of 5 amino acids for expression lines",
     "origin": "Peptide",
     "score": 1
+  },
+  {
+    "title": "Licorice",
+    "description": "Lightening and brightening",
+    "origin": "Botanical",
+    "score": 4
+  },
+  {
+    "title": "Lime",
+    "description": "Lime",
+    "origin": "Citrus Fruits",
+    "score": 2
+  },
+  {
+    "title": "Lime Oil*",
+    "description": "Lime Oil*",
+    "origin": "Citrus Fruits",
+    "score": 4
+  },
+  {
+    "title": "Limonene*",
+    "description": "Limonene*",
+    "origin": "",
+    "score": 5
   },
   {
     "title": "Linoleic Acid",
@@ -672,9 +2502,45 @@
     "score": 1
   },
   {
+    "title": "Lithium Magnesium Sodium Silicate",
+    "description": "Lithium Magnesium Sodium Silicate",
+    "origin": "",
+    "score": 1
+  },
+  {
     "title": "Lonicera Caprifolium (Honeysuckle) Flower Extract",
     "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
     "origin": "Soybean Seed",
+    "score": 1
+  },
+  {
+    "title": "Lonicera Caprifolium Flower Extract (Honeysuckle)",
+    "description": "Lonicera Caprifolium Flower Extract (Honeysuckle)",
+    "origin": "Flowers",
+    "score": 1
+  },
+  {
+    "title": "Lonicera Japonica (Honeysuckle) Flower Extract",
+    "description": "Lonicera Japonica (Honeysuckle) Flower Extract",
+    "origin": "Flowers",
+    "score": 1
+  },
+  {
+    "title": "Lonicera Japonica Flower Extract (Japanese Honeysuckle)",
+    "description": "Lonicera Japonica Flower Extract (Japanese Honeysuckle)",
+    "origin": "Flowers",
+    "score": 1
+  },
+  {
+    "title": "Lotus",
+    "description": "Regenerating antioxidant that regulate the skin’s moisture and diminishes the signs of aging",
+    "origin": "Plant-Based",
+    "score": 0
+  },
+  {
+    "title": "Lysolecithin",
+    "description": "Lysolecithin",
+    "origin": "",
     "score": 1
   },
   {
@@ -684,45 +2550,99 @@
     "score": 1
   },
   {
-    "title": "INCI: Magnesium ascorbyl phosphate.",
-    "description": "Increases the health of the skin and improves overall appearance",
-    "origin": "Plant Foods",
+    "title": "Magnesium ascorbyl phosphate",
+    "description": "Magnesium ascorbyl phosphate",
+    "origin": "",
     "score": 1
   },
   {
-    "title": "MSM (Dimethyl Sulfone)",
-    "description": "Methylsulfonylmethane hydrates and inhibits the breakdown of collagen",
-    "origin": "Organic Sulfur",
+    "title": "Magnesium Sulfate",
+    "description": "Magnesium Sulfate",
+    "origin": "",
     "score": 1
   },
   {
-    "title": "Methylsulfonylmethane (MSM).",
-    "description": "Methylsulfonylmethane hydrates and inhibits the breakdown of collagen",
-    "origin": "Organic Sulfur",
+    "title": "Magnesium Sulfate (Mineral Salts)",
+    "description": "Magnesium Sulfate (Mineral Salts)",
+    "origin": "",
     "score": 1
   },
   {
-    "title": "Dimethyl Sulfone MSM",
-    "description": "Methylsulfonylmethane hydrates and inhibits the breakdown of collagen",
-    "origin": "Organic Sulfur",
+    "title": "Magnolia Flower Oil",
+    "description": "Magnolia Flower Oil",
+    "origin": "Plant-Based",
     "score": 1
   },
   {
-    "title": "Methylsulfonylmethane (MSM)",
-    "description": "Methylsulfonylmethane hydrates and inhibits the breakdown of collagen",
-    "origin": "Organic Sulfur",
+    "title": "Mahonia Aquifolium Root Extract (Oregon Grape)",
+    "description": "Mahonia Aquifolium Root Extract (Oregon Grape)",
+    "origin": "Grapes",
     "score": 1
   },
   {
-    "title": "MSM",
-    "description": "Methylsulfonylmethane hydrates and inhibits the breakdown of collagen",
-    "origin": "Organic Sulfur",
+    "title": "Malic Acid",
+    "description": "Malic Acid",
+    "origin": "",
+    "score": 4
+  },
+  {
+    "title": "Maltodextrin",
+    "description": "Maltodextrin",
+    "origin": "",
     "score": 1
+  },
+  {
+    "title": "Malus Domestica (Apple) Fruit Cell Culture Extract",
+    "description": "Malus Domestica (Apple) Fruit Cell Culture Extract",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Malus Domestica Fruit Cell Culture Extract",
+    "description": "Malus Domestica Fruit Cell Culture Extract",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Mandarin",
+    "description": "Mandarin",
+    "origin": "Citrus Fruits",
+    "score": 1
+  },
+  {
+    "title": "Mango",
+    "description": "High in Vitamin C, combats free radicals",
+    "origin": "Fruit",
+    "score": 0
+  },
+  {
+    "title": "Mango Butter (Mangifera Indica)",
+    "description": "High in Vitamin C, combats free radicals",
+    "origin": "Fruit",
+    "score": 0
   },
   {
     "title": "Mangostin",
     "description": "Skin conditioning agent",
     "origin": "Coconuts",
+    "score": 1
+  },
+  {
+    "title": "Mannan",
+    "description": "Mannan",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Marine Collagen",
+    "description": "The closest to human collagen, improves and strengthens",
+    "origin": "Marine",
+    "score": 1
+  },
+  {
+    "title": "Marine Elastin",
+    "description": "Marine Elastin",
+    "origin": "",
     "score": 1
   },
   {
@@ -744,15 +2664,51 @@
     "score": 1
   },
   {
+    "title": "Matrixyl Synthe 6",
+    "description": "Topical treatment to fill in the look of wrinkles",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "MATRIXYL Synthe’6 Palmitoyl tripeptide-38",
+    "description": "Topical treatment to fill in the look of wrinkles",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Matrixyl® 3000",
+    "description": "Best-selling peptide and most trusted, brings back a youthful appearance",
+    "origin": "Peptides",
+    "score": 1
+  },
+  {
+    "title": "Matrixyl® Synthe-6®",
+    "description": "Topical treatment to fill in the look of wrinkles",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
     "title": "Matrixyl® Synthe-6® (Palmitoyl Tetrapeptide 38)",
     "description": "Topical treatment to fill in the look of wrinkles",
     "origin": "Peptide",
     "score": 1
   },
   {
-    "title": "palmitoyl tripeptide-38",
-    "description": "Topical treatment to fill in the look of wrinkles",
-    "origin": "Peptide",
+    "title": "May Chang",
+    "description": "May Chang",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Meadowfoam Oil",
+    "description": "Meadowfoam Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Meadowfoam Seed",
+    "description": "Meadowfoam Seed",
+    "origin": "",
     "score": 1
   },
   {
@@ -762,9 +2718,87 @@
     "score": 1
   },
   {
+    "title": "Menthol (L)",
+    "description": "Menthol (L)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Menthyl Lactate (L)",
+    "description": "Menthyl Lactate (L)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Methylsulfonylmethane",
+    "description": "Helps with common symptoms of rosacea including redness, itching, inflammation, hydration, and tone",
+    "origin": "Naturally Occuring",
+    "score": 1
+  },
+  {
+    "title": "Methylsulfonylmethane (MSM)",
+    "description": "Helps with common symptoms of rosacea including redness, itching, inflammation, hydration, and tone",
+    "origin": "Naturally Occuring",
+    "score": 1
+  },
+  {
+    "title": "Mica",
+    "description": "Mica",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Mixed Tocopherols (Vitamin E)",
+    "description": "Mixed Tocopherols (Vitamin E)",
+    "origin": "",
+    "score": 1
+  },
+  {
     "title": "Moringa Oleifera Seed Extract",
     "description": "Skin soothing agent",
     "origin": "Apples",
+    "score": 1
+  },
+  {
+    "title": "Moringa Pterygosperma Seed Oil",
+    "description": "Moringa Pterygosperma Seed Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Morus Alba (Mulberry) Bark Extract",
+    "description": "Morus Alba (Mulberry) Bark Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Mountain Lily",
+    "description": "Mountain Lily",
+    "origin": "Flower",
+    "score": ""
+  },
+  {
+    "title": "MSM",
+    "description": "Methylsulfonylmethane hydrates and inhibits the breakdown of collagen",
+    "origin": "Organic Sulfur",
+    "score": 1
+  },
+  {
+    "title": "MSM (Dimethyl Sulfone)",
+    "description": "Methylsulfonylmethane hydrates and inhibits the breakdown of collagen",
+    "origin": "Organic Sulfur",
+    "score": 1
+  },
+  {
+    "title": "Mushroom",
+    "description": "Mushroom",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Mustard Seed",
+    "description": "Mustard Seed",
+    "origin": "",
     "score": 1
   },
   {
@@ -786,13 +2820,97 @@
     "score": 1
   },
   {
-    "title": "Niacin (Vitamin B3)",
+    "title": "N-hydroxysuccinimide",
+    "description": "N-hydroxysuccinimide",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Nannochloropsis Oculata Extract",
+    "description": "Tightener that provides immediate results",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Natural Acai Berry Champagne Aroma",
+    "description": "Natural Acai Berry Champagne Aroma",
+    "origin": "",
+    "score": ""
+  },
+  {
+    "title": "Natural Acai Berry Essential Oils",
+    "description": "Restores elasticity and has anti-bacterial properties",
+    "origin": "Essential Oil",
+    "score": ""
+  },
+  {
+    "title": "Natural Acai Champagne Aroma",
+    "description": "Natural Acai Champagne Aroma",
+    "origin": "",
+    "score": ""
+  },
+  {
+    "title": "Natural Cranberry",
+    "description": "Antioxidant the fights free radicals",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Natural Cranberry Champagne Aroma",
+    "description": "Cranberry scent",
+    "origin": "Fruit",
+    "score": ""
+  },
+  {
+    "title": "Natural Lavender Essential Oil Blend",
+    "description": "Natural Lavender Essential Oil Blend",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Neem",
+    "description": "Neem",
+    "origin": "Tree",
+    "score": 1
+  },
+  {
+    "title": "Neem (Melia Azadirachta)",
+    "description": "Neem (Melia Azadirachta)",
+    "origin": "Tree",
+    "score": 1
+  },
+  {
+    "title": "Neem Leaf Extract",
+    "description": "Neem Leaf Extract",
+    "origin": "Tree Leaves",
+    "score": 1
+  },
+  {
+    "title": "Neem Oil",
+    "description": "Neem Oil",
+    "origin": "Tree",
+    "score": 1
+  },
+  {
+    "title": "Neroli",
+    "description": "Neroli",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Neroli Essential Oil",
+    "description": "Neroli Essential Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Niacin",
     "description": "Vitamin that restores a healthy skin barrier and helps reduce redness",
     "origin": "Vegetables",
     "score": 1
   },
   {
-    "title": "Niacin",
+    "title": "Niacin (Vitamin B3)",
     "description": "Vitamin that restores a healthy skin barrier and helps reduce redness",
     "origin": "Vegetables",
     "score": 1
@@ -804,25 +2922,55 @@
     "score": 1
   },
   {
-    "title": "Tetrasodium EDTA *5% Niacinamide",
-    "description": "Restores a healthy skin barrier. A must-have for problematic skin",
-    "origin": "Vegetables",
-    "score": 1
-  },
-  {
     "title": "Niacinamide (Vitamin B3)*",
     "description": "Restores a healthy skin barrier. A must-have for problematic skin",
     "origin": "Vegetables",
     "score": 1
   },
   {
-    "title": "Olea Europaea (Olive) Fruit Oil",
-    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
-    "origin": "Soybean Seed",
+    "title": "Nonapeptide-1",
+    "description": "Nonapeptide-1",
+    "origin": "",
     "score": 1
   },
   {
-    "title": "Organic Olive Fruit Oil (Olea Europaea)",
+    "title": "Noni",
+    "description": "Noni",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Nutmeg Powder",
+    "description": "Nutmeg Powder",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Oat Beta Glucans",
+    "description": "Calming, soothing, and moisturizing",
+    "origin": "Oats",
+    "score": 1
+  },
+  {
+    "title": "Oat straw",
+    "description": "Calming, soothing, and moisturizing",
+    "origin": "Oats",
+    "score": 1
+  },
+  {
+    "title": "Oatmeal",
+    "description": "Calming, soothing, and moisturizing",
+    "origin": "Oats",
+    "score": 0
+  },
+  {
+    "title": "Ocean Mineral Concentrate",
+    "description": "Ocean Mineral Concentrate",
+    "origin": "",
+    "score": 0
+  },
+  {
+    "title": "Olea Europaea (Olive) Fruit Oil",
     "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
     "origin": "Soybean Seed",
     "score": 1
@@ -834,13 +2982,109 @@
     "score": 1
   },
   {
+    "title": "Olea Europaea (Olive) Leaf Extract",
+    "description": "Olea Europaea (Olive) Leaf Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Olea europaea (Organic Olive) Oil",
+    "description": "Olea europaea (Organic Olive) Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Olive",
+    "description": "Olive",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Olive Fruit Oil (Olea Europaea)",
+    "description": "Olive Fruit Oil (Olea Europaea)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Olive Oil",
+    "description": "It moisturizes, so the face is balanced",
+    "origin": "Plant-based",
+    "score": 0
+  },
+  {
+    "title": "Olive Oil Glycereth-8 Esters",
+    "description": "Olive Oil Glycereth-8 Esters",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Olive Seed",
+    "description": "Olive Seed",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Orange Fruit Extract",
+    "description": "Orange Fruit Extract",
+    "origin": "",
+    "score": 4
+  },
+  {
+    "title": "Orange Peel Oil",
+    "description": "Orange Peel Oil",
+    "origin": "",
+    "score": 6
+  },
+  {
+    "title": "Organic Aesculus Hippocastanum (Horse Chestnut) Seed",
+    "description": "Organic Aesculus Hippocastanum (Horse Chestnut) Seed",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Aesculus Hippocastanum (Horse Chestnut) Seed Extract",
+    "description": "Organic Aesculus Hippocastanum (Horse Chestnut) Seed Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
     "title": "Organic Alcohol",
     "description": "Non-drying alcohol from certified organic grain, enhances delivery and penetration of ingredients",
     "origin": "Natural Preservative",
     "score": 0
   },
   {
-    "title": "Aloe Barbadenosis (Organic Aloe) Juice",
+    "title": "Organic Aloe",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Leaf",
+    "score": 1
+  },
+  {
+    "title": "Organic Aloe (Aloe Barbadensis Leaf Juice)",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Leaf",
+    "score": 1
+  },
+  {
+    "title": "Organic Aloe Barbadenis Leaf Powder*",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Leaf",
+    "score": 1
+  },
+  {
+    "title": "Organic Aloe Barbadensis (Aloe Vera)",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Leaf",
+    "score": 1
+  },
+  {
+    "title": "Organic Aloe Barbadensis Leaf (Aloe)",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Leaf",
+    "score": 1
+  },
+  {
+    "title": "Organic Aloe Barbadensis Leaf Juice",
     "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
     "origin": "Aloe Leaf",
     "score": 1
@@ -849,6 +3093,450 @@
     "title": "Organic Aloe Juice",
     "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
     "origin": "Aloe Leaf",
+    "score": 1
+  },
+  {
+    "title": "Organic Aloe Leaf Juice",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Leaf",
+    "score": 1
+  },
+  {
+    "title": "Organic Aloe Leaf Juice (Aloe Barbadensis)",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Leaf",
+    "score": 1
+  },
+  {
+    "title": "Organic Aloe Organic Jojoba Oil",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Leaf",
+    "score": 1
+  },
+  {
+    "title": "Organic Aloe Vera",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Leaf",
+    "score": 1
+  },
+  {
+    "title": "Organic Aloe Vera (Aloe Barbadensis)",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Aloe Leaf",
+    "score": 1
+  },
+  {
+    "title": "Organic Avena Sativa (Oat) Kernel",
+    "description": "Calming",
+    "origin": "Plant",
+    "score": 1
+  },
+  {
+    "title": "Organic Avena Sativa (Oat) Kernel Extract",
+    "description": "Calming",
+    "origin": "Plant",
+    "score": 1
+  },
+  {
+    "title": "Organic Avena Sativa (Oat) Kernel Flour*",
+    "description": "Calming",
+    "origin": "Plant",
+    "score": 1
+  },
+  {
+    "title": "Organic Beeswax",
+    "description": "Calming",
+    "origin": "Plant",
+    "score": 1
+  },
+  {
+    "title": "Organic Bilberry",
+    "description": "Antioxidant used in ayurvedic skincare",
+    "origin": "Plant",
+    "score": 1
+  },
+  {
+    "title": "Organic Bilberry Extract",
+    "description": "Antioxidant used in ayurvedic skincare",
+    "origin": "Plant",
+    "score": 1
+  },
+  {
+    "title": "Organic Black Willow Bark Extract",
+    "description": "Contains salicin, salicylic acid is derived from, tannins",
+    "origin": "Tree",
+    "score": 1
+  },
+  {
+    "title": "Organic Black Willow Bark Extract (Salix Alba)",
+    "description": "Contains salicin, salicylic acid is derived from, tannins",
+    "origin": "Tree",
+    "score": 1
+  },
+  {
+    "title": "Organic Black Willowbark",
+    "description": "Contains salicin, salicylic acid is derived from, tannins",
+    "origin": "Tree",
+    "score": 1
+  },
+  {
+    "title": "Organic Blue-Green Algae",
+    "description": "Firming",
+    "origin": "Algae",
+    "score": 1
+  },
+  {
+    "title": "Organic Blue-Green Algae Extract",
+    "description": "Firming",
+    "origin": "Algae",
+    "score": 1
+  },
+  {
+    "title": "Organic Blueberry",
+    "description": "Antioxidant",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Organic Borage Oil",
+    "description": "Organic Borage Oil",
+    "origin": "",
+    "score": 0
+  },
+  {
+    "title": "Organic Boswellia Frereana Oil",
+    "description": "Organic Boswellia Frereana Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Burdock",
+    "description": "Organic Burdock",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Butyrospermum Parkii (Shea) Butter",
+    "description": "Organic Butyrospermum Parkii (Shea) Butter",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Calendula",
+    "description": "Rev's up skins natrual renewal process",
+    "origin": "Plant Based",
+    "score": 0
+  },
+  {
+    "title": "Organic Calendula Extract",
+    "description": "Organic Calendula Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Calendula Flower Extract (Calendula Officinalis)",
+    "description": "Organic Calendula Flower Extract (Calendula Officinalis)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Calendula Officinalis (Calendula) Flower Extract",
+    "description": "Organic Calendula Officinalis (Calendula) Flower Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Calendula Officinalis (Calendula) Flower Extract Limonene*",
+    "description": "Organic Calendula Officinalis (Calendula) Flower Extract Limonene*",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Calendula Officinalis (Marigold) Flower",
+    "description": "Organic Calendula Officinalis (Marigold) Flower",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Calendula Officinalis (Marigold) Flower Extract",
+    "description": "Organic Calendula Officinalis (Marigold) Flower Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Camellia Sinensis (Green Tea)",
+    "description": "High in catechins, polyphenols, and EGCG with anti-aging effects that fight free radicals for healthy skin",
+    "origin": "Tea Leaves",
+    "score": 0
+  },
+  {
+    "title": "Organic Camellia Sinensis (Japanese Green Tea) Leaf",
+    "description": "High in catechins, polyphenols, and EGCG with anti-aging effects that fight free radicals for healthy skin",
+    "origin": "Tea Leaves",
+    "score": 1
+  },
+  {
+    "title": "Organic Camellia Sinensis (Japanese Green Tea) Leaf Extract",
+    "description": "High in catechins, polyphenols, and EGCG with anti-aging effects that fight free radicals for healthy skin",
+    "origin": "Tea Leaves",
+    "score": 2
+  },
+  {
+    "title": "Organic Carthamus Tinctorius (Safflower) Seed Oil",
+    "description": "Organic Carthamus Tinctorius (Safflower) Seed Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Carum Petroselinum (Parsley)",
+    "description": "Organic Carum Petroselinum (Parsley)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Castor Oil (Ricinus Communis Seed Oil)",
+    "description": "Organic Castor Oil (Ricinus Communis Seed Oil)",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Organic Centella Asiatica (Asiatic Pennywort)",
+    "description": "Organic Centella Asiatica (Asiatic Pennywort)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Cera Flava (Beeswax)",
+    "description": "Organic Cera Flava (Beeswax)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Chamomile",
+    "description": "Organic Chamomile",
+    "origin": "",
+    "score": 4
+  },
+  {
+    "title": "Organic Chamomilla Recutita (Chamomile) Flower",
+    "description": "Organic Chamomilla Recutita (Chamomile) Flower",
+    "origin": "",
+    "score": 4
+  },
+  {
+    "title": "Organic Chamomilla Recutita (Chamomile) Flower Extract",
+    "description": "Organic Chamomilla Recutita (Chamomile) Flower Extract",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Organic Chamomilla Recutita (Matricaria) Flower Extract",
+    "description": "Organic Chamomilla Recutita (Matricaria) Flower Extract",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Organic Citrus Aurantium Dulcis (Orange) Peel Oil",
+    "description": "Organic Citrus Aurantium Dulcis (Orange) Peel Oil",
+    "origin": "",
+    "score": 5
+  },
+  {
+    "title": "Organic Citrus Limon (Lemon) Peel",
+    "description": "Organic Citrus Limon (Lemon) Peel",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Citrus Limon (Lemon) Peel Extract",
+    "description": "Organic Citrus Limon (Lemon) Peel Extract",
+    "origin": "",
+    "score": 5
+  },
+  {
+    "title": "Organic Coconut",
+    "description": "Organic Coconut",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Coconut Acid",
+    "description": "Organic Coconut Acid",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Coconut Oil",
+    "description": "Organic Coconut Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Coconut Oil (Cocos Nucifera)",
+    "description": "Organic Coconut Oil (Cocos Nucifera)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Cocos Nucifera (Coconut) Oil",
+    "description": "Organic Cocos Nucifera (Coconut) Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Coltsfoot",
+    "description": "Organic Coltsfoot",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Copernicia Cerifera (Carnauba) Wax",
+    "description": "Organic Copernicia Cerifera (Carnauba) Wax",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Cranberry",
+    "description": "Antioxidant the fights free radicals",
+    "origin": "Fruit",
+    "score": 0
+  },
+  {
+    "title": "Organic Cranberry Extract",
+    "description": "Antioxidant the fights free radicals",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Organic Cucumis Sativus (Cucumber) Fruit",
+    "description": "Nutrient-dense with folate, potassium, magnesium, and calcium helps reduce puffy eye bags and dark circles",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Organic Cucumis Sativus (Cucumber) Fruit Extract",
+    "description": "Nutrient-dense with folate, potassium, magnesium, and calcium helps reduce puffy eye bags and dark circles",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Organic Cyamopsis Tetragonoloba (Guar) Gum",
+    "description": "Organic Cyamopsis Tetragonoloba (Guar) Gum",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Cymbopogon Citratus (Lemon Grass) Oil",
+    "description": "Organic Cymbopogon Citratus (Lemon Grass) Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Dandelion",
+    "description": "Organic Dandelion",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Dandelion (Taraxacum Officinale) Extract",
+    "description": "Organic Dandelion (Taraxacum Officinale) Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Daucus Carota Sativa (Carrot) Root",
+    "description": "Organic Daucus Carota Sativa (Carrot) Root",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Elaeis Guineensis (Palm) Butter",
+    "description": "Organic Elaeis Guineensis (Palm) Butter",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Euphrasia Officinalis (Eyebright)",
+    "description": "Organic Euphrasia Officinalis (Eyebright)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Evening Primrose (Oenothera biennis) Oil",
+    "description": "Organic Evening Primrose (Oenothera biennis) Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Evening Primrose Oil",
+    "description": "Organic Evening Primrose Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Ginseng",
+    "description": "Organic Ginseng",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Organic Glycerin",
+    "description": "Organic Glycerin",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Organic Glycine Soja (Soybean) Oil",
+    "description": "Organic Glycine Soja (Soybean) Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Goji (Wolf Berry)",
+    "description": "Organic Goji (Wolf Berry)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Goji Berry Extract",
+    "description": "Organic Goji Berry Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Gotu Kola (Centella Asiatica) Extract",
+    "description": "Organic Gotu Kola (Centella Asiatica) Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Green Tea",
+    "description": "High in catechins, polyphenols, and EGCG with anti-aging effects that fight free radicals for healthy skin",
+    "origin": "Tea Leaves",
+    "score": 1
+  },
+  {
+    "title": "Organic Green Tea Extract",
+    "description": "High in catechins, polyphenols, and EGCG with anti-aging effects that fight free radicals for healthy skin",
+    "origin": "Tea Leaves",
+    "score": 2
+  },
+  {
+    "title": "Organic Green Tea Leaf Extract",
+    "description": "High in catechins, polyphenols, and EGCG with anti-aging effects that fight free radicals for healthy skin",
+    "origin": "Tea Leaves",
+    "score": 2
+  },
+  {
+    "title": "Organic Hamamelis Virginiana (Witch Hazel) Bark\/Leaf\/Twig",
+    "description": "Natural astringent that doesn't contain alcohol. It gently deep cleans pores.",
+    "origin": "Naturally-Derived Herb",
+    "score": 1
+  },
+  {
+    "title": "Organic Hamamelis Virginiana (Witch Hazel)Bark\/Leaf\/Twig Extract",
+    "description": "Natural astringent that doesn't contain alcohol. It gently deep cleans pores.",
+    "origin": "Naturally-Derived Herb",
     "score": 1
   },
   {
@@ -864,19 +3552,655 @@
     "score": 1
   },
   {
+    "title": "Organic Herbal Infusion",
+    "description": "Organic Herbal Infusion",
+    "origin": "",
+    "score": 0
+  },
+  {
+    "title": "Organic Horsetail",
+    "description": "Organic Horsetail",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Humulus Lupulus (Hops)",
+    "description": "Organic Humulus Lupulus (Hops)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Humulus Lupulus (Hops) Extract",
+    "description": "Organic Humulus Lupulus (Hops) Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Jojoba Oil",
+    "description": "Organic Jojoba Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Jojoba Oil (Simmondsia Chinensis)",
+    "description": "Organic Jojoba Oil (Simmondsia Chinensis)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Jojoba Seed Oil",
+    "description": "Organic Jojoba Seed Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Jojoba Seed Oil (Simmondsia Chinensis)",
+    "description": "Organic Jojoba Seed Oil (Simmondsia Chinensis)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Kelp",
+    "description": "Organic Kelp",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Lavandula Angustifolia (Lavender) Flower\/Leaf\/Stem",
+    "description": "Organic Lavandula Angustifolia (Lavender) Flower\/Leaf\/Stem",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Lavandula Angustifolia (Lavender) Flower\/Leaf\/Stem Extract",
+    "description": "Organic Lavandula Angustifolia (Lavender) Flower\/Leaf\/Stem Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Lavandula Angustifolia (Lavender) Oil",
+    "description": "Organic Lavandula Angustifolia (Lavender) Oil",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Organic Lavender",
+    "description": "Organic Lavender",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Lavender Distillate (Lavandula Angustifolia)",
+    "description": "Organic Lavender Distillate (Lavandula Angustifolia)",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Organic Lavender Extract",
+    "description": "Organic Lavender Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Lavender Flower Extract (Lavandula Angustifolia)",
+    "description": "Organic Lavender Flower Extract (Lavandula Angustifolia)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Lavender Flower Water",
+    "description": "Organic Lavender Flower Water",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Lavender Oil",
+    "description": "Organic Lavender Oil",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Organic Lecithin",
+    "description": "Organic Lecithin",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Organic Lemon",
+    "description": "Organic Lemon",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Lemon Extract",
+    "description": "Organic Lemon Extract",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Organic Lemongrass",
+    "description": "Organic Lemongrass",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Licorice",
+    "description": "Organic Licorice",
+    "origin": "",
+    "score": 4
+  },
+  {
+    "title": "Organic Melaleuca Alternifolia (Tea Tree) Leaf Oil",
+    "description": "Organic Melaleuca Alternifolia (Tea Tree) Leaf Oil",
+    "origin": "",
+    "score": 6
+  },
+  {
+    "title": "Organic Mentha Spicata (Spearmint) Oil",
+    "description": "Organic Mentha Spicata (Spearmint) Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Mushroom",
+    "description": "Organic Mushroom",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Neem Seed Oil",
+    "description": "Organic Neem Seed Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Neem Seed Oil (Melia Azadirachta)",
+    "description": "Organic Neem Seed Oil (Melia Azadirachta)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Oatmeal",
+    "description": "Organic Oatmeal",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Olea Europaea (Olive) Fruit",
+    "description": "Organic Olea Europaea (Olive) Fruit",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Olea Europaea (Olive) Fruit Extract",
+    "description": "Organic Olea Europaea (Olive) Fruit Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Olea Europaea (Olive) Fruit Oil",
+    "description": "Organic Olea Europaea (Olive) Fruit Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Olive Fruit Oil (Olea Europaea)",
+    "description": "Organic Olive Fruit Oil (Olea Europaea)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Olive Oil",
+    "description": "Organic Olive Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Olive Oil (Olea Europaea)",
+    "description": "Organic Olive Oil (Olea Europaea)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Orange",
+    "description": "Organic Orange",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Orange Fruit Extract",
+    "description": "Organic Orange Fruit Extract",
+    "origin": "",
+    "score": 4
+  },
+  {
+    "title": "Organic Oryza Sativa (Rice) Powder*",
+    "description": "Organic Oryza Sativa (Rice) Powder*",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Organic Palm Fruit Oil (Elaeis Guineensis)",
+    "description": "Organic Palm Fruit Oil (Elaeis Guineensis)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Palm Oil",
+    "description": "Organic Palm Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Papaya",
+    "description": "Organic Papaya",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Peppermint",
+    "description": "Organic Peppermint",
+    "origin": "",
+    "score": 4
+  },
+  {
+    "title": "Organic Pineapple",
+    "description": "Organic Pineapple",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Pogostemon Cablin Oil",
+    "description": "Organic Pogostemon Cablin Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Pomegranate",
+    "description": "Organic Pomegranate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Pomegranate Tincture",
+    "description": "Organic Pomegranate Tincture",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Prunus Armeniaca (Apricot) Fruit",
+    "description": "Organic Prunus Armeniaca (Apricot) Fruit",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Prunus Armeniaca (Apricot) Fruit Extract",
+    "description": "Organic Prunus Armeniaca (Apricot) Fruit Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Pumpkin",
+    "description": "Organic Pumpkin",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Punica granatum (Pomegranate) Extract",
+    "description": "Organic Punica granatum (Pomegranate) Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Pyrus Malus (Apple) Fruit",
+    "description": "Organic Pyrus Malus (Apple) Fruit",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Pyrus Malus (Apple) Fruit Extract",
+    "description": "Organic Pyrus Malus (Apple) Fruit Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Rhubarb",
+    "description": "Organic Rhubarb",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Rooibos",
+    "description": "Natural source of alpha hydroxy acids for exfoliation, rich in zinc",
+    "origin": "Tea Leaves",
+    "score": 1
+  },
+  {
+    "title": "Organic Rooibos Extract",
+    "description": "Natural source of alpha hydroxy acids for exfoliation, rich in zinc",
+    "origin": "Tea Leaves",
+    "score": 1
+  },
+  {
+    "title": "Organic Rooibos Leaf Extract",
+    "description": "Natural source of alpha hydroxy acids for exfoliation, rich in zinc",
+    "origin": "Tea Leaves",
+    "score": 1
+  },
+  {
+    "title": "Organic Rooibos Leaf Extract (Aspalathus Linearis)",
+    "description": "Natural source of alpha hydroxy acids for exfoliation, rich in zinc",
+    "origin": "Tea Leaves",
+    "score": 1
+  },
+  {
+    "title": "Organic Rooibos Tea",
+    "description": "Natural source of alpha hydroxy acids for exfoliation, rich in zinc",
+    "origin": "Tea Leaves",
+    "score": 1
+  },
+  {
+    "title": "Organic Rooibos Tea Extract",
+    "description": "Natural source of alpha hydroxy acids for exfoliation, rich in zinc",
+    "origin": "Tea Leaves",
+    "score": 1
+  },
+  {
+    "title": "Organic Rosa Centifolia (Rose) Flower",
+    "description": "Organic Rosa Centifolia (Rose) Flower",
+    "origin": "Flower",
+    "score": 1
+  },
+  {
+    "title": "Organic Rosa Centifolia (Rose) Flower Extract",
+    "description": "Organic Rosa Centifolia (Rose) Flower Extract",
+    "origin": "Flower",
+    "score": 3
+  },
+  {
+    "title": "Organic Rosemary Extract",
+    "description": "Nourishes mature skin and balances skin barrier, promotes brighter skin, helps tighten and firm",
+    "origin": "Plant-based",
+    "score": 2
+  },
+  {
+    "title": "Organic Rosemary Leaf Extract",
+    "description": "Nourishes mature skin and balances skin barrier, promotes brighter skin, helps tighten and firm",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Organic Rosemary Leaf Extract (Rosmarinus Officinalis)",
+    "description": "Nourishes mature skin and balances skin barrier, promotes brighter skin, helps tighten and firm",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Organic Rosmarinus Officinalis (Rosemary) Leaf",
+    "description": "Nourishes mature skin and balances skin barrier, promotes brighter skin, helps tighten and firm",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Organic Rosmarinus Officinalis (Rosemary) Leaf Extract",
+    "description": "Nourishes mature skin and balances skin barrier, promotes brighter skin, helps tighten and firm",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Organic Rosmarinus Officinalis (Rosemary) Leaf Oil",
+    "description": "Nourishes mature skin and balances skin barrier, promotes brighter skin, helps tighten and firm",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Organic Salix Alba (Willow) Bark Extract",
+    "description": "Cleansing agent, high salicylic content",
+    "origin": "Tree",
+    "score": 1
+  },
+  {
+    "title": "Organic Salix Alba (Willow) Bark*",
+    "description": "Cleansing agent, high salicylic content",
+    "origin": "Tree",
+    "score": 1
+  },
+  {
+    "title": "Organic Sapindus Mukorossi Fruit",
+    "description": "Organic Sapindus Mukorossi Fruit",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Sapindus Mukorossi Fruit Extract",
+    "description": "Organic Sapindus Mukorossi Fruit Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Shea Butter",
+    "description": "Organic Shea Butter",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Shea Butter (Butyrospermum Parkii)",
+    "description": "Organic Shea Butter (Butyrospermum Parkii)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Simmondsia Chinensis (Jojoba Oil)",
+    "description": "Organic Simmondsia Chinensis (Jojoba Oil)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Simmondsia Chinensis (Jojoba) Seed Oil",
+    "description": "Organic Simmondsia Chinensis (Jojoba) Seed Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Spirulina Maxima (Sea Algae)",
+    "description": "Antioxidant with high phytocyanin and carotenoid content helps the signs of aging be less visible",
+    "origin": "Seaweed",
+    "score": 1
+  },
+  {
+    "title": "Organic Spirulina Maxima (Sea Algae) Extract",
+    "description": "Antioxidant with high phytocyanin and carotenoid content helps the signs of aging be less visible",
+    "origin": "Seaweed",
+    "score": 1
+  },
+  {
+    "title": "Organic Spirulina Maxima (SeaAlgae)",
+    "description": "Antioxidant with high phytocyanin and carotenoid content helps the signs of aging be less visible",
+    "origin": "Seaweed",
+    "score": 1
+  },
+  {
+    "title": "Organic Sugar",
+    "description": "Humectant that is exfoliating, improves complexion with a healthy glow",
+    "origin": "Cane",
+    "score": 1
+  },
+  {
+    "title": "Organic Sugar Cane",
+    "description": "Humectant that is exfoliating, improves complexion with a healthy glow",
+    "origin": "Cane",
+    "score": 1
+  },
+  {
+    "title": "Organic Sugar Cane Extract",
+    "description": "Humectant that is exfoliating, improves complexion with a healthy glow",
+    "origin": "Cane",
+    "score": 1
+  },
+  {
+    "title": "Organic Sugar Maple",
+    "description": "Humectant that is exfoliating, improves complexion with a healthy glow",
+    "origin": "Maple",
+    "score": 1
+  },
+  {
+    "title": "Organic Sugar Maple Extract",
+    "description": "Humectant that is exfoliating, improves complexion with a healthy glow",
+    "origin": "Maple",
+    "score": 1
+  },
+  {
+    "title": "Organic Sunflower Oil",
+    "description": "Organic Sunflower Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Sunflower Seed Oil",
+    "description": "Organic Sunflower Seed Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Sunflower Seed Oil (Helianthus Annuus)",
+    "description": "Organic Sunflower Seed Oil (Helianthus Annuus)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Tamanu Seed Oil (Calophyllum Inophyllum)",
+    "description": "Organic Tamanu Seed Oil (Calophyllum Inophyllum)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Theobroma Cacao (Cocoa) Seed Butter",
+    "description": "Organic Theobroma Cacao (Cocoa) Seed Butter",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Turmeric CO2 Essential Oil (Curcuma longa)",
+    "description": "Organic Turmeric CO2 Essential Oil (Curcuma longa)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Usnea Lichen Extract",
+    "description": "Organic Usnea Lichen Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Vanilla Flavor",
+    "description": "Organic Vanilla Flavor",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic Vitis Vinifera (Grape) Seed Oil",
+    "description": "Organic Vitis Vinifera (Grape) Seed Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic White Tea",
+    "description": "Organic White Tea",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic White Tea Extract",
+    "description": "Organic White Tea Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic White Tea Leaf Extract",
+    "description": "Organic White Tea Leaf Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic White Tea Leaf Extract (Camellia Sinensis)",
+    "description": "Organic White Tea Leaf Extract (Camellia Sinensis)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Organic White Willow Bark",
+    "description": "Cleansing agent, high salicylic content",
+    "origin": "Tree",
+    "score": 1
+  },
+  {
+    "title": "Organic White Willow Bark Extract",
+    "description": "Cleansing agent, high salicylic content",
+    "origin": "Tree",
+    "score": 1
+  },
+  {
+    "title": "Organic White Willowbark",
+    "description": "Cleansing agent, high salicylic content",
+    "origin": "Tree",
+    "score": 1
+  },
+  {
+    "title": "Ornithine",
+    "description": "Ornithine",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Oxido Reductases",
+    "description": "Oxido Reductases",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Palm Kernel",
+    "description": "Palm Kernel",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Palm Oil",
+    "description": "Palm Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Palm Stearic Acid",
+    "description": "Palm Stearic Acid",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Palmarosa",
+    "description": "Palmarosa",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Palmarosa Oil",
+    "description": "Palmarosa Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
     "title": "Palmitoyl dipeptide-10",
     "description": "combination of palmitic acid and dipeptide-10 to increase elasticity",
     "origin": "Peptide",
     "score": 1
   },
   {
-    "title": "Skin Firm Dipeptide (palmitoyl dipeptide-5 diamino butyryl hydroxy threonine",
+    "title": "Palmitoyl Dipeptide-5 Diaminobutyloyl Hydroxythreonine",
     "description": "Freezes vertical wrinkles and frown lines",
     "origin": "Peptide",
     "score": 1
   },
   {
-    "title": "palmitoyl dipeptide-5 diamino hydroxy-butyrate)",
+    "title": "Palmitoyl Dipeptide-5 Diaminohydroxybutyrate",
     "description": "Improves skin elascity and support structure Collagen IV, VI, XVII, Laminin 5 and Integrin",
     "origin": "Peptide",
     "score": 1
@@ -894,14 +4218,8 @@
     "score": 1
   },
   {
-    "title": "Palmitoyl Tripeptide-1 is a peptide that stimulates collagen production. It helps to firm and strengthen connective tissue in the dermis. It also boosts glycosaminoglycan production for younger-looking skin. Palmitoyl Tetrapeptide-7 helps to reduce inflammation in our body and regenerates complexions.",
-    "description": "refers to peptides that are strands of two to twenty-two amino acids",
-    "origin": "Peptide",
-    "score": 1
-  },
-  {
-    "title": "RH-Oligopeptide-1)",
-    "description": "refers to peptides that are strands of two to twenty-two amino acids",
+    "title": "Palmitoyl Pentapeptide",
+    "description": "the original peptide contained in Matrixyl",
     "origin": "Peptide",
     "score": 1
   },
@@ -936,6 +4254,18 @@
     "score": 1
   },
   {
+    "title": "palmitoyl tripeptide-38",
+    "description": "Fills in the look of wrinkles",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Palmitoyl Tripeptide-38 (Matrixyl Synthe-6)",
+    "description": "Fills in the look of wrinkles",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
     "title": "Palmitoyl tripeptide-5",
     "description": "helps skin firmness.",
     "origin": "Peptide",
@@ -943,13 +4273,7 @@
   },
   {
     "title": "Palmitoyl Tripeptide-5 (Syn-Coll)",
-    "description": "helps skin firmness.",
-    "origin": "Peptide",
-    "score": 1
-  },
-  {
-    "title": "Syn-Coll",
-    "description": "helps skin firmness.",
+    "description": "Collagen booster",
     "origin": "Peptide",
     "score": 1
   },
@@ -960,7 +4284,19 @@
     "score": 1
   },
   {
+    "title": "Panthenol",
+    "description": "Is a humectant that moisturizes and soothes",
+    "origin": "Vitamin B5",
+    "score": 1
+  },
+  {
     "title": "Panthenol (Vitamin B5)",
+    "description": "Is a humectant that moisturizes and soothes",
+    "origin": "Vitamin B5",
+    "score": 1
+  },
+  {
+    "title": "Panthenol B5",
     "description": "Is a humectant that moisturizes and soothes",
     "origin": "Vitamin B5",
     "score": 1
@@ -969,6 +4305,18 @@
     "title": "Panthenol Vitamin B5",
     "description": "Is a humectant that moisturizes and soothes",
     "origin": "Vitamin B5",
+    "score": 1
+  },
+  {
+    "title": "Papaya Extract",
+    "description": "Papaya Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Pearl Powder",
+    "description": "Pearl Powder",
+    "origin": "",
     "score": 1
   },
   {
@@ -985,8 +4333,26 @@
   },
   {
     "title": "Pentylene Glycol",
-    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
-    "origin": "Soybean Seed",
+    "description": "Pentylene Glycol",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Pepha Tight",
+    "description": "Tightener that provides immediate results",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Pepha®-Tight",
+    "description": "Tightener that provides immediate results",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Peppermint",
+    "description": "menthol in peppermint helps skin retain its natural moisture",
+    "origin": "Herb",
     "score": 1
   },
   {
@@ -996,16 +4362,40 @@
     "score": 0
   },
   {
+    "title": "Persea Armeniaca (Avocado) Oil",
+    "description": "Persea Armeniaca (Avocado) Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Phenethyl Alcohol",
+    "description": "Phenethyl Alcohol",
+    "origin": "",
+    "score": 1
+  },
+  {
     "title": "Phenoxyethanol",
     "description": "Antibacterial preservative and stabilizer",
     "origin": "Green Tea",
     "score": 2
   },
   {
-    "title": "Organic Green Tea",
-    "description": "Antibacterial preservative and stabilizer",
-    "origin": "Green Tea",
-    "score": 2
+    "title": "Phenylalanine",
+    "description": "Phenylalanine",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Phenylethyl Resorcinol",
+    "description": "Phenylethyl Resorcinol",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Pheyl t-Butylnitrone (Spin Trap)",
+    "description": "Pheyl t-Butylnitrone (Spin Trap)",
+    "origin": "",
+    "score": 1
   },
   {
     "title": "Phospholipids",
@@ -1020,10 +4410,82 @@
     "score": 1
   },
   {
+    "title": "Phycocyanin C",
+    "description": "Phycocyanin C",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Phyllanthus Emblica (Amla) Fruit Extract",
+    "description": "Phyllanthus Emblica (Amla) Fruit Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Phytic Acid",
+    "description": "Phytic Acid",
+    "origin": "",
+    "score": 2
+  },
+  {
     "title": "Phytocell Tec Malus Domestica",
     "description": "Promotes a taut, firmer more youthful appearance",
     "origin": "Apple Stem Cells",
     "score": 0
+  },
+  {
+    "title": "PhytoCell Tec Malus Domestica (Apple Stem Cells)",
+    "description": "Promotes a taut, firmer more youthful appearance",
+    "origin": "Apple Stem Cells",
+    "score": 0
+  },
+  {
+    "title": "Phytocelltec Malus Domestica",
+    "description": "Promotes a taut, firmer more youthful appearance",
+    "origin": "Apple Stem Cells",
+    "score": 0
+  },
+  {
+    "title": "Pichia\/Resveratrol",
+    "description": "Extract from the outer layer of grapes, potent antioxidant",
+    "origin": "Grapes",
+    "score": 1
+  },
+  {
+    "title": "Pineapple Enzymes",
+    "description": "Pineapple Enzymes",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Pineapple Extract",
+    "description": "Pineapple Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Pink Grapefruit",
+    "description": "Energizing, uplifting scent",
+    "origin": "Citrus Fruit",
+    "score": 1
+  },
+  {
+    "title": "Pink Grapefruit Essential Oil",
+    "description": "Energizing, uplifting scent",
+    "origin": "Citrus Fruit",
+    "score": 1
+  },
+  {
+    "title": "Pink Grapefruit Peel Oil",
+    "description": "Energizing, uplifting scent",
+    "origin": "Citrus Fruit",
+    "score": 1
+  },
+  {
+    "title": "Plankton",
+    "description": "UV protection and prevents pollutants from penetrating skin",
+    "origin": "Plankton",
+    "score": 1
   },
   {
     "title": "Plankton Extract",
@@ -1032,9 +4494,33 @@
     "score": 1
   },
   {
-    "title": "Plankton",
-    "description": "UV protection and prevents pollutants from penetrating skin",
-    "origin": "Plankton",
+    "title": "Plant Collagen",
+    "description": "Plant Collagen",
+    "origin": "Plant-Based",
+    "score": 1
+  },
+  {
+    "title": "Plantago Lanceolata Leaf Extract",
+    "description": "Plantago Lanceolata Leaf Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Polydimethylsiloxane\/Polymethylsilseuioxane",
+    "description": "Polydimethylsiloxane\/Polymethylsilseuioxane",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Polyglceryl-4 Caprate",
+    "description": "Polyglceryl-4 Caprate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Polyglyceryl-4 Caprate",
+    "description": "Polyglyceryl-4 Caprate",
+    "origin": "",
     "score": 1
   },
   {
@@ -1050,9 +4536,69 @@
     "score": 1
   },
   {
+    "title": "Polysaccharide Gum",
+    "description": "Polysaccharide Gum",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Polysorbate",
+    "description": "Polysorbate",
+    "origin": "",
+    "score": 3
+  },
+  {
+    "title": "Polysorbate 20",
+    "description": "Polysorbate 20",
+    "origin": "",
+    "score": 3
+  },
+  {
+    "title": "Polysorbate 80",
+    "description": "Polysorbate 80",
+    "origin": "",
+    "score": 3
+  },
+  {
+    "title": "Pomegranate",
+    "description": "powerful natural antioxidant, protecting cells from free radicals, visibly reduces the appearance of wrinkles",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Pomegranate Extract",
+    "description": "powerful natural antioxidant, protecting cells from free radicals, visibly reduces the appearance of wrinkles",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Pomegranate Fruit Extract",
+    "description": "powerful natural antioxidant, protecting cells from free radicals, visibly reduces the appearance of wrinkles",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Pomegranate Seed",
+    "description": "powerful natural antioxidant, protecting cells from free radicals, visibly reduces the appearance of wrinkles",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
     "title": "Poria Cocos Extract",
     "description": "Anticaking and emulsifying agent",
     "origin": "Poria Roots",
+    "score": 1
+  },
+  {
+    "title": "Potassium Alginate",
+    "description": "Potassium Alginate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Potassium Chloride",
+    "description": "Potassium Chloride",
+    "origin": "",
     "score": 1
   },
   {
@@ -1074,22 +4620,34 @@
     "score": 1
   },
   {
-    "title": "and Potassium Sorbate. The older version of Pepha Tight is no longer being produced. Therefore",
-    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
-    "origin": "Soybean Seed",
-    "score": 1
+    "title": "Progeline",
+    "description": "Tightens sagging skin and firms jawline by inhibiting progerin in those with mature skin",
+    "origin": "Peptide",
+    "score": 0
+  },
+  {
+    "title": "Progeline (Glycerin (and) Water (and) Dextran (and) Trifluoroacetyl Tripeptide-2)",
+    "description": "Tightens sagging skin and firms jawline by inhibiting progerin in those with mature skin",
+    "origin": "Peptide",
+    "score": 0
   },
   {
     "title": "Progeline Trifluoroacetyl Tripeptide-2",
-    "description": "Tightens sagging skin",
+    "description": "Tightens sagging skin and firms jawline by inhibiting progerin in those with mature skin",
     "origin": "Peptide",
     "score": 0
   },
   {
-    "title": "Progeline",
-    "description": "Tightens sagging skin",
+    "title": "Progeline™",
+    "description": "Tightens sagging skin and firms jawline by inhibiting progerin in those with mature skin",
     "origin": "Peptide",
     "score": 0
+  },
+  {
+    "title": "Proline",
+    "description": "Proline",
+    "origin": "",
+    "score": 1
   },
   {
     "title": "Propanediol",
@@ -1098,9 +4656,39 @@
     "score": 2
   },
   {
+    "title": "Propolis Extract (Propolis)",
+    "description": "Propolis Extract (Propolis)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Propylene Glycol",
+    "description": "Propylene Glycol",
+    "origin": "",
+    "score": 3
+  },
+  {
+    "title": "Provitamin B5 (DL-Panthenol)",
+    "description": "Provitamin B5 (DL-Panthenol)",
+    "origin": "",
+    "score": 1
+  },
+  {
     "title": "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
     "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
-    "origin": "Soybean Seed",
+    "origin": "Nuts",
+    "score": 1
+  },
+  {
+    "title": "Pseudoalteromonas Ferment Extract",
+    "description": "Cryo-protective Marine Glycoprotein and Anti-Aging Antioxidant",
+    "origin": "Glycoprotein",
+    "score": 1
+  },
+  {
+    "title": "Pueraria Lobata Root Extract",
+    "description": "Pueraria Lobata Root Extract",
+    "origin": "",
     "score": 1
   },
   {
@@ -1110,9 +4698,39 @@
     "score": 1
   },
   {
-    "title": "Pullulan. Preserved with: Phenoxyethanol",
-    "description": "Carrier agent that binds formula together",
-    "origin": "Starch",
+    "title": "Pumpkin",
+    "description": "Pumpkin",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Pumpkin Seed Oil",
+    "description": "Pumpkin Seed Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Punica granatum (Pomegranate) Extract",
+    "description": "Punica granatum (Pomegranate) Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Purified Water",
+    "description": "Hydration and viscosity agent",
+    "origin": "Earth",
+    "score": 1
+  },
+  {
+    "title": "Pycnogenol Pine Bark",
+    "description": "accelerate the skin's natural regeneration process and deliver collagen and antioxidants",
+    "origin": "Bark",
+    "score": 0
+  },
+  {
+    "title": "Pyrus Malus Fruit Extract (Apple)",
+    "description": "Pyrus Malus Fruit Extract (Apple)",
+    "origin": "",
     "score": 1
   },
   {
@@ -1128,22 +4746,58 @@
     "score": 1
   },
   {
+    "title": "Red Clover",
+    "description": "Skin balancing herb for mature complexions",
+    "origin": "",
+    "score": 1
+  },
+  {
     "title": "Red Mandarin Oil",
     "description": "Skin-conditioning agent",
     "origin": "Macadamia Ternifolia Seed Oil",
     "score": 1
   },
   {
-    "title": "Relistase Acetylarginyltryptophyl Diphenylglycine",
-    "description": "For mature complexions, tightens and firms the jawline",
+    "title": "Regu-Age",
+    "description": "An antioxidant that inhibits free radicals",
     "origin": "Peptide",
-    "score": 1
+    "score": 0
+  },
+  {
+    "title": "Regu®-Age",
+    "description": "An antioxidant that inhibits free radicals",
+    "origin": "Peptide",
+    "score": 0
   },
   {
     "title": "Relistase",
     "description": "For mature complexions, tightens and firms the jawline",
     "origin": "Peptide",
-    "score": 1
+    "score": 0
+  },
+  {
+    "title": "Relistase Acetylarginyltryptophyl Diphenylglycine",
+    "description": "For mature complexions, tightens and firms the jawline",
+    "origin": "Peptide",
+    "score": 0
+  },
+  {
+    "title": "Relistase® Peptide",
+    "description": "For mature complexions, tightens and firms the jawline",
+    "origin": "Peptide",
+    "score": 0
+  },
+  {
+    "title": "Relistase™",
+    "description": "For mature complexions, tightens and firms the jawline",
+    "origin": "Peptide",
+    "score": 0
+  },
+  {
+    "title": "Renovage",
+    "description": "Increase your skin's hydration while improving tone and texture",
+    "origin": "Peptide",
+    "score": 0
   },
   {
     "title": "Resveratrol",
@@ -1152,45 +4806,219 @@
     "score": 0
   },
   {
-    "title": "Pichia\/Resveratrol",
-    "description": "Super antioxidant to fight free radicals",
-    "origin": "Grapes",
-    "score": 0
+    "title": "Retinol",
+    "description": "Reduces wrinkles, lightens dark spots and discolorations, and smooths lines",
+    "origin": "Tretinoin",
+    "score": 8
+  },
+  {
+    "title": "Retinol (Vitamin A)",
+    "description": "Reduces wrinkles, lightens dark spots and discolorations, and smooths lines",
+    "origin": "Tretinoin",
+    "score": 8
+  },
+  {
+    "title": "Retinol Complex (Caprylic\/Capric Triglyceride and Tocopherol and Sodium ascorbate and Retinol)",
+    "description": "Reduces wrinkles, lightens dark spots and discolorations, and smooths lines",
+    "origin": "Tretinoin",
+    "score": 8
+  },
+  {
+    "title": "Retinol Vitamin A",
+    "description": "Reduces wrinkles, lightens dark spots and discolorations, and smooths lines",
+    "origin": "Tretinoin",
+    "score": 8
   },
   {
     "title": "Retinyl Palmitate",
-    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
-    "origin": "Soybean Seed",
+    "description": "Reduces wrinkles, lightens dark spots and discolorations, and smooths lines",
+    "origin": "Vitamin A",
+    "score": 1
+  },
+  {
+    "title": "Reverse Osmosis Water",
+    "description": "Heavy Water D20",
+    "origin": "Reverse Osmosis",
+    "score": 0
+  },
+  {
+    "title": "Rh-Oligopeptide-1",
+    "description": "Epidermal growth factor, 53 amino acid strand to help renew and regenerate complexions",
+    "origin": "Amino Acids",
+    "score": 1
+  },
+  {
+    "title": "Rooibos Tea",
+    "description": "Natural source of alpha hydroxy acids for exfoliation, rich in zinc",
+    "origin": "Tea Leaves",
+    "score": 1
+  },
+  {
+    "title": "Rosa Canina Fruit Oil (Organic Rosehip Seed)",
+    "description": "powerful natural antioxidant, protecting cells from free radicals, visibly reduces the appearance of wrinkles",
+    "origin": "Plant-based",
+    "score": 3
+  },
+  {
+    "title": "Rosalina",
+    "description": "powerful natural antioxidant, protecting cells from free radicals, visibly reduces the appearance of wrinkles",
+    "origin": "Plant-based",
+    "score": 0
+  },
+  {
+    "title": "Rose",
+    "description": "powerful natural antioxidant, protecting cells from free radicals, visibly reduces the appearance of wrinkles",
+    "origin": "Plant-based",
+    "score": 0
+  },
+  {
+    "title": "Rose Absolute",
+    "description": "powerful natural antioxidant, protecting cells from free radicals, visibly reduces the appearance of wrinkles",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Rose Distillate",
+    "description": "powerful natural antioxidant, protecting cells from free radicals, visibly reduces the appearance of wrinkles",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Rose Essential Oil",
+    "description": "powerful natural antioxidant, protecting cells from free radicals, visibly reduces the appearance of wrinkles",
+    "origin": "Plant-based",
+    "score": 3
+  },
+  {
+    "title": "Rose Hip Fruit Oil*",
+    "description": "powerful natural antioxidant, protecting cells from free radicals, visibly reduces the appearance of wrinkles",
+    "origin": "Plant-based",
+    "score": 3
+  },
+  {
+    "title": "Rosehip Oil",
+    "description": "powerful natural antioxidant, protecting cells from free radicals, visibly reduces the appearance of wrinkles",
+    "origin": "Plant-based",
+    "score": 3
+  },
+  {
+    "title": "Rosehip Seed Oil",
+    "description": "powerful natural antioxidant, protecting cells from free radicals, visibly reduces the appearance of wrinkles",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Rosehip Seed Oil (Rosa Canina)",
+    "description": "powerful natural antioxidant, protecting cells from free radicals, visibly reduces the appearance of wrinkles",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Rosemary",
+    "description": "Nourishes mature skin and balances skin barrier, promotes brighter skin, helps tighten and firm",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Rosemary (Rosmarinus Officinalis)",
+    "description": "Nourishes mature skin and balances skin barrier, promotes brighter skin, helps tighten and firm",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Rosemary Oleoresin",
+    "description": "Nourishes mature skin and balances skin barrier, promotes brighter skin, helps tighten and firm",
+    "origin": "Plant-based",
+    "score": 2
+  },
+  {
+    "title": "Rosemary Oleoresin (Rosmarinus Officinalis Neem(Melia Azadirachta)",
+    "description": "Nourishes mature skin and balances skin barrier, promotes brighter skin, helps tighten and firm",
+    "origin": "Plant-based",
+    "score": 2
+  },
+  {
+    "title": "Rosmarinus officinalis (Rosemary) Extract",
+    "description": "Nourishes mature skin and balances skin barrier, promotes brighter skin, helps tighten and firm",
+    "origin": "Plant-based",
+    "score": 2
+  },
+  {
+    "title": "Rubus Villosus (Blackberry) Fruit Extract",
+    "description": "Rubus Villosus (Blackberry) Fruit Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Rumex Acetosa Leaf Extract (Sorrel)",
+    "description": "Rumex Acetosa Leaf Extract (Sorrel)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Rumex Occidentalis Extract",
+    "description": "Rumex Occidentalis Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Saccharum Officinarum Extract (Sugar Cane)",
+    "description": "Saccharum Officinarum Extract (Sugar Cane)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Safflower Oil",
+    "description": "Safflower Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Salicylic Acid",
+    "description": "Cleansing agent, cleans pores, natures asprin",
+    "origin": "Tree",
+    "score": 3
+  },
+  {
+    "title": "Salix Alba (Organic Willow Bark) Extract",
+    "description": "Cleansing agent, high salicylic content",
+    "origin": "Tree",
     "score": 1
   },
   {
     "title": "Salix Alba (Willow Bark) Extract",
-    "description": "Cleansing agent",
-    "origin": "Coconuts",
-    "score": 1
-  },
-  {
-    "title": "Organic Black Willowbark",
-    "description": "Cleansing agent",
-    "origin": "Coconuts",
+    "description": "Cleansing agent, high salicylic content",
+    "origin": "Tree",
     "score": 1
   },
   {
     "title": "Salix Alba (Willow) Bark Extract",
-    "description": "Cleansing agent",
-    "origin": "Coconuts",
+    "description": "Cleansing agent, high salicylic content",
+    "origin": "Tree",
     "score": 1
   },
   {
     "title": "Salix Nigra (Willow) Bark Extract",
-    "description": "Hydrating agent",
-    "origin": "Glycol",
+    "description": "Cleansing agent, high salicylic content",
+    "origin": "Tree",
     "score": 1
   },
   {
-    "title": "Salix Nigra (Willow) Bark Extract",
-    "description": "Hydrating agent",
-    "origin": "Glycol",
+    "title": "Sandalwood",
+    "description": "Sandalwood",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Sandalwood Wood Oil",
+    "description": "Sandalwood Wood Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Saponified Organic Oils of Palm",
+    "description": "Saponified Organic Oils of Palm",
+    "origin": "",
     "score": 1
   },
   {
@@ -1200,38 +5028,116 @@
     "score": 1
   },
   {
+    "title": "Sea Buckthorn Berry",
+    "description": "Skin restoring, antioxidant, delivers nutrients that our skin needs",
+    "origin": "Fruit",
+    "score": 0
+  },
+  {
+    "title": "Sea Buckthorn Extract",
+    "description": "Skin restoring, antioxidant, delivers nutrients that our skin needs",
+    "origin": "Fruit",
+    "score": 0
+  },
+  {
+    "title": "Sea Fennel",
+    "description": "Sea Fennel",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Sea Kelp Bioferment",
+    "description": "Sea Kelp Bioferment",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Sea Salt",
+    "description": "Sea Salt",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Serine",
+    "description": "Serine",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Shea Butter",
+    "description": "Improve the skin's softness and resiliency",
+    "origin": "Nut",
+    "score": 0
+  },
+  {
+    "title": "Shea Butter (Butyrospermum Parkii)",
+    "description": "Shea Butter (Butyrospermum Parkii)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Signature Spa Essential Oil Blend",
+    "description": "Signature Spa Essential Oil Blend",
+    "origin": "",
+    "score": 1
+  },
+  {
     "title": "Silica",
     "description": "Aids in absorption of other ingredients",
     "origin": "Quartz",
     "score": 1
   },
   {
-    "title": "Organic Simmondsia Chinensis (Jojoba Oil)",
+    "title": "Siligel™",
+    "description": "Siligel™",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Silver",
+    "description": "Silver",
+    "origin": "",
+    "score": 5
+  },
+  {
+    "title": "Silver Dihydrogen",
+    "description": "Silver Dihydrogen",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Silver Dihydrogen Citrate",
+    "description": "Silver Dihydrogen Citrate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Simmondsia Chinensis (Jojoba) Seed Oil",
     "description": "Anti-inflammatory properties which help to ease skin",
     "origin": "Jojoba Seeds",
     "score": 1
   },
   {
-    "title": "Organic Jojoba Oil",
+    "title": "Simmondsia Chinensis (Organic Jojoba) Oil",
     "description": "Anti-inflammatory properties which help to ease skin",
     "origin": "Jojoba Seeds",
     "score": 1
   },
   {
-    "title": "Organic Jojoba Seed Oil (Simmondsia Chinensis)",
+    "title": "Simmondsia Chinensis Seed Oil (Organic Jojoba)",
     "description": "Anti-inflammatory properties which help to ease skin",
     "origin": "Jojoba Seeds",
     "score": 1
   },
   {
-    "title": "Organic Jojoba",
-    "description": "Anti-inflammatory properties which help to ease skin",
-    "origin": "Jojoba Seeds",
+    "title": "Skin Firm Dipeptide",
+    "description": "Firming and smoothing peptide",
+    "origin": "Peptide",
     "score": 1
   },
   {
-    "title": "Snap-8™ Peptide (Acetyl Octapeptide-3)",
-    "description": "Relaxes facial muscles including crow's feet",
+    "title": "Skin Firm Dipeptide (palmitoyl dipeptide-5 diamino butyryl hydroxy threonine palmitoyl dipeptide-5 diamino hydroxy-butyrate)",
+    "description": "Firming and smoothing peptide",
     "origin": "Peptide",
     "score": 1
   },
@@ -1242,15 +5148,63 @@
     "score": 1
   },
   {
-    "title": "Sodium Bicarbonate",
+    "title": "Snap-8™",
+    "description": "Relaxes facial muscles including crow's feet",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Snap-8™ Peptide (Acetyl Octapeptide-3)",
+    "description": "Relaxes facial muscles including crow's feet",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Sodium Alginate",
+    "description": "Thickener",
+    "origin": "Seaweed",
+    "score": 1
+  },
+  {
+    "title": "Sodium Ascorbyl Phosphate (Vitamin C)",
+    "description": "Sodium Ascorbyl Phosphate (Vitamin C)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Sodium Benzoate",
     "description": "Soothing agent",
     "origin": "Comfrey Plant",
+    "score": 1
+  },
+  {
+    "title": "Sodium Bicarbonate",
+    "description": "Sodium Bicarbonate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Sodium Bicarbonate (Baking Soda)",
+    "description": "Sodium Bicarbonate (Baking Soda)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Sodium Borate",
+    "description": "Sodium Borate",
+    "origin": "",
     "score": 1
   },
   {
     "title": "Sodium Chloride",
     "description": "Prevents sodium loss",
     "origin": "Seawater",
+    "score": 1
+  },
+  {
+    "title": "Sodium Chloride (Sea Salt)",
+    "description": "Sodium Chloride (Sea Salt)",
+    "origin": "",
     "score": 1
   },
   {
@@ -1266,22 +5220,22 @@
     "score": 1
   },
   {
+    "title": "Sodium Cocoyl Hydrolyzed Amaranth Protein",
+    "description": "Sodium Cocoyl Hydrolyzed Amaranth Protein",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Sodium Decylglucosides Hydroxypropylsulfonate",
+    "description": "Sodium Decylglucosides Hydroxypropylsulfonate",
+    "origin": "",
+    "score": ""
+  },
+  {
     "title": "Sodium Dehydroacetate",
     "description": "Preservative and minimizes bacteria growth",
     "origin": "Salt",
     "score": 1
-  },
-  {
-    "title": "Sodium Hydroxide",
-    "description": "Anti-inflammatory agent",
-    "origin": "Aloe Leaf",
-    "score": 2
-  },
-  {
-    "title": "Sodium Hydroxide.",
-    "description": "Anti-inflammatory agent",
-    "origin": "Aloe Leaf",
-    "score": 2
   },
   {
     "title": "Sodium Hyaluronate",
@@ -1290,10 +5244,70 @@
     "score": 0
   },
   {
-    "title": "Sodium Hyaluronate (Hyaluronic acid)",
+    "title": "Sodium Hyaluronate (Hyaluronic Acid)",
     "description": "Expands to hold 1,000 times itself weight in water, promotes supple skin",
     "origin": "Fermentation",
     "score": 0
+  },
+  {
+    "title": "Sodium Hyaluronate (L)",
+    "description": "Expands to hold 1,000 times itself weight in water, promotes supple skin",
+    "origin": "Fermentation",
+    "score": 0
+  },
+  {
+    "title": "Sodium Hydroxide",
+    "description": "Anti-inflammatory agent",
+    "origin": "Salt Water",
+    "score": 2
+  },
+  {
+    "title": "Sodium Hydroxypropylsulfonate Decylglucoside Crosspolymer",
+    "description": "Sodium Hydroxypropylsulfonate Decylglucoside Crosspolymer",
+    "origin": "",
+    "score": ""
+  },
+  {
+    "title": "Sodium Lactate",
+    "description": "Sodium Lactate",
+    "origin": "",
+    "score": 3
+  },
+  {
+    "title": "Sodium Laurylglucosides Hydroxypropylsulfonate",
+    "description": "Sodium Laurylglucosides Hydroxypropylsulfonate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Sodium Methyl Cocoyl Taurate",
+    "description": "Sodium Methyl Cocoyl Taurate",
+    "origin": "Coconut",
+    "score": 1
+  },
+  {
+    "title": "Sodium Methyl Cocoyl Taurate (Mild surfactant derived from coconut)",
+    "description": "Sodium Methyl Cocoyl Taurate (Mild surfactant derived from coconut)",
+    "origin": "Coconut",
+    "score": 1
+  },
+  {
+    "title": "Sodium PCA",
+    "description": "Sodium PCA",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Sodium Phytate",
+    "description": "Sodium Phytate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Sodium Silicate",
+    "description": "Sodium Silicate",
+    "origin": "",
+    "score": 3
   },
   {
     "title": "Solanum Lycopersicum (Tomato) Fruit Extract",
@@ -1302,10 +5316,82 @@
     "score": 1
   },
   {
+    "title": "Soluble Collagen",
+    "description": "Soluble Collagen",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Sorbitan Isostearate",
+    "description": "Sorbitan Isostearate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Sorbitan Olivate",
+    "description": "Sorbitan Olivate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Sorbitan Palmitate",
+    "description": "Sorbitan Palmitate",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Sorbitol",
+    "description": "Sorbitol",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Soy Protein",
+    "description": "helps to rejuvenate photoaged complexions and improve the elasticity and tightness of drooping skin",
+    "origin": "Soybean",
+    "score": 0
+  },
+  {
+    "title": "Sphingolipids",
+    "description": "Sphingolipids",
+    "origin": "",
+    "score": 3
+  },
+  {
+    "title": "Spin Trap",
+    "description": "Spin Trap",
+    "origin": "",
+    "score": ""
+  },
+  {
+    "title": "Spin Trap (PBN)",
+    "description": "Spin Trap (PBN)",
+    "origin": "",
+    "score": ""
+  },
+  {
+    "title": "Spin Trap PBN",
+    "description": "Spin Trap PBN",
+    "origin": "",
+    "score": ""
+  },
+  {
     "title": "Squalane",
     "description": "A natural emollient, locking moisture into your skin",
     "origin": "Olives",
     "score": 1
+  },
+  {
+    "title": "Squalane (From Olive Oil)",
+    "description": "Squalane (From Olive Oil)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "steareth-20",
+    "description": "steareth-20",
+    "origin": "",
+    "score": 3
   },
   {
     "title": "Stearic Acid",
@@ -1314,9 +5400,87 @@
     "score": 1
   },
   {
-    "title": "Palm Stearic Acid",
-    "description": "Softens the skin's texture and helps maintain barrier health",
-    "origin": "Cocoa Butter",
+    "title": "Stearyl Alcohol",
+    "description": "Stearyl Alcohol",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Strawberry",
+    "description": "Natural salicylic acid content, lifts impurities out of the skin removing the bacteria and dead skin cells that often clog pores",
+    "origin": "Fruit",
+    "score": 0
+  },
+  {
+    "title": "Styrene Acrylate Copolymer",
+    "description": "Styrene Acrylate Copolymer",
+    "origin": "",
+    "score": 2
+  },
+  {
+    "title": "Sugar",
+    "description": "Humectant that is exfoliating, improves complexion with a healthy glow",
+    "origin": "Cane",
+    "score": 1
+  },
+  {
+    "title": "Sugar Cane",
+    "description": "Humectant that is exfoliating, improves complexion with a healthy glow",
+    "origin": "Cane",
+    "score": 1
+  },
+  {
+    "title": "Sugar Cane Extract",
+    "description": "Humectant that is exfoliating, improves complexion with a healthy glow",
+    "origin": "Cane",
+    "score": 1
+  },
+  {
+    "title": "Sugar Maple Extract",
+    "description": "Humectant that is exfoliating, improves complexion with a healthy glow",
+    "origin": "Maple",
+    "score": 1
+  },
+  {
+    "title": "Sunflower Oil",
+    "description": "Sunflower Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Sunflower Seed Oil",
+    "description": "Sunflower Seed Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Sunflower Seed Oil (Helianthus Annuus)",
+    "description": "Sunflower Seed Oil (Helianthus Annuus)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Super Oxide Dismutase",
+    "description": "Helps your skin resist the effects of aging due to free radicals",
+    "origin": "Fruits and Vegetables",
+    "score": 0
+  },
+  {
+    "title": "Sweet Almond Oil",
+    "description": "Sweet Almond Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Sweet Orange",
+    "description": "Sweet Orange",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Syn Coll",
+    "description": "Supports collagen stores and structure",
+    "origin": "Peptide",
     "score": 1
   },
   {
@@ -1326,7 +5490,19 @@
     "score": 1
   },
   {
+    "title": "Syn-Coll",
+    "description": "Supports collagen stores and structure",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
     "title": "Syn-Coll (Tripeptide-5)",
+    "description": "Supports collagen stores and structure",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Syn-Coll Palmitoyl Tripeptide-5",
     "description": "Supports collagen stores and structure",
     "origin": "Peptide",
     "score": 1
@@ -1344,33 +5520,171 @@
     "score": 1
   },
   {
+    "title": "Syn®-Ake",
+    "description": "Smooths vertical lines. Based on the Temple Viper freezing properties",
+    "origin": "Petide",
+    "score": 1
+  },
+  {
+    "title": "Syn®-Ake (Dipeptide Diaminobutyroyl Benzylamide Diacetate)",
+    "description": "Smooths vertical lines. Based on the Temple Viper freezing properties",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Syn®-Coll",
+    "description": "Supports collagen stores and structure",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Syn®-Coll (palmitoyl tripeptide-5)",
+    "description": "Supports collagen stores and structure",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Tamanu Oil",
+    "description": "moisturizing powerhouse, promotes renewal in the lower layers of the dermis, providing essential nutrients",
+    "origin": "Nuts",
+    "score": 0
+  },
+  {
+    "title": "Tartaric Acid",
+    "description": "Tartaric Acid",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Tea Tree Essential Oil",
+    "description": "topical treatment for skin conditions",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Tea Tree Oil",
+    "description": "topical treatment for skin conditions",
+    "origin": "Plant-based",
+    "score": 1
+  },
+  {
+    "title": "Ten's Up",
+    "description": "Natural skin tightener from Chicory and Caesalpinia Spinosa gum",
+    "origin": "Botanical & Root",
+    "score": 1
+  },
+  {
+    "title": "TENS'UP (Chicory Root Oligosaccharides and Caesalpinia Spinosa Gum)",
+    "description": "Natural skin tightener from Chicory and Caesalpinia Spinosa gum",
+    "origin": "Botanical & Root",
+    "score": 1
+  },
+  {
+    "title": "Teprenone",
+    "description": "Increase your skin's hydration while improving tone and texture",
+    "origin": "Peptide",
+    "score": 0
+  },
+  {
     "title": "Tetrapeptide-30",
     "description": "Helps balance skin tone and texture, reducing the appearance of age spots",
     "origin": "Peptide",
     "score": 1
   },
   {
+    "title": "Tetrasodium EDTA",
+    "description": "Chelating agent, water-soluble",
+    "origin": "Sodium Hydroxide",
+    "score": 2
+  },
+  {
+    "title": "Tetrasodium Glutamate Diacetate",
+    "description": "Tetrasodium Glutamate Diacetate",
+    "origin": "Sodium Hydroxide",
+    "score": 2
+  },
+  {
+    "title": "Thioctic (R-Lipoic Acid)",
+    "description": "Potent antioxidant that keeps skin healthy and looking younger, glutathione delays aging",
+    "origin": "Enzyme",
+    "score": 2
+  },
+  {
+    "title": "Thioctic Acid",
+    "description": "Potent antioxidant that keeps skin healthy and looking younger, glutathione delays aging",
+    "origin": "Enzyme",
+    "score": 2
+  },
+  {
+    "title": "Thiotic acid (Alpha Lipoic Acid) powder",
+    "description": "Potent antioxidant that keeps skin healthy and looking younger, glutathione delays aging",
+    "origin": "Enzyme",
+    "score": 2
+  },
+  {
+    "title": "Threonine",
+    "description": "Threonine",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Titanium Dioxide",
+    "description": "Titanium Dioxide",
+    "origin": "",
+    "score": 3
+  },
+  {
+    "title": "Tocopherol",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Tocopherol",
+    "score": 1
+  },
+  {
     "title": "Tocopherol (D-alpha)",
     "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Tocopherol",
+    "score": 1
+  },
+  {
+    "title": "Tocopherol (Vitamin E)",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Tocopherol",
+    "score": 1
+  },
+  {
+    "title": "Tocopheryl",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Tocopherol",
+    "score": 1
+  },
+  {
+    "title": "Tocopheryl (Vitamin E)",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
     "origin": "Soybean Seed",
+    "score": 1
+  },
+  {
+    "title": "Tocopheryl Acetate",
+    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
+    "origin": "Tocopherol",
     "score": 1
   },
   {
     "title": "Tocopheryl Acetate (Vitamin E)",
     "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
-    "origin": "Soybean Seed",
-    "score": 1
-  },
-  {
-    "title": "Mixed Tocopherols (Vitamin E)",
-    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
-    "origin": "Soybean Seed",
+    "origin": "Tocopherol",
     "score": 1
   },
   {
     "title": "Tocotrienols",
     "description": "Anti-aging antioxidant that helps slow skin aging",
     "origin": "Vitamin E",
+    "score": 1
+  },
+  {
+    "title": "Tricholoma Matsutake (Songyi) Extract",
+    "description": "Tricholoma Matsutake (Songyi) Extract",
+    "origin": "Mushroom",
     "score": 1
   },
   {
@@ -1392,6 +5706,12 @@
     "score": 1
   },
   {
+    "title": "Tripeptide-1",
+    "description": "(Glycine, histidine, lysine) signal peptide that restores and regenerates.",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
     "title": "Tripeptide-1 GHK",
     "description": "(Glycine, histidine, lysine) signal peptide that restores and regenerates.",
     "origin": "Peptide",
@@ -1410,9 +5730,141 @@
     "score": 1
   },
   {
+    "title": "Triticum Vulgare (Wheat Germ Oil)",
+    "description": "Triticum Vulgare (Wheat Germ Oil)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Tussilago Farfara Flower\/Leaf Extract (Coltsfoot)",
+    "description": "Tussilago Farfara Flower\/Leaf Extract (Coltsfoot)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Ubiquinone (Coq10)",
+    "description": "Ubiquinone (Coq10)",
+    "origin": "",
+    "score": 1
+  },
+  {
     "title": "Uplevity",
     "description": "Redefine jawline with increased firmness and tightening",
     "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Uplevity™",
+    "description": "Redefine jawline with increased firmness and tightening",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Uplevity™ Peptide",
+    "description": "Redefine jawline with increased firmness and tightening",
+    "origin": "Peptide",
+    "score": 1
+  },
+  {
+    "title": "Usnea Lichen Extract",
+    "description": "Usnea Lichen Extract",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Vaccinium Macrocarpon Fruit Extract (Cranberry)",
+    "description": "Antioxidant the fights free radicals",
+    "origin": "Fruit",
+    "score": 1
+  },
+  {
+    "title": "Valine",
+    "description": "Valine",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Vanilla Essential Oil",
+    "description": "Vanilla Essential Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Vanilla Planifolia Fruit Oil",
+    "description": "Vanilla Planifolia Fruit Oil",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Vegetable Glycerin",
+    "description": "Vegetable Glycerin",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Vitamin A",
+    "description": "Vitamin A",
+    "origin": "",
+    "score": 9
+  },
+  {
+    "title": "Vitamin A Ester",
+    "description": "Vitamin A Ester",
+    "origin": "",
+    "score": 9
+  },
+  {
+    "title": "Vitamin A Palmitate",
+    "description": "Vitamin A Palmitate",
+    "origin": "",
+    "score": 9
+  },
+  {
+    "title": "Vitamin B Complex",
+    "description": "Vitamin B Complex",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Vitamin B3",
+    "description": "Vitamin B3",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Vitamin B5",
+    "description": "Vitamin B5",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Vitamin C",
+    "description": "Antioxidant with brightening properties",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Vitamin C (Sodium Ascorbyl Phosphate)",
+    "description": "Vitamin C (Sodium Ascorbyl Phosphate)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Vitamin C Ester",
+    "description": "Vitamin C Ester",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Vitamin C Ester (Ascorbyl Palmitate)",
+    "description": "Vitamin C Ester (Ascorbyl Palmitate)",
+    "origin": "",
+    "score": 1
+  },
+  {
+    "title": "Vitamin C Palmitate",
+    "description": "Vitamin C Palmitate",
+    "origin": "",
     "score": 1
   },
   {
@@ -1422,21 +5874,27 @@
     "score": 1
   },
   {
-    "title": "Tocopherol (Vitamin E)",
+    "title": "Vitamin E (Tocopherol) Sunflower Seed Oil (Helianthus Annuus)",
     "description": "It helps to build new collagen deposits, revs up cell production, and regulates moisture production.",
-    "origin": "Tocopherol",
+    "origin": "Sunflower",
     "score": 1
   },
   {
-    "title": "E",
+    "title": "Vitamin E Acetate",
     "description": "It helps to build new collagen deposits, revs up cell production, and regulates moisture production.",
-    "origin": "Tocopherol",
+    "origin": "",
+    "score": 3
+  },
+  {
+    "title": "Vitamins C",
+    "description": "Vitamins C",
+    "origin": "",
     "score": 1
   },
   {
-    "title": "Vitamin E (Tocopherol)",
-    "description": "It helps to build new collagen deposits, revs up cell production, and regulates moisture production.",
-    "origin": "Tocopherol",
+    "title": "Vitamins F",
+    "description": "Vitamins F",
+    "origin": "",
     "score": 1
   },
   {
@@ -1446,21 +5904,9 @@
     "score": 1
   },
   {
-    "title": "Aqua (Water)",
-    "description": "Hydration and viscosity agent",
-    "origin": "Earth",
-    "score": 1
-  },
-  {
-    "title": "Water (aqua)",
-    "description": "Hydration and viscosity agent",
-    "origin": "Earth",
-    "score": 1
-  },
-  {
-    "title": "INCI: Water (Aqua)",
-    "description": "Hydration and viscosity agent",
-    "origin": "Earth",
+    "title": "Vitis Vinifera Seed Oil (Grapeseed)",
+    "description": "Anti-microbial and anti-inflammatory properties",
+    "origin": "Grape Seeds",
     "score": 1
   },
   {
@@ -1470,15 +5916,15 @@
     "score": 1
   },
   {
-    "title": "INCI: Water",
+    "title": "Water (Aqua)",
     "description": "Hydration and viscosity agent",
     "origin": "Earth",
     "score": 1
   },
   {
-    "title": "Deionized Water",
-    "description": "Hydration and viscosity agent",
-    "origin": "Earth",
+    "title": "Wheat Protein",
+    "description": "Wheat Protein",
+    "origin": "Plant-based",
     "score": 1
   },
   {
@@ -1488,27 +5934,51 @@
     "score": 1
   },
   {
-    "title": "Wildcrafted Resina Propolis",
+    "title": "Wild Crafted Resina Propolis",
     "description": "Strengthens the skin's natural barrier, improves radiance",
     "origin": "Botanical Brown Resin",
     "score": 1
   },
   {
-    "title": "Organic Camellia Sinensis (Green Tea)",
+    "title": "Wild Geranium (Geranium Maculatum Extract)",
+    "description": "Wild Geranium (Geranium Maculatum Extract)",
+    "origin": "Flower",
+    "score": 1
+  },
+  {
+    "title": "Wildcrafted Camellia Sinensis (Green Tea)",
     "description": "Packed with antioxidants to fight free radicals and other signs of premature aging",
     "origin": "Tea Leaves",
     "score": 1
   },
   {
-    "title": "Xanthan Gum (Polysaccharide Gum)",
-    "description": "Polysaccharide for thickening and emulsifying skincare formulas",
-    "origin": "Simple sugar",
+    "title": "Wildcrafted Resina Propolis",
+    "description": "Wildcrafted Resina Propolis",
+    "origin": "Bee Pollen",
     "score": 1
   },
   {
-    "title": "Polysaccharide Gum.",
-    "description": "Polysaccharide for thickening and emulsifying skincare formulas",
-    "origin": "Simple sugar",
+    "title": "Willow bark",
+    "description": "Cleansing agent, high salicylic content",
+    "origin": "Tree",
+    "score": 1
+  },
+  {
+    "title": "Witch Hazel",
+    "description": "Natural astringent that doesn't contain alcohol. It gently deep cleans pores.",
+    "origin": "Naturally-Derived Herb",
+    "score": 1
+  },
+  {
+    "title": "Witch Hazel (Hamamelis Virginiana)",
+    "description": "Natural astringent that doesn't contain alcohol. It gently deep cleans pores.",
+    "origin": "Naturally-Derived Herb",
+    "score": 1
+  },
+  {
+    "title": "Witch Hazel Water",
+    "description": "Natural astringent that doesn't contain alcohol. It gently deep cleans pores.",
+    "origin": "Plant-based",
     "score": 1
   },
   {
@@ -1518,15 +5988,39 @@
     "score": 1
   },
   {
-    "title": "Xanthan Gum.",
+    "title": "Xanthan Gum (Polysaccharide Gum)",
     "description": "Polysaccharide for thickening and emulsifying skincare formulas",
     "origin": "Simple sugar",
     "score": 1
   },
   {
+    "title": "Xanthan Gum Caprylic\/capric triglyceride",
+    "description": "Polysaccharide for thickening and emulsifying skincare formulas",
+    "origin": "Simple sugar",
+    "score": 1
+  },
+  {
+    "title": "Xanthum Gum",
+    "description": "Polysaccharide for thickening and emulsifying skincare formulas",
+    "origin": "Simple sugar",
+    "score": 1
+  },
+  {
+    "title": "Ylang Ylang Flower Oil",
+    "description": "Ylang Ylang Flower Oil",
+    "origin": "Flower",
+    "score": 5
+  },
+  {
     "title": "Yogurt Extract",
     "description": "Solvent and skin conditioning",
     "origin": "Sugar Beets",
+    "score": 1
+  },
+  {
+    "title": "Yucca Glauca Root Extract (Yucca)",
+    "description": "Yucca Glauca Root Extract (Yucca)",
+    "origin": "Herb",
     "score": 1
   },
   {
@@ -1537,8 +6031,20 @@
   },
   {
     "title": "Zea Mays (Corn) Oil",
-    "description": "Smooths, tightens, and rejuvenates skin from antioxidant properties",
-    "origin": "Soybean Seed",
+    "description": "Zea Mays (Corn) Oil",
+    "origin": "Vegetable",
+    "score": 1
+  },
+  {
+    "title": "Zea Mays (Corn) Starch",
+    "description": "Zea Mays (Corn) Starch",
+    "origin": "Vegetable",
+    "score": 1
+  },
+  {
+    "title": "Zinc",
+    "description": "Reflects harmful UV rays and reduces risk of early aging",
+    "origin": "Earth",
     "score": 1
   },
   {
@@ -1546,389 +6052,5 @@
     "description": "Reflects harmful UV rays and reduces risk of early aging",
     "origin": "Earth",
     "score": 1
-  },
-  {
-    "title": "Astralagus",
-    "description": "Energizes and revives tired skin",
-    "origin": "Herb",
-    "score": 0
-  },
-  {
-    "title": "Avocado",
-    "description": "Moisturizing, locks in hydration and improves skin barrier",
-    "origin": "Fruit",
-    "score": 0
-  },
-  {
-    "title": "Persea Armeniaca (Avocado) Oil",
-    "description": "Moisturizing, locks in hydration and improves skin barrier",
-    "origin": "Fruit",
-    "score": 0
-  },
-  {
-    "title": "Bambusa Arundinacea (Bamboo) Stem Powder.",
-    "description": "Sustainable, beads gently exfoliate skin and promote brightening",
-    "origin": "Plant-based",
-    "score": 1
-  },
-  {
-    "title": "Beta Glucan, Oat Straw",
-    "description": "Skin calming, brightening, promotes healthy skin",
-    "origin": "Vegetables",
-    "score": 0
-  },
-  {
-    "title": "Borage Oil",
-    "description": "high in gamma-linolenic acid, extremely moisturizing",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Calendula",
-    "description": "Rev's up skin’s natural renewal process",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Organic Calendula Officinalis (Calendula) Flower Extract",
-    "description": "Rev's up skin’s natural renewal process",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Cactus",
-    "description": "Contains phytochemicals to nourish the face with essential nutrients for proper function",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Chicory Root",
-    "description": "Helps your skin stay hydrated and protected against free radicals",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Coltsfoot Botanical",
-    "description": "Moisturizing, toning, improves health of skin",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Organic Coltsfoot",
-    "description": "Moisturizing, toning, improves health of skin",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Comfrey Root - Allantoin",
-    "description": "Non-irritating astringent with calming properties",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Organic Cranberry",
-    "description": "Antioxidant the fights free radicals",
-    "origin": "Fruit",
-    "score": 0
-  },
-  {
-    "title": "Cucumber",
-    "description": "Nutrient-dense with folate, potassium, magnesium, and calcium helps reduce puffy eye bags and dark circles",
-    "origin": "Fruit",
-    "score": 0
-  },
-  {
-    "title": "DMAE Bitartrate (Dimethylaminoethanol Bitartrate)",
-    "description": "works by signaling the skin's acetylcholine response, firming facial muscles",
-    "origin": "Synthesized from fruit",
-    "score": 4
-  },
-  {
-    "title": "DMAE (Dimethylaminoethanol)",
-    "description": "works by signaling the skin's acetylcholine response, firming facial muscles",
-    "origin": "Synthesized from fruit",
-    "score": 4
-  },
-  {
-    "title": "DMAE",
-    "description": "works by signaling the skin's acetylcholine response, firming facial muscles",
-    "origin": "Synthesized from fruit",
-    "score": 4
-  },
-  {
-    "title": "DMAE.",
-    "description": "works by signaling the skin's acetylcholine response, firming facial muscles",
-    "origin": "Synthesized from fruit",
-    "score": 4
-  },
-  {
-    "title": "Lotus",
-    "description": "Regenerating antioxidant that regulate the skin’s moisture and diminishes the signs of aging",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Honeysuckle",
-    "description": "soothe irritated skin and nourishes dry, mature complexions",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Fennel",
-    "description": "regulate the skin's ability to hold and produce moisture, it also is a diuretic and great for cellulite creams",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Sea Fennel",
-    "description": "regulate the skin's ability to hold and produce moisture, it also is a diuretic and great for cellulite creams",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "GABA",
-    "description": "Gamma aminobutyric acid relaxes the look of fine lines and wrinkles",
-    "origin": "Amino Acids",
-    "score": 0
-  },
-  {
-    "title": "Ginkgo Biloba",
-    "description": "Energizes the skin, antioxidant",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "10% Glycolic Acid",
-    "description": "Exfoliates the out layer of skin, softening the rough patches of the face by breaking down hardened skin",
-    "origin": "Alpha Hydroxy Acid",
-    "score": 4
-  },
-  {
-    "title": "Goat Milk",
-    "description": "Contains Lactic Acid, exfoliates, moisturizes",
-    "origin": "Dairy",
-    "score": 0
-  },
-  {
-    "title": "Grapefruit",
-    "description": "High in antioxidants, regenerates skin and fights premature aging, energizing scent",
-    "origin": "Fruit",
-    "score": 0
-  },
-  {
-    "title": "Pink Grapefruit Essential Oil.",
-    "description": "High in antioxidants, regenerates skin and fights premature aging, energizing scent",
-    "origin": "Fruit",
-    "score": 0
-  },
-  {
-    "title": "Pink Grapefruit.",
-    "description": "High in antioxidants, regenerates skin and fights premature aging, energizing scent",
-    "origin": "Fruit",
-    "score": 0
-  },
-  {
-    "title": "Honey",
-    "description": "nourishes the skin, allowing cell structures to become more elastic and pliable",
-    "origin": "Honey",
-    "score": 0
-  },
-  {
-    "title": "Hops",
-    "description": "Skin calming, grapefruity aroma",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Horsetail",
-    "description": "Helps replenish collagen",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Organic Horsetail ",
-    "description": "Helps replenish collagen",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Horsetail (Equisetum Arvense) Extract",
-    "description": "Helps replenish collagen",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Retinol",
-    "description": "Reduces wrinkles, lightens dark spots and discolorations, and smooths lines",
-    "origin": "Tretinoin",
-    "score": 8
-  },
-  {
-    "title": "Olive Oil",
-    "description": "It moisturizes, so the face is balanced",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Sea Kelp Bioferment",
-    "description": "Keep your skin taut and firm with essential skin actives",
-    "origin": "Seaweed",
-    "score": 0
-  },
-  {
-    "title": "Organic Kelp",
-    "description": "Keep your skin taut and firm with essential skin actives",
-    "origin": "Seaweed",
-    "score": 0
-  },
-  {
-    "title": "Kojic Acid",
-    "description": "It is one of the most popular skin-lightening treatments on the market, reduces hyperpigmentation",
-    "origin": "Mushrooms",
-    "score": 2
-  },
-  {
-    "title": "L-Carnitine",
-    "description": "Energy production boosts the longevity of living cells",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Lactic Acid",
-    "description": "Provides natural enzymes that remove dead skin cell build-up",
-    "origin": "Dairy",
-    "score": 0
-  },
-  {
-    "title": "Peppermint",
-    "description": "menthol in peppermint helps skin retain its natural moisture",
-    "origin": "Herb",
-    "score": 1
-  },
-  {
-    "title": "Lemon, Lemongrass",
-    "description": "Mild astringent, exfoliate skin, energetic scent",
-    "origin": "Fruit",
-    "score": 0
-  },
-  {
-    "title": "Lemongrass Essential Oil.",
-    "description": "Mild astringent, exfoliate skin, energetic scent",
-    "origin": "Fruit",
-    "score": 0
-  },
-  {
-    "title": "Shea Butter",
-    "description": "improve the skin's softness and resiliency",
-    "origin": "Nut",
-    "score": 0
-  },
-  {
-    "title": "Pycnogenol Pine Bark",
-    "description": "accelerate the skin's natural regeneration process and deliver collagen and antioxidants",
-    "origin": "Bark",
-    "score": 0
-  },
-  {
-    "title": "Rose",
-    "description": "powerful natural antioxidant, protecting cells from free radicals, visibly reduces the appearance of wrinkles",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Sea Buckthorn Berry",
-    "description": "skin restoring, antioxidant, delivers nutrients that our skin needs",
-    "origin": "Fruit",
-    "score": 0
-  },
-  {
-    "title": "Soy Protein",
-    "description": "helps to rejuvenate photoaged complexions and improve the elasticity and tightness of drooping skin",
-    "origin": "Soybean",
-    "score": 0
-  },
-  {
-    "title": "Strawberry",
-    "description": "natural salicylic acid content, lifts impurities out of the skin removing the bacteria and dead skin cells that often clog pores",
-    "origin": "Fruit",
-    "score": 0
-  },
-  {
-    "title": "Super Oxide Dismutase",
-    "description": "Helps your skin resist the effects of aging due to free radicals",
-    "origin": "Fruits and Vegetables",
-    "score": 0
-  },
-  {
-    "title": "Tamanu Oil",
-    "description": "moisturizing powerhouse, promotes renewal in the lower layers of the dermis, providing essential nutrients",
-    "origin": "Nuts",
-    "score": 0
-  },
-  {
-    "title": "Tea Tree Oil",
-    "description": "topical treatment for skin conditions",
-    "origin": "Plant-based",
-    "score": 1
-  },
-  {
-    "title": "Beta Carotene",
-    "description": "An antioxidant, keeps skin looking beautiful, and it protects against free radicals",
-    "origin": "Vegetables",
-    "score": 2
-  },
-  {
-    "title": "Amazon Acai Fruit",
-    "description": "phytochemicals, vitamins B1, B2, B3, E, and C, calcium, potassium, proteins, and minerals",
-    "origin": "Fruit",
-    "score": 0
-  },
-  {
-    "title": "Natural Acai Champagne Aroma.",
-    "description": "phytochemicals, vitamins B1, B2, B3, E, and C, calcium, potassium, proteins, and minerals",
-    "origin": "Fruit",
-    "score": 0
-  },
-  {
-    "title": "Apple Cider Vinegar",
-    "description": "Toning, deep cleans pores, removes product build-up and promotes healthy hair",
-    "origin": "Fruit",
-    "score": 0
-  },
-  {
-    "title": "Chlorella",
-    "description": "skin-friendly component with a slew of antioxidants, which protect the skin from premature aging",
-    "origin": "Seaweed",
-    "score": 0
-  },
-  {
-    "title": "Dandelion",
-    "description": "Toning, detoxifying, allowing the skin to look clearer and more even",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Organic Dandelion (Taraxacum Officinale) Extract",
-    "description": "Toning, detoxifying, allowing the skin to look clearer and more even",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Evening Primrose Oil",
-    "description": "Moisturizing, soothing, calming",
-    "origin": "Plant-based",
-    "score": 0
-  },
-  {
-    "title": "Oatmeal",
-    "description": "Calming, soothing, and moisturizing",
-    "origin": "Oats",
-    "score": 0
-  },
-  {
-    "title": "Mango",
-    "description": "High in Vitamin C, combats free radicals",
-    "origin": "Fruit",
-    "score": 0
   }
 ]

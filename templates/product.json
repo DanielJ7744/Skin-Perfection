@@ -3,6 +3,13 @@
     "template-product": {
       "type": "template-product",
       "blocks": {
+        "fb5b43ca-0c61-402c-834d-8d8dfd38f13f": {
+          "type": "character_icons",
+          "settings": {
+            "icon_list": "certified-organic-icon, diy-serum-booster-icon, lotion-base-icon, natural-ingredients-icon, phthalate-free-icon, lotion-making-icon, gluten-free-icon, made-in-usa-icon, cruelty-free-icon, ewg-verified-icon, paraben-free-icon, hyaluronic-acid-icon, hydration-icon, vegan-icon, fragrance-free-icon,oily-icon,normal-icon,sensitive-icon,combination-icon,all-skin-types-icon,dry-or-mature-icon,sulfate-free-icon,recycle-reuse-icon,",
+            "icon_width": 60
+          }
+        },
         "bb82fc4d-4761-4e9e-ae10-30ee0166323a": {
           "type": "description",
           "settings": {
@@ -11,6 +18,7 @@
         },
         "9bcd0fdf-578a-47f6-bc90-d14ef3dbeaa5": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "title": "OVERVIEW",
             "description": "<p>Feel free to create additional blocks like this for <strong>Shipping, Payments, etc <\/strong>through the Shopify Theme editor. Also, you may easily adjust their order by dragging and dropping.<\/p>"
@@ -45,6 +53,7 @@
         }
       },
       "block_order": [
+        "fb5b43ca-0c61-402c-834d-8d8dfd38f13f",
         "bb82fc4d-4761-4e9e-ae10-30ee0166323a",
         "9bcd0fdf-578a-47f6-bc90-d14ef3dbeaa5",
         "d4225891-a84c-4933-b8bf-8ebb4663bf2f",
@@ -64,6 +73,49 @@
         "pb": 10,
         "mt": 0,
         "mb": 0
+      }
+    },
+    "9aa2542d-01b5-4013-85b6-1a73153cc04e": {
+      "type": "grid-section",
+      "blocks": {
+        "7bb1717c-e381-42d0-aaa4-de52934b35bd": {
+          "type": "Block",
+          "settings": {
+            "main_image": "{{ product.metafields.custom.inside_image_1.value }}"
+          }
+        },
+        "55d0031f-ee7c-47f7-a70b-48e1f47a7962": {
+          "type": "Block",
+          "settings": {
+            "main_image": "{{ product.metafields.custom.inside_image_2.value }}"
+          }
+        },
+        "169a9ffc-f4d4-481e-b9e1-ae416cd6bc1a": {
+          "type": "Block",
+          "settings": {
+            "main_image": "{{ product.metafields.custom.inside_image_3.value }}"
+          }
+        },
+        "b835db40-a4be-48c4-8178-b4666af6cda6": {
+          "type": "Block",
+          "settings": {
+            "main_image": "{{ product.metafields.custom.inside_image_4.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "7bb1717c-e381-42d0-aaa4-de52934b35bd",
+        "55d0031f-ee7c-47f7-a70b-48e1f47a7962",
+        "169a9ffc-f4d4-481e-b9e1-ae416cd6bc1a",
+        "b835db40-a4be-48c4-8178-b4666af6cda6"
+      ],
+      "settings": {
+        "title": "INGREDIENTS MATTER.",
+        "title_font_size": 50,
+        "subtitle": "<p>{{ product.metafields.custom.inside_subtitle | metafield_tag }}<\/p>",
+        "subtitle_font_size": 14,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "67998022-23c0-49a4-adf7-5a297a81c230": {
@@ -132,6 +184,7 @@
   },
   "order": [
     "template-product",
+    "9aa2542d-01b5-4013-85b6-1a73153cc04e",
     "67998022-23c0-49a4-adf7-5a297a81c230",
     "1669063227c4fcb9c3",
     "166871242949617455",
