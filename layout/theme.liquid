@@ -9,6 +9,14 @@
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
     <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
 
+    {% comment %} PreLoad banner image {% endcomment %}
+    {% capture homepage_hero_html %}
+    {% section 'banner' %}
+    {% endcapture %}
+    {% assign hero_parts = homepage_hero_html | split: '***' %}
+    {{ hero_parts[1] }}
+    {% comment %} PreLoad banner image end {% endcomment %}
+
     {%- unless settings.favicon == blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: '32', height: '32' }}">
     {%- endunless -%}
@@ -121,6 +129,12 @@
     %}
 
     <main id="main" role="main">
+
+      {% if template == 'index' %}
+        {{ hero_parts[0] }}
+        {{ hero_parts[2] }}
+      {% endif %}
+
       {{ content_for_layout }}
     </main>
 
