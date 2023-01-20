@@ -61,6 +61,33 @@
                     </ul>
                     {% render 'pagination' with paginate: paginate %}
                 {% endpaginate %}
+
+                <div class="search-result__blog">
+                    {% for item in search.results %}
+                        {% case item.object_type %}
+                            {%- when 'article' -%}
+                                <h2>
+                                    <a href="{{ item.url }}" class="full-unstyled-link">
+                                        {{ item.title }}
+                                    </a>
+                                </h2>
+                        {% endcase %}
+                    {% endfor %}
+                </div>
+                
+                <div class="search-result__page">
+                    {% for item in search.results %}
+                        {% case item.object_type %}
+                            {%- when 'page' -%}
+                                 <h2>
+                                    <a href="{{ item.url }}" class="full-unstyled-link">
+                                        {{ item.title | truncate: 50 | escape }}
+                                    </a>
+                                </h2>
+                        {% endcase %}
+                    {% endfor %}
+                </div>
+
             {% endif %}
         </div>
     {% endif %}

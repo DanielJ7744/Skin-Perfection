@@ -97,3 +97,19 @@
         width: 50%;
     }
 }
+
+/* Search result page */
+.search-result__blog {
+    margin-top: 40px;
+}
+.search-result__blog h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+.search-result__page {
+    margin-top: 40px;
+}
+.search-result__page h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
