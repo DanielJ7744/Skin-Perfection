@@ -8,6 +8,12 @@
 
 %}
 
+{% liquid
+    assign img_width  = 120
+    assign img_height = 120
+    assign img_thumbnail = 'img-thumbnail'
+%}
+
 <section id="template-search" class="{{ mt }} {{ mb }}">
     <div id="template-search-header" class="mb-9 bg-light overflow-hidden">
         <div class="container">
@@ -40,53 +46,100 @@
     </div>
 
     {% if search.performed %}
-        <div class="container">
+        <div class="container search-page-container">
         
             {% if search.results_count == 0 %}        
                 <p class="alert alert-warning" role="status">
                     {{ 'general.search_page.no_results' | t: terms: search.terms }}
                 </p>
             {% else %}
-                <p class="alert alert-info" role="status">
-                    {{ 'general.search_page.results_with_count_and_term' | t: terms: search.terms, count: search.results_count }}
-                </p>
-                {% paginate search.results by section.settings.limit %}
-                    <ul class="product-list list-unstyled row mx-n3 mb-0 {{ section.settings.text_align }} {{ row_xs }} {{ row_sm }} {{ row_lg }}">
+                {% assign productExist = false %}
+                {% assign articleExist = false %}
+                {% assign pageExist = false %}
+                {% assign resultCount = 0 %}
+
+                {% for item in search.results %}
+                    {% case item.object_type %}
+                        {% when 'product' %}
+                            {% assign productExist = true %}
+                        {% when 'article' %}
+                            {% assign articleExist = true %}
+                        {% when 'page' %}
+                            {% assign pageExist = true %}
+                    {% endcase %}
+                {% endfor %}
+                
+                <div>
+                    {% if productExist %}
+                        <h2>Products</h2>
+                    {% endif %}
+                    {% paginate search.results by section.settings.limit %}
+                        <ul class="product-list list-unstyled row mx-n3 mb-0 {{ section.settings.text_align }} {{ row_xs }} {{ row_sm }} {{ row_lg }}">
+                            {% for item in search.results %}
+                                {% case item.object_type %}
+                                    {% when 'product' %}
+                                        {% render 'product-item', product: item %}
+                                        {% assign resultCount = resultCount | plus: 1 %}
+                                {% endcase %}
+                            {% endfor %}
+                        </ul>
+                        {% render 'pagination' with paginate: paginate %}
+                    {% endpaginate %}
+
+                    <div class="search-result__blog">
+                        {% if articleExist %}
+                            <h2>Articles</h2>
+                        {% endif %}
                         {% for item in search.results %}
                             {% case item.object_type %}
-                                {% when 'product' %}
-                                    {% render 'product-item', product: item %}
+                                {%- when 'article' -%}
+                                {% assign resultCount = resultCount | plus: 1 %}
+                                    <div  class="search-result__blog-item mb-5">
+                                        <div class="px-3">
+                                            <a href="{{ item.url }}" class="full-unstyled-link">
+                                                <img 
+                                                    class="article-item-img img-fluid me-3 {{ img_thumbnail }}"
+                                                    src="{{ item.image | image_url: width: img_width, height: img_height }}"
+                                                    alt="{{ item.image.alt }}"
+                                                    width="{{ img_width }}"
+                                                    height="{{ img_height }}"
+                                                    loading="lazy"
+                                                >
+                                            </a>
+                                        </div>
+                                        <div class="px-3">
+                                            <h3>
+                                                <a href="{{ item.url }}" class="full-unstyled-link">
+                                                    {{ item.title }}
+                                                </a>
+                                            </h3>
+                                        </div>
+                                    </div>
                             {% endcase %}
                         {% endfor %}
-                    </ul>
-                    {% render 'pagination' with paginate: paginate %}
-                {% endpaginate %}
+                    </div>
 
-                <div class="search-result__blog">
-                    {% for item in search.results %}
-                        {% case item.object_type %}
-                            {%- when 'article' -%}
-                                <h2>
-                                    <a href="{{ item.url }}" class="full-unstyled-link">
-                                        {{ item.title }}
-                                    </a>
-                                </h2>
-                        {% endcase %}
-                    {% endfor %}
+                    <div class="search-result__page">
+                        {% if pageExist %}
+                            <h2>Pages</h2>
+                        {% endif %}
+                        {% for item in search.results %}
+                            {% case item.object_type %}
+                                {%- when 'page' -%}
+                                {% assign resultCount = resultCount | plus: 1 %}
+                                    <h3>
+                                        <a href="{{ item.url }}" class="full-unstyled-link">
+                                            {{ item.title | truncate: 50 | escape }}
+                                        </a>
+                                    </h3>
+                            {% endcase %}
+                        {% endfor %}
+                    </div>
                 </div>
 
-                <div class="search-result__page">
-                    {% for item in search.results %}
-                        {% case item.object_type %}
-                            {%- when 'page' -%}
-                                 <h2>
-                                    <a href="{{ item.url }}" class="full-unstyled-link">
-                                        {{ item.title | truncate: 50 | escape }}
-                                    </a>
-                                </h2>
-                        {% endcase %}
-                    {% endfor %}
-                </div>
+                <p class="alert alert-info" role="status">
+                    {{ 'general.search_page.results_with_count_and_term' | t: terms: search.terms, count: resultCount }}
+                </p>
           
             {% endif %}
         </div>
