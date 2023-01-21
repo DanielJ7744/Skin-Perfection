@@ -39,9 +39,9 @@
                 {% if section.blocks.size > 0 %}
                 <ul id="footer-blocks" class="list-unstyled mb-7 mb-sm-0 row row-cols-1 {{ row_sm }} {{ row_lg }}">
                     {% for block in section.blocks %}
-                        <li class="footer-block col">
+                        <li class="footer-block col mobile">
                             <button 
-                                class="position-relative accordion-button collapsed d-sm-none py-4 mb-2" 
+                                class="position-relative accordion-button transparent collapsed d-sm-none py-4 mb-2" 
                                 data-bs-toggle="collapse" 
                                 data-bs-target="#footer-block-collapse-{{ block.id }}"
                                 aria-expanded="false" 
@@ -67,7 +67,7 @@
                                             </a>
                                         {% endunless %}
                                     {% when 'menu' %}
-                                        <ul class="flex-column pt-2 ps-5 pt-lg-0 mb-6" style="list-style: disc;">
+                                        <ul class="flex-column pt-2 ps-5 pt-lg-0 mb-6 footer-nav-links-wrapper">
                                             {% for link in linklists[block.settings.menu].links %}
                                                 <li class="nav-item">
                                                     <a class="nav-link px-0 py-2 small" href="{{ link.url }}">
@@ -104,8 +104,7 @@
                         &copy; {{ 'now' | date: "%Y" }} {{ shop.name }}.
                     </p>
                     <p id="copyright-powered" class="mb-0">
-<!--                         Powered by <a href="https://www.shopify.com" target="_blank" rel="sponsored">Shopify</a>.  -->
-<!--                         Theme by <a href="https://www.ecomgraduates.com" target="_blank" rel="sponsored">EcomGraduates</a> -->
+
                     </p>
                 </div>
                 <div class="col-lg-4 text-center small">

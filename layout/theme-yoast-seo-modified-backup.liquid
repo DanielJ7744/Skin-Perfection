@@ -1,0 +1,166 @@
+{%- comment -%}
+This file has been modified by the Yoast SEO for Shopify app.
+You can learn more about this (and learn how to cleanly revert these changes) at https://yoa.st/removing-theme-changes.
+{%- endcomment -%}
+{%- liquid
+	assign disabled_by_yoast_seo = true
+	if content_for_header contains 'yoast-active-script'
+		assign disabled_by_yoast_seo = false
+	endif
+-%}
+<!doctype html>
+<html lang="{{ request.locale.iso_code }}">
+  <head>{% render 'yoast-seo' %}
+  {% include 'shop-sheriff-amp' %}{% render 'pagefly-head' %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="{{ settings.color_primary }}">
+
+    {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
+{%- if disabled_by_yoast_seo -%}
+<link rel="canonical" href="{{ canonical_url }}">
+{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
+{%- endif -%}
+    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+
+    {%- unless settings.favicon == blank -%}
+      <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: '32', height: '32' }}">
+    {%- endunless -%}
+
+    {%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
+{%- if disabled_by_yoast_seo -%}
+<title>
+      {{ page_title }}
+      {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
+      {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
+      {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+    </title>
+{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
+{%- endif -%}
+
+    {% if page_description %}
+      {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
+{%- if disabled_by_yoast_seo -%}
+<meta name="description" content="{{ page_description | escape }}">
+{%- comment -%} End Yoast auto-disable. {%- endcomment -%}
+{%- endif -%}
+    {% endif %}
+
+    {% render 'meta-tags' %}
+
+    {{ content_for_header }}
+
+    <link href="{{ 'bootstrap.css' | asset_url }}" rel="stylesheet">
+    <link href="{{ 'splide.min.css' | asset_url }}" rel="stylesheet">
+    <style>
+      {{ settings.font_headings | font_face: font_display: 'swap' }}
+      @font-face {
+          font-family: "Suranna";
+          src: url('{{ 'font-suranna-regular.woff2' | asset_url }}') format("woff2");
+      }
+      @font-face {
+          font-family: "Satisfy";
+          src: url('{{ 'font-satisfy-regular.woff2' | asset_url }}') format("woff2");
+      }
+      @font-face {
+          font-family: "Montserrat";
+          src: url('{{ 'font-Montserrat-Regular.woff2' | asset_url }}') format("woff2");
+          font-weight: 400;
+      }
+      @font-face {
+          font-family: "Montserrat";
+          src: url('{{ 'font-Montserrat-Italic.woff2' | asset_url }}') format("woff2");
+          font-style: italic;
+      }
+      @font-face {
+          font-family: "Montserrat";
+          src: url('{{ 'font-Montserrat-Bold.woff2' | asset_url }}') format("woff2");
+          font-weight: bold;
+      }
+      :root {
+          --bs-headings-font-family: 'Suranna', sans-serif;
+          --bs-headings-font-weight: 400;
+          --bs-body-font-family: 'Montserrat', sans-serif;
+          --cursive-font-family: 'Satisfy', cursive;
+      }
+    </style>
+    <link href="{{ 'general.css' | asset_url }}" rel="stylesheet">
+    <link href="{{ 'image-compare-viewer.min.css' | asset_url }}" rel="stylesheet">
+    <link href="{{ 'sections.css' | asset_url }}" rel="stylesheet">
+    <link href="{{ 'custom.css' | asset_url }}" rel="stylesheet">
+
+    <script>
+      window.money_format = '{{ shop.money_format }}';
+      window.themeStrings = {
+        addToCart: `{{ 'product.add_to_cart' | t }}`,
+        soldOut: `{{ 'product.sold_out' | t }}`,
+        unavailable: `{{ 'product.unavailable' | t }}`,
+      };
+    </script>
+
+    <script src="{{ 'bootstrap.bundle.min.js' | asset_url }}" defer></script>
+    <script src="{{ 'splide.min.js' | asset_url }}" defer></script>
+    <script src="{{ 'image-compare-viewer.min.js' | asset_url }}" defer></script>
+    <script src="{{ 'simpleParallax.min.js' | asset_url }}" defer></script>
+    <script src="{{ 'general.js' | asset_url }}" defer></script>
+    <script src="{{ 'collection.js' | asset_url }}" defer></script>
+    <script src="{{ 'product.js' | asset_url }}" defer></script>
+    <script src="{{ 'cart.js' | asset_url }}" defer></script>
+    <script src="{{ 'custom.js' | asset_url }}" defer></script>
+
+    <script type="text/javascript">
+      (function e() {
+        var e = document.createElement('script');
+        (e.type = 'text/javascript'),
+          (e.async = true),
+          (e.src = '//staticw2.yotpo.com/ntgqKW8XhpQgaqp5Ea5gsWxp5QGrL7l2XxmUQzcS/widget.js');
+        var t = document.getElementsByTagName('script')[0];
+        t.parentNode.insertBefore(e, t);
+      })();
+    </script>
+    {% if template contains 'blog' %}
+      <script src="{{ 'load-more.js' | asset_url }}" defer="defer"></script>
+    {% endif %}
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    
+  </head>
+
+  <body class="{{ request.page_type | prepend: 'page-type-' }}">
+    <a class="visually-hidden-focusable" href="#main">
+      {{ 'general.accessibility.skip_content' | t }}
+    </a>
+
+    {% liquid
+      section 'announcement-bar'
+      section 'navbar'
+    %}
+
+    <main id="main" role="main">
+      {{ content_for_layout }}
+    </main>
+
+    {% liquid
+      section 'footer'
+      render 'offcanvas-cart'
+      render 'offcanvas-search'
+    %}
+
+    {% liquid
+      render 'to-top-arrow'
+      render 'slider-script'
+    %}
+    <script src="{{ 'predictive-search.js' | asset_url }}" defer></script>
+
+    <script src="//instant.page/5.1.1" type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+   {% include 'smile-initializer' %}
+
+</body>
+</html>

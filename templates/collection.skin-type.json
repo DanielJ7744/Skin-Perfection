@@ -1,0 +1,98 @@
+{
+  "sections": {
+    "template-collection": {
+      "type": "template-collection",
+      "disabled": true,
+      "settings": {
+        "show_collection_img": false,
+        "show_collection_description": true,
+        "limit": 40,
+        "text_align": "text-center",
+        "row_xs": 2,
+        "row_sm": 2,
+        "row_lg": 3,
+        "mt": 10,
+        "mb": 10
+      }
+    },
+    "16643040311de6ae10": {
+      "type": "featured-collections",
+      "blocks": {
+        "388d44f7-e949-4cad-94bc-c768022771cd": {
+          "type": "collection",
+          "settings": {
+            "collection": "combination"
+          }
+        },
+        "8face695-7a62-4a19-a11a-f381a614bce6": {
+          "type": "collection",
+          "settings": {
+            "collection": "dry-mature"
+          }
+        },
+        "22722634-de30-4595-86de-660bae03d52e": {
+          "type": "collection",
+          "settings": {
+            "collection": "normal"
+          }
+        },
+        "a0870c56-3b63-4a6c-8007-3ef74015b0cc": {
+          "type": "collection",
+          "settings": {
+            "collection": "oily-or-blemished"
+          }
+        },
+        "57dbb61c-e9c5-4c4f-9d2f-f17ceb263235": {
+          "type": "collection",
+          "settings": {
+            "collection": "sensitive-or-rosacea"
+          }
+        }
+      },
+      "block_order": [
+        "388d44f7-e949-4cad-94bc-c768022771cd",
+        "8face695-7a62-4a19-a11a-f381a614bce6",
+        "22722634-de30-4595-86de-660bae03d52e",
+        "a0870c56-3b63-4a6c-8007-3ef74015b0cc",
+        "57dbb61c-e9c5-4c4f-9d2f-f17ceb263235"
+      ],
+      "settings": {
+        "bg_color": "bg-white text-dark",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "btn_text": "",
+        "btn_color": "btn-primary",
+        "row_xs": 3,
+        "row_sm": 3,
+        "row_lg": 5,
+        "pt": 13,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "fcbffcbe-21b1-493c-96a9-db07d0cdec6a": {
+      "type": "html",
+      "settings": {
+        "html": "<p>Please choose the best products that are right for your skin type quickly and easily with our guides. Just select your skin type and locate products that will work for you! You will find the perfect addition to your daily facial regimen. To learn more about your skin type, click on our <a href=\"\/collections\/skin-care-quiz\" title=\"Take Our Skin Care Quiz\">Skin Care Quiz.<\/a>  Answer just a few questions, and the quiz will guide you.<\/p>\n<p>After answering the questions, you will be given a specialized custom routine for your skin type. You can also browse our pages for more information about <a href=\"\/blogs\/category\/what-are-the-5-skin-types\" title=\"Get More Information About Facial Complexion Types\">Skin Types<\/a>. If you have a specific concern, such as age spots or crow's feet, check out our <a href=\"\/collections\/skin-concerns\" title=\"Do You Have Special Concerns About Your Face?\">Special Concerns<\/a> section for more information on treating the common problem of facial complexions.<\/p>\n<p>For a general anti-aging skincare routine, please read our guide below. If you would like to talk to a skincare specialist about what products are suitable for you, please click on the live chat or email us.<\/p>\n<p><img class=\"img-responsive\" alt=\"5 Steps to a Fresh Complexion | The Ultimate Anti-Aging Skincare Routine\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0069\/7719\/1993\/files\/5-simple-steps-to-a-fresh-complexion.jpg\" style=\"display: block; margin-left: auto; margin-right: auto;\"><\/p>\n<h2>The Ultimate Anti-Aging Skincare Routine<\/h2>\n<p>When it comes to aging, you may think that you're at the mercy of your genetics. Some people seem to age incredibly gracefully, while others have wrinkled, sagging skin when they reach their 30s. While genetics affect how quickly your face ages, you can greatly help yourself with the proper anti-aging routine.<\/p>\n<p>If you follow these tips to cleanse and care for your face every day, you'll notice significant improvements in the firmness of your skin, the evenness of your complexion, and your overall look.<\/p>\n<p>You can turn back the clock on your face with very little time and effort. And it all starts with proper washing every morning.<\/p>\n<h2>Wake Up and Cleanse<\/h2>\n<p>Whether you shower at night or in the morning when you wake up each day, you need to wash your face with a mild cleanser formulated for your skin type. Do you have oily or dry skin? Is it sensitive? Patchy? Look for a natural, organic facial cleanser that will work with your complexion.<\/p>\n<p>Using a soft washcloth and warm water, lightly rub the product into your skin in upward circular motions. After washing and rinsing your face, use a soft towel to dab your face dry. To further clean and constrict your pores, you may want to use an astringent at this point, too.<\/p>\n<p>Now it's time to moisturize and lock in hydration for the day.<\/p>\n<h2>Choose the Best Serum and Moisturizer for Your Skin<\/h2>\n<p>Like your cleanser, you should use a daily serum and moisturizer formulated for your skin type. If you have dehydrated skin, you may want to use both a serum and a moisturizer.<\/p>\n<p>Because the serum will penetrate deep into your skin and hold water there, the moisturizer will create a barrier to the air, preventing too much evaporation.<\/p>\n<p>If, on the other hand, you have oily skin, you may want to use a water-based serum on its own to keep your skin looking dewy without getting greasy throughout the day. With trial and error, you can find the perfect moisturizer or serum for your skin to give you all-day hydration and protection for your complexion.<\/p>\n<h2>Never Leave Home Without SPF<\/h2>\n<p>If you're going outside during the day, always use a high-SPF sunblock to protect your face from harmful UVA and UVB rays. Sun exposure is one of the worst perpetrators of aging skin, but you can avoid harming and aging your skin with something as simple as slathering on some sunscreen and wearing a brimmed hat when you head outside.<\/p>\n<h2>Always Cleanse and Moisturize Before Bed<\/h2>\n<p>When the day is over, you may want to do nothing more than flop in bed and turn the lights out until morning. However, before you start counting sheep, you must cleanse your face again.<\/p>\n<p>Even if you don't wear makeup, your face comes in contact with much dirt, grease, oils, and debris throughout the day.<\/p>\n<p>These can age you and cause acne breakouts and blemishes, too. So before you call it a day, you will need to cleanse and moisturize your face again.<\/p>\n<p>Instead of your daytime serum or moisturizer, you may also want to choose a good night cream, anti-aging treatment serum, or moisturizer to help keep your face hydrated as you sleep.<\/p>\n<h2>Anti-Aging Treatments Rituals<\/h2>\n<p>This daily routine will keep your complexion looking healthy and gorgeous for years to come. Remember to see a skin care specialist regularly. Facials regularly can be very beneficial. In addition, a dermatologist or esthetician can help fight the signs of aging.<\/p>\n<p>Stay looking younger with consistent facial treatments, including microdermabrasion, chemical peels, or other \"special occasion\" facials.<\/p>\n<p>Between these and your daily and nightly routine, you'll be amazed at how you can defy the effects of aging on your face.<\/p>\n<p>Of course, it's best to switch your product lineup to a cleanser, toner, serum, and moisturizer from time to time when the seasons change.<\/p>",
+        "bg_color": "bg-white text-dark",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "Find Your Skin Type",
+        "title_size": "h2",
+        "description": "<p>What's your skin type?<\/p>",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    }
+  },
+  "order": [
+    "template-collection",
+    "16643040311de6ae10",
+    "fcbffcbe-21b1-493c-96a9-db07d0cdec6a"
+  ]
+}

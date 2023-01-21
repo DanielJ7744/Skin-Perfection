@@ -20,7 +20,7 @@
             {% for block in section.blocks %}
                 <li class="hex-grid-item hex">
                     <div class="hex-grid-item-in hexIn">
-                        <a class="hex-link" href="#">
+                        <a class="hex-link" href="{{block.settings.url.url}}">
                             <div 
                                 class="hex-img" 
                                 style="background-image: url({{ block.settings.img | img_url:'master' }})">
