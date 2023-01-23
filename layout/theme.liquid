@@ -94,6 +94,20 @@
           --bs-headings-font-weight: 400;
           --bs-body-font-family: 'Montserrat', sans-serif;
           --cursive-font-family: 'Satisfy', cursive;
+          --body-font-size-desktop: {{ settings.body_font_size_d | divided_by: 16.0000 }}rem;
+          --body-font-size-mobile: {{ settings.body_font_size_dm | divided_by: 16.0000 }}rem;
+          --h1-font-size-desktop: {{ settings.h1_font_size_d | divided_by: 16.0000 }}rem;
+          --h1-font-size-mobile: {{ settings.h1_font_size_m | divided_by: 16.0000 }}rem;
+          --h2-font-size-desktop: {{ settings.h2_font_size_d | divided_by: 16.0000 }}rem;
+          --h2-font-size-mobile: {{ settings.h2_font_size_m | divided_by: 16.0000 }}rem;
+          --h3-font-size-desktop: {{ settings.h3_font_size_d | divided_by: 16.0000 }}rem;
+          --h3-font-size-mobile: {{ settings.h3_font_size_m | divided_by: 16.0000 }}rem;
+          --h4-font-size-desktop: {{ settings.h4_font_size_d | divided_by: 16.0000 }}rem;
+          --h4-font-size-mobile: {{ settings.h4_font_size_m | divided_by: 16.0000 }}rem;
+          --h5-font-size-desktop: {{ settings.h5_font_size_d | divided_by: 16.0000 }}rem;
+          --h5-font-size-mobile: {{ settings.h5_font_size_m | divided_by: 16.0000 }}rem;
+          --h6-font-size-desktop: {{ settings.h6_font_size_d | divided_by: 16.0000 }}rem;
+          --h6-font-size-mobile: {{ settings.h6_font_size_m | divided_by: 16.0000 }}rem;
       }
     </style>
     <link href="{{ 'general.css' | asset_url }}" rel="stylesheet">
