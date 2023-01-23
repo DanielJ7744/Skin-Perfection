@@ -214,6 +214,9 @@
         </iframe>
       </div>
     {% endunless %}
+    {% unless section.settings.video_description == blank %}
+      <div class="container video-description">{{ section.settings.video_description }}</div>
+    {% endunless %}
   </div>
 </section>
 
@@ -336,6 +339,15 @@
       "type": "image_picker",
       "id": "trust_badge_icon_5",
       "label": "Icon 5"
+    },
+    {
+      "type": "header",
+      "content": "Video Section"
+    },
+    {
+        "type": "richtext",
+        "id": "video_description",
+        "label": "Video Description"
     },
     {
       "type": "header",

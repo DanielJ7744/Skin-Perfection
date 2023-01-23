@@ -161,3 +161,9 @@ box-shadow: inset 0 -1px #00000020;
     list-style: disc;
     list-style: none;
 }
+
+/* Product page */
+.video-description {
+    text-align: center;
+    margin-top: 40px;
+}
