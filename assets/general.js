@@ -175,13 +175,14 @@ document.querySelectorAll('.image-compare').forEach((el) => {
 */
 document.querySelectorAll('.product-item img[data-second-img-src]').forEach((img) => {
     const wrapper = img.closest('.img-wrapper')
-
-    wrapper.addEventListener('mouseover', () => {
-        img.src = img.dataset.secondImgSrc
-    })
-    wrapper.addEventListener('mouseleave', () => {
-        img.src = img.dataset.mainImgSrc
-    })
+    if ($(window).width() > 576) {
+        wrapper.addEventListener('mouseover', () => {
+            img.src = img.dataset.secondImgSrc
+        })
+        wrapper.addEventListener('mouseleave', () => {
+            img.src = img.dataset.mainImgSrc
+        })
+    }
 })
 
 
