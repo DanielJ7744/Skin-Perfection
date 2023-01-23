@@ -16,7 +16,7 @@
             {{ blog.title }}
         </h1>
         {% if section.settings.show_filter_by %}
-            <div class="input-group justify-content-center mb-8">
+            <div class="input-group justify-content-center mb-4">
                 <label class="input-group-text" for="blog-tag-select" >
                     {{ 'blogs.filter_by' | t }}
                 </label>
@@ -36,10 +36,25 @@
                 </select>
             </div>
         {% endif %}
+        {% if section.settings.enable_search %}
+            <div class="input-group justify-content-center mb-8">
+                <label class="input-group-text" for="blog-tag-select" >
+                    Search
+                </label>
+                <input 
+                    id="blogSearch"
+                    class="blog-search form-control"
+                    type="input"
+                    placeholder="Type keyword"
+                    aria-label="blog-search"
+                    onkeyup="searchBlog()"
+                >
+            </div>
+        {% endif %}
         {% paginate blog.articles by section.settings.limit %}
             <ul data-next-url="{{paginate.next.url}}" class="blog-list list-unstyled row mx-n3 {{ row_xs }} {{ row_sm }} {{ row_lg }} blogs-main-container">
                 {% for article in blog.articles %}
-                    <li class="col p-3">
+                    <li class="col p-3 blog-list__item" title="{{ article.title | downcase }}">
                         <div class="card h-100">
                             <a class="" href="{{ article.url }}">
                                 <img
@@ -75,14 +90,23 @@
         {% endpaginate %}
     </div>
 </div>
-<script>
 
+<script>
 $(".blogs-main-container").ajax({
     url:'/',
     type:'GET',
     dataType:'html'
 })
 </script>
+
+<style>
+.blog-list__item.inactive {
+    display: none;
+}
+.blog-search {
+    max-width: 236px;
+}
+</style>
 
 {% schema %}
 {
@@ -117,6 +141,12 @@ $(".blogs-main-container").ajax({
         {
             "type": "checkbox",
             "id": "show_filter_by",
+            "label": "Show filter by",
+            "default": true
+        },
+        {
+            "type": "checkbox",
+            "id": "enable_search",
             "label": "Show filter by",
             "default": true
         },

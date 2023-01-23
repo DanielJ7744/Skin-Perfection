@@ -1,4 +1,4 @@
- var blogs_on_page = $('.blogs-main-container');
+var blogs_on_page = $('.blogs-main-container');
 var next_url = blogs_on_page.data('next-url');
 var load_more_btn = $('.paginate-btn ');
 
@@ -18,8 +18,22 @@ function loadMoreBlogs() {
     if(new_url)
 
     next_url = new_url;
- blogs_on_page.append(new_blogs.html());
+    blogs_on_page.append(new_blogs.html());
+
+    searchBlog()
 
   })
 
+}
+
+function searchBlog() {
+  let searchTerm = document.getElementById("blogSearch").value.toLowerCase();
+  const renderedArticles = document.querySelectorAll('.blog-list__item')
+  for (const renderedArticle of renderedArticles) {
+      if (renderedArticle.getAttribute('title').includes(searchTerm)) {
+          renderedArticle.classList.remove('inactive')
+      } else {
+          renderedArticle.classList.add('inactive')
+      }
+  }
 }
