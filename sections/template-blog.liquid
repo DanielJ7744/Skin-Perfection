@@ -106,6 +106,15 @@ $(".blogs-main-container").ajax({
 .blog-search {
     max-width: 236px;
 }
+#loadMorePage .no-more {
+    display: none;
+}
+#loadMorePage.inactive .no-more {
+    display: block;
+}
+#loadMorePage.inactive .show-more {
+    display: none;
+}
 </style>
 
 {% schema %}
