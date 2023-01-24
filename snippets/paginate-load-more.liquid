@@ -15,7 +15,6 @@
         {{ 'general.general.pagination_page_of' | t: count: paginate.current_page, total: paginate.pages }}
       </small>
     {% endcomment %}
-    <a class="paginate-btn btn btn-outline-primary my-1 show-more" onclick="loadMoreBlogs()">View More Articles</a>
-    <p class="no-more">No more articles</p>
+    <a class="paginate-btn btn btn-outline-primary my-1 show-more" onclick="loadMoreBlogs(false)">View More Articles</a>
   </div>
 {% endif %}

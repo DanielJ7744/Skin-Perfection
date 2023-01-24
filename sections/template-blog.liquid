@@ -38,17 +38,16 @@
         {% endif %}
         {% if section.settings.enable_search %}
             <div class="input-group justify-content-center mb-8">
-                <label class="input-group-text" for="blog-tag-select" >
-                    Search
-                </label>
                 <input 
                     id="blogSearch"
                     class="blog-search form-control"
                     type="input"
                     placeholder="Type keyword"
                     aria-label="blog-search"
-                    onkeyup="searchBlog()"
                 >
+                <button class="input-group-text button" id="blogSearchSummit" onclick="searchBlog()">
+                    Search
+                </button>
             </div>
         {% endif %}
         {% paginate blog.articles by section.settings.limit %}
@@ -105,12 +104,6 @@ $(".blogs-main-container").ajax({
 }
 .blog-search {
     max-width: 236px;
-}
-#loadMorePage .no-more {
-    display: none;
-}
-#loadMorePage.inactive .no-more {
-    display: block;
 }
 #loadMorePage.inactive .show-more {
     display: none;
