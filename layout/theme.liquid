@@ -1,27 +1,61 @@
+{%- comment -%}
+  This file has been modified by the Yoast SEO for Shopify app.
+  You can learn more about this (and learn how to cleanly revert these changes) at https://yoa.st/removing-theme-changes.
+{%- endcomment -%}
+{%- liquid
+  assign disabled_by_yoast_seo = true
+  if content_for_header contains 'yoast-active-script'
+    assign disabled_by_yoast_seo = false
+  endif
+-%}
 <!doctype html>
 <html lang="{{ request.locale.iso_code }}">
   <head>
+    {% render 'spdn' %}
+    {% include 'taginstall-head' %}
+    {% render 'yoast-seo' %}
+    {% include 'shop-sheriff-amp' %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="{{ settings.color_primary }}">
 
-    <link rel="canonical" href="{{ canonical_url }}">
+    {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
+    {%- if disabled_by_yoast_seo -%}
+      <link rel="canonical" href="{{ canonical_url }}">
+      {%- comment -%} End Yoast auto-disable. {%- endcomment -%}
+    {%- endif -%}
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
     <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+
+    {% comment %} PreLoad banner image {% endcomment %}
+    {% capture homepage_hero_html %}
+    {% section 'banner' %}
+    {% endcapture %}
+    {% assign hero_parts = homepage_hero_html | split: '***' %}
+    {{ hero_parts[1] }}
+    {% comment %} PreLoad banner image end {% endcomment %}
 
     {%- unless settings.favicon == blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: '32', height: '32' }}">
     {%- endunless -%}
 
-    <title>
-      {{ page_title }}
-      {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
-      {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-      {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
-    </title>
+    {%- comment -%}Auto-disabled. Yoast plugin is taking care of SEO output.{%- endcomment -%}
+    {%- if disabled_by_yoast_seo -%}
+      <title>
+        {{ page_title }}
+        {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
+        {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
+        {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+      </title>
+      {%- comment -%} End Yoast auto-disable. {%- endcomment -%}
+    {%- endif -%}
 
     {% if page_description %}
-      <meta name="description" content="{{ page_description | escape }}">
+      {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
+      {%- if disabled_by_yoast_seo -%}
+        <meta name="description" content="{{ page_description | escape }}">
+        {%- comment -%} End Yoast auto-disable. {%- endcomment -%}
+      {%- endif -%}
     {% endif %}
 
     {% render 'meta-tags' %}
@@ -60,6 +94,20 @@
           --bs-headings-font-weight: 400;
           --bs-body-font-family: 'Montserrat', sans-serif;
           --cursive-font-family: 'Satisfy', cursive;
+          --body-font-size-desktop: {{ settings.body_font_size_d | divided_by: 16.0000 }}rem;
+          --body-font-size-mobile: {{ settings.body_font_size_m | divided_by: 16.0000 }}rem;
+          --h1-font-size-desktop: {{ settings.h1_font_size_d | divided_by: 16.0000 }}rem;
+          --h1-font-size-mobile: {{ settings.h1_font_size_m | divided_by: 16.0000 }}rem;
+          --h2-font-size-desktop: {{ settings.h2_font_size_d | divided_by: 16.0000 }}rem;
+          --h2-font-size-mobile: {{ settings.h2_font_size_m | divided_by: 16.0000 }}rem;
+          --h3-font-size-desktop: {{ settings.h3_font_size_d | divided_by: 16.0000 }}rem;
+          --h3-font-size-mobile: {{ settings.h3_font_size_m | divided_by: 16.0000 }}rem;
+          --h4-font-size-desktop: {{ settings.h4_font_size_d | divided_by: 16.0000 }}rem;
+          --h4-font-size-mobile: {{ settings.h4_font_size_m | divided_by: 16.0000 }}rem;
+          --h5-font-size-desktop: {{ settings.h5_font_size_d | divided_by: 16.0000 }}rem;
+          --h5-font-size-mobile: {{ settings.h5_font_size_m | divided_by: 16.0000 }}rem;
+          --h6-font-size-desktop: {{ settings.h6_font_size_d | divided_by: 16.0000 }}rem;
+          --h6-font-size-mobile: {{ settings.h6_font_size_m | divided_by: 16.0000 }}rem;
       }
     </style>
     <link href="{{ 'general.css' | asset_url }}" rel="stylesheet">
@@ -97,16 +145,25 @@
       })();
     </script>
     {% if template contains 'blog' %}
-      <script
-        src="https://code.jquery.com/jquery-3.6.3.min.js"
-        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
-        crossorigin="anonymous"
-      ></script>
       <script src="{{ 'load-more.js' | asset_url }}" defer="defer"></script>
     {% endif %}
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
 
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
-    
+    <img
+      alt="icon"
+      width="1400"
+      height="1400"
+      style="pointer-events: none; position: absolute; top: 0; left: 0; width: 99vw; height: 99vh; max-width: 99vw; max-height: 99vh;"
+      src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI5OTk5OXB4IiBoZWlnaHQ9Ijk5OTk5cHgiIHZpZXdCb3g9IjAgMCA5OTk5OSA5OTk5OSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBzdHJva2U9Im5vbmUiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk5OTk5IiBoZWlnaHQ9Ijk5OTk5Ij48L3JlY3Q+IDwvZz4gPC9zdmc+"
+    >
+    {% include 'swift_core' %}
   </head>
 
   <body class="{{ request.page_type | prepend: 'page-type-' }}">
@@ -120,6 +177,12 @@
     %}
 
     <main id="main" role="main">
+
+      {% if template == 'index' %}
+        {{ hero_parts[0] }}
+        {{ hero_parts[2] }}
+      {% endif %}
+      
       {{ content_for_layout }}
     </main>
 
@@ -128,8 +191,58 @@
       render 'offcanvas-cart'
       render 'offcanvas-search'
     %}
+
+    {% liquid
+      render 'to-top-arrow'
+      render 'slider-script'
+    %}
     <script src="{{ 'predictive-search.js' | asset_url }}" defer></script>
 
-    <script src="//instant.page/5.1.1" type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+    <script
+      src="//instant.page/5.1.1"
+      type="module"
+      integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"
+    ></script>
+    {% include 'smile-initializer' %}
+
+    {% include 'gts' %}
+    {% include 'taginstall-body' %}
+    <script>
+      (function () {
+        var s = document.createElement('script');
+        var h = document.querySelector('head') || document.body;
+        s.src = 'https://acsbapp.com/apps/app/dist/js/app.js';
+        s.async = true;
+        s.onload = function () {
+          acsbJS.init({
+            statementLink: '',
+            footerHtml: '',
+            hideMobile: false,
+            hideTrigger: false,
+            disableBgProcess: false,
+            language: 'en',
+            position: 'left',
+            leadColor: '#000000',
+            triggerColor: '#000000',
+            triggerRadius: '50%',
+            triggerPositionX: 'right',
+            triggerPositionY: 'center',
+            triggerIcon: 'people',
+            triggerSize: 'small',
+            triggerOffsetX: 20,
+            triggerOffsetY: 20,
+            mobile: {
+              triggerSize: 'small',
+              triggerPositionX: 'right',
+              triggerPositionY: 'center',
+              triggerOffsetX: 10,
+              triggerOffsetY: 0,
+              triggerRadius: '50%',
+            },
+          });
+        };
+        h.appendChild(s);
+      })();
+    </script>
   </body>
 </html>

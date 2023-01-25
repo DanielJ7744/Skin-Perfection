@@ -74,9 +74,11 @@
                                             </li>
                                         {% else %}
                                             <li class="col">
+                                                <a href="{{ child_link.url }}" class="">
                                                 <h6 id="navbar-childitem-{{ forloop.index }}" class="px-5">
                                                     {{ child_link.title }}
                                                 </h6>
+                                            </a>
                                                 <ul class="list-unstyled">
                                                     {% for grandchild_link in child_link.links %}
                                                         <li>

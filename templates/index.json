@@ -2,6 +2,7 @@
   "sections": {
     "16632664175140d0f0": {
       "type": "carousel",
+      "disabled": true,
       "blocks": {
         "1663266417fcc0dda6-0": {
           "type": "slide",
@@ -14,7 +15,7 @@
             "description": "",
             "description_size": "fs-5",
             "btn_text": "",
-            "btn_url": "shopify:\/\/collections\/all",
+            "btn_url": "shopify:\/\/collections\/anti-aging-serums",
             "btn_color": "btn-primary",
             "btn_size": ""
           }
@@ -65,7 +66,7 @@
         "container_max_width": "",
         "container_align": "mx-auto",
         "title": "YOUR SKIN DESERVES HIGH PERFORMANCE ACTIVES",
-        "title_size": "h1",
+        "title_size": "h2",
         "description": "",
         "description_size": "fs-6",
         "btn_text": "",
@@ -122,7 +123,7 @@
             "img": "shopify:\/\/shop_images\/for-natural-goodness.jpg",
             "title": "Natural Goodness",
             "description": "<p>Organic Botanicals + Clean Beauty + EWG VERIFIED<\/p>",
-            "url": ""
+            "url": "shopify:\/\/collections\/facial-care"
           }
         },
         "f19e155d-6d5f-4773-a8c5-fceb4cf4ccc4": {
@@ -149,7 +150,7 @@
             "img": "shopify:\/\/shop_images\/for-facial-care.jpg",
             "title": "Facial Care",
             "description": "<p>Shop our anti-aging facial products packed with clinically proven peptides that deliver amazing results.<\/p>",
-            "url": ""
+            "url": "shopify:\/\/collections\/anti-aging-serums"
           }
         }
       },
@@ -188,7 +189,7 @@
             "title_size": "h4",
             "description": "",
             "description_size": "fs-6",
-            "url": "shopify:\/\/collections\/wholesale-and-private-label-facts"
+            "url": "shopify:\/\/collections\/anti-aging-moisturizers-creams"
           }
         },
         "d28f44bc-c420-4cb6-b7a8-b6019121df9a": {
@@ -203,7 +204,7 @@
             "title_size": "h4",
             "description": "",
             "description_size": "fs-6",
-            "url": ""
+            "url": "shopify:\/\/collections\/body-care"
           }
         },
         "91456d2b-cf96-4e4c-9ed1-0d8b336b1688": {
@@ -218,7 +219,7 @@
             "title_size": "h4",
             "description": "",
             "description_size": "fs-6",
-            "url": ""
+            "url": "shopify:\/\/collections\/ewg-verified"
           }
         },
         "d5501fde-180e-4628-a60f-68700389ae5b": {
@@ -233,7 +234,7 @@
             "title_size": "h4",
             "description": "",
             "description_size": "fs-6",
-            "url": ""
+            "url": "shopify:\/\/collections\/anti-aging-peptides"
           }
         },
         "c5702f99-2e7e-49ac-be89-f34b12c018dc": {
@@ -248,7 +249,7 @@
             "title_size": "h4",
             "description": "",
             "description_size": "fs-6",
-            "url": ""
+            "url": "shopify:\/\/collections\/facial-care"
           }
         },
         "1d79450b-d94b-49d6-9c9e-494d800bba87": {
@@ -263,7 +264,7 @@
             "title_size": "h4",
             "description": "",
             "description_size": "fs-6",
-            "url": ""
+            "url": "shopify:\/\/collections\/serum-boosters"
           }
         },
         "a410aa63-1522-4cca-aee3-4e09a455478a": {
@@ -278,7 +279,7 @@
             "title_size": "h4",
             "description": "",
             "description_size": "fs-6",
-            "url": ""
+            "url": "shopify:\/\/collections\/diy"
           }
         },
         "d95f9a1a-3165-4afc-b26e-75a437248027": {
@@ -333,7 +334,7 @@
         "description": "<p>The right ingredients make all the difference. Nourishing botanicals, <br\/>skin firming, and youth-boosting peptides are the stars of our powerhouse serums.<br\/><br\/>Energize your skin with potent, anti aging ingredients that <br\/>reduce the signs of aging with effective, visible results.<\/p>",
         "description_size": "fs-2",
         "btn_text": "GET PREMIUM PEPTIDES",
-        "btn_url": "shopify:\/\/collections",
+        "btn_url": "shopify:\/\/collections\/anti-aging-peptides",
         "btn_color": "btn-primary",
         "btn_size": "btn-lg",
         "pt": 11,
@@ -357,7 +358,7 @@
         "description": "<p>Create a custom-tailored ultra-effective that targets your skin's unique needs in less than 5 minutes with our easy-to-follow guides and video tutorials. Don't have the time? Try our ready-made formulas!<br\/><br\/><strong>BONUS<\/strong>: Have a favorite product you want to dupe? Learn how to reverse engineer popular formulas. Level up your beauty routine today<\/p>",
         "description_size": "fs-3",
         "btn_text": "LEARN MORE!",
-        "btn_url": "",
+        "btn_url": "shopify:\/\/collections\/how-to-add-a-serum-booster",
         "btn_color": "btn-primary",
         "btn_size": "btn-lg",
         "pt": 12,
@@ -586,7 +587,7 @@
             "description": "<p>I love Skin Perfection products, and also the staff are very sweet. <br\/><br\/>I have to say I was blown away by the newest product I ordered which is the Expression Line Deep Wrinkle Serum. I thought I can't be seeing what I'm seeing. I've spent hundreds of dollars, probably thousands of anti-aging products and even on some from Skin Perfection that did nothing but this Expression Line Deep Wrinkle Serum literally reduced my smile lines and Nasolabial folds in one day!!! It was like magic, really crazy!!! - Callie<\/p>",
             "description_size": "fs-6",
             "btn_text": "Learn more",
-            "btn_url": ""
+            "btn_url": "shopify:\/\/pages\/testimonials"
           }
         },
         "4369e786-4405-4020-8a63-b7cc1d2fc8b4": {
@@ -599,7 +600,7 @@
             "description": "<p>Hi, my name is Anne and I am so grateful I found your website! I have been making my own skin oils and scrubs for many years... As a DIY girl and self-proclaimed info-junkie, I fell in love with all the information on your site! Thank you for all your hard work to make these amazing tools available to the world! I decided that I did not want to start the DIY endeavor with peptides. - Anne<br\/><\/p>",
             "description_size": "fs-6",
             "btn_text": "Learn more",
-            "btn_url": ""
+            "btn_url": "shopify:\/\/collections\/diy-formulas"
           }
         },
         "a5519140-8e78-4714-8b3e-f451ec53c43c": {
@@ -625,7 +626,7 @@
             "description": "<p>I just started using the peptides Matrixyl 3000, Snap 8, Argireline, Syn-Ake, and HA product in conjunction with the Liquid Face Lift and am already seeing a difference. My husband is also already seeing the change in smoothness, tone, and clarity of my skin. I turned to this product as an alternative to Hydroxatone and am extremely please thus far. You have a customer for life. Thank you! -Linda P.<br\/><\/p>",
             "description_size": "fs-6",
             "btn_text": "Learn more",
-            "btn_url": ""
+            "btn_url": "shopify:\/\/collections\/anti-wrinkle-serums"
           }
         },
         "8f2e958c-32f4-483b-8ebd-973969f5a747": {
@@ -638,7 +639,7 @@
             "description": "<p>It's so nice to find an organic skin care line that actually works. I have been using Skin Perfection for a few months now and my skin feels very moisturized with a bit of a glow! I start with Clarifying Cleanser which does not leave my face feeling dry (like a lot of cleanser do) and I literally see a glow afterwards. I then use the Moisturizing Toner which leaves my skin feeling so fresh. I apply Syn-ful Serum after that and my skin seems to absorb it nicely. I follow up with Ageless Moisturizer where my skin looks & feel smooth, moisturized and fresh!! Thanks Skin Perfection!! - Diane<br\/><\/p>",
             "description_size": "fs-6",
             "btn_text": "Learn more",
-            "btn_url": ""
+            "btn_url": "shopify:\/\/collections\/anti-wrinkle-cream"
           }
         }
       },
@@ -654,7 +655,7 @@
         "title": "WHAT OUR FANS ARE SAYING",
         "title_size": "h1",
         "btn_text": "",
-        "btn_url": "",
+        "btn_url": "shopify:\/\/collections\/lotion-making-supplies",
         "pt": 12,
         "pb": 12,
         "mt": 0,
@@ -738,6 +739,25 @@
         "mt": 0,
         "mb": 0
       }
+    },
+    "16742427567af76ea9": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "9ff40879-ca2c-42ca-81fc-6e596646dda1": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "9ff40879-ca2c-42ca-81fc-6e596646dda1"
+      ],
+      "settings": {}
     },
     "1663767822be2eeae8": {
       "type": "columns-with-icon",
@@ -878,8 +898,8 @@
         "btn_color": "btn-secondary",
         "support_title": "Support Info",
         "support_title_size": "h3",
-        "support_description": "<p>MONDAY -FRIDAY <br\/>9:00AM -5:00 MST <\/p>",
-        "support_description_size": "fs-6",
+        "support_description": "<p>MONDAY - THURSDAY <br\/>9:00AM - 5:00 MST <\/p>",
+        "support_description_size": "fs-5",
         "pt": 11,
         "pb": 11,
         "mt": 0,
@@ -902,6 +922,7 @@
     "1663588075c3abae2a",
     "166376037196899a01",
     "16637624876d074076",
+    "16742427567af76ea9",
     "1663767822be2eeae8",
     "166376871050139711"
   ]

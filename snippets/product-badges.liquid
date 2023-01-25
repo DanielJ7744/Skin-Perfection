@@ -1,0 +1,13 @@
+<div class="product-badges">
+    {% for tag in product.tags %}
+        {% if tag == 'Sale' %}
+            <p class="product-badge" style="background-color: {{settings.sale_badge_color}};">Sale</p>
+        {% endif %}
+        {% if tag == 'Best Seller' %}
+            <p class="product-badge" style="background-color: {{settings.best_seller_badge_color}};">Best Seller</p>
+        {% endif %}
+        {% if tag == 'Staff Pick' %}
+            <p class="product-badge" style="background-color: {{settings.staff_pick_badge_color}};">Staff Pick</p>
+        {% endif %}
+    {% endfor %}
+</div>

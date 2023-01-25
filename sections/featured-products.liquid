@@ -23,7 +23,7 @@
             {% liquid
                 if section.settings.recommended_mode
                     for product in recommendations.products
-                        render 'product-item', product: product
+                        render 'product-item-recommended', product: product
                     endfor
                 else
                     for product in collections[section.settings.collection].products limit: section.settings.limit

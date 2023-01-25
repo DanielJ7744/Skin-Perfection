@@ -12,6 +12,9 @@
         <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="{{ 'general.accessibility.close' | t }}">
         </button>
     </div>
+    
+    {% render 'free-shipping-progress-bar' %}
+
     <div class="offcanvas-body">
         {% if cart.item_count == 0 %}
             <div id="offcanvas-cart-empty" class="d-flex justify-content-center flex-column align-items-center h-100 text-muted">
@@ -86,7 +89,7 @@
                 {% endfor %}
             </ul>
             
-            {% render 'cart-upsell' %}
+            {% render 'cart-recommendation', items: cart.items %}
 
             {% if settings.offcanvas_cart_show_note %}
                 <hr>
@@ -118,7 +121,7 @@
                 {{ 'cart.continue_shopping' | t }}
             </button>
         {% else %}
-            <p id="offcanvas-cart-subtotal" class="lead text-center mb-3">
+            <p id="offcanvas-cart-subtotal" class="lead text-center mb-3" cart-total="{{cart.total_price | money}}" free-shipping="{{settings.free_shipping_value}}">
                 <span class="text-muted">
                     {{ 'cart.subtotal' | t }}: 
                 </span>

@@ -1,6 +1,6 @@
 {% liquid
-    assign img_width  = 360
-    assign img_height = 360
+    assign img_width  = 120
+    assign img_height = 120
     assign img_thumbnail = 'img-thumbnail'
 %}
 
@@ -37,6 +37,78 @@
                     </a>
                 </li>
             {%- endfor -%}
+
+            {%- if predictive_search.resources.collections.size > 0 -%}
+                <h3 id="predictive-search-collections" class="h5 pb-3 mb-3 mt-6 border-bottom">
+                    Collections
+                </h3>
+                {%- for collection in predictive_search.resources.collections -%}
+                    <li class="collection-item py-3" role="option">
+                        <a href="{{ collection.url }}" class="" tabindex="-1">
+                            <div class="row align-items-center mx-n3">
+                                <div class="col-4 px-3">
+                                    <img 
+                                        class="collection-item-img img-fluid me-3 {{ img_thumbnail }}"
+                                        src="{{ collection.featured_image | image_url: width: img_width, height: img_height }}"
+                                        alt="{{ collection.featured_image.alt }}"
+                                        width="{{ img_width }}"
+                                        height="{{ img_height }}"
+                                        loading="lazy">
+                                </div>
+                                <div class="col-8 px-3">
+                                    <h4 class="product-item-title h6 mb-2">
+                                        {{ collection.title }}
+                                    </h4>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                {%- endfor -%}
+            {% endif %}
+
+            {%- if predictive_search.resources.articles.size > 0 -%}
+                <h3 id="predictive-search-articles" class="h5 pb-3 mb-3 mt-6 border-bottom">
+                    Articles
+                </h3>
+                {%- for article in predictive_search.resources.articles -%}
+                <li class="article-item py-3" role="option">
+                        <a href="{{ article.url }}" class="" tabindex="-1">
+                            <div class="row align-items-center mx-n3">
+                                <div class="col-4 px-3">
+                                    <img 
+                                        class="article-item-img img-fluid me-3 {{ img_thumbnail }}"
+                                        src="{{ article.image | image_url: width: img_width, height: img_height }}"
+                                        alt="{{ article.image.alt }}"
+                                        width="{{ img_width }}"
+                                        height="{{ img_height }}"
+                                        loading="lazy">
+                                </div>
+                                <div class="col-8 px-3">
+                                    <h4 class="product-item-title h6 mb-2">
+                                        {{ article.title }}
+                                    </h4>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                {%- endfor -%}
+            {% endif %}
+
+            {%- if predictive_search.resources.pages.size > 0 -%}
+                <h3 id="predictive-search-pages" class="h5 pb-3 mb-3 mt-6 border-bottom">
+                    Pages
+                </h3>
+                {%- for page in predictive_search.resources.pages -%}
+                <li id="predictive-search-option-page-desktop-{{ forloop.index }}" class="predictive-search__list-item mb-10" role="option" aria-selected="false">
+                    <a href="{{ page.url }}" class="predictive-search__item link link--text" tabindex="-1">
+                    <div class="predictive-search__item-content predictive-search__item-content--centered">
+                        <p class="predictive-search__item-heading h6">{{ page.title }}</p>
+                    </div>
+                    </a>
+                </li>
+                {%- endfor -%}
+            {% endif %}
+
         </ul>
         <button class="btn btn-outline-primary w-100" tabindex="-1">
             {{ 'general.search.search_for' | t: terms: predictive_search.terms }}

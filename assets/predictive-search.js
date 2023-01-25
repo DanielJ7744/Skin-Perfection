@@ -33,7 +33,7 @@ class PredictiveSearch extends HTMLElement {
     }
 
     async getSearchResults (searchTerm) {
-        const response = await fetch(`/search/suggest?q=${searchTerm}&resources[type]=product&resources[limit]=10&section_id=predictive-search`)
+        const response = await fetch(`/search/suggest?q=${searchTerm}&resources[type]=product,page,article,collection&resources[limit]=10&section_id=predictive-search`)
 
         if (!response.ok) {
             const error = new Error(response.status)

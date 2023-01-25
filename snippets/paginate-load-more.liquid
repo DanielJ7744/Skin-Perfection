@@ -1,5 +1,5 @@
 {% if paginate.pages > 1 %}
-  <div class="pt-6 pb-2 text-center">
+  <div class="pt-6 pb-2 text-center" id="loadMorePage">
     {% comment %}
       {% if paginate.previous.is_link %}
         <a class="paginate-btn btn btn-outline-primary my-1" href="{{ paginate.previous.url }}">
@@ -15,6 +15,6 @@
         {{ 'general.general.pagination_page_of' | t: count: paginate.current_page, total: paginate.pages }}
       </small>
     {% endcomment %}
-    <a class="paginate-btn btn btn-outline-primary my-1" onclick="loadMoreBlogs()"> View More Articles</a>
+    <a class="paginate-btn btn btn-outline-primary my-1 show-more" onclick="loadMoreBlogs(false)">View More Articles</a>
   </div>
 {% endif %}

@@ -65,7 +65,7 @@
     }
   },
   "collection": {
-    "empty_html": "No products found! <a href=\"\/collections\/all\">View all »<\/a>",
+    "empty_html": " ",
     "sort_by": "Sort by",
     "load_more": "Load more",
     "btn_filter_products": "Filter products",

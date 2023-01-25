@@ -1,0 +1,998 @@
+{
+  "sections": {
+    "template-collection": {
+      "type": "template-collection",
+      "settings": {
+        "show_collection_img": false,
+        "show_collection_description": true,
+        "limit": 40,
+        "text_align": "text-center",
+        "row_xs": 2,
+        "row_sm": 2,
+        "row_lg": 4,
+        "mt": 10,
+        "mb": 10
+      }
+    },
+    "1663804795eacaf71c": {
+      "type": "richtext",
+      "disabled": true,
+      "settings": {
+        "max_width": "1650",
+        "text_align": "text-center",
+        "title": "Skin Concerns",
+        "title_size": "h2",
+        "description": "<p>[Anti-aging Solutions]<\/p><p>As we age, specific skin concerns begin to arise. Wrinkles, age spots, crow’s feet, etc., are all a part of aging, but we don’t have to let aging keep us from looking great. If you want to keep your skin looking young and beautiful, it is essential to learn about effective ingredients and natural remedies to keep aging skin at bay.<br\/><br\/>There are so many anti-aging skincare products on the market that it can be a bit overwhelming. It is hard to know which products are going to do precisely what you need them to do. And which products contain ingredients that your skin needs.<\/p><p>We have broken it down into categories based on a specific concern to help you find your skin type's ideal products. Our highly concentrated serums are loaded with peptides for real results.<\/p><p>With so many different issues and skin types, it can be hard to determine what products you should be using in your skincare routine. Here you can learn about the latest facial treatments for the most common conditions.<br\/><br\/>Just select a specific condition you are concerned about and find recommendations for ingredients to look for, products to try, and tips on reducing the look of these unwanted issues. We want to help you have the best skin possible. It is important to make educated decisions on your skincare products.<br\/><br\/>The more you know what ingredients and products will work best for your concerns, the better those decisions will be.<\/p><p><em>If you want your skincare to be effective, you have to make sure you are using the right products; we want to help you get there.<\/em><\/p><p>If you need more help locating products that will work for you, take our skin care<a href=\"https:\/\/www.naturalorganicskincare.com\/skin-care-quiz\/\" title=\"find out your facial type will help you find the right cosmetics.\"> quiz<\/a>. You can also browse our <a href=\"https:\/\/www.naturalorganicskincare.com\/skin-type\" title=\"normal, dry, oily, combination or sensitive.\">skin types<\/a> section to determine what products are right for your specific skin type. You can also email us at <a href=\"mailto:help@naturalorganicskincare.com.\">help@naturalorganicskincare.com.<\/a><br\/><br\/>Please include your skin type, any skincare concerns you may have, and what your goals are. A skincare specialist will email you a customized routine to locate the right products for your complexion.<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-outline-primary",
+        "btn_size": "",
+        "pt": 10,
+        "pb": 10,
+        "mt": 11,
+        "mb": 11
+      }
+    },
+    "16643040311de6ae10": {
+      "type": "featured-collections",
+      "blocks": {
+        "388d44f7-e949-4cad-94bc-c768022771cd": {
+          "type": "collection",
+          "settings": {
+            "collection": "algae"
+          }
+        },
+        "8face695-7a62-4a19-a11a-f381a614bce6": {
+          "type": "collection",
+          "settings": {
+            "collection": "organic-aloe-vera-juice-for-calming"
+          }
+        },
+        "22722634-de30-4595-86de-660bae03d52e": {
+          "type": "collection",
+          "settings": {
+            "collection": "alpha-arbutin"
+          }
+        },
+        "a0870c56-3b63-4a6c-8007-3ef74015b0cc": {
+          "type": "collection",
+          "settings": {
+            "collection": "dull-complexions"
+          }
+        },
+        "57dbb61c-e9c5-4c4f-9d2f-f17ceb263235": {
+          "type": "collection",
+          "settings": {
+            "collection": "alpha-lipoic-acid"
+          }
+        },
+        "77eed8f8-bdfd-428b-9666-8862ed11bdf8": {
+          "type": "collection",
+          "settings": {
+            "collection": "amazon-acai-fruit"
+          }
+        },
+        "66657aad-c1be-4f67-acfd-87e6959c1f9f": {
+          "type": "collection",
+          "settings": {
+            "collection": "amino-acids"
+          }
+        },
+        "3ce9373c-c9a1-459e-9296-1071dc983bfd": {
+          "type": "collection",
+          "settings": {
+            "collection": "amla-fruit-extact"
+          }
+        },
+        "03a0596c-1569-4ded-8de4-257dbc2f5d24": {
+          "type": "collection",
+          "settings": {
+            "collection": "antioxidants"
+          }
+        },
+        "68c45f2f-b17f-499b-a7a9-0ef8de00f2bf": {
+          "type": "collection",
+          "settings": {
+            "collection": "apple-cider-vinegar"
+          }
+        },
+        "35439069-a174-4d19-9238-8ec3e7f37d60": {
+          "type": "collection",
+          "settings": {
+            "collection": "sagging-neck-and-jowls"
+          }
+        },
+        "10a1b2b0-e0cb-43fe-8992-1298fb091658": {
+          "type": "collection",
+          "settings": {
+            "collection": "argireline"
+          }
+        },
+        "c1132fb6-befe-4fcc-880a-2bc2682545f5": {
+          "type": "collection",
+          "settings": {
+            "collection": "astralagus"
+          }
+        },
+        "3ab365a4-1de2-478c-ab3a-c3301d8b8fee": {
+          "type": "collection",
+          "settings": {
+            "collection": "avocado"
+          }
+        },
+        "788ffccf-f279-4af8-af4f-7cddf7d5f033": {
+          "type": "collection",
+          "settings": {
+            "collection": "bamboo-sustainable-beauty-products"
+          }
+        },
+        "ba3c0da9-23be-448c-8f2c-cda483886a04": {
+          "type": "collection",
+          "settings": {
+            "collection": "beeswax"
+          }
+        },
+        "ca173074-f3b7-4571-9c26-4cebeed8281c": {
+          "type": "collection",
+          "settings": {
+            "collection": "beta-glucan-oat-straw"
+          }
+        },
+        "bba76421-ccd0-4ba9-bea3-d25409da22c7": {
+          "type": "collection",
+          "settings": {
+            "collection": "blueberry-natural-antioxidants"
+          }
+        },
+        "5360acf3-6001-4a53-9d47-939a948cd3d7": {
+          "type": "collection",
+          "settings": {
+            "collection": "borage-oil"
+          }
+        },
+        "87b70ff5-b599-4077-9445-d0172d62aeea": {
+          "type": "collection",
+          "settings": {
+            "collection": "cactus"
+          }
+        },
+        "c6183954-5670-454a-bee1-e71079966bb7": {
+          "type": "collection",
+          "settings": {
+            "collection": "organic-calendula"
+          }
+        },
+        "33a91f97-b11c-4f76-b9aa-38bbab7bccdf": {
+          "type": "collection",
+          "settings": {
+            "collection": "chamomile-natural-moisturizer"
+          }
+        },
+        "dd93d265-a4ea-41b2-9e73-4a6533b6e77c": {
+          "type": "collection",
+          "settings": {
+            "collection": "chicory-root"
+          }
+        },
+        "65a97e43-bbd8-4651-a1ee-2136bc9bbe83": {
+          "type": "collection",
+          "settings": {
+            "collection": "chlorella-green-algae"
+          }
+        },
+        "af920fdf-0f8f-44f4-aeff-e9bb9a01b3ad": {
+          "type": "collection",
+          "settings": {
+            "collection": "chromocare"
+          }
+        },
+        "8244d56e-67f7-41f2-a16d-8e5f5f71f446": {
+          "type": "collection",
+          "settings": {
+            "collection": "chronoline"
+          }
+        },
+        "70037693-96fa-4978-a9c9-6db181c4d218": {
+          "type": "collection",
+          "settings": {
+            "collection": "coenzyme-q10-coq10"
+          }
+        },
+        "66942681-83e0-4fce-b4c7-e42e8aebc00f": {
+          "type": "collection",
+          "settings": {
+            "collection": "coconut-oil"
+          }
+        },
+        "05ad4d83-fbcc-473d-9149-6d1ec6515ed0": {
+          "type": "collection",
+          "settings": {
+            "collection": "collagen"
+          }
+        },
+        "e890765a-d815-4343-b206-9f5bd3468ce5": {
+          "type": "collection",
+          "settings": {
+            "collection": "coltsfoot-botanical"
+          }
+        },
+        "52e554e8-2adc-4327-a9ad-468e4c0e2620": {
+          "type": "collection",
+          "settings": {
+            "collection": "comfrey-root-allantion"
+          }
+        },
+        "c606b1f9-1bc1-4917-94d7-235da25c7972": {
+          "type": "collection",
+          "settings": {
+            "collection": "copper-peptide"
+          }
+        },
+        "a72814db-9613-4f4b-9633-8cf994c8fe8a": {
+          "type": "collection",
+          "settings": {
+            "collection": "organic-cranberry"
+          }
+        },
+        "9aad3070-9583-4116-86f1-fc7547619947": {
+          "type": "collection",
+          "settings": {
+            "collection": "cucumber"
+          }
+        },
+        "14385b34-a4d3-468e-bdbd-e36686014d1e": {
+          "type": "collection",
+          "settings": {
+            "collection": "dandelion"
+          }
+        },
+        "b5509338-ca7e-44db-be01-90888138f879": {
+          "type": "collection",
+          "settings": {
+            "collection": "dmae"
+          }
+        },
+        "4cbb6d0b-46d9-4f35-af6c-8831a7936ab1": {
+          "type": "collection",
+          "settings": {
+            "collection": "edelweiss-extract"
+          }
+        },
+        "afad9afd-3a5f-48a6-9842-4f2a629d27e1": {
+          "type": "collection",
+          "settings": {
+            "collection": "epidermal-growth-factor-egf"
+          }
+        },
+        "0505237a-41cf-47e6-b365-9b065452b18d": {
+          "type": "collection",
+          "settings": {
+            "collection": "evening-primrose-oil"
+          }
+        },
+        "a9d0f67f-1db9-4a7e-ab24-e4c94b66fc91": {
+          "type": "collection",
+          "settings": {
+            "collection": "facial-clays"
+          }
+        },
+        "dd557e4a-63dd-40af-afba-b94df44450d3": {
+          "type": "collection",
+          "settings": {
+            "collection": "fennel"
+          }
+        },
+        "7a3a3f52-f82d-40d9-9da8-0f82f0b32380": {
+          "type": "collection",
+          "settings": {
+            "collection": "gaba"
+          }
+        },
+        "24b11d01-d09b-45df-aef7-f0b070d37344": {
+          "type": "collection",
+          "settings": {
+            "collection": "ginkgo-biloba"
+          }
+        },
+        "0751a383-f0f2-41b4-b3ce-eb4e95bfa05d": {
+          "type": "collection",
+          "settings": {
+            "collection": "ginseng"
+          }
+        },
+        "07ac4852-5eaa-4ef9-852c-905da300bc0f": {
+          "type": "collection",
+          "settings": {
+            "collection": "glycolic-acid"
+          }
+        },
+        "9fe522e6-010c-447a-b5d1-c075b698eb49": {
+          "type": "collection",
+          "settings": {
+            "collection": "goat-milk"
+          }
+        },
+        "47ac1d01-29ac-4afa-ab40-d06b027480b0": {
+          "type": "collection",
+          "settings": {
+            "collection": "goji-berry"
+          }
+        },
+        "f5b94562-5d2b-4970-826f-eb345a187cad": {
+          "type": "collection",
+          "settings": {
+            "collection": "gotu-kola-centella-asiatica"
+          }
+        },
+        "4364ae1b-e3c5-484a-9a35-5b29a801f905": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "grapefruit"
+          }
+        },
+        "53695639-f914-4bd7-bd49-465feead7aac": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "green-tea"
+          }
+        }
+      },
+      "block_order": [
+        "388d44f7-e949-4cad-94bc-c768022771cd",
+        "8face695-7a62-4a19-a11a-f381a614bce6",
+        "22722634-de30-4595-86de-660bae03d52e",
+        "a0870c56-3b63-4a6c-8007-3ef74015b0cc",
+        "57dbb61c-e9c5-4c4f-9d2f-f17ceb263235",
+        "77eed8f8-bdfd-428b-9666-8862ed11bdf8",
+        "66657aad-c1be-4f67-acfd-87e6959c1f9f",
+        "3ce9373c-c9a1-459e-9296-1071dc983bfd",
+        "03a0596c-1569-4ded-8de4-257dbc2f5d24",
+        "68c45f2f-b17f-499b-a7a9-0ef8de00f2bf",
+        "35439069-a174-4d19-9238-8ec3e7f37d60",
+        "10a1b2b0-e0cb-43fe-8992-1298fb091658",
+        "c1132fb6-befe-4fcc-880a-2bc2682545f5",
+        "3ab365a4-1de2-478c-ab3a-c3301d8b8fee",
+        "788ffccf-f279-4af8-af4f-7cddf7d5f033",
+        "ba3c0da9-23be-448c-8f2c-cda483886a04",
+        "ca173074-f3b7-4571-9c26-4cebeed8281c",
+        "bba76421-ccd0-4ba9-bea3-d25409da22c7",
+        "5360acf3-6001-4a53-9d47-939a948cd3d7",
+        "87b70ff5-b599-4077-9445-d0172d62aeea",
+        "c6183954-5670-454a-bee1-e71079966bb7",
+        "33a91f97-b11c-4f76-b9aa-38bbab7bccdf",
+        "dd93d265-a4ea-41b2-9e73-4a6533b6e77c",
+        "65a97e43-bbd8-4651-a1ee-2136bc9bbe83",
+        "af920fdf-0f8f-44f4-aeff-e9bb9a01b3ad",
+        "8244d56e-67f7-41f2-a16d-8e5f5f71f446",
+        "70037693-96fa-4978-a9c9-6db181c4d218",
+        "66942681-83e0-4fce-b4c7-e42e8aebc00f",
+        "05ad4d83-fbcc-473d-9149-6d1ec6515ed0",
+        "e890765a-d815-4343-b206-9f5bd3468ce5",
+        "52e554e8-2adc-4327-a9ad-468e4c0e2620",
+        "c606b1f9-1bc1-4917-94d7-235da25c7972",
+        "a72814db-9613-4f4b-9633-8cf994c8fe8a",
+        "9aad3070-9583-4116-86f1-fc7547619947",
+        "14385b34-a4d3-468e-bdbd-e36686014d1e",
+        "b5509338-ca7e-44db-be01-90888138f879",
+        "4cbb6d0b-46d9-4f35-af6c-8831a7936ab1",
+        "afad9afd-3a5f-48a6-9842-4f2a629d27e1",
+        "0505237a-41cf-47e6-b365-9b065452b18d",
+        "a9d0f67f-1db9-4a7e-ab24-e4c94b66fc91",
+        "dd557e4a-63dd-40af-afba-b94df44450d3",
+        "7a3a3f52-f82d-40d9-9da8-0f82f0b32380",
+        "24b11d01-d09b-45df-aef7-f0b070d37344",
+        "0751a383-f0f2-41b4-b3ce-eb4e95bfa05d",
+        "07ac4852-5eaa-4ef9-852c-905da300bc0f",
+        "9fe522e6-010c-447a-b5d1-c075b698eb49",
+        "47ac1d01-29ac-4afa-ab40-d06b027480b0",
+        "f5b94562-5d2b-4970-826f-eb345a187cad",
+        "4364ae1b-e3c5-484a-9a35-5b29a801f905",
+        "53695639-f914-4bd7-bd49-465feead7aac"
+      ],
+      "settings": {
+        "bg_color": "bg-white text-dark",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "btn_text": "",
+        "btn_color": "btn-primary",
+        "row_xs": 3,
+        "row_sm": 3,
+        "row_lg": 6,
+        "pt": 13,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "def3248e-624d-49d0-a7b4-a15a669328d8": {
+      "type": "featured-collections",
+      "blocks": {
+        "5cc3a21f-fc01-4c12-ae9b-acd3c19f8ccc": {
+          "type": "collection",
+          "settings": {
+            "collection": "grapefruit"
+          }
+        },
+        "13f444d1-0e62-4453-a7fd-e58a04e9c8a4": {
+          "type": "collection",
+          "settings": {
+            "collection": "green-tea"
+          }
+        },
+        "b5689926-6297-4f07-8561-390ee097ccc4": {
+          "type": "collection",
+          "settings": {
+            "collection": "haloxyl"
+          }
+        },
+        "7f2d20f0-b6ce-4f9b-8fd0-25c55e130af1": {
+          "type": "collection",
+          "settings": {
+            "collection": "honey"
+          }
+        },
+        "d6c0315e-b326-4648-8b6f-7d656f3ba521": {
+          "type": "collection",
+          "settings": {
+            "collection": "honeysuckle"
+          }
+        },
+        "5fc32b1f-83df-429d-a24c-90d4bbc3f8bd": {
+          "type": "collection",
+          "settings": {
+            "collection": "hops-benefits-in-products-for-the-face"
+          }
+        },
+        "c6085347-30bc-4f52-a218-b79398c8e937": {
+          "type": "collection",
+          "settings": {
+            "collection": "horsetail"
+          }
+        },
+        "f32b96ed-3cf1-4f0a-8eb2-626e8815f151": {
+          "type": "collection",
+          "settings": {
+            "collection": "hyaluronic-acid"
+          }
+        },
+        "db170361-f1ee-4b2b-b87d-f4e05098090f": {
+          "type": "collection",
+          "settings": {
+            "collection": "idebenone"
+          }
+        },
+        "ea2d3893-b0b2-470a-9ab9-3c4f9368c002": {
+          "type": "collection",
+          "settings": {
+            "collection": "jojoba-oil"
+          }
+        },
+        "7d21f86d-fbe0-4e29-90fd-c4854f5005ac": {
+          "type": "collection",
+          "settings": {
+            "collection": "kelp"
+          }
+        },
+        "58a7ef9e-3699-41cf-aaab-c944255887e8": {
+          "type": "collection",
+          "settings": {
+            "collection": "kojic-acid-skin-lightening-treatments"
+          }
+        },
+        "493383de-4aaa-448b-b49a-a4e8cc70e969": {
+          "type": "collection",
+          "settings": {
+            "collection": "l-carnitine"
+          }
+        },
+        "1191a4dc-aac1-45b4-9719-e605c417641f": {
+          "type": "collection",
+          "settings": {
+            "collection": "lactic-acid"
+          }
+        },
+        "d481d6e1-4c59-4935-9720-0c192bb1e042": {
+          "type": "collection",
+          "settings": {
+            "collection": "lavender"
+          }
+        },
+        "b6809a6f-36dc-460b-b97a-497925a7da21": {
+          "type": "collection",
+          "settings": {
+            "collection": "lemon-lemongrass"
+          }
+        },
+        "5d2b0046-99d1-4f7f-8933-ca2d33d3af73": {
+          "type": "collection",
+          "settings": {
+            "collection": "licorice"
+          }
+        },
+        "1400ebee-38d7-4a5c-af17-edae5e888de0": {
+          "type": "collection",
+          "settings": {
+            "collection": "lotus"
+          }
+        },
+        "8692ff14-e0ba-49f4-8971-e2cb61211331": {
+          "type": "collection",
+          "settings": {
+            "collection": "mango"
+          }
+        },
+        "f0fe0aa5-68df-424f-810a-bae73b60e9f7": {
+          "type": "collection",
+          "settings": {
+            "collection": "mangosteen"
+          }
+        },
+        "a3ec44a2-5e09-48f3-b116-949f20678596": {
+          "type": "collection",
+          "settings": {
+            "collection": "marine-plankton"
+          }
+        },
+        "0381197c-7287-4d6b-a2e4-bd6dcd6ce1ac": {
+          "type": "collection",
+          "settings": {
+            "collection": "matrixyl"
+          }
+        },
+        "2405d2ee-d861-42a8-ae2a-3fa3199fb685": {
+          "type": "collection",
+          "settings": {
+            "collection": "matrixyl-synthe-6"
+          }
+        },
+        "5c3efbe4-9c78-4413-ac2b-deb9dc38ff37": {
+          "type": "collection",
+          "settings": {
+            "collection": "melon"
+          }
+        },
+        "6b6065c8-ba1f-4d4e-8fe2-b9e197535cbd": {
+          "type": "collection",
+          "settings": {
+            "collection": "mitoprotect"
+          }
+        },
+        "b2afe5cf-63e0-4582-aa41-45b178674bc8": {
+          "type": "collection",
+          "settings": {
+            "collection": "mushroom"
+          }
+        },
+        "7f1441ae-d253-4723-9afc-5531e6805f60": {
+          "type": "collection",
+          "settings": {
+            "collection": "myristoyl-pentapeptide-17"
+          }
+        },
+        "676c8238-af68-41db-842e-60b89587ea05": {
+          "type": "collection",
+          "settings": {
+            "collection": "natural-moisturizing-factor"
+          }
+        },
+        "87b5ff77-dab8-48fa-9382-0d074888aada": {
+          "type": "collection",
+          "settings": {
+            "collection": "neutrazen-palmitoyl-tripeptide-8"
+          }
+        },
+        "22dc1e36-51c1-4d49-9de4-cf1c2701b39d": {
+          "type": "collection",
+          "settings": {
+            "collection": "niacin"
+          }
+        },
+        "fa354684-d018-4133-a805-494132278ebf": {
+          "type": "collection",
+          "settings": {
+            "collection": "noni-seed-oil"
+          }
+        },
+        "65c2508f-eacf-4d40-939a-052ecfcdd348": {
+          "type": "collection",
+          "settings": {
+            "collection": "oatmeal"
+          }
+        },
+        "c07fea59-9cc3-456e-8c12-7d501cb987f6": {
+          "type": "collection",
+          "settings": {
+            "collection": "olive-oil"
+          }
+        },
+        "437deaa7-bf0f-459a-890f-3d915f12bebc": {
+          "type": "collection",
+          "settings": {
+            "collection": "paraben-free"
+          }
+        },
+        "18d21153-8c5b-45a2-976c-9bb44b5b0225": {
+          "type": "collection",
+          "settings": {
+            "collection": "pentamide-6"
+          }
+        },
+        "b5d5b507-4d73-4eb9-827b-dd1c3761001e": {
+          "type": "collection",
+          "settings": {
+            "collection": "pepha-tight"
+          }
+        },
+        "d4dd2c26-4f97-44ae-8c37-6b405f93c732": {
+          "type": "collection",
+          "settings": {
+            "collection": "peppermint-mint-essential-oil"
+          }
+        },
+        "71e99a48-b183-4e9c-a32f-7a435942934f": {
+          "type": "collection",
+          "settings": {
+            "collection": "phytocell-tec-malus-domestica-apple-stem-cells"
+          }
+        },
+        "45ab6e41-21ef-40e6-ba79-5591575f9a2e": {
+          "type": "collection",
+          "settings": {
+            "collection": "pomegranate"
+          }
+        },
+        "85b188b0-5f04-44f1-a10f-546ed931b326": {
+          "type": "collection",
+          "settings": {
+            "collection": "pumpkin"
+          }
+        },
+        "d2d700d9-6dec-4cf4-9e04-a1fe7295bb42": {
+          "type": "collection",
+          "settings": {
+            "collection": "pycnogenol-pine-bark"
+          }
+        },
+        "9b2f4b28-ced1-48b4-bde3-f092cf8949f5": {
+          "type": "collection",
+          "settings": {
+            "collection": "radish-root"
+          }
+        },
+        "a0a7daf4-1dc8-4866-aa58-5299cd0a936e": {
+          "type": "collection",
+          "settings": {
+            "collection": "raspberry"
+          }
+        },
+        "ced7694f-c0c9-41c1-9d96-29ab74d361ae": {
+          "type": "collection",
+          "settings": {
+            "collection": "regu-age"
+          }
+        },
+        "9285fa01-8b95-4ec3-b888-980524488d16": {
+          "type": "collection",
+          "settings": {
+            "collection": "relistase"
+          }
+        },
+        "e73c27cb-a52c-4507-b2ce-5e0dbce653c7": {
+          "type": "collection",
+          "settings": {
+            "collection": "resveratrol"
+          }
+        },
+        "4a058ba3-b402-4199-93bb-b05b9fbac24b": {
+          "type": "collection",
+          "settings": {
+            "collection": "retinol"
+          }
+        },
+        "f014062d-2b20-486d-9606-23d064b6d38b": {
+          "type": "collection",
+          "settings": {
+            "collection": "rice-bran-oil"
+          }
+        },
+        "8976aca6-24ec-4c20-83dd-3e7a2bd62e27": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "rose"
+          }
+        },
+        "a437861b-d2a2-4ae3-98f5-4274fcff8abe": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "salicylic-acid"
+          }
+        }
+      },
+      "block_order": [
+        "5cc3a21f-fc01-4c12-ae9b-acd3c19f8ccc",
+        "13f444d1-0e62-4453-a7fd-e58a04e9c8a4",
+        "b5689926-6297-4f07-8561-390ee097ccc4",
+        "7f2d20f0-b6ce-4f9b-8fd0-25c55e130af1",
+        "d6c0315e-b326-4648-8b6f-7d656f3ba521",
+        "5fc32b1f-83df-429d-a24c-90d4bbc3f8bd",
+        "c6085347-30bc-4f52-a218-b79398c8e937",
+        "f32b96ed-3cf1-4f0a-8eb2-626e8815f151",
+        "db170361-f1ee-4b2b-b87d-f4e05098090f",
+        "ea2d3893-b0b2-470a-9ab9-3c4f9368c002",
+        "7d21f86d-fbe0-4e29-90fd-c4854f5005ac",
+        "58a7ef9e-3699-41cf-aaab-c944255887e8",
+        "493383de-4aaa-448b-b49a-a4e8cc70e969",
+        "1191a4dc-aac1-45b4-9719-e605c417641f",
+        "d481d6e1-4c59-4935-9720-0c192bb1e042",
+        "b6809a6f-36dc-460b-b97a-497925a7da21",
+        "5d2b0046-99d1-4f7f-8933-ca2d33d3af73",
+        "1400ebee-38d7-4a5c-af17-edae5e888de0",
+        "8692ff14-e0ba-49f4-8971-e2cb61211331",
+        "f0fe0aa5-68df-424f-810a-bae73b60e9f7",
+        "a3ec44a2-5e09-48f3-b116-949f20678596",
+        "0381197c-7287-4d6b-a2e4-bd6dcd6ce1ac",
+        "2405d2ee-d861-42a8-ae2a-3fa3199fb685",
+        "5c3efbe4-9c78-4413-ac2b-deb9dc38ff37",
+        "6b6065c8-ba1f-4d4e-8fe2-b9e197535cbd",
+        "b2afe5cf-63e0-4582-aa41-45b178674bc8",
+        "7f1441ae-d253-4723-9afc-5531e6805f60",
+        "676c8238-af68-41db-842e-60b89587ea05",
+        "87b5ff77-dab8-48fa-9382-0d074888aada",
+        "22dc1e36-51c1-4d49-9de4-cf1c2701b39d",
+        "fa354684-d018-4133-a805-494132278ebf",
+        "65c2508f-eacf-4d40-939a-052ecfcdd348",
+        "c07fea59-9cc3-456e-8c12-7d501cb987f6",
+        "437deaa7-bf0f-459a-890f-3d915f12bebc",
+        "18d21153-8c5b-45a2-976c-9bb44b5b0225",
+        "b5d5b507-4d73-4eb9-827b-dd1c3761001e",
+        "d4dd2c26-4f97-44ae-8c37-6b405f93c732",
+        "71e99a48-b183-4e9c-a32f-7a435942934f",
+        "45ab6e41-21ef-40e6-ba79-5591575f9a2e",
+        "85b188b0-5f04-44f1-a10f-546ed931b326",
+        "d2d700d9-6dec-4cf4-9e04-a1fe7295bb42",
+        "9b2f4b28-ced1-48b4-bde3-f092cf8949f5",
+        "a0a7daf4-1dc8-4866-aa58-5299cd0a936e",
+        "ced7694f-c0c9-41c1-9d96-29ab74d361ae",
+        "9285fa01-8b95-4ec3-b888-980524488d16",
+        "e73c27cb-a52c-4507-b2ce-5e0dbce653c7",
+        "4a058ba3-b402-4199-93bb-b05b9fbac24b",
+        "f014062d-2b20-486d-9606-23d064b6d38b",
+        "8976aca6-24ec-4c20-83dd-3e7a2bd62e27",
+        "a437861b-d2a2-4ae3-98f5-4274fcff8abe"
+      ],
+      "settings": {
+        "bg_color": "bg-white text-dark",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "btn_text": "",
+        "btn_color": "btn-primary",
+        "row_xs": 3,
+        "row_sm": 4,
+        "row_lg": 6,
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "79e489a6-95a2-4605-9827-fd49620efb7a": {
+      "type": "featured-collections",
+      "blocks": {
+        "6e13cbde-b926-4f88-bb4c-e14cf81f399d": {
+          "type": "collection",
+          "settings": {
+            "collection": "rose"
+          }
+        },
+        "aa677de4-bd6a-47a2-bdf8-64ffe3c29a37": {
+          "type": "collection",
+          "settings": {
+            "collection": "salicylic-acid"
+          }
+        },
+        "05d01861-1a0e-4021-bcca-7abd5225a440": {
+          "type": "collection",
+          "settings": {
+            "collection": "sea-buckthorn-berry"
+          }
+        },
+        "2bafec7b-0fea-43c9-8bf4-06a353539635": {
+          "type": "collection",
+          "settings": {
+            "collection": "shea-butter"
+          }
+        },
+        "4a39a11b-2ca9-4ed4-bd36-d8337030f016": {
+          "type": "collection",
+          "settings": {
+            "collection": "snap-8"
+          }
+        },
+        "a7363af0-f6f1-4744-97e4-0c136e296149": {
+          "type": "collection",
+          "settings": {
+            "collection": "soy-protein"
+          }
+        },
+        "151ff6dc-419e-416f-b2ed-ad1c9341a9e5": {
+          "type": "collection",
+          "settings": {
+            "collection": "spearmint-leaf"
+          }
+        },
+        "cf0609a2-fc87-49f5-b32f-6d341d08d269": {
+          "type": "collection",
+          "settings": {
+            "collection": "spin-trap"
+          }
+        },
+        "9f70fc18-467d-4d40-814b-e9144d0eca0d": {
+          "type": "collection",
+          "settings": {
+            "collection": "stem-cells"
+          }
+        },
+        "9467a3bc-6610-48b6-8bee-c6e8e7eb6ae3": {
+          "type": "collection",
+          "settings": {
+            "collection": "strawberry"
+          }
+        },
+        "ee32874a-b592-47dc-94d1-aadab1010702": {
+          "type": "collection",
+          "settings": {
+            "collection": "super-oxide-dismutase"
+          }
+        },
+        "5a3fdbef-26e2-4017-b984-3195333c3413": {
+          "type": "collection",
+          "settings": {
+            "collection": "syn-ake"
+          }
+        },
+        "d6bfa2f5-6fa6-4310-9c6d-e03edb4c49ff": {
+          "type": "collection",
+          "settings": {
+            "collection": "syn-coll-tripeptide"
+          }
+        },
+        "1ea7902b-bde2-4343-99fc-2bede47b131d": {
+          "type": "collection",
+          "settings": {
+            "collection": "syn-tacks"
+          }
+        },
+        "66123b3a-5ebb-48d3-930a-c0eea38c4550": {
+          "type": "collection",
+          "settings": {
+            "collection": "tamanu-oil"
+          }
+        },
+        "465ad607-b891-43de-bff5-60712154f069": {
+          "type": "collection",
+          "settings": {
+            "collection": "tea-tree-oil"
+          }
+        },
+        "34bb55ff-2278-447c-a9cf-3a6445ff5100": {
+          "type": "collection",
+          "settings": {
+            "collection": "teprenone-or-renovage-to-target-signs-of-aging"
+          }
+        },
+        "0c18b47f-bd45-48fa-8f3b-0a85d57905b5": {
+          "type": "collection",
+          "settings": {
+            "collection": "vanilla-bean-essential-oil"
+          }
+        },
+        "39d2537d-a73b-4236-8c0f-1d91fcdfd275": {
+          "type": "collection",
+          "settings": {
+            "collection": "vitamin-a-beta-carotene"
+          }
+        },
+        "baa0175f-fb2d-4fe2-8fa5-3cdecf67e2ec": {
+          "type": "collection",
+          "settings": {
+            "collection": "vitamin-b"
+          }
+        },
+        "40002637-2a17-42ef-9376-d5a70ebe86fc": {
+          "type": "collection",
+          "settings": {
+            "collection": "vitamin-c"
+          }
+        },
+        "f4e0a52a-227d-4b71-b2a2-32df8157fc8e": {
+          "type": "collection",
+          "settings": {
+            "collection": "vitamin-e"
+          }
+        },
+        "6f51b5cb-9256-4341-9f00-44176fb1ca45": {
+          "type": "collection",
+          "settings": {
+            "collection": "vitamin-k"
+          }
+        },
+        "ca2d153e-4ed1-4340-b5cf-c65f4f006523": {
+          "type": "collection",
+          "settings": {
+            "collection": "wheat-protein"
+          }
+        },
+        "690784b1-8758-4e12-974b-b49578852b22": {
+          "type": "collection",
+          "settings": {
+            "collection": "witch-hazel"
+          }
+        },
+        "d0ca5c13-9dcc-4d44-886f-e08ffacb05fc": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "6e13cbde-b926-4f88-bb4c-e14cf81f399d",
+        "aa677de4-bd6a-47a2-bdf8-64ffe3c29a37",
+        "05d01861-1a0e-4021-bcca-7abd5225a440",
+        "2bafec7b-0fea-43c9-8bf4-06a353539635",
+        "4a39a11b-2ca9-4ed4-bd36-d8337030f016",
+        "a7363af0-f6f1-4744-97e4-0c136e296149",
+        "151ff6dc-419e-416f-b2ed-ad1c9341a9e5",
+        "cf0609a2-fc87-49f5-b32f-6d341d08d269",
+        "9f70fc18-467d-4d40-814b-e9144d0eca0d",
+        "9467a3bc-6610-48b6-8bee-c6e8e7eb6ae3",
+        "ee32874a-b592-47dc-94d1-aadab1010702",
+        "5a3fdbef-26e2-4017-b984-3195333c3413",
+        "d6bfa2f5-6fa6-4310-9c6d-e03edb4c49ff",
+        "1ea7902b-bde2-4343-99fc-2bede47b131d",
+        "66123b3a-5ebb-48d3-930a-c0eea38c4550",
+        "465ad607-b891-43de-bff5-60712154f069",
+        "34bb55ff-2278-447c-a9cf-3a6445ff5100",
+        "0c18b47f-bd45-48fa-8f3b-0a85d57905b5",
+        "39d2537d-a73b-4236-8c0f-1d91fcdfd275",
+        "baa0175f-fb2d-4fe2-8fa5-3cdecf67e2ec",
+        "40002637-2a17-42ef-9376-d5a70ebe86fc",
+        "f4e0a52a-227d-4b71-b2a2-32df8157fc8e",
+        "6f51b5cb-9256-4341-9f00-44176fb1ca45",
+        "ca2d153e-4ed1-4340-b5cf-c65f4f006523",
+        "690784b1-8758-4e12-974b-b49578852b22",
+        "d0ca5c13-9dcc-4d44-886f-e08ffacb05fc"
+      ],
+      "settings": {
+        "bg_color": "bg-white text-dark",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "btn_text": "",
+        "btn_color": "btn-primary",
+        "row_xs": 3,
+        "row_sm": 4,
+        "row_lg": 6,
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    }
+  },
+  "order": [
+    "template-collection",
+    "1663804795eacaf71c",
+    "16643040311de6ae10",
+    "def3248e-624d-49d0-a7b4-a15a669328d8",
+    "79e489a6-95a2-4605-9827-fd49620efb7a"
+  ]
+}

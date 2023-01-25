@@ -28,7 +28,81 @@ window.refreshCartContents = async () => {
         badge.textContent = newDocument.querySelector('.cart-badge').textContent
     })
 
+    const mainCartList = document.querySelector('#main-cart-list')
+    mainCartList?.replaceWith(newDocument.querySelector('#main-cart-list'))
+    const recomProducts = document.querySelector('#template-cart #cart-recommend-list')
+    recomProducts?.replaceWith(newDocument.querySelector('#template-cart #cart-recommend-list'))
+
     offcanvasCart?.classList.remove('loading')
+
+    // Updating cart progress bar
+        const subTotalElement = document.getElementById('offcanvas-cart-subtotal')
+        const successDivs =  document.querySelectorAll('.to-free-shipping__success')
+        const progressDivs =  document.querySelectorAll('.to-free-shipping__progress')
+        const progressBars =  document.querySelectorAll('.to-free-shipping__bar-progress')
+        const freeShippingAways =  document.querySelectorAll('.to-free-shipping__away')
+        const freeShippingWidgets = document.querySelectorAll('.to-free-shipping')
+        const offCanvasProgressBar = document.querySelector('.offcanvas .to-free-shipping__bar-progress')
+
+        if (subTotalElement) {
+            for (const freeShippingWidget of freeShippingWidgets) {
+                freeShippingWidget.classList.add('active')
+            }
+            const cartTotal = parseFloat(subTotalElement.getAttribute('cart-total').substring(1))
+            const freeShipping = parseFloat(subTotalElement.getAttribute('free-shipping'))
+            if (cartTotal >= freeShipping) {
+                for (const progressBar of progressBars) {
+                    progressBar.style.width = offCanvasProgressBar.style.width
+                }
+                setTimeout(() => {
+                    for (const progressBar of progressBars) {
+                        progressBar.style.width = "100%"
+                    }
+                }, 300)
+                setTimeout(() => {
+                    for (const successDiv of successDivs) {
+                        successDiv.classList.add('active')
+                    }
+                    for (const progressDiv of progressDivs) {
+                        progressDiv.classList.remove('active')
+                    }
+                }, 800)
+            } else {
+                for (const successDiv of successDivs) {
+                    successDiv.classList.remove('active')
+                }
+                for (const progressDiv of progressDivs) {
+                    progressDiv.classList.add('active')
+                }
+                const percentOfProgress =  cartTotal / freeShipping * 100
+                
+                for (const progressBar of progressBars) {
+                    progressBar.style.width = offCanvasProgressBar.style.width
+                }
+                setTimeout(() => {
+                    for (const progressBar of progressBars) {
+                        progressBar.style.width = percentOfProgress + "%"
+                    }
+                }, 300)
+
+                for (const freeShippingAway of freeShippingAways) {
+                    freeShippingAway.innerHTML = +parseFloat(freeShipping - cartTotal).toFixed( 2 )
+                }
+            }
+            
+            // Render recom carousel
+            $('.cart-recom-carousel').flickity({
+                cellAlign: 'left',
+                contain: true
+            });
+            // Render recom carousel end
+        } else {
+            for (const freeShippingWidget of freeShippingWidgets) {
+                freeShippingWidget.classList.remove('active')
+            }
+        }      
+    // Updating cart progress bar end
+    
 }
 
 // Quantity Inputs

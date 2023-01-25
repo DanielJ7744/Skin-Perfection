@@ -1,55 +1,60 @@
 {% liquid
-    assign img_width  = 200
-    assign img_height = 260
-    assign img_thumbnail = ''
+  assign img_width = 200
+  assign img_height = 260
+  assign img_thumbnail = ''
 %}
 
-<li class="product-item p-3 p-lg-4 mb-4">
-    <a class="position-relative d-block" href="{{ product.url | within: collection }}">
-        {% unless product.available %}
-            <span class="badge-sold-out badge bg-secondary position-absolute top-0 end-0 me-3 mt-3">
-                {{ 'product.sold_out' | t }}
-            </span>        
-        {% endunless %}
-        <div class="img-wrapper">
-            <img 
-                class="product-item-img img-fluid mb-4"
-                src="{{ product.featured_image.src | image_url: width: img_width, height: img_width, crop: 'center' }}" 
-                alt="{{ product.featured_image.alt | escape }}"
-                width="{{ img_width }}"
-                height="{{ img_height }}"
-                data-main-img-src="{{ product.featured_image.src | image_url: width: img_width, height: img_width, crop: 'center' }}" 
-                {% unless product.images[1] == blank %}
-                    data-second-img-src="{{ product.images[1].src | image_url: width: img_width, height: img_width, crop: 'center' }}" 
-                {% endunless %}
-                loading="lazy">
-        </div>
-    </a>
-    <h3 class="product-item-title h5 mb-4">
-        {{ product.title }}
-    </h3>
-    
-    {% unless product.metafields.custom.overview == blank %}
-        <p class="product-item-overview small mt-n3 opacity-75 mb-5">
-            {{ product.metafields.custom.overview }}
-        </p>
+<li class="product-item p-3 p-lg-4 mb-4 product-item__wrapper">
+  {% render 'product-badges', product: product %}
+  <a class="position-relative d-block" href="{{ product.url | within: collection }}">
+    {% unless product.available %}
+      <span class="badge-sold-out badge bg-secondary position-absolute top-0 end-0 me-3 mt-3">
+        {{ 'product.sold_out' | t }}
+      </span>
     {% endunless %}
-    
-    <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
-    <div class="mt-4">
-        {% form 'product', product, onsubmit: 'onSubmitAtcForm(this, event)' %}
-            <input type="hidden" name="id" value="{{ product.first_available_variant.id }}">
-            <button
-                class="btn-atc btn btn-primary mb-4 text-nowrap w-100"
-                type="submit"
-                name="add"
-                data-text="{{ 'product.add_to_cart' | t }}">
-                {% if product.first_available_variant.available %}
-                    {{ product.first_available_variant.price | money }} | {{ 'product.add_to_cart' | t }} 
-                {% else %}
-                    {{ 'product.sold_out' | t }}
-                {% endif %}
-            </button>
-        {% endform %}
+    <div class="img-wrapper">
+      <img
+        class="product-item-img img-fluid mb-4"
+        src="{{ product.featured_image.src | image_url: width: img_width, height: img_width, crop: 'center' }}"
+        alt="{{ product.featured_image.alt | escape }}"
+        width="{{ img_width }}"
+        height="{{ img_height }}"
+        data-main-img-src="{{ product.featured_image.src | image_url: width: img_width, height: img_width, crop: 'center' }}"
+        {% unless product.images[1] == blank %}
+          data-second-img-src="{{ product.images[1].src | image_url: width: img_width, height: img_width, crop: 'center' }}"
+        {% endunless %}
+        loading="lazy"
+      >
     </div>
+  </a>
+  <h3 class="product-item-title h5 mb-4">
+    {{ product.title }}
+  </h3>
+
+  {% unless product.metafields.custom.overview == blank %}
+    <p class="product-item-overview small mt-n3 opacity-75 mb-5">
+      {% comment %} {{ product.metafields.custom.overview }} {% endcomment %}
+      {{ product.metafields.custom.subtitle }}
+    </p>
+  {% endunless %}
+
+  <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+  <div class="mt-4">
+    {% form 'product', product, onsubmit: 'onSubmitAtcForm(this, event)' %}
+      <input type="hidden" name="id" value="{{ product.first_available_variant.id }}">
+      <button
+        class="btn-atc btn btn-primary mb-4 text-nowrap w-100"
+        type="submit"
+        name="add"
+        data-text="{{ 'product.add_to_cart' | t }}"
+      >
+        {% if product.first_available_variant.available %}
+          {% comment %} {{ product.first_available_variant.price | money }} | {{ 'product.add_to_cart' | t }}  {% endcomment %}
+          Quick Add
+        {% else %}
+          {{ 'product.sold_out' | t }}
+        {% endif %}
+      </button>
+    {% endform %}
+  </div>
 </li>
