@@ -65,6 +65,9 @@
         font-size: var(--h6-font-size-desktop);
     }
   }
+  .small {
+    font-size: inherit;
+  }
 
 /*
     Various classes

@@ -16,7 +16,7 @@
                 {% endunless %}
                 {% unless section.settings.description == blank %}
                     <div class="description rte mt-n2 mb-6 {{ section.settings.description_size }}">
-                        {{ section.settings.description | replace: '[', '<span class="fm-cursive" style="font-size: 1.25em;">' | replace: ']', '</span>' }}
+                        {{ section.settings.description | replace: '[', '<span class="fm-cursive">' | replace: ']', '</span>' }}
                     </div>
                 {% endunless %}
                 {% unless section.settings.btn_text == blank %}
@@ -88,8 +88,9 @@
             "type": "select",
             "id": "description_size",
             "label": "Description size",
-            "default": "fs-6",
+            "default": "fontsize-unset",
             "options": [
+                { "value": "fontsize-unset", "label": "unset" },
                 { "value": "fs-1", "label": "fs-1" },
                 { "value": "fs-2", "label": "fs-2" },
                 { "value": "fs-3", "label": "fs-3" },
